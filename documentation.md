@@ -4,4 +4,4 @@ Wie bekommen wir am meisten GND-Identifier für die Namenslisten aus den Schrift
 2. Es handelt sich immer um Personen, davon ausgehend andere Kategorien berücksichtigen, wie etwa Zeitraum, Beruf, Gender, Orte.
 3. In Python filtern oder durch Query parameter steuern? 
 
-Allgemeine Informationen zur [Datenstrukturierung von lobid] (https://github.com/hbz/lobid/blob/master/doc/lobid.md).
+Allgemeine Informationen zur [Datenstrukturierung von lobid](https://github.com/hbz/lobid/blob/master/doc/lobid.md).
