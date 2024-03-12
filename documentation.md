@@ -9,7 +9,7 @@ Allgemeine Informationen zur [Datenstrukturierung von lobid](https://github.com/
 
 Statt APIS, selbstgebasteltes Tool: Daten in Github, Texte einbinden, dann mit [hypthesis](https://web.hypothes.is/) annotieren.
 
-Suche und Filter:
+## Suche und Filter:
 
 Ids finden über obligatorische Kategorien: Type: Person und name (hier preferredName und variantName verwenden).
 nicht obligatorisch: zeitlicher Filter: Geburtsdatum zwischen 1749 (Geburtsjahr Goethe) und 1890. Die dadurch entstandenen Treffer verwenden, wenn es nicht gefunden wird, trotzdem behalten und neu suchen nach Beruf.
