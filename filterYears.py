@@ -40,13 +40,13 @@ def extract_year_from_date(date_str):
 # gibt Liste der Treffer zurück, deren Geburtsjahr im spezifizierten Bereich liegt
 def find_valid_birthyears(results):
     in_date_range = []
-    for result in results:
-        print(result)
-        birth_year = extract_birth_year(result["label"])
-        print(birth_year)
-        if birth_year is not None:
-            if 1770 < birth_year < 1970:
-                in_date_range.append(result)
+    if isinstance(results, list):
+        for result in results:
+            print(result)
+            birth_year = extract_birth_year(result["label"])
+            if birth_year is not None:
+                if 1770 < birth_year < 1970:
+                    in_date_range.append(result)
     return in_date_range
 
 
@@ -81,7 +81,7 @@ def check_birthyear(temp_results):
 
         # print(f"Checking results for {name}:")
         if not entry:
-            year_results.append("kein Eintrag gefunden")
+            year_results.append("kein Eintrag von api gefunden")
         # if gnd already found in previous step
         elif isinstance(entry, str):
             year_results.append(entry)

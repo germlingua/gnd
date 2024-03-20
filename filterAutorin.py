@@ -24,5 +24,5 @@ def filter_authors(api_results):
         if possible_results:
             autorin_results.append(possible_results)
         else:
-            autorin_results.append("kein Treffer gefunden")
+            autorin_results.append("kein Treffer im Zusammenhang mit Autor:innen gefunden")
     return autorin_results
