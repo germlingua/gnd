@@ -10,7 +10,7 @@ def autocomplete_search_test(query):
     url = "https://lobid.org/gnd/search"
     params = {
         'q': query,
-        'format': 'json:preferredName,professionOrOccupation,gndSubjectCategory,dateOfBirth,'
+        'format': 'json:preferredName,professionOrOccupation,dateOfBirth,'
                   'periodOfActivity'
     }
 

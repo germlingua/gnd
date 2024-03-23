@@ -42,10 +42,9 @@ def find_valid_birthyears(results):
     in_date_range = []
     if isinstance(results, list):
         for result in results:
-            print(result)
             birth_year = extract_birth_year(result["label"])
             if birth_year is not None:
-                if 1770 < birth_year < 1970:
+                if 1749 < birth_year < 1890:
                     in_date_range.append(result)
     return in_date_range
 
@@ -82,9 +81,6 @@ def check_birthyear(temp_results):
         # print(f"Checking results for {name}:")
         if not entry:
             year_results.append("kein Eintrag von api gefunden")
-        # if gnd already found in previous step
-        elif isinstance(entry, str):
-            year_results.append(entry)
         # wenn mehrere Treffer in Eintrag
         elif isinstance(entry, list):
             in_date_range = find_valid_birthyears(entry)
