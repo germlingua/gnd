@@ -23,7 +23,7 @@ Die Filterreihenfolge sollte so sein, wie Karin es beschreibt: erst Geburtsdatum
 
 Adler Helene Schriftstellerin 1649 würde dann also schon beim ersten Filter rausfallen. Treffer im Untersuchungszeitraum sollten auch dann erhalten bleiben, wenn die berufliche Zuordnung nicht eindeutig ist. Also, wenn es z.B. auch eine Adler Helene Ehefrau von Adler Heinrich gibt, ohne Beruf, aber im Zeitraum, dann sollte das auch mit angeführt werden (ist wahrscheinlich nur selten der Fall).
 
-Umgebauter Code von Karin, 24.03.2024: die neuen Tabellen sind in der Cloud hochgeladen. Ich habe den Code
+## Umgebauter Code von Karin, 24.03.2024: die neuen Tabellen sind in der Cloud hochgeladen. Ich habe den Code
 nochmal grundlegend umgebaut und neu strukturiert, deswegen hat alles
 länger gedauert. Im github hab ich den neuen Code noch nicht
 hochgeladen, das mache ich die Tage mal.
@@ -74,7 +74,5 @@ extrahiert, wenn kein eindeutiges Ergebnis vorliegt, werden die Links zu
 den Einträgen zurückgegeben und das ganze als csv Dokument abgespeichert
 (und dann noch aufgesplittet in gefunden/nicht gefunden.
 
-Schau dir die Daten in Ruhe an und gib mir gerne Feedback, was du
-denkst. Man kann alles noch umbauen. Ich bin nächste Woche auch für ein
-Meeting verfügbar (aus Deutschland diesmal, ich habe mir Osterferien
-genommen :) )
+## Fragen zu Version 23.03.:
+In der Liste mit GND nicht gefunden, sind Treffer enthalten, die eigentlich gefunden werden müssten , zb Adlersfeld-Ballestrem, Eufemia von (im Zeitraum, als Schriftstellerin verzeichnet) - woran könnte das liegen? 
