@@ -75,4 +75,4 @@ den Einträgen zurückgegeben und das ganze als csv Dokument abgespeichert
 (und dann noch aufgesplittet in gefunden/nicht gefunden.
 
 ## Fragen zu Version 23.03.:
-In der Liste mit GND nicht gefunden, sind Treffer enthalten, die eigentlich gefunden werden müssten , zb Adlersfeld-Ballestrem, Eufemia von (im Zeitraum, als Schriftstellerin verzeichnet) - woran könnte das liegen? 
+In der Liste mit GND nicht gefunden, sind Treffer enthalten, die eigentlich gefunden werden müssten , zb Adlersfeld-Ballestrem, Eufemia von (im Zeitraum, als Schriftstellerin verzeichnet) oder Wilhelm Ahrens - woran könnte das liegen? 
