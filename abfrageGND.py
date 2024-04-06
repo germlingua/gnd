@@ -6,7 +6,7 @@ request_res_list = []
 results_temp = []
 
 
-def autocomplete_search_test(query):
+def api_request(query):
     url = "https://lobid.org/gnd/search"
     params = {
         'q': query,
@@ -27,5 +27,5 @@ def autocomplete_search_test(query):
 def run_api_request(names):
     #res_api = autocomplete_search_test(names)
     for item in names:
-        res_api.append(autocomplete_search_test(item))
+        res_api.append(api_request(item))
     return res_api

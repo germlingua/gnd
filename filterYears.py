@@ -18,33 +18,21 @@ def extract_id_from_url(url):
     # Extracts the number after the last '/'
     return url.rsplit('/', 1)[-1]
 
-
-# #### only Brümmer
-# def find_id_from_results(results, dob):
-#     for result in results:
-#         birth_year = extract_birth_year(result["label"])
-#         if birth_year is not None:
-#             if dob != ".":
-#                 dob_year = extract_year_from_date(dob)
-#                 if birth_year == int(dob_year) and 1770 < birth_year < 1870:
-#                     return extract_id_from_url(result["id"])
-#     return None
-
-
 def extract_year_from_date(date_str):
     return int(date_str[-4:])
 
 
-# ### pataky only weil wir kein geb datum zum abgleichen haben -> "birth-date" bezieht sich entweder auf geburtsjahr
-# oder wirkungsjahr (von api Abfrage)
+
 # gibt Liste der Treffer zurück, deren Geburtsjahr im spezifizierten Bereich liegt
 def find_valid_birthyears(results):
     in_date_range = []
     if isinstance(results, list):
         for result in results:
+            print(result)
             birth_year = extract_birth_year(result["label"])
             if birth_year is not None:
                 if 1749 < birth_year < 1890:
+                    print(result)
                     in_date_range.append(result)
     return in_date_range
 
