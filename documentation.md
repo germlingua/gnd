@@ -76,3 +76,11 @@ den Einträgen zurückgegeben und das ganze als csv Dokument abgespeichert
 
 ## Fragen zu Version 23.03.:
 In der Liste mit GND nicht gefunden, sind Treffer enthalten, die eigentlich gefunden werden müssten , zb Adlersfeld-Ballestrem, Eufemia von (im Zeitraum, als Schriftstellerin verzeichnet) oder Wilhelm Ahrens - woran könnte das liegen? 
+
+## Liste der Berufsbezeichnungen 
+
+Problem: bei der Abfrage werden bestimmte Resultate verworfen, weil dre Beruf "Schriftsteller" nicht gefunden wurde bzw. die Teil-Synonyme nicht als zugehörig erkannt wurden (z.B. Dramatiker, Lyriker etc.).
+Anscheinend ist Schriftsteller (https://lobid.org/gnd/4053309-8) der Oberbegriff für folgende Berufsbezeichungen: 
+Theaterdichter, Theaterdichterin, Dramatiker, Dramatikerin, Lyriker, Lyrikerin, Bestsellerautor, Bestsellerautorin, 
+weitere Synonyme: Dichter, Dichterin, Autor, Autorin
+
