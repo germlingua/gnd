@@ -79,8 +79,8 @@ In der Liste mit GND nicht gefunden, sind Treffer enthalten, die eigentlich gefu
 
 ## Liste der Berufsbezeichnungen 
 
-Problem: bei der Abfrage werden bestimmte Resultate verworfen, weil dre Beruf "Schriftsteller" nicht gefunden wurde bzw. die Teil-Synonyme nicht als zugehörig erkannt wurden (z.B. Dramatiker, Lyriker etc.).
+Problem: bei der Abfrage werden bestimmte Resultate verworfen, weil der Beruf "Schriftsteller" nicht gefunden wurde bzw. die Teil-Synonyme nicht als zugehörig erkannt wurden (z.B. Dramatiker, Lyriker etc.).
 Anscheinend ist Schriftsteller (https://lobid.org/gnd/4053309-8) der Oberbegriff für folgende Berufsbezeichungen: 
-Theaterdichter, Theaterdichterin, Dramatiker, Dramatikerin, Lyriker, Lyrikerin, Bestsellerautor, Bestsellerautorin, 
+Theaterdichter, Theaterdichterin, Dramatiker, Dramatikerin, Lyriker, Lyrikerin, Bestsellerautor, Bestsellerautorin, Exilschriftsteller/in, Heimatschriftsteller/in, Hofdichter/in, Kinderbuchautor/in, Jugendbuchautor/in, Kriminalschriftsteller/in, Laienschriftsteller/in, Librettist/in, Liederdichter/in, Mundartschriftsteller/in, Musikschriftsteller/in, Prosaist/in, Reiseschriftsteller/in, Romancier, Spruchdichter/in. 
 weitere Synonyme: Dichter, Dichterin, Autor, Autorin
 
