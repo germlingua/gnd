@@ -10,6 +10,8 @@ autorin_results = []
 #  wenn eine Berufsbezeichnung erfasst ist, überprüfen, ob Autor:in etc.
 #  wenn ja -> aufnehmen, wenn nein -> wegschmeißen
 def filter_conditions_for_authors(inner_list_api, possible_results):
+    profession_keywords = ["Autorin", "Autor", "Schriftstellerin", "Schriftsteller", "Dramatiker", "Dramatikerin", "Lyriker", "Lyrikerin",
+                           "Publizist", "Publizistin", "Journalist", "Journalistin"]
     if isinstance(inner_list_api, list):
         for entry in inner_list_api:
             label = entry['label']
@@ -18,14 +20,8 @@ def filter_conditions_for_authors(inner_list_api, possible_results):
             if len(subsegments) >= 2:
                 second_entry = subsegments[1]
                 contains_numeric = any(char.isdigit() for char in second_entry)
-                if contains_numeric:
+                if contains_numeric or any(keyword in second_entry for keyword in profession_keywords):
                     possible_results.append(entry)
-                else:
-                    if ("Autorin" in subsegments[1] or
-                            "Autor" in subsegments[1] or
-                            "Schriftstellerin" in subsegments[1] or
-                            "Schriftsteller" in subsegments[1]):
-                        possible_results.append(entry)
             # Fall, wenn nur der Name der Person bekannt ist
             # Eintrag wird auch zurückgegeben zur Überprüfung
             else:
