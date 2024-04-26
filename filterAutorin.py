@@ -1,5 +1,6 @@
 # nach Autor:innen filtern
-
+from getCategories import links
+# TODO Abfrage umbauen
 autorin_results = []
 
 
@@ -11,7 +12,7 @@ autorin_results = []
 #  wenn ja -> aufnehmen, wenn nein -> wegschmeißen
 def filter_conditions_for_authors(inner_list_api, possible_results):
     profession_keywords = ["Autorin", "Autor", "Schriftstellerin", "Schriftsteller", "Dramatiker", "Dramatikerin", "Lyriker", "Lyrikerin",
-                           "Publizist", "Publizistin", "Journalist", "Journalistin"]
+                           "Publizist", "Publizistin", "Journalist", "Journalistin", "Dichterin", "Dichter"]
     if isinstance(inner_list_api, list):
         for entry in inner_list_api:
             label = entry['label']
