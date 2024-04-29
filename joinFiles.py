@@ -9,7 +9,7 @@ joined_files = os.path.join("./temp", "*.csv")
 joined_list = glob.glob(joined_files)
 
 # Open the final CSV file for writing
-with open('outputs/pataky-gnd-not-found-6-4-24.csv', 'w', newline='', encoding='utf-8') as csvfile:
+with open('outputs/pataky-test-29-4-24.csv', 'w', newline='', encoding='utf-8') as csvfile:
     writer = csv.writer(csvfile)
 
     # Iterate over each joined file

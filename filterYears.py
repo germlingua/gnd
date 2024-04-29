@@ -1,11 +1,4 @@
-from abfrageGND import res_api
-from abfrageGND import request_res_list
-from abfrageGND import results_temp
-
 # Variable, die pro Eintrag entweder eine leere Liste, eine GND-Nummer (String) oder eine Liste mit Dictionaries enthält
-
-# print(results_temp)
-
 
 # extracts the year from the list of birthdates
 # only Brümmer!
@@ -18,21 +11,17 @@ def extract_id_from_url(url):
     # Extracts the number after the last '/'
     return url.rsplit('/', 1)[-1]
 
-def extract_year_from_date(date_str):
-    return int(date_str[-4:])
-
-
 
 # gibt Liste der Treffer zurück, deren Geburtsjahr im spezifizierten Bereich liegt
 def find_valid_birthyears(results):
     in_date_range = []
     if isinstance(results, list):
         for result in results:
-            print(result)
+            #print(result)
             birth_year = extract_birth_year(result["label"])
             if birth_year is not None:
                 if 1749 < birth_year < 1890:
-                    print(result)
+                    #print(result)
                     in_date_range.append(result)
     return in_date_range
 

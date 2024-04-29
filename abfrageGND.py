@@ -1,4 +1,3 @@
-
 import requests
 
 res_api = []
@@ -10,9 +9,11 @@ def api_request(query):
     url = "https://lobid.org/gnd/search"
     params = {
         'q': query,
-        'format': 'json:preferredName,professionOrOccupation,dateOfBirth,'
-                  'periodOfActivity'
+        'format': 'json:preferredName,professionOrOccupation,dateOfBirth,periodOfActivity'
     }
+    # params = {
+    #     'q': query
+    # }
 
     try:
         response = requests.get(url, params=params)
@@ -25,7 +26,7 @@ def api_request(query):
 
 
 def run_api_request(names):
-    #res_api = autocomplete_search_test(names)
+    #res_api = api_request(names)
     for item in names:
         res_api.append(api_request(item))
     return res_api

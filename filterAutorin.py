@@ -1,18 +1,16 @@
-# nach Autor:innen filtern
-from getCategories import links
-# TODO Abfrage umbauen
+from getCategories import professions_dict
+
 autorin_results = []
 
-
-# TODO: Filter so umbauen, dass er überprüft, ob an zweiter Stelle
+#   Filter so umbauen, dass er überprüft, ob an zweiter Stelle
 #  (nach dem ersten |) überhaupt Text steht
 #  wenn das nicht der Fall ist (wenn also keine Berufsbezeichnung erfasst ist)
 #  dann den Eintrag mit aufnehmen
 #  wenn eine Berufsbezeichnung erfasst ist, überprüfen, ob Autor:in etc.
 #  wenn ja -> aufnehmen, wenn nein -> wegschmeißen
+
+
 def filter_conditions_for_authors(inner_list_api, possible_results):
-    profession_keywords = ["Autorin", "Autor", "Schriftstellerin", "Schriftsteller", "Dramatiker", "Dramatikerin", "Lyriker", "Lyrikerin",
-                           "Publizist", "Publizistin", "Journalist", "Journalistin", "Dichterin", "Dichter"]
     if isinstance(inner_list_api, list):
         for entry in inner_list_api:
             label = entry['label']
@@ -21,7 +19,7 @@ def filter_conditions_for_authors(inner_list_api, possible_results):
             if len(subsegments) >= 2:
                 second_entry = subsegments[1]
                 contains_numeric = any(char.isdigit() for char in second_entry)
-                if contains_numeric or any(keyword in second_entry for keyword in profession_keywords):
+                if contains_numeric or any(keyword in second_entry for keyword in professions_dict.keys()):
                     possible_results.append(entry)
             # Fall, wenn nur der Name der Person bekannt ist
             # Eintrag wird auch zurückgegeben zur Überprüfung
@@ -38,6 +36,5 @@ def filter_authors(api_results):
         if possible_results:
             autorin_results.append(possible_results)
         else:
-            autorin_results.append("im Untersuchungszeitraum, aber Beruf eindeutig nicht als \"Autor:in\" gelabeled")
-            #print("kein Treffer im Zusammenhang mit Autorin gefunden", inner_list_api)
+            autorin_results.append("im Untersuchungszeitraum, aber eindeutig ein Beruf != Autorin hinterlegt")
     return autorin_results
