@@ -1,4 +1,11 @@
 # documentation
+
+## Treffen, 8. Mai 2024
+Abfrage sollte lauten: suche im File nach preferredName und variantName XY (XY=so wie es im Lexikon steht) und füge dann die Informationen zu Beruf, dateofbirth, dateofdeath, periodofactivity hinzu. (Um Familienbeziehungen auszuschließen).
+Nächster Versuch: Familienbeziehungen nicht berücksichtigen. 
+
+## Allgemeine Fragen
+
 Wie bekommen wir am meisten GND-Identifier für die Namenslisten aus den Schriftstellerlexika (Brümmer und Pataky)?
 1. im JSON-Schema von lobid nachsehen, welche Informationen vorhanden sind, was davon required ist: [JSON-Schema](https://github.com/hbz/lobid/blob/master/schemas/person.json).
 2. Es handelt sich immer um Personen, davon ausgehend andere Kategorien berücksichtigen, wie etwa Zeitraum, Beruf, Gender, Orte.
