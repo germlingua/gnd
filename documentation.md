@@ -3,6 +3,7 @@
 ## Treffen, 8. Mai 2024
 Abfrage sollte lauten: suche im File nach preferredName und variantName XY (XY=so wie es im Lexikon steht) und füge dann die Informationen zu Beruf, dateofbirth, dateofdeath, periodofactivity hinzu. (Um Familienbeziehungen auszuschließen).
 Nächster Versuch: Familienbeziehungen nicht berücksichtigen. 
+Lösung: Klammerung
 
 ## Allgemeine Fragen
 
