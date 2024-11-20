@@ -1,0 +1,185 @@
+SprachenAutorinID,SprachenID,GND,Nachname,Sprache
+spa0001,s00033,1019321067,Adolphi,Latein
+spa0002,s00033,1158842767,Arbter,Latein
+spa0003,s0008,116518006,Arends,Englisch
+spa0004,s00029,116518006,Arends,Französisch
+spa0005,s0009,116518006,Arends,Griechisch
+spa0006,s00031,116518006,Arends,Hebräisch
+spa0007,s00033,116518006,Arends,Latein
+spa0008,s0007,116518006,Arends,Russisch
+spa0009,s0005,116518006,Arends,Schwedisch
+spa0010,s0003,116518006,Arends,Ungarisch
+spa0011,s00033,1044287187,Ascharin,Latein
+spa0012,s0007,1044287187,Ascharin,Russisch
+spa0013,s00033,138442762,Bakody,Latein
+spa0014,s0003,138442762,Bakody,Ungarisch
+spa0015,s0007,1326954458,Bauer,Russisch
+spa0016,s00033,118071750,Baumbach,Latein
+spa0017,s00033,116132914,Baumbach,Latein
+spa0018,s00028,116828781,Budberg-Benninghausen,Lettisch
+spa0019,s0002,116828781,Budberg-Benninghausen,Litauisch
+spa0020,s00011,116828781,Budberg-Benninghausen,Polnisch
+spa0021,s0007,116828781,Budberg-Benninghausen,Russisch
+spa0022,s0005,116828781,Budberg-Benninghausen,Schwedisch
+spa0023,s00029,1055113177,Conradi,Französisch
+spa0024,s0008,118522310,Corvin-Wiersbitzki,Englisch
+spa0025,s00022,1050460235,Daudert,Dänisch
+spa0026,s0008,1050460235,Daudert,Englisch
+spa0027,s00029,1050460235,Daudert,Französisch
+spa0028,s00024,100809766,Dräxler,Böhmisch/ Tschechisch
+spa0029,s00029,100809766,Dräxler,Französisch
+spa0030,s00033,100809766,Dräxler,Latein
+spa0031,s00011,100809766,Dräxler,Polnisch
+spa0032,s00033,116243708,Dukmeyer,Latein
+spa0033,s00010,116243708,Dukmeyer,orientalische Sprache/n
+spa0034,s00019,118869345,Dulk,Arabisch
+spa0035,s00033,118869345,Dulk,Latein
+spa0036,s0008,11614730X,Engelhardt-Schnellstein,Englisch
+spa0037,s00029,11614730X,Engelhardt-Schnellstein,Französisch
+spa0038,s0009,11614730X,Engelhardt-Schnellstein,Griechisch
+spa0039,s00033,11614730X,Engelhardt-Schnellstein,Latein
+spa0040,s00028,11614730X,Engelhardt-Schnellstein,Lettisch
+spa0041,s0007,11614730X,Engelhardt-Schnellstein,Russisch
+spa0042,s00033,1238483607,Erdmann,Latein
+spa0043,s00033,116586788,Flachs,Latein
+spa0044,s00014,116586788,Flachs,Rumänisch
+spa0045,s00033,1037803639,Franzius,Latein
+spa0046,s00016,1038112206,Gleye,Estnisch
+spa0047,s00033,116663952,Glitsch,Latein
+spa0048,s0008,116879483,Grube,Englisch
+spa0049,s00029,116879483,Grube,Französisch
+spa0050,s00033,116893001,Grünstein,Latein
+spa0051,s00011,116893001,Grünstein,Polnisch
+spa0052,s0008,1212021932,Grunwaldt,Englisch
+spa0053,s0007,1212021932,Grunwaldt,Russisch
+spa0054,s0005,1212021932,Grunwaldt,Schwedisch
+spa0055,s0007,11869894X,Guenther,Russisch
+spa0056,s0007,116931868,Gutfeldt,Russisch
+spa0057,s0008,116931868,Gutfeldt,Englisch
+spa0058,s00023,116931868,Gutfeldt ,Italienisch
+spa0059,s00016,116931868,Gutfeldt ,Estnisch
+spa0060,s00029,116931868,Gutfeldt,Französisch
+spa0061,s0007,12420239X,Gerbel,Russisch
+spa0062,s00033,12420239X,Gerbel,Latein
+spa0063,s00033,116527935,Haupt,Latein
+spa0064,s00029,116932821,Hoerschelmann,Französisch
+spa0065,s00023,116932821,Hoerschelmann,Italienisch
+spa0066,s00022,118862944,Holm,Dänisch
+spa0067,s00029,118862944,Holm,Französisch
+spa0068,s00033,118862944,Holm,Latein
+spa0069,s0007,118862944,Holm,Russisch
+spa0070,s00029,116965355,Holm,Französisch
+spa0071,s0007,116965355,Holm,Russisch
+spa0072,s00029,1055122257,Hülsen,Französisch
+spa0073,s00033,1055122257,Hülsen,Latein
+spa0074,s00016,117069698,Hunnius,Estnisch
+spa0075,s00028,117069698,Hunnius,Lettisch
+spa0076,s0007,117069698,Hunnius,Russisch
+spa0077,s0005,117069698,Hunnius,Schwedisch
+spa0078,s0006,117069698,Hunnius,Syrisch?
+spa0079,s00033,140283080,Jaeger,Latein
+spa0080,s00016,117079669,Jannsen,Estnisch
+spa0081,s00010,101788665,Jessen,orientalische Sprache/n
+spa0082,s0007,101788665,Jessen,Russisch
+spa0083,s00025,118558765,Jung,Dialekt Niederpreußisch/ ostpreußisches Plattdeutsch
+spa0084,s00023,116015683,Kaden,Italienisch
+spa0085,s00033,1102221384,Keuchel,Latein
+spa0086,s0007,1102221384,Keuchel,Russisch
+spa0087,s00014,113665954,Kotzebue,Rumänisch
+spa0088,s0007,113665954,Kotzebue,Russisch
+spa0089,s00033,116555211,Kronfeld,Latein
+spa0090,s00033,11872472X,Krüger,Latein
+spa0091,s00033,1228123926,Kügelgen,Latein
+spa0092,s0008,116590823,Külpe,Englisch
+spa0093,s0008,11872567X,Kyber,Englisch
+spa0094,s0007,11872567X,Kyber,Russisch
+spa0095,s0008,11367645X,Lortsch,Englisch
+spa0096,s0007,11367645X,Lortsch,Russisch
+spa0097,s0008,116656301,Mädler,Englisch
+spa0098,s00021,116656301,Mädler,Spanisch
+spa0099,s00012,118992996,Marholm,Norwegisch
+spa0100,s0005,118992996,Marholm,Schwedisch
+spa0101,s0007,1029309655,Martinelli,Russisch
+spa0102,s00033,1204184321,Masing,Latein
+spa0103,s00027,142986275,Mendelssohn ,Altisländisch
+spa0104,s00012,142986275,Mendelssohn,Norwegisch
+spa0105,s00015,142986275,Mendelssohn,Schwedsich
+spa0106,s0001,142986275,Mendelssohn,Isländisch
+spa0107,s00022,142986275,Mendelssohn,Dänisch
+spa0108,s00033,137020546,Mengden ,Latein
+spa0109,s00029,1022870734,Merwart,Französisch
+spa0110,s00022,129293393,Meyer,Dänisch
+spa0111,s0008,129293393,Meyer,Englisch
+spa0112,s00016,129293393,Meyer,Estnisch
+spa0113,s00029,129293393,Meyer,Französisch
+spa0114,s0009,129293393,Meyer,Griechisch
+spa0115,s00023,129293393,Meyer,Italienisch
+spa0116,s00033,129293393,Meyer,Latein
+spa0117,s00028,129293393,Meyer,Lettisch
+spa0118,s00017,129293393,Meyer,Neugriechisch
+spa0119,s00026,129293393,Meyer,Niederländisch
+spa0120,s00011,129293393,Meyer,Polnisch
+spa0121,s00013,129293393,Meyer,Portugiesisch
+spa0122,s0007,129293393,Meyer,Russisch
+spa0123,s0005,129293393,Meyer,Schwedisch
+spa0124,s00021,129293393,Meyer,Spanisch
+spa0125,s00018,129293393,Meyer,Tschechisch
+spa0126,s0009,140470239,Mickwitz,Griechisch
+spa0127,s00033,140470239,Mickwitz,Latein
+spa0128,s0003,129293393,Meyer,Ungarisch
+spa0129,s00029,1049760239,Meyke ,Französisch
+spa0130,s0007,1049760239,Meyke,Russisch
+spa0131,s00033,117209708,Nadler,Latein
+spa0132,s00029,127781412,Norden,Französisch
+spa0133,s00033,127781412,Norden,Latein
+spa0134,s0007,127781412,Norden,Russisch
+spa0135,s0007,118973606,Pantenius,Russisch
+spa0136,s00016,118973606,Pantenius,Estnisch
+spa0137,s0008,1203066821,Paucker,Englisch
+spa0138,s0007,1203066821,Paucker,Russisch
+spa0139,s0004,116134100,Petrick,Altgriechisch
+spa0140,s00033,116134100,Petrick,Latein
+spa0141,s0008,1036657981,Pistohlkors,Englisch
+spa0142,s00033,1019309229,Pokorny,Latein
+spa0143,s00033,116334851,Rappaport,Latein
+spa0144,s00033,1193684137,Riekhoff,Latein
+spa0145,s00033,118745492,Rittner,Latein
+spa0146,s00011,118745492,Rittner,Polnisch
+spa0147,s00033,116711825,Rutenberg,Latein
+spa0148,s00020,118604570,Sacher-Masoch ,Ruthenisch
+spa0149,s00011,118604570,Sacher-Masoch ,Polnisch
+spa0150,s00033,118604570,Sacher-Masoch ,Latein
+spa0151,s00033,117108731,Scharf,Latein
+spa0152,s00033,104305126,Schellbach,Latein
+spa0153,s0008,117218235,Scherenberg,Englisch
+spa0154,s00029,116836814,Schneider,Französisch
+spa0155,s00021,116836814,Schneider,Spanisch
+spa0156,s00033,116857285,Schoeler,Latein
+spa0157,s0007,117059021,Schrenck,Russisch
+spa0158,s00030,117072796,Schroeder,Sanskrit
+spa0159,s0007,117470732,Seuberlich,Russisch
+spa0160,s0008,120451093,Siller,Englisch
+spa0161,s00029,1050319850,Slevogt,Französisch
+spa0162,s0007,117679658,Szymanowski,Russisch
+spa0163,s00033,117679658,Szymanowski,Latein
+spa0164,s0004,1050523210,Stavenhagen ,Altgriechisch
+spa0165,s00033,1050523210,Stavenhagen ,Latein
+spa0166,s00033,118617605,Stekel,Latein
+spa0167,s00033,1055120238,Stein,Latein
+spa0168,s0007,117276871,Stern,Russisch
+spa0169,s00033,117276871,Stern,Latein
+spa0170,s00033,1193953723,Tideböhl,Latein
+spa0171,s00033,131735888,Toporoff,Latein
+spa0172,s0007,11740649X,Tornius,Russisch
+spa0173,s00033,101257198,Umlauff von Frankwell,Latein
+spa0174,s00014,101257198,Umlauff von Frankwell,Rumänisch
+spa0175,s00032,101257198,Umlauff von Frankwell,Ukrainisch
+spa0176,s00033,118763733,Ungern-Sternberg,Latein
+spa0177,s00033,11909892X,Volkmann-Leander,Latein
+spa0178,s00033,11733555X,Wichert,Latein
+spa0179,s0008,116144742,Wildberg ,Englisch
+spa0180,s00033,116144742,Wildberg,Latein
+spa0181,s00033,10417997X ,Wittorff,Latein
+spa0182,s00033,117359084,Wurzbach,Latein
+spa0183,s00026,117359084,Wurzbach,Niederländisch
+spa0184,s00011,117005894,Zipper,Polnisch
