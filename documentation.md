@@ -1,5 +1,16 @@
 # documentation
 
+## Meeting, 15.04.2025
+To Do Karin: 
+- TEI mit <placeName> anreichen
+- Autorinnen ohne GND auch mit NER und Abgleich mit Ortsliste (Identifier vergeben)
+- Pataky Texte in batches einteilen (10-20)
+- TEI mit persName und gnd als attribut und das in batches einteilen
+
+Sprachen erkennen
+- Text+ stellt LLMs zur Verfügung
+- Idee: dem Model ein TEI geben, das die Autorinnen getaggt hat und als Anweisung geben, alle Sprachen zu taggen -> danach kann dann pro Person ausgelesen werden, welche Sprachen sie gesprochen hat
+
 ## Treffen, 8. Mai 2024
 Abfrage sollte lauten: suche im File nach preferredName und variantName XY (XY=so wie es im Lexikon steht) und füge dann die Informationen zu Beruf, dateofbirth, dateofdeath, periodofactivity hinzu. (Um Familienbeziehungen auszuschließen).
 Nächster Versuch: Familienbeziehungen nicht berücksichtigen. 
