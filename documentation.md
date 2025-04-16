@@ -1,5 +1,8 @@
 # documentation
-
+## Update 16.04.2025 Karin
+- TEI Pataky mit placeName angereichert
+- NER für Autorinnen ohne GND gemacht
+  
 ## Meeting, 15.04.2025
 To Do Karin: 
 - TEI mit <placeName> anreichen
