@@ -1,11 +1,16 @@
 # documentation
+
+## Update 27.04.2025
+- Listen Pataky ohne gnd hochgeladen -> Liste mit Wohnorten und Liste mit Name, Biographie, Bibliographie + eigenem identifier
+- To Do: im TEI die persName tags mit den identifiern als Attribut anreichern (und die placeName mit geonames?)
+
 ## Update 16.04.2025 Karin
 - TEI Pataky mit placeName angereichert
 - NER für Autorinnen ohne GND gemacht
   
 ## Meeting, 15.04.2025
 To Do Karin: 
-- TEI mit <placeName> anreichen
+- TEI mit placeName anreichen
 - Autorinnen ohne GND auch mit NER und Abgleich mit Ortsliste (Identifier vergeben)
 - Pataky Texte in batches einteilen (10-20)
 - TEI mit persName und gnd als attribut und das in batches einteilen
