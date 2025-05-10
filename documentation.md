@@ -1,7 +1,10 @@
 # documentation
+
+## Update 10.05.2025
+- TEIs und csv in 10 bzw. 20 Teile aufgeteilt
+
 ## Update 04.05.2025
 - in TEI Attribute zu persName hinzugefügt
-- merkwürdig: einige Personen im TEI sind nicht in den Listen enthalten (wo sind die verloren gegangen?)
 
 ## Update 27.04.2025
 - Listen Pataky ohne gnd hochgeladen -> Liste mit Wohnorten und Liste mit Name, Biographie, Bibliographie + eigenem identifier

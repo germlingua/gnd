@@ -200,14 +200,14 @@ Zeilenumbrüche markiert: nein;
 </tagsDecl>
 </encodingDesc>
 <profileDesc>
-<particDesc>
+<!-- <particDesc>
 <person sex="f" role="editor">
 <persName ref="http://d-nb.info/gnd/116053143">
 <surname>Pataky</surname>
 <forename>Sophie</forename>
 </persName>
 </person>
-</particDesc>
+</particDesc> -->
 <langUsage>
 <language ident="deu">(Früh-)Neuhochdeutsch</language>
 <language ident="deu">German</language>
