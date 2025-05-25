@@ -1,0 +1,2339 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Lexikon deutscher Frauen der Feder</title>
+                <title type="sub">Eine Zusammenstellung der seit dem Jahre 1840 erschienenen Werke weiblicher Autoren, nebst Biographieen der lebenden und einem Verzeichnis der Pseudonyme</title>
+                <title type="volume" n="1">[I. Band. A–L.]</title>
+                <editor corresp="#DTACorpusPublisher">
+                    <persName ref="http://d-nb.info/gnd/115266127">
+                        <surname>Geyken</surname>
+                        <forename>Alexander</forename>
+                    </persName>
+                </editor>
+                <editor corresp="#DTACorpusPublisher">
+                    <persName ref="http://d-nb.info/gnd/1222198746">
+                        <surname>Haaf</surname>
+                        <forename>Susanne</forename>
+                    </persName>
+                </editor>
+                <editor corresp="#DTACorpusPublisher">
+                    <persName ref="http://d-nb.info/gnd/1019062681">
+                        <surname>Jurish</surname>
+                        <forename>Bryan</forename>
+                    </persName>
+                </editor>
+                <editor corresp="#DTACorpusPublisher">
+                    <persName>
+                        <surname>Boenig</surname>
+                        <forename>Matthias</forename>
+                    </persName>
+                </editor>
+                <editor corresp="#DTACorpusPublisher">
+                    <persName>
+                        <surname>Thomas</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                </editor>
+                <editor corresp="#DTACorpusPublisher">
+                    <persName>
+                        <surname>Wiegand</surname>
+                        <forename>Frank</forename>
+                    </persName>
+                </editor>
+                <respStmt xml:id="textsource-1" corresp="#availability-textsource-1">
+                    <orgName>zeno.org – Contumax GmbH u. Co. KG</orgName>
+                    <resp>
+                        <note type="remarkResponsibility">Bereitstellung der Texttranskription.</note>
+                        <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</note>
+                        <ref target="http://www.zeno.org/Pataky-1898"/>
+                        <date type="importDTA">2020-05-29T09:41:52Z</date>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <surname>Thomas</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Bearbeitung der digitalen Edition.</note>
+                        <date type="importDTA">2020-05-29T09:41:52Z</date>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+                    <resp>
+                        <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+                        <ref target="https://www.bbaw.de"/>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Vollständige digitalisierte Ausgabe.</edition>
+            </editionStmt>
+            <extent>
+                <measure type="images">549</measure>
+                <measure type="tokens">261864</measure>
+                <measure type="types">33178</measure>
+                <measure type="characters">1820650</measure>
+            </extent>
+            <publicationStmt>
+                <publisher xml:id="DTACorpusPublisher">
+                    <email>dta@bbaw.de</email>
+                    <orgName role="project">Deutsches Textarchiv</orgName>
+                    <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+                    <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+                    <address>
+                        <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                        <country>Germany</country>
+                    </address>
+                </publisher>
+                <pubPlace>Berlin</pubPlace>
+                <date type="publication">2024-04-03T16:43:36Z</date>
+                <availability>
+                    <licence target="http://creativecommons.org/publicdomain/zero/1.0/">
+                        <p>Dieses Werk ist gemeinfrei.</p>
+                    </licence>
+                </availability>
+                <idno>
+                    <idno type="URLWeb">https://www.deutschestextarchiv.de/pataky_lexikon01_1898</idno>
+                    <idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/pataky_lexikon01_1898</idno>
+                    <idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/pataky_lexikon01_1898</idno>
+                    <idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/pataky_lexikon01_1898</idno>
+                    <idno type="DTADirName">pataky_lexikon01_1898</idno>
+                    <idno type="DTAID">34921</idno>
+                    <idno type="URN">urn:nbn:de:kobv:b4-34921-1</idno>
+                </idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="MM">Pataky, Sophie: Lexikon deutscher Frauen der Feder. 1. Band: A-L. Berlin, 1898.</bibl>
+                <biblFull>
+                    <titleStmt>
+                        <title level="m" type="main">Lexikon deutscher Frauen der Feder</title>
+                        <title level="m" type="sub">Eine Zusammenstellung der seit dem Jahre 1840 erschienenen Werke weiblicher Autoren, nebst Biographieen der lebenden und einem Verzeichnis der Pseudonyme</title>
+                        <title level="m" type="volume" n="1">[I. Band. A–L.]</title>
+                        <editor>
+                            <persName ref="http://d-nb.info/gnd/116053143">
+                                <surname>Pataky</surname>
+                                <forename>Sophie </forename>
+                            </persName>
+                        </editor>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition n="1"/>
+                    </editionStmt>
+                    <publicationStmt>
+                        <publisher>
+                            <name>Carl Pataky</name>
+                        </publisher>
+                        <pubPlace>Berlin</pubPlace>
+                        <date type="publication">1898</date>
+                    </publicationStmt>
+                </biblFull>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Harvard University, Widener Library, Old Widener (Scan von Google Books im Internet Archive)</repository>
+                        <idno>
+                            <idno type="shelfmark">46512.75 (1)</idno>
+                            <idno type="URLCatalogue">http://id.lib.harvard.edu/alma/990022819540203941/catalog</idno>
+                            <idno type="URLImages">https://archive.org/details/bub_gb_dSkPAAAAYAAJ/</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <typeDesc>
+                            <p>Antiqua</p>
+                        </typeDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    
+&lt;p&gt;
+Bogensignaturen: nicht übernommen;
+Druckfehler: dokumentiert;
+fremdsprachliches Material: nicht gekennzeichnet;
+Geminations-/Abkürzungsstriche: keine Angabe;
+Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): wie Vorlage;
+i/j in Fraktur: keine Angabe;
+I/J in Fraktur: keine Angabe;
+Kolumnentitel: nicht übernommen;
+Kustoden: keine Angabe;
+langes s (&amp;#x017F;): keine Angabe;
+Normalisierungen: dokumentiert;
+rundes r (&amp;#xA75B;): keine Angabe;
+Seitenumbrüche markiert: ja;
+Silbentrennung: aufgelöst;
+u/v bzw. U/V: keine Angabe;
+Vokale mit übergest. e: keine Angabe;
+Vollständigkeit: vollständig erfasst;
+Zeichensetzung: DTABf-getreu;
+Zeilenumbrüche markiert: nein;
+&lt;/p&gt;
+
+                </p>
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+                <rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+                <rendition scheme="css" xml:id="blue">color:blue</rendition>
+                <rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+                <rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+                <rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+                <rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+                <rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+                <rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+                <rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+                <rendition scheme="css" xml:id="i">font-style:italic</rendition>
+                <rendition scheme="css" xml:id="in">font-size:150%</rendition>
+                <rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+                <rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+                <rendition scheme="css" xml:id="red">color:red</rendition>
+                <rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+                <rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+                <rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+                <rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+                <rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+                <rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+                <rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="deu">(Früh-)Neuhochdeutsch</language>
+                <language ident="deu">German</language>
+            </langUsage>
+            <textClass>
+                <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+                <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Lexikon</classCode>
+                <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+                <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">dtae</classCode>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="#f0001"/>
+            <pb facs="#f0002"/>
+            <pb facs="#f0003"/>
+            <pb facs="#f0004"/>
+            <pb facs="#f0005"/>
+            <titlePage type="main">
+                <docTitle>
+                    <titlePart type="main">
+                        <hi rendition="#c #larger">Lexikon<lb/>
+deutscher Frauen der Feder</hi>
+                    </titlePart>
+                    <titlePart type="sub">
+                        <hi rendition="#c #smaller">Eine Zusammenstellung<lb/>
+der seit dem Jahre 1840 erschienenen Werke weiblicher Autoren,<lb/>
+nebst</hi>
+                    <lb/>
+                    <hi rendition="#b #c">Biographieen der lebenden</hi>
+                    <lb/>
+                    <hi rendition="#c #smaller">und einem</hi>
+                    <hi rendition="#c">Verzeichnis der Pseudonyme</hi>
+                    <lb/>
+                </titlePart>
+            </docTitle>
+            <milestone rendition="#hr" unit="section"/>
+            <lb/>
+            <byline>
+                <hi rendition="#c">Herausgegeben<lb/>
+                <hi rendition="#smaller">von</hi>
+            </hi>
+            <lb/>
+            <docAuthor>
+                <hi rendition="#c">Sophie Pataky.</hi>
+            </docAuthor>
+        </byline>
+        <lb/>
+        <milestone rendition="#hr" unit="section"/>
+        <lb/>
+        <titlePart type="volume">
+            <supplied>
+                <hi rendition="#b #c">I. Band. A–L.</hi>
+            </supplied>
+        </titlePart>
+        <docImprint>
+            <docDate>
+                <hi rendition="#c">1898</hi>
+                <lb/>
+            </docDate>
+            <publisher>
+                <hi rendition="#g">Verlagsbuchhandlung von Carl Pataky</hi>
+            </publisher>
+            <lb/>
+            <pubPlace>
+                <hi rendition="#c">Berlin S.</hi>
+                <hi rendition="#smaller">Prinzenstrasse 100.</hi>
+            </pubPlace>
+            <lb/>
+        </docImprint>
+        <lb/>
+    </titlePage>
+    <pb facs="#f0006"/>
+    <gap reason="insignificant" unit="lines" quantity="3"/>
+    <pb facs="#f0007"/>
+    <figure/>
+    <div type="preface">
+        <head rendition="#c">
+            <hi rendition="#b">Vorwort.</hi>
+        </head>
+        <lb/>
+        <p>Der im Sommer 1896 im Berliner Rathause abgehaltene Internationale Frauen-Kongress, dessen ausdauernde und aufmerksame Zuhörerin die Herausgeberin war, erregte ihr lebhaftestes Interesse für die auf diesem Kongresse behandelten Fragen, die man im Allgemeinen als »Frauenfrage« bezeichnet, und der sie bisher fern stand, da sie durch Haus- und Familienpflichten sowie die thätige Mithilfe an den Berufsarbeiten ihres Gatten vollauf in Anspruch genommen war. Bis dahin war ihr die geistige Thätigkeit der Frau, wenn auch nicht unbekannt, so doch ein von ihr wenig beachtetes und gewürdigtes Gebiet. Erst auf diesem Kongresse wurde sie gewahr, wieviel Intelligenz, Wissen, Energie und zielbewusstes Streben, Eigenschaften, die man nur bei Männern zu finden gewohnt ist, auch bei Frauen vorhanden sind. Auf sie machten diese Wahrnehmungen einen um so tieferen Eindruck, als sie sich auch zu jenen Frauen zählen darf, die ihre Stellung in der Gesellschaft zumeist der eigenen Kraft und dem ernsten Streben zu danken haben.</p>
+        <lb/>
+        <p>Das oben angedeutete Interesse veranlasste sie in der Frauenlitteratur Umschau zu halten. Dabei machte sie die Wahrnehmung, dass ein riesiges Anwachsen des von der Frau und über die Frau Geschriebenen innerhalb der letzten 30 Jahre zu verzeichnen ist, dass aber ein übersichtliches, das ganze Gebiet umfassendes Nachschlagewerk, welches über die Frauenthätigkeit auf litterarischem Gebiete ein einwandfreier und zuverlässiger Wegweiser sein könnte, nirgends zu finden ist. Die verschiedenen, die gesamten Schriftsteller umfassenden Lexika, in welchen auch weibliche Autoren sich finden, sind
+            <pb facs="#f0008"/>
+schon deshalb nicht zuverlässig und erschöpfend, weil eine grosse Anzahl der schreibenden Frauen, dem Vorurteil sich beugend, oder aus anderen Gründen nicht unter ihrem weiblichen Namen ihre Arbeiten der Öffentlichkeit übergeben haben und weil in denselben nur die Bücher schreibende Schriftstellerin berücksichtigt ist, die zahlreichen Frauen der Feder aber, welche als Mitarbeiterinnen von Zeitschriften aller Art, als Übersetzerinnen, Redaktricen u.s.w. eine mehr oder minder ansehnliche Stellung im Reiche der Feder einnehmen, gar keine Berücksichtigung gefunden haben. Mit der stetig zunehmenden Zahl der Frauenwerke, und mit dem Wachsen der Achtung, welche ein grosser Teil derselben selbst in der litterarischen Welt sich zu erringen vermochte, wird hoffentlich auch die Scheu schwinden, mit dem vollen Namen für das einzustehen, was man geschrieben hat.</p>
+        <lb/>
+        <p>Die Mangelhaftigkeit der vorhandenen Behelfe irgend eine »schreibende« Frau aufzufinden, oder über das bisher Geleistete einer solchen Wissenswertes zu erhalten, legten der Herausgeberin die Idee nahe, einen solchen Behelf zu schaffen und das vorliegende Werk ist die zur That gewordene Idee.</p>
+        <lb/>
+        <p>Es liegt der Herausgeberin durchaus fern, für die vorliegende Arbeit jene Zuverlässigkeit und Lückenlosigkeit zu beanspruchen, die sie an den vorhandenen Quellen vermisst und beklagt; sie möchte diese Arbeit als einen Versuch gelten lassen, ein Werk zu schaffen, welches die gerügten Mängel in möglichst geringem Masse aufweist und als ersten Schritt zu dem Ziele, welches ihr vorschwebt. Bei diesem ersten Schritte hat sie aber ein ernstes Streben, ein fester, nicht ermüdender, vor keiner Schwierigkeit und keinem Hindernisse zurückschreckender Wille geleitet, um, wenn auch nicht Vollkommenes, so doch ein Werk zu schaffen, das auch höheren Anforderungen in dieser Richtung entsprechen soll.</p>
+        <lb/>
+        <p>Die Herausgeberin kann es sich nicht versagen, an dieser Stelle auszusprechen, dass sie in diesem Streben von beteiligter Seite nicht in dem Masse unterstützt wurde, wie sie es erwartete, und wie es die Sache als solche verdiente. Das Klagelied des mangelnden Interesses und geringen Entgegenkommens, welches alle jene Männer und Frauen, die ähnlichen Aufgaben sich unterworfen hatten, in den verschiedensten Tonarten gesungen haben, könnte auch sie anstimmen. Hätten die Damen, insbesondere aber die Herren Verleger, welche die wiederholten Mahnungen und Bitten um Einsendung des verlangten Materials unberücksichtigt liessen, eine Vorstellung, welche unendliche Mühe,
+            <pb facs="#f0009"/>
+peinliche Sorgfalt die Herausgabe eines solchen Werkes erfordert, so würden sie der Herstellung eines seit 70 Jahren<note place="foot" n="*)">Das einzige Werk dieser Art, wurde unter dem Titel »Die Deutschen Schriftstellerinnen des 19. Jahrhunderts« herausgegeben von Karl Wilh. Otto August v. Schindel, in den Jahren 1823–1825, von F. A. Brockhaus in Leipzig verlegt.<lb/>
+        </note> nicht mehr erschienenen biographischen lexikalischen Werkes der Frauenlitteratur das erforderliche Interesse entgegengebracht, und damit der Herausgeberin viel Mühe, Zeit, und v. a. erspart haben, und das vorliegende Werk wäre lückenloser geworden.</p>
+    <lb/>
+    <p>Alle diese Hemmnisse und Widerwärtigkeiten vermochten aber ihre Kräfte nicht zu erlahmen, verminderten ihr Bemühen nicht, das Erreichbare zu erstreben.</p>
+    <lb/>
+    <p>So unangenehm, wenig fördernd, ja abschreckend diese eben berührten Wahrnehmungen einerseits waren, so wurden sie reichlich aufgewogen durch die Fülle von angenehmen Anregungen, welche die Herausgeberin im Laufe der Arbeit erhielt, in dem überaus grossen Wohlwollen und den sympathischen Kundgebungen, welche ihr von einem grossen Teile der schreibenden Frauenwelt und vielen Männern entgegengebracht wurden und welche, zumal einzelne dieser brieflichen und persönlichen Sympathiebezeugungen von den Besten der Besten herrühren, ihr eine bleibende und angenehme Erinnerung für das Leben sein werden. Aber noch einen anderen, nicht minder hohen, seelischen und geistigen Genuss bot ihr die Arbeit bei dem Durchlesen eines grossen Teiles der ihr zugekommenen Autobiographieen. Die streng nüchterne Form eines lexikalischen Werkes, sowie der beschränkte Raum verbieten es zu ihrem lebhaften Bedauern, die eingesandten Biographieen unverkürzt wiederzugeben. Sie bedauert dies aufrichtig im Interesse desjenigen Teils der Frauenwelt, welcher aus diesen Biographieen eine Fülle von Anregungen erhalten haben würde. So manche Biographie liest sich wie ein Abschnitt eines sozialen Romans mit all seinen Licht- und Schattenseiten. Nicht immer ist es der innere Drang nach schriftstellerischer Bethätigung, welcher die Frau in die Reihe der »Schreibenden« gestellt hat. Gar oft waren es die eigene Not, die Sorge um die darbende Familie, den siechen Gatten, die vaterlosen Kinder oder die der Unterstützung bedürftigen Geschwister, welche der Tochter, der Gattin, der Mutter oder Schwester die Feder in die Hand drückten, um das in ihr schlummernde Talent auszumünzen und so manche unter ihnen hat thränenden Auges ihre
+        <pb facs="#f0010"/>
+»Humoresken« oder »heiteren« Bilder aus dem Leben geschrieben, gleich dem Komiker, der den nagenden Wurm, den Trübsinn im Herzen, in Ausübung seines Berufes und im Dienste der »heitern Kunst« auf der Bühne, seine und seiner Zuhörer Lachmuskeln in Bewegung setzt.</p>
+    <lb/>
+    <p>So manche hat eigenes Unglück z.B. Erblindung, Siechtum, welches die Betreffende seit frühester Jugend auf das Krankenlager geworfen hat und sie für das ganze Leben nicht mehr verlassen soll, zur Schriftstellerin, zur Poetin gemacht. Wie viele Tausende wären diesem namenlosen Unglücke, diesen qualvollen, durch zahllose unmenschliche Operationen erhöhten Leiden geistig erlegen; hier haben diese »Starken« des schwachen Geschlechts Trost und Kraft in dem Selbststudium der verschiedensten Gebiete des Wissens gefunden, bis die »Lust zum Fabulieren« erwachte.</p>
+    <lb/>
+    <p>In vielen Fällen zeigt sich die Frau als überaus wertvolle Mitarbeiterin des schriftstellernden Gatten und aus der gemeinsamen Thätigkeit des kongenialen Ehepaares entspringt ein Quell von Ehe-, Familien- und Berufsfreuden, wie sie schöner und edler kaum zu denken sind.</p>
+    <lb/>
+    <p>Dieses sich Vertiefen in den Werdeprozess vieler unserer »schreibenden« Frauen würde alle jene, die verächtlich oder mitleidig über den »Blaustrumpf« die Nase rümpfen, belehren, dass die schreibende Frau den ihr von den Verhältnissen oder der Gesellschaft aufgebürdeten Daseinskampf ebenso »mannhaft« auszufechten weiss, wie ihr männlicher Kollege. Es würde sie ferner belehren, dass, so kurz auch die Zeit ist, seitdem sie mit der Feder diesen Daseinskampf zu führen gelernt hat, oder auch ohne diesen Kampf, nur dem inneren Drange folgend, ihr Wissen und ihr Talent mit der Feder zum Ausdruck bringt, doch schon eine Stellung im Reiche des Geistes sich zu erringen wusste, die von der gebildeten Welt nicht mehr missachtet oder übersehen werden kann.</p>
+    <lb/>
+    <p>Auch das könnten Viele, die es nicht schon wissen, aus den Biographieen erfahren, dass die schreibende Frau, ganz entgegen der Annahme des vorurteilsvollen Teiles unserer Gesellschaft, dort, wo sie es sein kann, eine überaus aufopfernde, pflichttreue, hingebungsvolle Hausfrau, Gattin und Mutter ist.</p>
+    <lb/>
+    <p>Dass fast jedes Gebiet, auch das der exakten Wissenschaften, von der schreibenden Frau betreten worden ist, wird ein Durchblättern dieses Werkes ebenso bezeugen, wie die Thatsache, dass alle Gebiete der Prosa und Poesie ihr heimisch sind. Es ist aber gar nicht lange her, dass dem nicht so war. Kaum 60 Jahre sind es, da hat, mit geringen Ausnahmen,
+        <pb facs="#f0011"/>
+der schriftstellerische Drang der Frau in der Abfassung von Koch-, Haushaltungs- und Handarbeitsbüchern seinen sichtbaren Ausdruck und seine Befriedigung gefunden.<note place="foot" n="*)">Das sehr sorgfältig und mühsam zusammengestellte Werk von Elise Oelsner »Die Leistungen der deutschen Frau auf wissenschaftlichem Gebiete« (Verlag von Max Lemke in Guhrau 1894) zählt 3 weibliche Namen aus dem 16. Jahrhunderte, 7 aus dem 17. Jahrhunderte, 40 aus dem 18. Jahrhundert. Auf das erste Drittel des 19. Jahrhunderts fallen etwa 48 weibliche Namen, auf das zweite Drittel 60, welche schriftstellernd auf den verschiedensten Gebieten der Litteratur thätig waren. Unterstützt werden diese Zahlen durch eine Statistik aus dem ausgezeichneten Werke »Deutsche Dichterinnen und Schriftstellerinnen in Wort und Bild« herausgegeben von Heinrich Gross, 3 Bände, Verlag von Fr. Thiel, Berlin. Es scheint jedoch, dass obgenannte Werke nicht alle schreibenden Frauen dieser Zeit verzeichnen, denn Schindel behauptet in seinem Vorwort, dass das erste Viertel des 19. Jahrhunderts weit über 550 aufweist, allerdings verzeichnet Schindel auch jene Frauen, die irgend ein ungedruckt gebliebenes Gelegenheitsgedicht verfasst haben.<lb/>
+    </note>
+</p>
+<lb/>
+<p>Von da ab ist ein Vorwärtsschreiten auf litterarischem Felde wahrnehmbar. Schritt für Schritt, anfänglich zaghaft, unsicher, unter einem männlichen Schild sich verbergend, wird dieses Gebiet von ihr betreten, doch wird sie bald gewahr, dass dasselbe ihr einen guten, fruchtbaren Boden bietet, in welchem die Samenkörner ihres Wissens und ihres Talentes zur üppigen Saat emporkeimen können.</p>
+<lb/>
+<p>In den 70er Jahren wird das litterarische Feld von der Frau schon sehr reich bestellt und die Früchte ihrer Thätigkeit nehmen auf dem litterarischen Markte einen breiten Raum ein. Von da ab wächst der Anteil der Frau an der litterarischen Produktion sehr erheblich, um in den 90er Jahren, insbesonders 1895–97, einen Stand einzunehmen, der, unter Berücksichtigung aller Verhältnisse zwischen Mann und Frau, wohl der schreibenden Frau ein sehr günstiges Zeugnis ausstellt und sie zu grossen Hoffnungen für ihre soziale Stellung in der Zukunft berechtigt.</p>
+<lb/>
+<p>Das Verzeichnis des von Frauen Geschriebenen beginnt in diesem Werke mit dem Jahre 1840, (mit Ausnahme des Verzeichnisses der Pseudonyme, welches weit über 200 Jahre zurückreicht, –) weil die Auslese weiter zurück eine noch zu dürftige ist. Als Quellen für das hier aufgespeicherte Material dienten die Sammelwerke, welche an anderer Stelle namentlich und gewissenhaft genannt sind. Doch diese
+    <pb facs="#f0012"/>
+Quellen gaben nur die Grundlagen, auf denen die Herausgeberin sorgsam und voll Mühe Stein auf Stein das Gebäude aufbaute, in welchem die »schreibende« Frauenwelt heimatberechtigt ist.</p>
+<lb/>
+<p>Wo sie in den zahllosen Zeitschriften und Prospekten jeglicher Art einen Namen aufstöberte, dessen Trägerin die Feder führt, wo ihr ein solcher Name zugetragen wurde, da flog auch diesem eine gedruckte oder geschriebene Aufforderung zu, was sehr oft wiederholt werden musste, um alle gewünschten Einzelheiten zu erhalten. Es war, allen sei es geklagt, eine riesige Geduldarbeit und wenn trotzdem Manche und Manches fehlen sollte, so mögen die Kritiker bedenken, auch das ernsteste Wollen hat seine Grenzen. Anfänglich glaubte die Herausgeberin, in diesem Werke jeder Poetin ein kleines von derselben verfasstes Gedichtchen, gewissermassen als Charakteristikum, mit auf den Weg geben zu können; doch die zu diesem Zwecke erbetenen Poesieen waren so verschiedenartig in Gehalt, Form und Ausdehnung, dass sie sich gezwungen sah, um keiner wehe zu thun, auf den Abdruck der Poesieen zu verzichten. Vielleicht findet sich später Zeit und Gelegenheit, die Perlen dieser Poesieen in einem Bande zusammenzufassen und sie der verdienten Würdigung zuzuführen. Eine grosse Zahl der schreibenden Damen verweigerten die erbetenen Mitteilungen, weil sie von der Voraussetzung ausgingen, sie gehörten nicht in das »Lexikon deutscher Schriftstellerinnen«, da sie wohl viel für Zeitschriften u. dgl. geschrieben, aber noch kein »Buch« herausgegeben haben. Diese, leider vielseitig geteilte Auffassung, welche den ganzen Zweck und Charakter des Werkes geradezu in Frage stellte, veranlasste die Herausgeberin, den ursprünglichen Titel des Buches: »Lexikon deutscher Schriftstellerinnen« in »Lexikon deutscher Frauen der Feder« umzuändern, denn nicht nur die Bücher schreibende Frau, sondern die schreibende Frau überhaupt, gleichviel in welcher Form sie ihre geistige Thätigkeit mit der Feder zum Ausdruck bringt, soll in diesem Werke zu finden sein und jede schreibende Frau hat die moralische Verpflichtung, sich in Reih und Glied zu stellen, wenn es gilt, Heerschau zu halten über die geistige Potenz des weiblichen Geschlechts, die weit unter das Niveau des männlichen zu stellen bisher zu den unantastbaren Lehr- und Erfahrungssätzen unserer Gesellschaft im allgemeinen und vieler Gelehrten und Ärzte im besonderen gehörte.</p>
+<lb/>
+<p>Diejenigen, welche das Anwachsen der Frauenlitteratur missgünstig verfolgen, werden bei der stattlichen Anzahl von im Dienste der schreibenden Muse stehenden Frauen gewiss jammernd ausrufen:
+    <pb facs="#f0013"/>
+Viel zu viel. Mag sein, aber dasselbe kann von der Zahl der schreibenden Männer gelten und trotzdem, hier wie dort, bahnt sich das wirkliche Talent seinen Weg hoch hinweg über das Heer mühselig vorwärts schreitender Talentlosigkeit und auch darin werden die vorliegenden Biographieen Thatsachen erzählen, wie leicht und schnell es mancher gelungen war, sich Anerkennung zu verschaffen, indes Berge von Manuskripten in den Redaktions- und Verlagsschubladen der Befreiung aus der Gefangenschaft harren.</p>
+<lb/>
+<p>Überraschende Enthüllungen wird dieses Werk vielen Buchrecensenten bringen, die das Werk eines männlichen Autors zu recensieren glaubten, während es von einer Frau geschrieben wurde.</p>
+<lb/>
+<p>Besonders mangelhaft sind die Aufzeichnungen der Werke, welche im österreichischen und schweizerischen Buchhandel erschienen sind, weil hier ein besonderes Quellenmaterial überhaupt fehlt und das Entgegenkommen seitens der Buchhändler und massgebenden Faktoren dieser beiden Länder noch weit geringer war, als in Deutschland. Umsomehr fühlt sich die Herausgeberin verpflichtet, allen jenen ganz besonderen Dank an dieser Stelle auszusprechen, welche sie in der wohlwollendsten Weise unterstützt haben. Vorzugsweise gilt dieser Dank der Presse, welche durch bereitwillige Aufnahme, der auf die Herausgabe dieses Werkes bezughabenden Mitteilungen die Sache sehr gefördert hat. Dank gebührt auch Folgenden:</p>
+<lb/>
+<list>
+    <item>Der Frau Mathilde Clasen-Schmidt, Vorsitzenden des Leipziger Schriftstellerinnenvereins.</item>
+    <lb/>
+    <item>Der Frau Dr. Marie Huber (Marie Doebeli) in Grindelwald, Schweiz.</item>
+    <lb/>
+    <item>Der Frau Lina Morgenstern, Berlin.</item>
+    <lb/>
+    <item>Dem Verein der Wiener Schriftstellerinnen und Künstlerinnen in Wien.</item>
+    <lb/>
+    <item>Dem Deutschen Schriftstellerinnenbunde in Berlin und vielen Mitgliedern desselben.</item>
+    <lb/>
+    <item>Der Frau Johanna Garbald-Gredig (Andrea Silvia) in Castasegna bei Graubünden, Schweiz.</item>
+    <lb/>
+    <item>Der Frau Regierungsrat Hermine Tomić in Agram; ferner den Herren: Max Evers, Redakteur des Börsenblattes für den Deutschen Buchhandel.</item>
+    <lb/>
+    <item>Dr. Wilh. Wendlandt, Leiter des Litterarischen Bureaus des deutschen Schriftsteller-Verbandes, in Berlin.</item>
+    <lb/>
+    <item>Dr. H. Stümcke, Herausgeber der Westöstlichen Rundschau in Berlin u. Anderen.</item>
+    <lb/>
+</list>
+<lb/>
+<p>Einen besonderen Teil dieses Nachschlagewerkes bildet das Verzeichniss der »Pseudonyme«, welches in der vorliegenden Ausdehnung gleichfalls das Ergebnis einer überaus sorgfältigen und mühsamen Arbeit
+    <pb facs="#f0014"/>
+ist. In keinem anderen bisher bekannten Quellenmaterial findet sich eine so grosse Anzahl deutscher weiblicher Autoren-Pseudonyme vor<note place="foot" n="*)">Das letzte, von Emil Weller herausgegebene »Lexicon Pseudonymorum«, das neben den männlichen auch die weiblichen Pseudonyme enthält, ist im Jahre 1886 erschienen.<lb/>
+</note> und die Herausgeberin glaubt, einen ganz besonderen Dienst allen jenen damit geleistet zu haben, welche ein Interesse haben, den Namen und die Adresse einer bestimmten, unter einer Maske sich verbergenden Autorin festzustellen.</p>
+<lb/>
+<p>Erst im Laufe der Arbeit hat die Herausgeberin den Entschluss gefasst, den Namen der verstorbenen Schriftstellerinnen, die Geburtsund Sterbezeit hinzuzufügen. Doch konnte dieser Entschluss erst nach dem Buchstaben C ausgeführt werden, und auch da nur unvollkommen. Das Fehlende soll bei späteren Auflagen nachgeholt werden.</p>
+<lb/>
+<p>Alle biographischen Mitteilungen sind von den Autorinnen geprüft, daher zuverlässig.</p>
+<lb/>
+<p>Mit bangen Gefühlen setzt die Herausgeberin dieses ihr Erstlingswerk in die Welt. Wird es den Beifall der interessierten Kreise finden und der Herausgeberin den Mut verleihen können, das mit vielen Opfern geschaffene Werk zu einer dauernden, in periodischen Zeiträumen neu auflebenden Schöpfung zu gestalten? Wird es ihren höchsten Wunsch, zur Würdigung der Frauenthätigkeit auf litterarischem Gebiete etwas beigetragen zu haben, verwirklichen? Die freundliche, ja zum Teil begeisterte Aufnahme, welche ihre Idee bei so Vielen gefunden, lässt sie hoffen, dass auch die bisher noch Gleichgiltigen ihr fernerhin die nötige Unterstützung nicht versagen und mithelfen werden, das Werk zu dem zu gestalten, was ihr als Ideal vorschwebt.</p>
+<lb/>
+<lb/>
+<p>Berlin, Januar 1898.</p>
+<lb/>
+<p>
+<hi rendition="#b">Die Herausgeberin.</hi>
+</p>
+<lb/>
+</div>
+<pb facs="#f0015"/>
+<div type="bibliography">
+<head rendition="#c">Verzeichnis der benutzten Quellenschriften.<note place="foot" n="*)">Die hier angeführten Werke gelten auch als Quellen für den Anhang »Pseudonyme«.</note>
+</head>
+<lb/>
+<list>
+<item>Allgemeiner deutscher Litteraturkalender Jahrg. 1879–1895, Jahrg. 1–4. Herausgegeben von Heinrich Hart und Julius Hart, Bremen 1879–1880. J. Kühtmanns Verlag, Bremen 1881 Hinricus Fischer, Jahrg. 5–19. Herausgegeben von Prof. Jos. Kürschner Berlin und Stuttgart 1883–89 W. Spemann; Stuttgart u. Eisenach 1890–93 Selbstverlag; Stuttgart 1894–1897 G. J. Goeschen'sche Verlagshandlung.</item>
+<lb/>
+<item>Franz Bornmüller: Biographisches Schriftstellerlexikon der Gegenwart. Leipzig, 1882. Verlag des Bibliographischen Instituts.</item>
+<lb/>
+<item>Börsenblatt für den deutschen Buchhandel und die verwandten Geschäftszweige. Eigentum des Börsenvereins der deutschen Buchhändler zu Leipzig.</item>
+<lb/>
+<item>Brockhaus Konversationslexikon 16. Bde. Leipzig, F. A. Brockhaus.</item>
+<lb/>
+<item>Franz Brümmer. Lexikon der deutschen Dichter und Prosaisten des neunzehnten Jahrhunderts. 2 Bde. 4. Aufl. Leipzig 1895 Ph. Reclam jr.</item>
+<lb/>
+<item>Robert Claussner. Unsere Dichter in Wort und Bild. I–III. Band 1891, 1893, 1894. Leipzig, Verlag von Robert Claussner.</item>
+<lb/>
+<item>Gustav Dahms. Das litterarische Berlin. Berlin, J. Richard Taendler.</item>
+<lb/>
+<item>Das litterarische Leipzig. Illustriertes Handbuch der Schriftsteller- und Gelehrtenwelt, der Presse u. des Verlagsbuchhandels in Leipzig. Leipzig, 1897 Walther Fiedler.</item>
+<lb/>
+<item>Dresdner Frauen-Zeitung. Verlag der Dresdner Frauen-Zeitung.</item>
+<lb/>
+<item>Ludw. Eisenberg. Das geistige Wien. Künstler- und Schriftstellerlexikon. Erster Band, Belletristisch künstlicher Teil. Wien 1893. C. Daberkows Verlag.</item>
+<lb/>
+<item>Heinr. Gross. Deutsche Dichterinnen und Schriftstellerinnen in Wort und Bild. 8 Bände. Berlin, 1885 Fr. Thiel.</item>
+<lb/>
+<pb facs="#f0016"/>
+<item>Heinrich Gross: Deutschlands Dichterinnen und Schriftstellerinnen. Eine literarhistorische Skizze 2. Ausgabe. Wien, 1882 Carl Gerolds Sohn.</item>
+<lb/>
+<item>Viktor Hardung. Schweizerischer Litteraturkalender a. d. Jahr 1893. Zürich, Otto Erb's Verlag.</item>
+<lb/>
+<item>J. C. Hinrichs. Verzeichnis der im deutschen Buchhandel neu erschienenen und neu aufgelegten Bücher, Landkarten, Zeitschriften etc. (Halbj. Verzeichnis.) 1840–1897. Leipzig, J. C. Hinrichs'sche Buchhandlung.</item>
+<lb/>
+<item>J. C. Hinrichs. Fünfjahrs-Katalog der im deutschen Buchhandel erschienenen Bücher, Zeitschriften, Landkarten. Bd. 1–7. 1851 bis 1895. Leipzig, J. C. Hinrichs'sche Buchhandlung.</item>
+<lb/>
+<item>Adolf Hinrichsen: Das litterarische Deutschland, Berlin 1891. Verlag des »Litterarischen Deutschland«.</item>
+<lb/>
+<item>Eduard Fedor Kastner. Böhmens deutsche Poesie und Kunst. Verlag des Herausgebers, Wien.</item>
+<lb/>
+<item>Heinrich Keiter. Katholischer Litteraturkalender. Begensburg u. Leipzig, 1897. Heinr. Keiter.</item>
+<lb/>
+<item>Hermann Kletke. Deutschlands Dichterinneu, Berlin o. J. (1854) Hermann Hollstein.</item>
+<lb/>
+<item>Heinr. Kurz. Geschichte der deutschen Litteratur mit ausgewählten Stücken aus den Werken der vorzüglichsten Schriftsteller. Leipzig, 1880/81. B. G. Teubner.</item>
+<lb/>
+<item>Karl L. Leimbach. Die deutschen Dichter der Neuzeit und Gegenwart. 6 Bde. 1883–1896. Frankfurt a/M. Kesselring'sche Hofbuchhandlung.</item>
+<lb/>
+<item>Martin Maacks Dichterlexikon. Die Novelle. Ein kritisches Lexikon über die bekanntesten deutschen Dichter der Gegenwart mit besonderer Berücksichtigung der Novellisten. Lübeck 1896, Verlag der Novellen-Bibliothek.</item>
+<lb/>
+<item>Jeannot Martinelli. Ein Dichteralbum. Berlin. Verlag o. J. Martinelli.</item>
+<lb/>
+<item>Meyers Konversationslexikon. 5. Aufl. 17 Bde. Leipzig, Bibliographisches Institut 1894–1898.</item>
+<lb/>
+<item>Lina Morgenstern. Die Frauen des 19. Jahrhunderts. Biographische und kulturhistorische Zeit- und Charakter-Gemälde. 3 Bde. Berlin 1888–1891. Verlag der deutschen Hausfrauen-Zeitung.</item>
+<lb/>
+<item>Lina Morgenstern. Die 2 letzten Jahrgänge der deutschen Hausfrauen-Zeitung.</item>
+<lb/>
+<item>Marianne Nigg. Biographieen der österreichischen Dichterinnen und
+    <pb facs="#f0017"/>
+Schriftstellerinnen. Ein Beitrag zur deutschen Litteratur in Österreich. Korneuburg 1893. Jul. Kühlkopfs Buchhandlung.</item>
+<lb/>
+<item>Elise Oelsner. Die Leistungen der deutschen Frau in den letzten 400 Jahren auf wissenschaftlichem Gebiete. Guhrau, 1894. Max Lemke.</item>
+<lb/>
+<item>Karl Wilh. Otto August v. Schindel. Die deutschen Schriftstellerinnen des neunzehnten Jahrhunderts. 3 Bände. 1823–1825. Leipzig, F. A. Brockhaus.</item>
+<lb/>
+<item>Karl Schrattenthal. Die deutsche Frauenlyrik unserer Tage. Leipzig o. J., (1892) Leipzig, Karl Naumburg.</item>
+<lb/>
+<item>Karl Schrattenthal (Karl Weiss). Unsere Frauen in einer Auswahl aus ihren Dichtungen. Stuttgart, 1888. Greiner u. Pfeiffer.</item>
+<lb/>
+<item>Karl Schrattenthal (Karl Weiss). Deutsche Dichterinnen und Schriftstellerinnen in Böhmen, Mähren und Schlesien. Brünn, 1885 Frd. Irrgang.</item>
+<lb/>
+<item>Dr. F. Tetzner. Unsere Dichter in Wort und Bild IV. V. VI. Bd. 1894, 1895, 1896. Leipzig, Verlag von Robert Claussner.</item>
+<lb/>
+<item>Hermann Thom. Deutsche Dichter in Wort und Bild. Poetischer Hausschatz. Leipzig, 1897. Herm. Reinh. Thom's Verlags-Anstalt.</item>
+<lb/>
+<item>Anny Wothe. Bilde den Geist. Leipzig o. J. (1896.) Adolf Mahns Verlag.</item>
+<lb/>
+<item>Emil Weller. Lexikon Pseudonymorum. Wörterbuch der Pseudonymen aller Zeiten und Völker. I. u. II. Aufl. 1856, 1886. Regensburg, Alfred Coppenrath.</item>
+<lb/>
+<item>Wiener Mode. (Diverse Jahrgänge). Wien, Verlag der Wiener Mode.</item>
+<lb/>
+<item>Richard Wrede u. Hans von Reinfels. Das geistige Berlin. Eine Encyklopädie des geistigen Lebens Berlins. I. Band. Berlin, 1897. Hugo Storm.</item>
+<lb/>
+</list>
+<lb/>
+<milestone rendition="#hr" unit="section"/>
+<lb/>
+</div>
+<pb facs="#f0018"/>
+<div>
+<head rendition="#c">Abkürzungen.</head>
+<lb/>
+<p>Frl. = Fräulein, Ps. = Pseudonym, Aufl. = Auflage, geb. = geboren, a. = an, s. = siehe, d. = der, die, das, f. = für, B. = Bogen, Ebda. = Ebenda, H. = Holzschnitt, m. = mit, K. = Karte, Illustr. = illustriert, Illustration. Farbendr. = Farbendruck, hrsg. = herausgegeben, Bd. = Band, Bdchn. = Bändchen, Rom. = Roman, Nov. = Novelle, kart. = kartoniert, geb. = gebunden, Übersetzg. = Übersetzung, Erzhlg. = Erzählung, lith. = lithographiert, kolor. = koloriert, bearbeit. = bearbeitet. Ferner ist in allen Worten die Endsilbe »ung« gekürzt. Verl.-Anst. = Verlags-Anstalt, Goldschn. = Goldschnitt, Lfgn. = Lieferungen, Biogr. = Biographie, Kpfr. = Kupferdruck, Bl. = Blatt.</p>
+<lb/>
+<lb/>
+<p>Die römischen Zahlen in Klammern bezeichnen die Anzahl der Seiten des Vorwortes, die arabischen Zahlen die Seitenzahl des Inhaltes.</p>
+<lb/>
+<lb/>
+<p>Die mit n vorgezeichneten Preise müssen im Auslande zum Teil erhöht werden, die mit nn und nnn bezeichneten auch im Inlande. Die Preise sind in Mark und Pfennigen angegeben.</p>
+<lb/>
+<lb/>
+<p>Die mit * bezeichneten Biographieen sind nach Mittheilungen der Autorinnen redigiert. □ bei der Adresse bedeutet, dass die biographischen Angaben nicht zu erlangen waren.</p>
+<lb/>
+<milestone rendition="#hr" unit="section"/>
+<lb/>
+</div>
+</front>
+<body>
+    <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_117614580">Ichenhaeuser, Frau Eliza</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Ichenhaeuser, Frau Eliza, Ps. E. Rosevalle, <placeName>Berlin</placeName> NW., Altonaerstrasse 36, am 12. Mai 1869 zu Jassy in Rumänien geboren, widmete sich schon als junges Mädchen ernsten wissenschaftlichen Studien. Nachdem sie im Januar 1890 den bekannten Nationalökonom Dr. Justus Ichenhaeuser geheiratet und ihren Wohnsitz in <placeName>Berlin</placeName> aufgeschlagen hatte, befasste sie sich, von ihrem Gatten angeregt, hauptsächlich mit nationalökonomischen und sozialpolitischen Studien. Durch diese gelangte sie zur Erkenntnis, dass die Frauenfrage einen der brennendsten und in Deutschland zu jener Zeit noch wenig beachteten Teil der sozialen Frage bilde. Sie beschloss daher ihre ganze Kraft für die Lösung derselben einzusetzen. Mit grosser Energie und wahrem Feuereifer ging sie an die Ausführung dieser Absicht und nach kurzer Zeit schon, in den Jahren 1892, 1893, erregten ihre ersten Arbeiten, die in den ersten deutschen Zeitungen und Zeitschriften erschienen, die Aufmerksamkeit der interessierten Kreise. Je mehr sie sich in ihre Arbeit vertiefte, um so mehr gelangte sie zur Erkenntnis, dass Deutschland in der Frauenfrage ausserordentlich zurück sei, und dass man die grossen Erfolge, die die Frauenbewegung im Auslande zu verzeichnen habe, in Deutschland noch gar nicht kenne. Sie entschloss sich daher, hier Aufklärung zu schaffen und veröffentlichte im Jahre 1894 eine Broschüre »Der gegenwärtige Stand der Frauenfrage in sämtlichen Kulturstaaten«, die eine glänzende Aufnahme fand. Die Presse konstatierte mit Vergnügen, dass das Buch eine grosse Lücke ausfülle, dass man erst durch dasselbe in Deutschland erfahren habe, was die Frauen in anderen Ländern bereits erreicht haben und was sie bei uns erstreben. Inzwischen setzte die Verfasserin dieses Buches fort, Aufklärung über die Frauenfrage in die breitesten Massen hineinzutragen, indem sie eine lange Reihe von Abhandlungen in verschiedensten politischen, sozialpolitischen und Frauenblättern erscheinen liess, von denen sie einen Teil vereinigt in Buchform unter dem Titel »Zur Frauenfrage« im Herbst 1896 herausgab. Auch diese Arbeit wurde überaus günstig aufgenommen, der »Hamburgische Correspondent« schrieb darüber: »Wo immer diese brennende Frage behandelt wird, sollte diese Perle deutscher Männer- und Frauenschriften zu Grunde gelegt werden.« Inzwischen hatte Eliza Ichenhaeuser sich noch in anderer Weise um die Frauenwelt verdient gemacht; sie hatte zum Zustandekommen des Berliner Internationalen Kongresses für Frauenwerke und Frauenbestrebungen, dessen Schriftführerin sie war, durch persönliche Arbeit, durch Reisen nach <placeName>London</placeName>, <placeName>Paris</placeName> und <placeName>Petersburg</placeName>, durch eine ausgebreitete Korrespondenz mit dem Auslande und durch ihre Verbindungen ausserordentlich viel beigetragen. Nach Ablauf des Kongresses, der im September 1896 stattfand, schritt sie sofort an eine neue Arbeit, die sie im Januar 1897 veröffentlichte. »Die Ausnahmestellung Deutschlands in Sachen des Frauenstudiums«. Auf Grund selbst veranstalteter Enquêten und eingehender Studien der Auslandsverhältnisse weist die Verfasserin in dieser Broschüre mit statistischem Material nach, wie lächerlich die Einwände der Gegner des Frauenstudiums angesichts der ungeheuren Erfolge, die das Frauenstudium im Auslande zu verzeichnen hat, sind, und zeigt ferner, dass Deutschland in dieser Frage thatsächlich eine Ausnahmestellung einnimmt. Aber nicht allein für die Zukunft der Frau kämpft Eliza Ichenhaeuser, sondern auch die Gegenwart will sie den Frauen nutzbar machen und so veröffentlichte sie ein Buch »Erwerbsmöglichkeit für Frauen«, indem sie sämtliche Berufe, die den Frauen gegenwärtig offen stehen, Revue passieren lässt, auf alle diejenigen, die in nächster Zeit den Frauen geöffnet werden könnten, aufmerksam macht, alle Wege und Stege dazu, alle Ausbildungsanstalten, alle Chancen angiebt, mit statistischen Tabellen, steuerrechtlichen Materien, handelsrechtlichen Belehrungen das Buch bereichert und so den erwerbsuchenden Frauen die Möglichkeit giebt, sich an der Hand dieses Wegweisers auf eigene Füsse zu stellen. Wie ein roter Faden zieht sich durch das ganze Streben Eliza Ichenhaeusers der Drang, den Frauen zu helfen, sie ist der Ansicht, dass gerade diejenigen Frauen, die es nicht für sich brauchen, die in ihren Verhältnissen und in ihrer Ehe so glücklich sind, dass die notorische Rechtlosigkeit und Unselbständigkeit der Frauen auf sie nicht anwendbar sind, für ihre unglücklichen Schwestern – und leider sind diese weitaus in der Mehrzahl – eintreten müssen. Sie hat demgemäss ihre Arbeit auf dem Gebiete der Frauenfrage zu ihrem Hauptberufe gemacht und ihre Arbeiten auf dem Gebiete der Belletristik und der Reiseschriftstellerei, auf denen sie ebenfalls sehr hübsche Erfolge zu verzeichnen hat, diesem untergeordnet.</p><lb/>
+        <p>‒ Der gegenwärtige Stand der Frauenfrage in allen Kulturstaaten. Vergleich. Studie. 8. (57) <placeName>Leipzig</placeName> 1894, Rossberg. n 1.20</p><lb/>
+        <p>‒ Die Ausnahmestellg. Deutschlands in Sachen des Frauenstudiums. 8. (47) <placeName>Berlin</placeName> 1897, H. Walter. n –.80</p><lb/>
+        <p>‒ Die politische Gleichberechtigung der Frau. <placeName>Berlin</placeName> 1897, Carl Duncker. 1.50</p><lb/>
+        <p>‒ Erwerbsmöglichkeiten für Frauen. Prakt. Ratgeber f. erwerbsuch. Frauen in allen Angelegenheiten der Vorbildg., der Anstellg. u. der sozialen Selbständigkeit. Nebst Nachweis v. Wohlfahrtseinrichtgn. 2. Aufl. 8. (199) <placeName>Berlin</placeName> 1897, F. Ebhard u. Co. n 2.60; geb. bar n 3.50</p><lb/>
+        <p>‒ Zur Frauenfrage. 8. (115) Zittau 1896, Pahls Verlag. n 1.20</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1014861322">Ideler, Frl. Lucie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Ideler, Frl. Lucie, Ps. U. Derelli, <placeName>Freienwalde</placeName> a. Oder, Brunnenstrasse 48, ist am 18. September 1851 zu <placeName>Heinrichsdorf</placeName> in der Provinz Pommern geboren. Ihr Vater war Landpastor. In dem Dorfe <placeName>Virchow</placeName> verlebte sie ihre ganze Jugend. Es lag auf flacher Heide, von vielen Wäldern umringt, hier drängten sich ihr in der tiefen Stille die ersten Naturbetrachtungen auf und in ihrem einsamen Mädchenleben fing sie an, Gedanken und Träume auszuspinnen, die sie in der Jugend in gebundener Sprache, im späteren Leben in Romanen und Novellen niederschrieb. An der Hand einer hochgebildeten Mutter, die sich in liebevollster Weise für ihre schriftstellerischen Versuche interessierte, ging sie ruhig durch das Leben. Soviel es in ihren Kräften stand, suchte sie sich als junges Mädchen selbst zu bilden. Im Jahre 1881 übersiedelte sie nach <placeName>Freienwalde</placeName> und begann da schriftstellerisch zu wirken.</p><lb/>
+        <p>‒ Auferstehen. 12. (16) <placeName>Anklam</placeName> 1895, A. Schmidt. n –.05</p><lb/>
+        <p>‒ Aus den Bergen. Erzählg. 12. (48) <placeName>Goslar</placeName> 1894, E. Angerstein. n 1.–</p><lb/>
+        <p>‒ Aus der Heimat. Drei Erzählgn. 2. Aufl. 12. (141) <placeName>Anklam</placeName> 1892, A. Schmidt. n –.70; geb. n 1.25</p><lb/>
+        <p>‒ Das Bild des Kaisers. Erzählg. 12. (16) Ebda. 1891. n –.05</p><lb/>
+        <p>‒ Die Hand des Herrn. Der Invalide. Zwei Erzählgn. 8. (57) <placeName>Karlsruhe</placeName> 1896, Evangelischer Schriftenverein. n –.50</p><lb/>
+        <p>‒ Die Kinder. 12. (16) <placeName>Anklam</placeName> 1894, A. Schmidt. n –.05</p><lb/>
+        <p>‒ Ein Edelmann. Dem Leben nacherzählt. 12. (249) Ebda. 1892. n 1.20; geb. n 1.60; eleg. geb. n 1.75</p><lb/>
+        <p>‒ Epheu. Drei Erzählgn. 12. (161) Ebda. kart. n –. 75; geb. n 1.25</p><lb/>
+        <p>‒ Heimat und Fremde. Erzählg. 12. (16) Ebda. 1896. –.05</p><lb/>
+        <p>‒ Im Jahre 1812.– Im Jahre 1870. Erzählg. 12. (16) Ebda. –.05</p><lb/>
+        </div>
+        <pb facs="#f0408"/>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1014861322">Ideler, Lucie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Ideler, Lucie. Neue Märchen. 8. (46 m. 7 Farbdr.-Bildern) <placeName>Stuttgart</placeName> 1895, Schwabacher. kart. n 1.50</p><lb/>
+        <p>Auf dem Einbd. m. d. verschiedensten Vornamen versehen, bei nicht vorrätigen Namen Preisaufschlag von –.70.</p><lb/>
+        <p>‒ Neue Polterabend-Aufführungen f. Erwachsene und Kinder. 12. (170) <placeName>Oranienburg</placeName> 1892, E. Freyhoff. n 1.–</p><lb/>
+        <p>‒ Neue Polterabendscherze f. Stadt und Land in launigen Original-Dichtungen. 2 Teile. 9. Aufl. 16. (80) <placeName>Berlin</placeName> 1895, S. Modes Verlag. à n –.50</p><lb/>
+        <p>‒ Nur ein Wort. 12. (16) <placeName>Anklam</placeName> 1895, A. Schmidt. n –.05</p><lb/>
+        <p>‒ Ritterliche Treue. 12. (16) Ebda. 1894. n –.05</p><lb/>
+        <p>‒ Versöhnt. Erzählg. für die christliche Jugend. 12. (24) <placeName>Stuttgart</placeName> 1897, Verlag »Immergrün«.–.10</p><lb/>
+        <p>Werke s. auch U. Derelli .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1076742734">Idem</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Idem, Biographie u. Werke s. Mite Kremnitz .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1188739123">Igel, Frau Elisabeth von</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Igel, Frau Elisabeth von, Generallieutenantsgattin, geb. Bronsart v. Schellendorff, Posen, wurde am 3. August 1864 zu <placeName>Berlin</placeName> geboren als älteste Tochter des damaligen Hauptmanns im Grossen Generalstabe, späterem Königl. preussischen Kriegsminister, Walther Bronsart von Schellendorff. Sie verlebte den grössten Teil ihrer Jugend in <placeName>Schwerin</placeName> i. M., wo ihr Vater die Stellung eines Regiments-, Brigade- und Divisionskommandeurs nacheinander innehatte. Am 24. März 1895 vermählte sie sich zu <placeName>Schwerin</placeName> i. M. mit dem derzeitigen Major, jetzigen Königl. preussischen Generallieutenant und Kommandeur der 10. Division, Heinrich von Igel, als dessen Gattin sie in Posen lebt.</p><lb/>
+        <p>‒ Blaue Astern. 8. (77) <placeName>Darmstadt</placeName> 1894, A. Bergsträsser. n 1.60; geb. 2.50</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_117126446">Ihering, Marie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Ihering, Marie. Vaterlands-, Kriegs- und Siegesgedichte 1866 und 1870. 2. Aufl. 16. (107) <placeName>Leipzig</placeName> 1871, Siegismund u. Volkening. n 1.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1184623953">Ihle, Annette</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Ihle, Annette. Die Verwaiste. Ein Lebensbild aus Norwegen. Übersetzg. v. L. Fehr. 8. (173) <placeName>Braunschweig</placeName> 1890, Grüneberg, n 2.–; geb. n 3.–</p><lb/>
+        <p>‒ Weihnachten in armer Hütte. Erzählg. Aus dem Norweg. v. L. Fehr. 8. (40) <placeName>Barmen</placeName> 1891, D. B. Wiemann. n –.40</p><lb/>
+        <p>‒ Weihnachtsleid und Weinachtsfreud. Aus d. Norweg. v. L. Fehr. 8. (31) Ebda. n 2.70</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_13327246X">Ihlenfeld, Jutta</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Ihlenfeld, Jutta. Die Enkelin. Erzählg. 12. (126) <placeName>Berlin</placeName> 1896, Hauptverein für christliche Erbauungsschriften.–.70</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_123631041">Ihrer, Emma</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>□Ihrer, Emma, <placeName>Berlin</placeName>-<placeName>Pankow</placeName>, Schönholzerstrasse 8 a.</p><lb/>
+        <p>‒ Die Organisationen der Arbeiterinnen Deutschlands, ihre Entstehung und Entwickelung. 8. (14) <placeName>Berlin</placeName> 1893, Buchhandlung »Vorwärts«. n –.10</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Ilgner, Elisabeth</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Ilgner, Elisabeth. Ein Weihnachtsabend. Aus dem Engl. übers. 8. (23) <placeName>Berlin</placeName> 1874, Beck. n 4.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_116107324">Ille, Frau Prof. Marie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Ille, Frau Prof. Marie, geb. Beeg, Ps. Maria Beeg, <placeName>München</placeName>, Steinheilstrasse 17 I , geboren am 14. September 1855, ist sie in einer kinderreichen Familie aufgewachsen. Ihre Jugend gestaltete sich unter der Obhut eines hochgebildeten Vaters und einer vortrefflichen Mutter zu einer glücklichen, sorglosen Zeit. Ihr Talent für Zeichnen und Malen bewog ihre Eltern, sie nach absolvierter Schulzeit die Kunstschule in <placeName>Nürnberg</placeName> besuchen zu lassen und machte sie dortselbst 8 Semester durch. Dann verbrachte sie mehrere Jahre auf den Gütern norddeutscher Verwandten, wurde aber dort von einem schweren Leiden befallen, so dass sie krank nach Hause zurückkehrte und jahrelang sich nicht mehr erholen konnte. In dieser schweren Zeit, welche sie an das Lager bannte, ohne ihre geistige Bethätigung in Schranken zu setzen, wurde ihr die Kunst die beste Trösterin. Sie begann Bilderbücher zu zeichnen und diese mit Text zu versehen. Ihr erstes Büchlein bot sie schüchtern dem Verleger W. Nietzschke in <placeName>Stuttgart</placeName> an. Derselbe gab es heraus und mit solchem Erfolg, dass bereits nach Weihnachten die zweite Auflage ins Werk gesetzt wurde und Nietzschke weitere Werke von ihr für seinen Verlag bestellte. Auch andere Verleger fanden sich ein und von nun an gab sie sich, soviel ihre allmälich sich bessernde Gesundheit es gestattete, ganz dem Berufe der Jugendschriftstellerei hin. Im Jahre 1889 verheiratete sie sich mit dem Akademieprofessor Ed. Ille in <placeName>München</placeName>, den sie als Dichter und Künstler längst verehrt hatte, bevor sie ihn persönlich kennen lernte. Beide streben nun vereint den gleichen Zielen zu – Kunst und Poesie bleiben die höchsten Leitsterne ihres Lebens.</p><lb/>
+        <p>Werke s. Maria Beeg .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01210">Ilmenhorst, Clarissa</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Ilmenhorst, Clarissa, s. Clara Antonie Jenisch .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01211">Ilznük, Henriette</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Ilznük, Henriette. Kinderfreuden und Kinderleiden. 16. (224) <placeName>Aarau</placeName> 1862, Sauerländers Verlag. 2.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Imhoff, Amalie v.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Imhoff, Amalie v., verehelichte v. Helwig, geboren in <placeName>Weimar</placeName> 1776, gestorben den 17. Dezember 1831 in <placeName>Berlin</placeName>.</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1050554299">Immisch, Frau Maria</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Immisch, Frau Maria, Ps. M. Immisch, <placeName>Burgstädt</placeName> i. S., ist am 4. Januar 1860 in <placeName>Markdorf</placeName> in Baden geboren. Nach einem verunglückten Versuche, eine Jugendarbeit veröffentlicht zu sehen, gab sie das Schreiben auf. Sie heiratete einen Fabrikanten, in dessen Geschäft sie als Korrespondentin und Buchhalterin thätig ist. Nach einer Pause von 15 Jahren versuchte sie sich wieder schriftstellerisch und veröffentlichte unter »Hochflut der Liebe« einige Novellen. Seither ist sie sehr produktiv. Ihre Novellen erscheinen im »Chemnitzer Tageblatt«.</p><lb/>
+        <p>‒ Hochflut der Liebe. Nov. (Stürmische Herzen.– Irrlicht.) 8. (262) <placeName>Chemnitz</placeName> 1896, J. Feller. n 3.–; geb. n 4.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01212">Imre, Arpad</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Imre, Arpad, Biographie s. Gräfin Elsa Kalnein .</p><lb/>
+        <p>‒ Toi seul! <placeName>Rom</placeName>. 8. (346) Minden i. W. 1891, T. C. C. Bruns. n 4.–; geb. n 5.–</p><lb/>
+        <p>‒ Wegmüde. <placeName>Rom</placeName>. 8. (336) <placeName>Braunschweig</placeName> 1892, G. Westermann. n 5.–; Einbd. bar nnn 1.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Ina, Baronesse</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Ina, Baronesse. Pädagogisch-soziale Skizze. 8. (35) <placeName>Luxemburg</placeName> 1890, Brück. n –.50</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Inger, M.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Inger, M. Heideblumen. Gedichte. 16. (94) <placeName>Jerusalem</placeName> 1895, <placeName>Leipzig</placeName>, H. G. Wallmann, n 1.–</p><lb/>
+        <p>‒ In Villa Stern. Erzählg. 12. (96 m. 4 Illustr.) <placeName>Berlin</placeName> 1895, Verlag des christlichen Zeitschriftenvereins. n –.30; kart. n –.40</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01213">Ingermann-Amitin, Anna</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Ingermann-Amitin, Anna. Zur Kasuistik d. primären Vaginal- u. Vulva-Carcinome. 8. (35) <placeName>Bern</placeName> 1893, H. Körber. n –.70</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_117139181">Ingersleben, Emilie von</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Ingersleben, Emilie von, geb. von Loga, Ps. Emmy von Rothenfels, geboren am 22. Dezember 1822 zu Katomircz in Westpreussen, gestorben den 15. November 1871 in <placeName>Florenz</placeName>.</p><lb/>
+        <p>Werke s. Emmy von Rothenfels .</p><lb/>
+        </div>
+        <pb facs="#f0410"/>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_126904812">Iram, Johanna</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Iram, Johanna, Biographie und Werke s. Joh. Marie Lankau .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Irene</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Irene, Werke s. Julie Ruhkopf .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Istri, Dora d'</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Istria, Dora d', s. Helene Kolzow-Massalski, geb. Ghika .</p><lb/>
+        <p>‒ p. S. K. G. 16. (40) <placeName>Aarau</placeName> 1860, Sauerländer, n –.40</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Ittenbach, Frl. Kunig.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>□Ittenbach, Frl. Kunig., Ps. Fr. Burgloh und Cuno Bach, Gymnich, Rheinprovinz.</p><lb/>
+        <p>Werke s. Cuno Bach .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_117212776">Itzerott, Frl. Elisabeth</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>□Itzerott, Frl. Elisabeth, <placeName>Perleberg</placeName>.</p><lb/>
+        <p>‒ Gedichte. 12. (160) <placeName>Dresden</placeName> 1897, B. Pierson. n 3.–; geb. n 4.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_117212784">Itzerott, Marie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Itzerott, Marie, <placeName>London</placeName>, Forest-<placeName>Hill</placeName>, ist in Polkritz am 18. November 1857 als die Tochter des damaligen Pastors Itzerott daselbst geboren. Nach Trennung einer kurzen unglücklichen Ehe hat sie sich dem Sprachstudium gewidmet und in <placeName>Berlin</placeName> ihr Examen im Französischen, Englischen und Italienischen gemacht. Seit 3 Jahren lebt sie in <placeName>London</placeName> an einer deutschen, sowie an einer englischen High School, deutsch unterrichtend.</p><lb/>
+        <p>‒ Meine Lieder. Gedichte. Hrsg. v Dr. Friedrich Hefty. 8. (152) <placeName>Pressburg</placeName> 1896, G. Heckenasts Nachfolger, R. Drodtleff. n 3.–; geb. n 4.–</p><lb/>
+        <p>‒ Ostern. Dichtg. 12. (96) Ebda. 1897. n 1.50</p><lb/>
+        <p>‒ Vier Tage aus dem Leben eines Gänsemädchens. Märchen. Hrsg. v. Dr. Friedr. Hefty. 12. (139) Ebda. 1896. n 2.–; geb. n 3.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Iwersen, Adelaide Marie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Iwersen, Adelaide Marie, geb. Fritz, Ps. Adelaide Marie, Rendsburg, geboren den 25. August 1829 in <placeName>Flensburg</placeName>. Von 1846–1854 war sie Sprachlehrerin in ihrer Vaterstadt und verheiratete sich später mit dem Journalisten Julius I. in <placeName>Flensburg</placeName>, zog mit ihm 1857 nach <placeName>Itzehoe</placeName>, 1858 nach Rendsburg, wo sie als Schriftstellerin lebt. Sie hat meist lyrische (auch patriotische) Originaldichtungen, wie Nachbildungen französischer und englischer Poesieen veröffentlicht. Ausserdem sind von ihr Feuilletons, Reiseskizzen, Märchen und andere Arbeiten verschiedenster Art in Zeitschriften erschienen.</p><lb/>
+        <p>‒ Traum u. Leben. Liederklänge aus <placeName>Schleswig</placeName>-Holstein. Von Adelaide Marie. 8. (203) Garding 1886, H. Lühr u. Dircks. 2.40; geb. 4.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01215">Jablonsky, Frau Thildis</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>□Jablonsky, Frau Thildis, Schöneberg b. <placeName>Berlin</placeName>, Hauptstrasse 22.</p><lb/>
+        <p>‒ Die Frau in der Landwirtschaft. 12. (41) Schöneberg-<placeName>Berlin</placeName> 1897, F. Telge. geb. in Halbleinw. n 1.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01216">Jackson, H. und M. Schweikher</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jackson, H. und M. Schweikher. Für unsere kleinen Lieblinge. 4. (48 m. farb. Bildern.) Konstanz u. Emmishofen 1894, C. Hirsch. geb. m. Goldschn. 5.–</p><lb/>
+        <p>‒ Ramona. Erzählg. aus dem amerikan. Leben. Autoris. deutsche Bearbeitg. v. E. H. Denio. 8. (411) <placeName>Leipzig</placeName> 1886, Böhme. n 4.–; geb. n 5.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_120224771">Jacob, Frau Dr. Carl</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>□Jacob, Frau Dr. Carl, Ps. Emmy Braun, <placeName>Zweibrücken</placeName>.</p><lb/>
+        <p>Werke s. Emmy Braun .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Jacob, Ida</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Jacob, Ida, Ps. Ida Anders, <placeName>Berlin</placeName> N., Brunnenstrasse 25, wurde am 19. April 1871 zu <placeName>Berlin</placeName> geboren, erlernte herangewachsener die Buchführung. Später fanden ihre Kindergeschichten und Märchen, Plaudereien, Novelletten gute Aufnahme. Sie ist Mitarbeiterin fast aller Kinder- und Frauenzeitungen und Jahrbücher.</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Jacob, Therese Albertine Luise v.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jacob, Therese Albertine Luise v., Ps. Talvj und Ernst Berthold, geboren den 26. Januar 1797 in <placeName>Halle</placeName>, gestorben den 13. April 1870 in <placeName>Hamburg</placeName>.</p><lb/>
+        <p>Werke s. Talvj .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Jacobi, Auguste</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jacobi, Auguste. Das Erbe. Märchen. 8. (16) <placeName>Bonn</placeName> 1854, Cohen u. Sohn. –.50</p><lb/>
+        <p>‒ Das Märchen von der Treue. 8. (18) Ebda. 1854. –.50</p><lb/>
+        <p>‒ Die Flucht. Gedicht. 8. (12) Ebda. 1854. –.50</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Jacobi, Frl. Eugenie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Jacobi, Frl. Eugenie, Ps. E. Horsten, <placeName>Berlin</placeName> NW., Birkenstrasse 10, geboren am 8. Februar 1852 in <placeName>Königsberg</placeName>, Ostpreussen, hat für pädagogische und andere Blätter geschrieben, z.B. für die »Pädagogische Reform« in <placeName>Hamburg</placeName> und die in <placeName>Wien</placeName> erscheinende Zeitschrift: »Für die Jugend des Volkes«, ausserdem Übersetzungen aus dem Französischen und Englischen geliefert, unter anderem Die »Balkanländer« des belgischen Nationalökonomen, Emil von Saveleye, »Die Frauenfrage und der gesunde Menschenverstand« von Higginson und verschiedene Broschüren verfasst.</p><lb/>
+        <p>‒ Der Völkermord. 1. Aufl. 1893. 2. Aufl. 8. (58) <placeName>Neuwied</placeName> 1894, <placeName>Dresden</placeName>, C. O. Lehmann.–. 50</p><lb/>
+        <p>‒ Die Frauenfrage u. der gesunde Menschenverstand, von F. W. Higginson. 2. Aufl. 8. (264) <placeName>München</placeName> 1895, Aug. Schupp. 2.30; geb. 3.20</p><lb/>
+        <p>‒ Essays. Aus dem Englischen übersetzt v. Thomas Henry Buckle. <placeName>Leipzig</placeName> u. <placeName>München</placeName> 1896, Aug. Schupp. 1.20</p><lb/>
+        <p>‒ Freiheitsgedanken. 8. (26) <placeName>München</placeName> 1895, Aug. Schupp. –.30</p><lb/>
+        <p>Werke s. auch E. Horsten .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01218">Jacobi, Frau Katharine</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Jacobi, Frau Katharine, geb. Bussler, <placeName>Mannheim</placeName> C 48, ist in <placeName>Berlin</placeName> geboren als die Tochter des verstorbenen Geheimen Hofrates R. Bussler. Ihre Mutter war die Tochter des berühmten Heldentenors der Berliner Hofoper C. A. Bader. Katharine wurde auch für die Bühne, und zwar von Minona Frieb-Blumauer ausgebildet. Die Rolle »Lorle«, für ihr erstes Debut am Thalia-Theater in <placeName>Hamburg</placeName>, studierte Charlotte Birch-Pfeiffer selbst mit ihr ein. Nach verschiedenen Engagements an mehreren deutschen Hofbühnen, kam sie nach dem Hoftheater in <placeName>Weimar</placeName>, wo sie den Hofschauspieler Jacobi kennen lernte und später heiratete. Das junge Paar trat dann in den Verband des Mannheimer Hoftheaters, dem es nunmehr 29 Jahre angehört. Neben ihrem Theater-, Lehr- und häuslichen Berufe findet K. J. noch Zeit, sich ab und zu schriftstellerisch zu bethätigen. Unter anderem hat sie einen Einakter: »Weihnachten« und ein dramatisiertes Märchen: »Das verwunschene Königskind« geschrieben, welche auf der Mannheimer Hofbühne mit grossem Beifall aufgeführt wurden.</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Jacobi, M.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jacobi, M. Biographie u. Werke s. Minna von Jacobi .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Jacobi, Frl. Margarete</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Jacobi, Frl. Margarete, <placeName>Cannstatt</placeName>, Uhlandstrasse 16, aus <placeName>Königsberg</placeName> gebürtig, als Tochter des Professors der Mathemathik und Mitglieds der königl. preussischen Akademie der Wissenschaften C. G. J. Jacobi, lebte in <placeName>Berlin</placeName> und <placeName>Gotha</placeName>, war Erzieherin in Schlesien und St. <placeName>Petersburg</placeName>, gegenwärtig ist sie Mitleiterin einer Pension für junge Mädchen in <placeName>Cannstatt</placeName>. Seit 1884 Übersetzerin aus dem Englischen, Französischen und Italienischen.</p><lb/>
+        <p>‒ Ausgewählte Schriften III. u. IV., von Mark Twain. Übers. 1892.</p><lb/>
+        <p>‒ Briefe u. Tagebücher hrsg. von Ch. E. Stowe. Übers. <placeName>Gotha</placeName> 1891, F. A. Perthes. 4.–</p><lb/>
+        <p>‒ Das rote A. Übers. d. N. Hawthorne. <placeName>Stuttgart</placeName> 1897, R. Lutz.</p><lb/>
+        <p>‒ Des Lebens Lauf in Liedern u. Gedichten. 8. (165) <placeName>Cannstatt</placeName> 1887, <placeName>Strassburg</placeName>, Strassburger Druckerei u. Verlags-Anstalt. n 8.–</p><lb/>
+        <p>‒ Die weite, weite Welt. Erzählg. f. d. weibl. Jugend. Nach E. Whetherell frei bearb. 8. (224 m. 4 Farbendr.) <placeName>Stuttgart</placeName> 1890, Thienemann. geb. n 4.–</p><lb/>
+        <p>‒ Gleichheit. Übers. d. E. Bellamy. <placeName>Stuttgart</placeName> 1897, Deutsche Verlagsanstalt.</p><lb/>
+        <p>‒ Ikaria von Shaw. Übers. Ein Beitrag z. Geschichte d. Kommunismus. 8. (139) <placeName>Stuttgart</placeName> 1886, R. Lutz. n 1.75</p><lb/>
+        <p>‒ Immergrün. Gedicht. <placeName>Strassburg</placeName> 1884, Strassburger Druckerei u. Verlagsanstalt. geb. n 2.–</p><lb/>
+        <p>‒ Lars. Norweg. Idyll von Taylor. Übers. 8. (110) <placeName>Stuttgart</placeName> 1887, R. Lutz. n 2.50; geb. n 3.–</p><lb/>
+        <p>‒ Lorna Doone von Blackmore. Erzählg. Bearb. v. M. J. 2 Bde. 8 (571) Ebda. 1894. à 1.60; geb. à 2.25</p><lb/>
+        <p>‒ Onkel Toms Hütte. Erzählg. f. d. Jugend. Nach Harriet Becher-Stowe frei bearb. 8. (172 m. 4 Farbendr.) <placeName>Stuttgart</placeName> 1888, Thienemann. geb. n 2.–</p><lb/>
+        <p>‒ Soziale Pflichten. Von Summer. Übers. <placeName>Berlin</placeName> 1885, Elwin Staude. 1.50</p><lb/>
+        <p>‒ Sternbanner. Serie I, III, IV 1886/87, VI 1889, IX 1890. <placeName>Stuttgart</placeName>, Rob. Lutz. à Bd. geb. 3.–</p><lb/>
+        <p>‒ Trilby. Von du Maurier. Übers. 12. (276) Ebda. 1896. 4.50; geb. 5.50</p><lb/>
+        <p>‒ Unsere Festzeiten in Liedern u. Gedichten. 8. (176) <placeName>Cannstatt</placeName> 1886, <placeName>Strassburg</placeName>, Strassburger Druckerei u. Verlags-Anstalt. n 3.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1042010137">Jacobi, Frau Minna von</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Jacobi, Frau Minna von, geb. Reichert, <placeName>Stuttgart</placeName> Frauenheim, wurde am 26. April 1826 in <placeName>Ludwigsburg</placeName> als die einzige Tochter eines Subalternbeamten geboren. Früh verheiratete sie sich mit dem Hauptmann von Jacobi, den sie infolge eines Gehirnleidens verlor. Während seiner langen Krankheit trug sie neben der Verpflegung des Kranken durch Klavierunterricht zum Unterhalte der Familie bei. Ihr einziger, 1848 geborner Sohn nahm am mexikanischen Feldzuge und an den Kriegen 1866 und 1870/71 teil und starb an derselben Krankheit, wie der Vater als Hauptmann. Die vereinsamte Witwe fand im Frauenheim in <placeName>Stuttgart</placeName> freundliche Heimstätte, wo sie sich viel mit Poesie und Musik beschäftigt.</p><lb/>
+        <p>‒ Bunte Bilder. Gedichte. 16. (192) <placeName>Stuttgart</placeName> 1895, Greiner u. Pfeifer. geb. m. Goldschn. 3.60</p><lb/>
+        <p>‒ Späte Blüten. Gedichte. 12. (175) <placeName>Stuttgart</placeName> 1888, Fink. geb. m. Goldschn. nn 2.50</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01220">Jacobshagen, Frl. Marie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jacobshagen, Frl. Marie, Ps. M. v. Holten, Holtensen bei Northeim, geboren den 1. Dezember 1869 in Lochtum bei Vienenburg, schreibt Humoristisches.</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_117047694">Jacobson, Frl. Bettina</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>□Jacobson, Frl. Bettina, <placeName>Strassburg</placeName> i. Els., Thomasstaden 3, schreibt Bücherrezensionen und macht Übersetzungen aus dem Italienischen. Sie übersetzte Dantes »Neues Leben« und 36 Gedichte des Giosué Carducci 1880.</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1058086847">Jacobson, Helene</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jacobson, Helene. Italienische Sprachübungen zum Selbststudium u. f. d. Unterricht. 8. (107) <placeName>Kopenhagen</placeName>, A. F. Höst u. Son. n 2.50</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1034711873">Jacobus, Icimar</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jacobus, Icimar, Biographie s. Julie Dedekind .</p><lb/>
+        </div>
+        <pb facs="#f0413"/>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_127449752">Jacoby, Alinda</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jacoby, Alinda, Biographie s. Maria Krug .</p><lb/>
+        <p>‒ Altarblüten. 16. (122 m. Farbendr.) Steyl 1893, Missionsdruckerei.–. 50; geb. mit Goldschn. 1.–</p><lb/>
+        <p>‒ Christkindlein kommt! Zur Unterhaltg. f. brave Kinder. 8. (64 m. Illustr.) <placeName>Donauwörth</placeName> 1890, Auer. geb. n 1.50</p><lb/>
+        <p>‒ Das Lied von St. Elisabeth. Epische Dichtung, 8. (VII, 247) <placeName>Mainz</placeName> 1897, F. Kirchheim. 2.80; in eleg. Salonband mit Goldschn. 4.–</p><lb/>
+        <p>‒ Elsbeths Leiden und Freuden. 8. (141 m. Illustr.) M -Gladbach 1896, A. Riffarth. geb. 1.20</p><lb/>
+        <p>‒ Haiderosen, zu Ehren Marias gepflückt u. gebunden. 12. (160 m. Titelbild) Heiligenstadt 1895, F. W. Cordier. geb. m. Goldschn. n 3.–</p><lb/>
+        <p>‒ Ida Gräfin Hahn-Hahn. Novellistisches Lebensbild. 8. (224 m. Bildnis.) <placeName>Mainz</placeName> 1894, F. Kirchheim. 3.–</p><lb/>
+        <p>‒ Kämpfende Herzen. <placeName>Rom</placeName>. 2. Aufl. 8. <placeName>Trier</placeName> 1887, Paulinus-Druckerei.</p><lb/>
+        <p>‒ Moderne Gegensätze. <placeName>Rom</placeName>. aus dem wirkl. Leben. 8. (215) Ebda. 1884. n 1.–; geb. n 1.50</p><lb/>
+        <p>‒ Spät erkannt. Orig.-Nov. 8. (199) Ebda. 1896. n –. 75; geb. n 1.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01222">Jacoby, Frau Rechtsanwalt</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Jacoby, Frau Rechtsanwalt, Ps. Katy Andreae, <placeName>Berlin</placeName> Lützow-Ufer 2 II , am 13. Dezember 1870 in Frankfurt a. M. geboren, ist sie die Urenkelin der Verfasserin des »Märchens von der Katzenfamilie«, Frau Johanna Andreae. Sie ist seit 1893 mit dem Rechtsanwalt Julius Jacoby verheiratet. Ihr Märchen- und Sagenwerk »Aus vergangener Zeit« ist von hervorragenden Illustratoren mit Zeichnungen versehen worden.</p><lb/>
+        <p>Werke s. Katy Andreae .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1141264390">Jaeger, Frau Ober-Stabsarzt, Anna</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>□Jaeger, Frau Ober-Stabsarzt, Anna, <placeName>Königsberg</placeName> i. Pr.</p><lb/>
+        <p>‒ Haustöchterchens Kochschule. Kochbuch m. Wage u. Massgeräten im Puppenmass f. Spiel u. Leben. 2. Aufl. 12. (206 m. Illustr. <placeName>Ravensburg</placeName> 1895, O. Maier. kart. n 2.50; kplt. m. Wage etc. in Kasten n 6.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Jäger, A.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jäger, A., Biographie s. Angelika Bihan .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1141264633">Jäger, Clara</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jäger, Clara, Ps. für Melanie von Etzel (auch Ps. C. v. Zell) geboren in <placeName>Berlin</placeName>.</p><lb/>
+        <p>‒ Detta. Nov. 8. (123) <placeName>Strassburg</placeName> 1882, Schmidt. n 1.50</p><lb/>
+        <p>‒ Lebenswege. Erzählg. f. die reifere Jugend. 16. (126 m. 4 L.) <placeName>Glogau</placeName> 1870, Flemming. geb. n 1.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1014209161">Jäger, Elise</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jäger, Elise. Rococo-Malereien auf Ludwigsburger Porzellan. 4. (10 farb. Taf. m. 1 Bl. Text.) <placeName>Stuttgart</placeName> 1893, O. Pischel. 8.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_117057819">Jäger, Marie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jäger, Marie. Praktisches Kochbuch f. einfache u. feine Küche. 8. (310 m. Illustr.) <placeName>Leipzig</placeName>-<placeName>Reudnitz</placeName> 1885, Payne. geb. n 4.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01224">Jäger-Meier, Frau Marie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Jäger-Meier, Frau Marie, Ps. M. Edgar, Schwester Marie, Erika, Herisau, Schweiz, Mooshöhe, geboren den 16. März 1855 zu Herisau, lieferte unter dem Pseudonym »M. Edgar«, »Erika«, »Schwester Marie« verschiedene Beiträge, ethischen, philosophischen und pädagogischen Charakters in die »deutsche« und die »schweizerische Dichterhalle«, herausgegeben von R. Fastenrath, das »Schweizerische Familien-Wochenblatt« von Th. Schröter in <placeName>Zürich</placeName> und andere politische und Frauenblätter. Die Litteratur ist ihr weniger Steckenpferd, als vielmehr ein liebes Arbeitsfeld zur Aussaat religiöser und ethischer Ideen. Seit 1895 verwitwet, bewohnt sie ein kleines Landgütchen im Appenzellerländchen, der Pflege alleinstehender Mitmenschen sich widmend.</p><lb/>
+        </div>
+        <pb facs="#f0414"/>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_140849203">Jahn, Frl. Hedwig</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Jahn, Frl. Hedwig, <placeName>Berlin</placeName> W., Neue Winterfeldtstrasse 4 III , geboren am 28. Januar 1845 in Neustrelitz in Mecklenburg, übersetzt aus dem Französischen, Englischen, Italienischen und Dänischen.</p><lb/>
+        <p>‒ Antonio Allegri da Correggio. Sein Leben u. seine Werke von Corrado Ricci. Übers. aus dem Ital. 4. (420 m. Illustr.) <placeName>Berlin</placeName> 1897, Cosmos, Verlag für Kunst u. Wissenschaft, Prachtband 45.–</p><lb/>
+        <p>‒ Blüten ausländischer Lyrik Übertr. v. H. J. 8. (104) <placeName>Berlin</placeName> 1893, Selbstverlag. n 2.–; geb. n 3.–</p><lb/>
+        <p>‒ Neun Monate Gefangenschaft bei Menelik. Erinnerungen eines Kriegsgefangenen in Schoa (März 1896–Januar 1897). Übersetzg. aus dem Italien. 8. (217) Mit 3 Porträts. 3.50</p><lb/>
+        <p>‒ Schicksal (Fatalità). Gedichte von Ada Negri. Übersetzg. 4. Aufl. 8. (127) <placeName>Berlin</placeName> 1896, Alexander Duncker. geb. m. Goldschn. n 4.–</p><lb/>
+        <p>‒ Stürme (Tempeste). Gedichte von Ada Negri. Übersetzg. 2. Aufl. 8. (134) Ebda. n 3.–; geb. m. Goldschn. n 4.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1089582196">Jaksch, Elfriede</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Jaksch, Elfriede, geb. Jaksch, Ps. Schack von Igar, wurde als Deutsche am 4./16. September 1849 in Livland geboren. Lebhaften Geistes und empfänglichen Gemüts nahm sie zahlreiche Eindrücke in sich auf, ehe sie auch nur daran dachte, dieselben schriftstellerisch zu verwerten. Sie verheiratete sich schon mit 18 Jahren und unternahm viele Reisen in Europa, Asien und Afrika. Danach erst griff sie zur Feder. 1885 siedelte sie mit ihren zwei Töchtern nach <placeName>Wien</placeName> über, wo sie ständig ihre Wohnung aufschlug. Ihr Wahlspruch lautete: Fest und wahrhaft. Auf ihren Reisen hatte sie Gottschall, Bodenstedt, Paul <placeName>Lindau</placeName>, Gabriel Max und viele andere kennen gelernt. Einen unverlöschlichen Eindruck übte auf sie schon als Kind die Aufhebung der Leibeigenschaft in Russland durch Kaiser Alexander II. aus und nur dadurch wurde die Idee, dass allein durch den Kampf gegen die Herzensroheit die Veredelung des Menschengeschlechts angestrebt werden könne, zum Grundstein ihres dreibändigen livländischen Romans »Licht, mehr Licht«. Mit besonderem Eifer widmete sie sich dem Unterrichtswesen, der Schule, weil sie überzeugt war, dass alle humanistischen Bestrebungen nur durch diese zu erzielen sind. Gestorben den 18. September 1897.</p><lb/>
+        <p>Werke s. Schack von Igar .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Jane, Emma</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jane, Emma. Alice od.: Die Christin als Tochter, Schwester, Freundin u. Gattin. Erzählg. Aus dem Engl. Neue Ausg. 8. (187) <placeName>Leipzig</placeName> 1855, Streerath. 1.50</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_117078719">Janitschek, Frau Maria</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Janitschek, Frau Maria, <placeName>Berlin</placeName> W., Keithstrasse 17, ist am 22. Juli 1860 in <placeName>Mödling</placeName> bei <placeName>Wien</placeName> geboren. Sie vermählte sich mit dem Kunsthistoriker und Universitäts-Professor Dr. Hubert Janitschek in <placeName>Strassburg</placeName> im Elsass, dem sie 1892 nach <placeName>Leipzig</placeName> folgte. Im folgenden Jahre verlor sie den Gatten durch den Tod und nahm darauf ihren Wohnsitz in <placeName>Berlin</placeName>.</p><lb/>
+        <p>‒ Abendsonne. <placeName>Rom</placeName>. <placeName>Berlin</placeName> 1897, Verlag der Romanwelt. –.60</p><lb/>
+        <p>‒ Atlas. Nov. 8. (69) <placeName>Berlin</placeName> 1893, G. Grote. n 1.50; geb. n 2.–</p><lb/>
+        <p>‒ Aus der Schmiede des Lebens. Erzählgn. 8. (274) <placeName>Berlin</placeName> 1890, Zoberbier. (<placeName>Leipzig</placeName>, B. Herrmann.) n 3.–</p><lb/>
+        <p>‒ Der Schleifstein. Ein Lebensbild. 8. (195) <placeName>Leipzig</placeName> 1896, Verlag »Kreisende Ringe«. n 3.–</p><lb/>
+        <p>‒ Despotische Liebe. Es geistert. Nov. (160) <placeName>Breslau</placeName> 1897, L. Frankenstein. n –. 50; geb. –.75</p><lb/>
+        <p>‒ Die Amazonenschlacht. 8. (107) <placeName>Leipzig</placeName> 1897, Verlag »Kreisende Ringe«. n 2.–</p><lb/>
+        <p>‒ Gelandet. <placeName>Rom</placeName>. <placeName>Berlin</placeName> 1897, Verlag der Romanwelt. 2.–; geb. 3.–</p><lb/>
+        <p>‒ Gesammelte Gedichte. 2. Aufl. 12. (186) <placeName>Stuttgart</placeName> 1892, Union. n 2.–</p><lb/>
+        </div>
+        <pb facs="#f0415"/>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_117078719">Janitschek, Maria</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Janitschek, Maria. Gott hat es gewollt. Aus dem Leben eines russ. Priesters. 8. (143) <placeName>Leipzig</placeName> 1895, Verlag »Kreisende Ringe«. n 2.–</p><lb/>
+        <p>‒ Im Kampf um die Zukunft. Dichtg. 8. (63) <placeName>Stuttgart</placeName> 1887, Union. n 150</p><lb/>
+        <p>‒ Im Sommerwind. Gedichte. 8. (108) <placeName>Leipzig</placeName> 1895, Verlag »Kreisende Ringe«. n 2.–</p><lb/>
+        <p>‒ Ins Leben verrirt. <placeName>Rom</placeName>. 8. (196) <placeName>Berlin</placeName> 1897, S. Fischer. n 3.–</p><lb/>
+        <p>‒ Irdische n. unirdische Träume. Gedichte. 12. (85) <placeName>Stuttgart</placeName> 1889, Union n 2.–</p><lb/>
+        <p>‒ Kreuzfahrer. Novellen. <placeName>Leipzig</placeName>, »Kreisende Ringe«.</p><lb/>
+        <p>‒ Legenden u. Geschichten. 8. (89) Ebda. 1885. n 2.–</p><lb/>
+        <p>‒ Lichthungrige Leute. Nov. 2. Aufl. 8. (187) (1892) 1895. <placeName>Dresden</placeName>. E. Pierson. n 2.–</p><lb/>
+        <p>‒ Lilienzauber. 8. (109) <placeName>Leipzig</placeName> 1895, Verlag »Kreisende Ringe«. n 2.–</p><lb/>
+        <p>‒ Ninive. <placeName>Rom</placeName>. 8. (253) Ebda. 1897. n 3.–; geb. n 4.–</p><lb/>
+        <p>‒ Pfadsucher. 4 Nov. 8. (149) <placeName>Berlin</placeName> 1894, G. Grote. kart. n 3.–; geb. n 4.–</p><lb/>
+        <p>‒ Raoul u. Irene. Nov. 8. (112) <placeName>Berlin</placeName> 1897, S. Fischers Verlag. n 1.–</p><lb/>
+        <p>‒ Verzaubert. Eine Herzensfabel in Versen. 1888.</p><lb/>
+        <p>‒ Vom Weibe. Charakterzeichngn. 8. (143) <placeName>Berlin</placeName> 1896, S. Fischers Verlag. n 2.–; geb. bar 3.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Janke, Frl. Carola v.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Janke, Frl. Carola v., Ps. Janke-Cárola, Tavel sur Clarens, Maison Chaudet, geboren am 21. Dezember 1837 zu Cöslin als die Tochter des Regierungsrats Dr. Theodor Janke, Stifter der Luisenstiftung in <placeName>Berlin</placeName>, Ritter des Wladimir-Ordens. Sie erhielt ihre Erziehung in <placeName>Berlin</placeName> und <placeName>Naumburg</placeName> a. S. Ihre Reisen in Deutschland, England, Frankreich, Österreich-Ungarn, in den Donaufürstentümern beförderten das Sprachtalent, sie erlernte ausser Latein noch acht lebende Sprachen. Sie beschäftigte sich demgemäss mit Litteratur und mit Übersetzungen. Das Lustspiel: »Die Eifersüchtigen« erlebte 3 Auflagen, die erste Auflage erschien 1866 bei Klinkhardt in <placeName>Leipzig</placeName>, vereint mit 3 anderen Lustspielen: »Der Neffe als Erbe«, »Studentenstreiche« und »Mein Mann ist aus«. »Der Neffe als Erbe« gelangte in <placeName>Zürich</placeName> und <placeName>Pest</placeName> zur Aufführung. In <placeName>Zürich</placeName> gab sie sich geschichtlichen und philosophischen Studien hin und ist Verfasserin von »Das Rätsel der Unsterblichkeit«, »Nur eine Religion«, »Die Weltuhr«, »Das Völkerrecht«. Sämtliche philosophischen Werke gehen in den Spiritismus über. In schweizerischen Volkszeitungen erschienen verschiedene Novellen von ihr. Von Italiens Riviera kehrte sie nach ihrem Lieblingsaufenthalte <placeName>Montreux</placeName> zurück, dem Juwele Europas, der schönsten, vollendetsten Natur. Hier verfasste sie in Erinnerung an ihre Jugendzeit »Tagesblätter aus der Frühlingszeit« und zwei Lustspiele »Ännchens Absagebrief« in Versen und »Der alte Brummbär« in 3 Akten liegen bei Wirz in Grüningen zum Drucke vor.</p><lb/>
+        <p>‒ Ännchens Absagebrief. Lustsp. in Versen. Grüningen, J. Wirz. U. d. Presse</p><lb/>
+        <p>‒ Das Rätsel der Unsterblichkeit, gelöst v. e. Somnambule. 2. u. 3. Aufl. 8. (22) <placeName>Dresden</placeName> 1868. (<placeName>Berlin</placeName>, Conrad.) n –.50</p><lb/>
+        <p>‒ Dasselbe. Fortsetzg. Nur e. Religion. 2. Aufl. (22) 1869. n –.40</p><lb/>
+        <p>‒ Das Völkerrecht. 3. Aufl. <placeName>Berlin</placeName>, Conrad.</p><lb/>
+        <p>‒ Der alte Brummbär. Lustsp. in 3 Akten. Grüningen 1898, Wirz. U. d. Presse.</p><lb/>
+        <p>‒ Der Neffe als Erbe. Lustsp. 3. Aufl. Ebda. U. d. Presse.</p><lb/>
+        <p>‒ Die Eifersüchtigen od. Fritz und Dorchen. Lustsp. 1. Aufl. 1866. 3. Aufl. 8. (22) Ebda. 1895. n –.80</p><lb/>
+        <p>‒ Die lustigen Studenten. Lustsp. 2. Aufl.</p><lb/>
+        <p>‒ Die Weltuhr. 3. Aufl. <placeName>Berlin</placeName> 1884, Conrad.</p><lb/>
+        <p>‒ Gedichte. 2 Tle. 16. (176) <placeName>Dresden</placeName> 1867. <placeName>Breslau</placeName>, Heidenfeld. n 3.–; geb. m. Goldschn. n 4.50</p><lb/>
+        <p>‒ Dasselbe. 3 Tle. 2. Aufl. 16. (110) Ebda. 1872. n 2.– (1.–3.: n 5.–)</p><lb/>
+        <p>‒ Dasselbe. 4. Aufl. 1885.</p><lb/>
+        </div>
+        <pb facs="#f0416"/>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Janke, Carola v.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Janke, Carola v. Mein Mann ist aus. Lustsp. in 1 Akt. 2. Aufl.</p><lb/>
+        <p>‒ Nur eine Religion. 3. Aufl. <placeName>Berlin</placeName>, Conrad.</p><lb/>
+        <p>‒ Studentenstreiche, Lustsp. in 2 Akten. 1. Aufl.: Klinkhardt, <placeName>Leipzig</placeName>. 2. Aufl.: <placeName>Zürich</placeName>, Selbstverlag.</p><lb/>
+        <p>‒ Tageblätter aus der Frühlingszeit. <placeName>Berlin</placeName>, Conrad.</p><lb/>
+        <p>‒ Vier Novellen in Feuilletons: 1. Der häusliche Herd eines armen Schriftstellers. 2 Helene Aslan. 3. Des Obristen erste Liebe. 4. Das Baby aus dem Oceanus.</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01228">Jankovics, Gräfin Anna</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jankovics, Gräfin Anna. Die lachenden Kinderstimmen, verwertet für die Weinenden. 4. (179 m. Abbildgn.) <placeName>Wien</placeName> 1890, Drescher u. Co. geb. n 10.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_116969431">Jansen, Emmi</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jansen, Emmi, Biographie s. Emmi Lewald .</p><lb/>
+        <p>Werke s. Emil Roland .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_126694478">Jardon, Cornelia</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jardon, Cornelia. Die Frau in Bebels Utopien. 8. (44) Minden i. W. 1892, J. C. C. Bruns Verlag. n –.60</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_117722375">Jarke, Franziska</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Jarke, Franziska, geb. Schlesius, Ps. E. Rudorff, geboren am 3. Dezember 1815 zu <placeName>Königsberg</placeName> i. Pr. als die Tochter des Kaufmannes Schlesius, genoss eine sorgfältige Erziehung. Unterricht in der Musik erhielt sie auf dem Konservatorium in <placeName>Leipzig</placeName>. Sie machte grössere Reisen durch Deutschland, Belgien und Holland, durch welche sie sich reiche Weltkenntnis aneignete. Im Jahre 1850 verheiratete sie sich mit dem Rittergutsbesitzer O. Jarke und lebte mit ihm eine Reihe von Jahren in grösster Zurückgezogenheit auf dem Lande. Erst spät – 1863 – griff sie zur Feder. Ihr erster Roman erschien in der Modezeitung »Viktoria« und wurde mit dem ersten Preise ausgezeichnet. Im Jahre 1878 wurde sie Witwe und zog nach <placeName>Königsberg</placeName> in Preussen. Sie starb in ihrer Vaterstadt.</p><lb/>
+        <p>Werke s. E. Rudorff .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Jasmund, Majorin Agavia v.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jasmund, Majorin Agavia v. Billigste u. zuverlässigste Verwertung von Garten-, Feld- u. Waldfrüchten zu Konserven u. Fruchtweinen in Haus- u. Landwirtschaft. 2. Aufl. 8. (34) (1884) 1887. <placeName>Berlin</placeName>, Verlag der Deutschen Hausfrauen-Zeitung. n –.50</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01230">Jastrow, Henriette</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Jastrow, Henriette, <placeName>London</placeName>, 22 Jnglewood Road West <placeName>Hampstead</placeName> NW., geboren am 9. Januar 1859 in <placeName>Berlin</placeName>, war 1893 bis 1895 General-Sekretärin des Hilfsvereins für weibliche Angestellte zu <placeName>Berlin</placeName>, ist Mitarbeiterin der Illustrierten Frauen-Zeitung, <placeName>Berlin</placeName>, The Fortnightly Review, <placeName>London</placeName>, The Women's Trades Union Review, <placeName>London</placeName> etc.</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_104264604X">Jaworek, Henriette</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jaworek, Henriette, Biographie s. Henriette Devidé .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_124536670">Jeanne, Marie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jeanne Marie, s. Jeanne Marie v. Gayette-Georgens .</p><lb/>
+        <p>‒ Elisenhof. Ein <placeName>Rom</placeName>. aus der grossen Welt. 8. (402) <placeName>Breslau</placeName> 1844, Kern. 5.25</p><lb/>
+        <p>‒ Gedichte. 16. (240) <placeName>Leipzig</placeName> 1850, Thomas. geb. 3.–</p><lb/>
+        <p>‒ Luigia Sanfelice od. die Revolution in <placeName>Neapel</placeName>. Histor. <placeName>Rom</placeName>. 3 Bde. 8. (688) Ebda. 1850. 10.50</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01232">Jenisch, Frl. Clara Antonie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Jenisch, Frl. Clara Antonie, Ps. Clarissa Ilmenhorst, <placeName>Berlin</placeName>, Am Schlesischen Bahnhof 4, ist am 27. Februar 1853 in <placeName>Berlin</placeName> geboren. Sie ist Redaktrice einer in <placeName>Berlin</placeName> erscheinenden Frauenzeitung.</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1019086734">Jenisch, Louise</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Jenisch, Louise, Ps. Louise Sternau u. L. St. Hohenried, <placeName>Wien</placeName> I, Hoher Markt 4, geboren in <placeName>Wien</placeName> am 5. November 1847, genoss ihre Ausbildung in Frankreich, und lebt seit ihrer Verehelichung mit dem Hof- und Gerichtsadvokaten Dr. Johann Jenisch in <placeName>Wien</placeName>. Sie veröffentlichte einen Band Gedichte unter dem Pseudonym Louise Sternau; ein von ihr geschriebenes Lustspiel: »Ein Advokat als Schwiegersohn«, welches sie unter dem Pseudonym L. St. Hohenried veröffentlichte, wurde mit vielem Beifall in <placeName>Teplitz</placeName> aufgeführt und zur Aufführung vom Wiener Burgtheater angenommen. Unter demselben Pseudonym veröffentlichte sie »Kattenburg«, ein Sang aus der Zeit des Bauernkrieges. Ferner erschienen Gedichte und kleine Aufsätze in Zeitungen und Sammelwerken. Ein grösseres Werk ist nur zur Hälfte gediehen, da sie es wegen eines schweren Leidens vorderhand nicht zu Ende führen kann.</p><lb/>
+        <p>Werke s. Louise Sternau und L. St. Hohenried .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01236">Jenny</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jenny. Die arme Waise. Eine Erzählg. von der Verfasserin des armen Martin. 16. (79) <placeName>Stuttgart</placeName> 1850, Schreiber u. Schill. –.76</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01236">Jenny</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jenny. Von der Verfasserin von: »Clementine«. 2 Tle. 12. (488) <placeName>Leipzig</placeName> 1843. Brockhaus. 10.50</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Jentzen, Louise</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jentzen, Louise. Collection of english poems. Sammlg. von englischen Gedichten. 12. (136) <placeName>Hamburg</placeName> 1844, Nestler u. <placeName>Melle</placeName>. kart. 1.50</p><lb/>
+        <p>‒ Erinnerungs-Blätter. 8. (400) <placeName>Hamburg</placeName> 1858, <placeName>Leipzig</placeName>, Mauke. n 3.40; kart. 3.60; geb. 5.10</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_117115797">Jerschke, Frau Marie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Jerschke, Frau Marie, Ps. Till, <placeName>Strassburg</placeName> i. E., Roseneck 15, ist am 11. April 1867 in Frankfurt geboren. Bis zu ihrer Verheiratung 1889 ist sie mit ihren Arbeiten nicht in die Öffentlichkeit getreten. 1890 lieferte sie eine Skizze: »Sein treuer Kamerad« in die »Strassburger Post, – Filiale der Kölnischen Zeitung«. Auf die Ermunterung des Chef-Redakteurs des betreffenden Blattes entschloss sie sich zu weiteren schriftstellerischen Arbeiten. In der gleichen Tageszeitung erschienen nach und nach von ihr Skizzen und Novellen. Späterhin veröffentlichte sie Gedichte in der Zeitschrift »Die Gesellschaft« von Dr. M. G. Conrad u.a. Ihre Humoresken: »Unsere erste Gesellschaft« gab sie in die »Splitter«. Von 1893–1896 war sie Mitarbeiterin der in <placeName>Strassburg</placeName> erscheinenden »Bürgerzeitung« unter dem Namen Till. Ausserdem leitete sie allein das Sonntagsblatt dieser Zeitung »Die Feierstunden«. Eine Weihnachtsnovelle: »Beim Klang der Weihnachtsglocken« nahm die »Berliner Volkszeitung« von ihr auf, die Skizze: »Sei wieder gut« die »Illustrierte Welt«, »Ein Idealist« die »Deutsche Dichtung« von Emil Franzos.</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01237">Jerta</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jerta, s. Henriette Frölich .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_118544918">Jerusalem, Friederike</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p><placeName>Jerusalem</placeName>, Friederike, geboren den 4. April 1759 zu <placeName>Braunschweig</placeName>.</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Jezma, P. F.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jezma, P. F., Biographie und Werke s. Jenny Zink .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Jikeli, Julie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jikeli, Julie. Katharina. Erzählg. aus dem siebenbürgisch-sächsischen Bauernleben. 8. (46) Mediasch 1894, A. Reissenberger. –.80</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01238">Jireček v. Samokov, Frl. Noemi</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Jireček v. Samokov, Frl. Noemi, <placeName>Prag</placeName> II, Jensteingasse 1779, geboren in <placeName>Wien</placeName> am 29. Juli 1874, als Tochter des Ministerialrats Dr. Hermenegild Ritter Jireček v. Samokov. Als sechsjähriges Kind begann sie den Klavierunterricht unter der Leitung ihrer kunstsinnigen Mutter. Ihre aussergewöhnliche Befähigung für Musik setzte sie in die Lage, schon mit 12 Jahren in Konzerten aufzutreten. Seither ist sie der Musik treu geblieben, hat aber auch für Sprachen und verschiedene Zweige des Wissens Lerntrieb und besondere Begabung gezeigt. Schriftstellerisch ist sie seither nur mit zwei Arbeiten hervorgetreten: Eine Schilderung der Eindrücke vom Lussiner See, welche in der Wiener »Presse« und ein Feuilleton, »Die Welt der Sonnen«, welches in der Prager »Politik« veröffentlicht wurde. Ausserdem hat sie medizinische und astronomische Studien getrieben und hierüber mancherlei geschrieben.</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Joachim, A.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Joachim, A., s. Elise Knackfuss .</p><lb/>
+        <p>‒ Die Pflegetochter. Erzählg. 2. Aufl. 8. (179) <placeName>Köln</placeName> 1882, Bachem. 1.50</p><lb/>
+        <p>‒ Gestürzte Götzen. Erzählg. 16. (240) <placeName>Paderborn</placeName> 1875, Bonifacius-Druckerei. 1.20</p><lb/>
+        <p>‒ Karoline Settegast. Zeitskizze mit Lebensbildern. 8. (61) <placeName>Koblenz</placeName> 1875, Hergt. –.75</p><lb/>
+        <p>‒ Vater und Tochter. Ein kleines Familiengemälde auf Erdengrund m. Himmelblau. 8. (216) Ebda. 1873. 1.80</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Jobaháza, Maczy Freiin v.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Jobaháza, Maczy Freiin v., <placeName>Pressburg</placeName>, geboren 1864 in <placeName>Wien</placeName>, verlebte sie ihre Jugend in Südungarn. 1884 vermählte sie sich. Ihre litterarische Thätigkeit beschränkt sich auf Feuilletons und Gedichte, die unter verschiedenen Pseudonymen in Tagesblättern erschienen sind.</p><lb/>
+        <p>‒ Carla. <placeName>Rom</placeName>. 8. (ca. 200) <placeName>Dresden</placeName>, E. Pierson. 2.50</p><lb/>
+        <p>‒ Das Recht der Toten. Erzählg. 8. (194) <placeName>Wien</placeName> 1897, Karl Konegen. 2.40</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1243979232">Jochheim, Amalie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jochheim, Amalie, bekannt unter ihrem Mädchennamen Amalie Römheld, geboren am 5. Februar 1839 zu Gross-<placeName>Steinheim</placeName> bei <placeName>Hanau</placeName>, gestorben am 1. September 1874.</p><lb/>
+        <p>‒ Die Liebe macht alles gleich. Singsp.</p><lb/>
+        <p>‒ Eine Scene aus dem Zigeunerleben. Singsp.</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1158441762">Jochner, Frau Klara</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>□Jochner, Frau Klara, Ps. K. Reichner, <placeName>München</placeName>, Königinstrasse 77 I , schreibt Novellen, Feuilletons und Jugendschriften.</p><lb/>
+        <p>Werke s. K. Reichner .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_117264326">Joconde</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Joconde, Biographie u. Werke s. Helene Stökl .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_11714813X">Joël, Hedwig</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>□Joël, Hedwig, <placeName>Berlin</placeName>, Kurfürstenstrasse 147, ist Musikerin von Beruf und hat einige humoristische Skizzen veröffentlicht.</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01242">Johanna</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Johanna, Werke s. Johanna Boy .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1283378604">Johannsen, Wilhelmine</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Johannsen, Wilhelmine. Die Traubenkur. 8. (180) <placeName>Hamburg</placeName>; 1857, Würger. 2.25</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Johanny, A.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Johanny, A., s. Auguste v. Feistmantel .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01243">Johanson, Julie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Johanson, Julie. St. Petersburger Kochbuch für feine und bürgerliche Küche. 8. (648) St. <placeName>Petersburg</placeName> 1896, R. Hoenniger. geb. bar n 12.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_118731092">John, Eugenie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>John, Eugenie, Ps. E. Marlitt, geboren am 5. Dezember 1825 zu <placeName>Arnstadt</placeName>, Thüringen, gestorben ebenda am 22. Juni 1887.</p><lb/>
+        <p>Werke s. E. Marlitt .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_127594396">John, Frau Ida</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*John, Frau Ida, <placeName>Arnstadt</placeName>, Thür., Villa Marlitt, ist am 23. Dezember 1842 als Tochter des Schuldirektors Hoschke in <placeName>Arnstadt</placeName> geboren. 1860 verheiratete sie sich mit dem Oberlehrer Alfred John, Bruder der Schriftstellerin Eug. John (E. Marlitt). Eine Anzahl Gedichte, Novellen und Romane sind von ihr in den verschiedensten Zeitschriften veröffentlicht worden. Ihre Märchendichtung »Prinzessin Edelweiss« wurde von Professor Albert Tottmann in Musik gesetzt.</p><lb/>
+        <p>‒ Prinzessin Edelweiss. Märchen-Dichtg. Musik von Albert Tottmann. (36) <placeName>Leipzig</placeName> 1891, Friedrich Hofmeister. –.60</p><lb/>
+        <p>Sämtliche Romane. A. Jahn, Lit. Inst., <placeName>Nürnberg</placeName>.</p><lb/>
+        </div>
+        <pb facs="#f0419"/>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01244">Jolowicz, Frl. Selma</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>□Jolowicz, Frl. Selma, Ps. Clara Prohler, <placeName>Berlin</placeName>, Lützowstrasse 10.</p><lb/>
+        <p>‒ Ein Hausschatz, der deutschen Jugend gewidmet. 8. (159 m. Abbildgn.) <placeName>Berlin</placeName> 1896, Norddeutsches Verlagsinstitut. geb. 1.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01245">Jonas von Szatánska, Frl. Marya</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Jonas von Szatánska, Frl. Marya, Krakau, ist am 27. Januar 1868 in <placeName>Graz</placeName> geboren, schreibt in polnischer, deutscher und französischer Sprache Feuilletons, Novellen, Kunstkritiken, Aphorismen und die Frauenfrage behandelnde Artikel.</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1212530217">Jonas, Pauline</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jonas, Pauline, geb. Ewald. Allg. Wirtschaftsbuch od.: Die erfahrene Hausfrau in d. Stadt u.a. d. Lande. 8. (272) <placeName>Königsberg</placeName> 1846, Bon'sche Sortiments-Buchhandlung. geb. n 2.50</p><lb/>
+        <p>‒ Charaden u. Rätsel f. d. Jugend. 16. (142) <placeName>Stettin</placeName> 1858, v. d. Nahmer. 1.20</p><lb/>
+        <p>‒ Der arme Tom. Erzählg. 8. (40 m. 8 kolor. Steintaf.) <placeName>Erfurt</placeName> 1852, Bartholomäus. n –.75</p><lb/>
+        <p>‒ Geprüftes Kochbuch. 9. Aufl. 8. (488) <placeName>Königsberg</placeName> 1885, Bons Verlag, geb. n 4.–</p><lb/>
+        <p>‒ Goldkörner aus Tausendschöns Schatzkästlein. 8. (58) <placeName>Stettin</placeName> 1851. (<placeName>Leipzig</placeName>, Oehmigke.) n 2.–</p><lb/>
+        <p>‒ Polterabend-Scenen. Ernst u. Scherz. 1. u. 2. Sammlg. 8. (340) (1856) 1861, <placeName>Stettin</placeName>, v. d. Nahmer. à n 1.60</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_113893271X">Jonas, Sophie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jonas, Sophie. Sagen des Altertums, Kindern erzählt. 8. (125) <placeName>Gotha</placeName> 1890, F. A. Perthes. geb. n 2.80</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Jordaens, Hans.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jordaens, Hans., s. Laura Feld .</p><lb/>
+        <p>‒ Der heilige Kreuzweg in 14 Gesängen. 8. (114) <placeName>Düsseldorf</placeName> 1890, Schulgen. n 1.50; geb. nn 2.50</p><lb/>
+        <p>‒ Im Wirtshaus »Zum schwarzen Schaf«. Lustsp. in 1 Aufz. 2. Aufl. 12. (31) <placeName>Paderborn</placeName> 1897, F. Schöningh. n –.60</p><lb/>
+        <p>‒ In der Schule des Lebens. Nov. 8. (329) <placeName>Bonn</placeName> 1880, P. Hauptmann. n 3.–</p><lb/>
+        <p>‒ Licht u. Schatten. Nov. 8. (336) Ebda. 1891. 3.–</p><lb/>
+        <p>‒ Sammlg. von Gelegenheitsgedichten z. Gebr. für Kinder bis zu 10 Jahren. 8. (71) <placeName>Aachen</placeName> 1886, Barths Verlag. n –.50; geb. –.75</p><lb/>
+        <p>‒ Vergangene Zeiten. Erzählg. aus den Niederlanden. 8. (327) <placeName>Aachen</placeName> 1887, Cremer. n 4.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_126319103">Josephson, Bertha</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Josephson, Bertha, geb. Cremer, Ps. B. Mercator, wurde am 11. Juni 1861 zu <placeName>Solingen</placeName> als die Tochter des Volksschullehrers Cremer geboren, absolvierte mit 12 Jahren die Selekta der Solinger Bürgerschule. Mit 15 Jahren kam sie in ein Pensionat nach <placeName>Stuttgart</placeName>, wo sie ein Jahr blieb, um sich weiter auszubilden. Dann lebte sie mit ihren Eltern 7 Jahre in <placeName>Moers am Rhein</placeName>, wo ihr Vater Kreisschulinspektor geworden war. Dort begann sie ihre erste schriftstellerische Laufbahn. Im Januar 1886 lernte sie den Predigtamtskandidaten Hermann Josephson kennen, dem sie 1888 als Gattin auf die Pfarrei <placeName>Beverungen</placeName>, 1889 nach <placeName>Hamm</placeName> und 1895 nach Altstadt-<placeName>Bielefeld</placeName> folgte. Ihre Ehe ist mit vier Töchterlein gesegnet und diese sind die ersten und zuverlässigsten Recensenten von Mercators Kindergeschichten.</p><lb/>
+        <p>Werke s. B. Mercator .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01247">Jósika, Julie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jósika, Julie. Mitteilungen aus dem Auslande. Eine Jugendschrift. 2 Bde. 8. (397) <placeName>Pest</placeName> 1855, Heckenast. n 4.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01248">Joysel, Marie von</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Joysel, Marie von. Selbstmörderin. 32. (77) <placeName>Leipzig</placeName> 1855, O. Wigand. –.50</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01249">Julian, Regina</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Julian, Regina. Biographie s. Regina Schlesinger .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_129582681X">Juliane</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Juliane. Drei Novellen. 16. (116) <placeName>Hamburg</placeName> 1882, Grädener u. Richter. n 1.80; geb. n 3.–</p><lb/>
+        <p>‒ Käthchen. Eine Erzählg. für heranwachs. Mädchen. 8. (188 m. H.) Ebda. 1881. geb. 4.–</p><lb/>
+        </div>
+        <pb facs="#f0420"/>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_129582681X">Juliane</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Juliane. Sommerferien. Fortsetzg. v. Stadthaus u. Landhaus. 8. (140 m. 4 Chromol.) Ebda. 1882. geb. 2.75</p><lb/>
+        <p>‒ Stadthaus u. Landhaus. 2. Aufl. 8. (137 m. 5 Chromol.) Ebda. 1882. geb. n 3.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Juliat, Knut v.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Juliat, Knut v. Biographie s. Marie Schmidt v. Ekensteen .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_121210332">Jullemier, Alexandrine</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jullemier, Alexandrine. Hinter dem Vorhange. Geheime Mitteilgn. a. d. Memoiren e. Hebamme über die Sittengeschichte einer vornehmen Welt. Neue Ausg. 2 Bde. in 1 Bd. 8. (437 m. 2 Lith.) Meissen 1850, Goedsche. n 3.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Juncker, E.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Juncker, E., Biographie s. Else Schmieden .</p><lb/>
+        <p>‒ Der Verlobungstag und andere Novellen. 8. (204) <placeName>Berlin</placeName> 1888, Gebr. Paetel. n 4.–; geb. nn 5.50</p><lb/>
+        <p>‒ Die Klosterschülerin und andere Erzählgn. 8. (295) <placeName>Berlin</placeName> 1894, O. Janke. n 6.–; geb. n 7.–</p><lb/>
+        <p>‒ Frühlingsstürme. <placeName>Rom</placeName>. 2 Bde. 8. (440) Ebda. 1895. n 9.–; geb. n 10.–</p><lb/>
+        <p>‒ Götterlose Zeiten. Born. 3 Bde. 8. (793) Ebda. 1893. n 12.–; geb. n. 15.–</p><lb/>
+        <p>‒ Höhere Harmonie. Erzählg. 8. (259) Ebda. 1884. n 6.–</p><lb/>
+        <p>‒ Ihr Roman. Erzählg. 8. (266) Ebda. 1885. n 5.–</p><lb/>
+        <p>‒ Im Schatten des Todes. <placeName>Rom</placeName>, nebst musikal. Kompositionen v. A. K. Jencken. 8. (226) Ebda. 1890. n 6.–</p><lb/>
+        <p>‒ Im Zenith. 8. (284) Ebda. 1880. n 2.–</p><lb/>
+        <p>‒ Im zweiten Rang und andere Erzählgn. 8. (280) Ebda. 1891. 6.–; geb. 7.–</p><lb/>
+        <p>‒ Dasselbe. Wohlf. Ausg. 2.–; geb. 3.–</p><lb/>
+        <p>‒ Lebensrätsel. <placeName>Rom</placeName>. 3. Aufl. 8. (280) <placeName>Berlin</placeName> 1896, O. Janke. n 2.–; geb. n 3.–</p><lb/>
+        <p>‒ Schleier der Maja. <placeName>Rom</placeName>. 4 Tle. 2. Aufl. 8. (773) <placeName>Berlin</placeName> 1885, Paetel. n 12.–; in 2 Bdn. geb. n 16.–</p><lb/>
+        <p>‒ Unter Kosaken. Erzählg. 8. (319) <placeName>Berlin</placeName> 1896, O Janke. n 6.–</p><lb/>
+        <p>‒ Werner Eltze. <placeName>Rom</placeName>. 3 Bde. 8. (880) Ebda. 1887. n 15.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_130273570">Jung, Amalie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jung, Amalie und das grossherzogliche Fräulein-Institut in <placeName>Mannheim</placeName>. Ein Lebens- u. Charakterbild. 8. (218) <placeName>Weimar</placeName> 1873, Böhlau. n 3.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_117235733">Jung, Frl. Luise Mathilde</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Jung, Frl. Luise Mathilde, Ps. Ludw. Bernow, <placeName>Baden-Baden</placeName>, Ludwig Wilhelm-Platz 8, wurde am 17. September 1843 in <placeName>Meersburg</placeName> am Bodensee, wo ihr Vater am Schullehrerseminar wirkte, geboren, und siedelte durch die Versetzung des Vaters, der zum Grossherzoglich badischen Kreisschulrat ernannt war, mit ihren Eltern im Jahre 1871 nach <placeName>Baden-Baden</placeName> über. Sie hatte eine sorgfältige Erziehung genossen, Kunststudien betrieben, schrieb bald in verschiedene grössere Tagesblätter und Zeitschriften und gab im Jahre 1882 ihr erstes Werk in Buchform heraus. Nach dem Tode ihrer Eltern wirkte sie mehrere Jahre als Oberin des Damenheims Friedrich-Wilhelm-Pflegehaus, wodurch notgedrungen eine Pause in ihrer schriftstellerischen Thätigkeit eintrat. Die letztere nahm sie im Jahre 1896 wieder auf.</p><lb/>
+        <p>‒ Ein Lebensbild aus dem 17. Jahrhundert. Volksausgabe. 8. (183) Achern 1897, Eitler u. Hundt. In Vorbereitung.</p><lb/>
+        <p>‒ Schloss Favorite. Ein Geleit- u. Erinnerungsbüchlein. (Aus: »Das Buch vom Türkenlouis«) 8. (32) <placeName>Freiburg</placeName> i. B. 1896, Lorenz u. Waetzel. 1.–</p><lb/>
+        <p>Werke s. auch Ludwig Bernow .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_117160067">Junghans, Sophie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Junghans, Sophie, Biographie s. Sophie Schuhmann .</p><lb/>
+        <p>‒ Chambre garnie. Die Familie Lester. Suum Cuique. Erzählgn. 2. Aufl. 8. (282) Jena 1873, Costenoble. 1.50</p><lb/>
+        <p>‒ Der Bergrat. <placeName>Rom</placeName>. in 4 Bdn. 8. (779) <placeName>Berlin</placeName> 1888, Dominik. n 12.–; in 2 Bdn. geb. nn 14.–</p><lb/>
+        <p>‒ Die Amerikanerin. <placeName>Rom</placeName>. 8. (357) <placeName>Leipzig</placeName> 1887, Reissner. n 4.50; geb. n. 5.50</p><lb/>
+        <p>‒ Die Brautschau. <placeName>Rom</placeName>. 8. (469) <placeName>Berlin</placeName> 1892, Deutsches Verlagshaus Bong u. Co. n 7.50; geb. n 9.–</p><lb/>
+        <p>‒ Die Erbin wider Willen. 8. (224) <placeName>Stuttgart</placeName> 1881, Spemann. geb. n 1.–</p><lb/>
+        <p>‒ Die Familie Lester. Erzählg. Jena 1883, H. Costenoble.</p><lb/>
+        </div>
+        <pb facs="#f0421"/>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_117160067">Junghans, Sophie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Junghans, Sophie. Die Gäste der Madame Santines. <placeName>Rom</placeName>. 2 Bde. 8. (394) <placeName>Leipzig</placeName> 1884, Reissner. n 6.–; in 1 Bd. geb. n 7.–</p><lb/>
+        <p>‒ Die Schwiegertochter. Nov. 2. Aufl. 8. (297) <placeName>Berlin</placeName> 1891, A. Goldschmidt. geb. n 2.50</p><lb/>
+        <p>‒ Ein Rätsel. <placeName>Rom</placeName>. 2 Bde. 8. (511) <placeName>Berlin</placeName> 1889, Dominik. n 8.–</p><lb/>
+        <p>‒ Eine Versuchung. <placeName>Rom</placeName>. 2. Aufl. 8. (472) <placeName>Dresden</placeName> 1890, Verlag des Universum. n 7.50; geb. bar n 9.–</p><lb/>
+        <p>‒ Freudvoll und Leidvoll. Erzählgn. 2 Bde. 8. (567) Jena 1873, Costenoble. 9.–</p><lb/>
+        <p>‒ Gedichte. 16. (142) <placeName>Cassel</placeName> 1869, C. Luckhardts Sep.-Cto. 1.50; geb. 2.25</p><lb/>
+        <p>‒ Geschieden. <placeName>Rom</placeName>. 2 Bde. 8. (619) <placeName>Stuttgart</placeName> 1895, Deutsche Verlags-Anstalt. n 8.–; geb. nn 10.–</p><lb/>
+        <p>‒ Haus Eckberg. <placeName>Rom</placeName>. in 2 Bdn. 8. (635) <placeName>Leipzig</placeName> 1878, Hirzel. n 8.–</p><lb/>
+        <p>‒ Hella Jasmund und andere Erzählungen. 8. (207) <placeName>Stuttgart</placeName> 1883, Spemann. geb. n 1.–</p><lb/>
+        <p>‒ Helldunkel. <placeName>Rom</placeName>. 2 Bde. 8. (827) <placeName>Leipzig</placeName> 1885, Reissner. n 9.–; geb. n 10.–</p><lb/>
+        <p>‒ Käthe. Geschichte e. modernen Mädchens. 2 Tle. 8. (661) <placeName>Leipzig</placeName> 1876, Hirzel. n 7.–</p><lb/>
+        <p>‒ Lore Fay. Erzählg. 8. (257) <placeName>Dresden</placeName> 1897, Carl Reissner. n 3.–; geb. n 4.–</p><lb/>
+        <p>‒ Neue Novellen. 8. (407) <placeName>Leipzig</placeName> 1883, Breitkopf u. Härtel. n 5.40; geb. n 6.40</p><lb/>
+        <p>‒ Orsanna und andere Erzählungen. 2 Bde. 8. (586) Jena 1881, Costenoble. 9.–</p><lb/>
+        <p>‒ Schwertlilie. <placeName>Rom</placeName>. 8. (367) <placeName>Stuttgart</placeName> 1893, J. G. Cotta Nachf. n 4.–; geb. n 5.–</p><lb/>
+        <p>‒ Spiegelungen. <placeName>Rom</placeName>. 2 Bde. 8. (595) <placeName>Berlin</placeName> 1887, Dominik, n 9.–; geb. n 11.–</p><lb/>
+        <p>‒ Suum cuique. Erzählg. 2. Aufl. 8. (285) Jena 1883, Costenoble. 1.50</p><lb/>
+        <p>‒ Um das Glück. <placeName>Rom</placeName>. 2 Bde. 8. (276 u. 309) <placeName>Köln</placeName> 1896. A. Ahn n 8.–; geb. bar n 10.–</p><lb/>
+        <p>‒ Unter der Ehrenpforte. Nov. 8. (515) <placeName>Berlin</placeName> 1891, F. Fontane u. Co. n 7.50; geb. nn 8.50</p><lb/>
+        <p>‒ Verflossene Stunden. Nov. 8. (219) <placeName>Leipzig</placeName> 1871, E. J. Günther. 2.25</p><lb/>
+        <p>‒ Zu rechter Zeit. <placeName>Rom</placeName>. 3 Bde. 8. (1026) <placeName>Stuttgart</placeName> 1893, Deutsche Verlags-Anstalt, n 12.–; geb. nn 15.–</p><lb/>
+        <p>‒ Zwei Brüder. <placeName>Rom</placeName>. 3 Bde. 8. (570) <placeName>Leipzig</placeName> 1889, Reissner. n 9.–; in 1 Bd. geb. n 10.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01252">Jüngling, Madelaine</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jüngling, Madelaine. Moderne Häkelkunst. 16. (68 m. 1 Steintafel.) <placeName>Wien</placeName> 1850, Bermann. n 1.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_117221554">Jüngst, Frl. Antonie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Jüngst, Frl. Antonie, <placeName>Münster</placeName> in Westfalen, Eisenbahnstrasse 11, geboren 13. Juni 1843 zu <placeName>Werne</placeName> in Westfalen, kam sie früh verwaist zu ihren Pflegeeltern Justizrat Crone und Frau, unter deren liebevollen Obhut sie eine glückliche Kindheit und Jugend verlebte. Ihr dichterisches Talent machte sich früh geltend; schon ihre Schiefertafel bedeckte sich mit lyrischen Ergüssen, deren Anfang aber meistens ausgewischt werden musste, um dem Ende Platz zu machen. Nach Vollendung ihrer Erziehung bei den Ursulinerinnen in <placeName>Aachen</placeName>, weilte sie wieder im Hause ihrer Pflegeeltern als liebende und geliebte Tochter, bis der Tod diese Bande löste und ihr 1872 den Vater raubte. Ihre Mutter durfte sie bis vor drei Jahren besitzen und hat mit der vortrefflichen, bis ins hohe Alter hinein geistesfrischen und herzensfrohen Frau ein unsagbar glückliches Leben geführt. In ihren Mussestunden war die Poesie ihr eine liebe Freundin. Doch konnte sie sich lange nicht entschliessen, die Ergebnisse dichterischer Begeisterung andern mitzuteilen. Selbst dem blinden Professor Schlüter, dem Freunde Annette von Drostes, mit welchem sie viel verkehrte, wagte sie erst nach geraumer Zeit von ihren Dichtungen vorzulesen.</p><lb/>
+        <p>‒ Conradin, der Staufe. Ep. Gedicht in 20 Gesängen. 2. Aufl. 12. (343) <placeName>Paderborn</placeName> 1888, F. Schöningh. n 3.–; geb. m. Goldschn. n 4.80</p><lb/>
+        <p>‒ Der Glocken Romfahrt. Ein Bilderkreis. 12. (254) <placeName>Münster</placeName> 1884, Verlag des »Westfälischen Merkur«. n 1.60; geb. m. Goldschn. n 3.–</p><lb/>
+        <p>‒ Der Tod Baldurs. Ep. Gedicht. 12. (141) <placeName>Paderborn</placeName> 1886, Schöningh. n 1.50; geb. n 2.80</p><lb/>
+        </div>
+        <pb facs="#f0422"/>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_117221554">Jüngst, Antonie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jüngst, Antonie. Gesucht u. gefunden. Tagebuchblätter eines alten Fräuleins. 8. (169) Ebda. 1890. 2.–; geb. 3.–</p><lb/>
+        <p>‒ Guta v. Triberg. Ein Schwarzwaldmärchen. 12. (51) <placeName>Freiburg</placeName>, Herder. n 1.–; geb. 1.50</p><lb/>
+        <p>‒ Leben u. Weben. Lieder u. Gedichte. 12. (320) <placeName>Paderborn</placeName> 1895, Schöningh. 2.80; geb. m. Goldschn. 4.20</p><lb/>
+        <p>‒ Reginald v. Reinhardsbrunn. Eine Thüringer Waldgeschichte. 8. (326) Ebda. 1897. 3.–; geb. n 4.–</p><lb/>
+        <p>‒ Schattenseiten. (Er muss Beamter werden. Das Glück mit u. ohne Gold. Ein Kind der Strasse. Ein paar Apfelschimmel. Standesehre. Ein zerstörtes Leben.) 12. (110) <placeName>Einsiedeln</placeName> 1892, Benziger u. Co. kart, n –.50</p><lb/>
+        <p>‒ Unterm Krummstab. Ein Sang a. alt. Zeit. 12. (196) <placeName>Paderborn</placeName> 1889, F. Schöningh. n 2.–; geb. m. Goldschn. n 3.20</p><lb/>
+        <p>‒ Vater Unser. Ein Cyklus von Gedichten. 8. (56) Ebda. 1892. 1.–</p><lb/>
+        <p>‒ Wider Willen. Wandelungen. Hüben u. drüben. Drei Novellen. 8. (310) <placeName>Köln</placeName> 1892, J. P. Bachem. 3.50; geb. n 4.75</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1053265816">Jüngst, Luise</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jüngst, Luise, geboren den 27. Dezember 1848 in <placeName>Bielefeld</placeName>, lebte und wirkte als Erzieherin in England, Italien und in <placeName>Porto</placeName>.</p><lb/>
+        <p>‒ Drei Märchen. 8. (251 m. 6 Chromol.) <placeName>Düsseldorf</placeName> 1884, A. Bagel. 2.50</p><lb/>
+        <p>‒ Farfalla. Erzählg. f. die reifere Jugend. 8. (132 m. Titelbild.) Ebda. 1895. geb. 1.50</p><lb/>
+        <p>‒ Prinzessin Lola. Erzählg. 8. (174) <placeName>Bielefeld</placeName> 1894, A. Helmich. n 1.50; geb. m. Goldschn. n 2.25</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_137669135">Jüngst, Marie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jüngst, Marie, ältere Schwester von Antonie Jüngst, geboren am 30. September 1835 zu Borken in Westfalen, gestorben den 21. Oktober 1875 im Kloster St. Marcellin bei Grenoble.</p><lb/>
+        <p>‒ Esther. (Relig. Schausp.) <placeName>Münster</placeName> 1875, Aschendorf. (Anonym.)</p><lb/>
+        <p>‒ Ruth. (Relig. Schausp.) Ebda. 1874. (Anonym.)</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Jung-Stilling, Elise v.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Jung-Stilling, Elise v. Vorlagen f. den elementaren Zeichenunterricht. 4. (100 z. Tl. farb. Taf. m. 2 Bl. Text.) <placeName>Riga</placeName> 1886, Mellin u. Co. In Mappe nn 9.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_132233746">Jurik, Frl. Josefine</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>□Jurik, Frl. Josefine, <placeName>Feistritz</placeName>-<placeName>Marburg</placeName>, Steiermark, geboren in <placeName>Wien</placeName> am 30. Juni 1859, ist sie als Dichterin, Kunstkritikerin und Jugendschriftstellerin thätig. Als tüchtige Zitherspielerin hat sie auch einiges hierüber veröffentlicht.</p><lb/>
+        <p>‒ Der Himmelsgarten. 1890.</p><lb/>
+        <p>‒ Die kleine Köchin. 1890.</p><lb/>
+        <p>‒ Die Rose von Eichwald. 1886.</p><lb/>
+        <p>‒ Die Türken vor <placeName>Marburg</placeName>. Nov. 1886.</p><lb/>
+        <p>‒ Entstehung unseres Ton- u. Notensystems. 1893.</p><lb/>
+        <p>‒ Episteln gegen die allgemeine Verjudung. 12. (160) <placeName>Marburg</placeName> a. D. 1885, Jurik. n –.85</p><lb/>
+        <p>‒ Fingersatzlehre f. die Zither. 8. (16) <placeName>Trier</placeName> 1888, P. E. Hoenes. –.75</p><lb/>
+        <p>‒ Geschichte der Stadt <placeName>Marburg</placeName>. 1884.</p><lb/>
+        <p>‒ Geschichtliche Darstellung der Zither. 1888.</p><lb/>
+        <p>‒ Methode beim Unterricht im Anschluss an die Darrsche Zitherschule. 8. (95) <placeName>Trier</placeName> 1888, P. E. Hoenes. 2.50</p><lb/>
+        <p>‒ Namenlose. <placeName>Rom</placeName>. 1886.</p><lb/>
+        <p>‒ Ohne Seele. Schausp. 1885.</p><lb/>
+        <p>‒ Papagei u. Puppenbäumchen. 1888.</p><lb/>
+        <p>‒ So sollt Ihr Eure Kinder erziehen! 1893.</p><lb/>
+        <p>‒ Tausendschön. 1890.</p><lb/>
+        <p>‒ Typen aus Alt-<placeName>Teplitz</placeName>. Hum. 1886.</p><lb/>
+        <p>‒ Zitherunterrichtsbriefe. 1883.</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01254">Just, Frau Clara</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Just, Frau Clara, Neudorf bei <placeName>Strassburg</placeName> i. E., Grossau 30. Sie war früher Lehrerin im Elsass und hat eine Broschüre »Fürst Bismarck und das deutsche Volk« sowie verschiedene, in Zeitungen veröffentlichte Artikel geschrieben.</p><lb/>
+        <p>‒ Fürst Bismarck u. das deutsche Volk, von unparteiischer Stimme aus dem Volke. 8. (14) <placeName>Strassburg</placeName> i. E. 1892, Schlesier u. Schweikhardt. –.50</p><lb/>
+        </div>
+        <pb facs="#f0423"/>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Justus, Th.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Justus, Th., Biographie s. Theodore Zedelius .</p><lb/>
+        <p>‒ Am Küstensaum. Erzählgn. 12. (405) <placeName>Leipzig</placeName> 1890, Liebeskind. n 5.–</p><lb/>
+        <p>‒ Auf dem Altenteile. Erzählgn. 8. (64) <placeName>Bremen</placeName> 1878, Nordwestdeutscher Volksschriften-Verlag, n –.50</p><lb/>
+        <p>‒ Auf schlimmen Wegen. Aus vergangenen Tagen. 2 Erzählgn. 8. (112) Ebda. 1880. n 1.–</p><lb/>
+        <p>‒ Aus böser Zeit od. der Fall v. Weinsberg. Geschichtl. Erzählg. a. d. Bauernkrieg. 8. (42) <placeName><placeName>Reutlingen</placeName></placeName> 1885, Ensslin u. Laiblin. –.15</p><lb/>
+        <p>‒ Aus vergangenen Tagen. Erzählgn. 12. (310) <placeName>Leipzig</placeName> 1890, A. G. Liebeskind. 4.–; erm. Pr. 1.50; Einband nnn –.50</p><lb/>
+        <p>‒ Der Westerhof. Erzählg. Neue Aufl. 8. (48) <placeName><placeName>Reutlingen</placeName></placeName> 1885, Ensslin u. Laiblin. –.15</p><lb/>
+        <p>‒ Ebbe und Flut. Aus tiefer Not. 2 Erzählgn. 8. (128) <placeName>Bremen</placeName> 1880, Nordwestdeutscher Volksschriften-Verlag. n 1.–</p><lb/>
+        <p>‒ Enoch Arden. Everdingshof. Zur rechten Stunde. 3 Erzählgn. Neue Ausgabe. 12. (122) <placeName><placeName>Reutlingen</placeName></placeName> 1896, Ensslin u. Laiblin. bar –.50; kart. –.60</p><lb/>
+        <p>‒ In Schutt u. Asche. Eine Geschichte aus Deutschlands trübster Zeit. 8. (131) Ebda. 1886. n –.50</p><lb/>
+        <p>‒ In Sturmesfluten. Auf d. Moor. 2 Erzählgn. 8. (62) Ebda. 1885. n –.20</p><lb/>
+        <p>‒ Strandgeschichten. 16. (99) <placeName>Leipzig</placeName> 1894, Ph. Reclam jr. –.20</p><lb/>
+        <p>‒ Tannenreis. Eine Weihnachtsgabe. 16. (29) <placeName>Bremen</placeName> 1877, Nordwestdeutscher Volksschriften-Verlag. n –.25</p><lb/>
+        <p>‒ Um Geld u. Gut. Eine Erzählg. aus den Marschen. 8. (64) <placeName><placeName>Reutlingen</placeName></placeName> 1885, Ensslin u. Laiblin. n –.20</p><lb/>
+        <p>‒ Wrack. Wie es kommen kann. Weihnachtsfreuden. 3 Erzählgn. 8. (128) Ebda. 1897. –.50</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_119352524">Kaarsen, Magda</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kaarsen, Magda, s. Theophila Bodisco .</p><lb/>
+        <p>‒ Skizzen. 12. (192) <placeName>Reval</placeName> 1895, F. Kluge. kart. n 4.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01255">Kabilka, Frau Pauline</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Kabilka, Frau Pauline, Kunststickerin, <placeName>Wien</placeName> I, Elisabethstrasse 4, wurde in <placeName>Wien</placeName> am 9. Juni 1847 als die Tochter des Oberingenieurs Carl Cohn geboren. Vermählte sich 1873 mit dem Privaten Ferdinand Kabilka. Im Jahre 1880 gründete sie ein Atelier für stilgerechte Handarbeiten, das auch über Österreich hinaus, und zwar in England, Frankreich und Deutschland u.s.w. sehr vorteilhaft bekannt ist. Sie wurde auf verschiedenen Ausstellungen, zuletzt in Chicago, mit 11 Medaillen ausgezeichnet und besitzt das Diplom des kaiserlichen und königlichen österreichischen Museums für Kunst und Industrie. Für diese Kunsttechnik wirkt P. K. schriftstellerisch durch Fachartikel in Mode- und Frauenzeitungen.</p><lb/>
+        <p>‒ Altdeutsche Sprüche zur Verzierung von Handarbeiten. 2. Aufl. 8. (84) <placeName>Wien</placeName> 1892 C. Gerolds Sohn. n 1.60</p><lb/>
+        <p>‒ Kunststickerei. 2. Aufl.</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01256">Kablik, Josefine</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kablik, Josefine, geb. Ettel, Botanikerin und Schriftstellerin, geboren den 9. März 1787 zu Hohenelbe, Böhmen, gestorben den 21. Juli 1863 ebendaselbst.</p><lb/>
+        <p>‒ Beschreibung der Flora des Riesengebirges. 1846. In Eiselts Abhandlungen.</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01257">Kadelburg, Gertrud</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kadelburg, Gertrud. Else. Erzählg. 8. (258) <placeName>Dresden</placeName> 1894, A. Beyer. früher geb. 4.50; herabgesetzter Preis 3.50</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1299964478">Kahl, Frl. Hedwig</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>□Kahl, Frl. Hedwig, <placeName>Berlin</placeName>, Kurfürstenstrasse 114 II , ist die Tochter des durch seinen Sieg in der lippeschen Erbfolge bekannten Universitätsprofessors Geheimrat Dr. Kahl in <placeName>Berlin</placeName>. Sie hat eine autorisierte Übersetzung des Romans der Madame de Pressensé: »Geneviève« gemacht.</p><lb/>
+        <p>‒ Geneviève. Übers. d. Madame de Pressensé. 8. (820) <placeName><placeName>Reutlingen</placeName></placeName> 1887, Fleischhauer u. Spohn. br. 8.–; geb. 4.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Kahlenberg, H. v.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kahlenberg, H. v., Biographie s. Helene v. Montbart .</p><lb/>
+        <p>‒ Die Jungen, Ein <placeName>Rom</placeName>. ans dem Jubiläumsjahr. 8. (270) <placeName>Dresden</placeName> 1896, C. Reissner. n 3.–; geb. n 4.–</p><lb/>
+        <p>‒ Ein Narr. <placeName>Rom</placeName>. 8. (227) Ebda. 1895. n 3.–; geb. n 4.–</p><lb/>
+        <p>‒ Misere. <placeName>Rom</placeName>. 8. (328) Ebda. 1897. n 3.–; geb. n 4.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01260">Kahlert, Emilie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kahlert, Emilie. Die Schwestern, od.: Das enthüllte Geheimnis. 2 Tle. 8. (620) <placeName>Leipzig</placeName> 1857, Kollmann. 6.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_116033274">Kainz, Sara</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kainz, Sara, s. Sara Hutzler .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01261">Kaiser, Hedwig</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kaiser, Hedwig. Der Küchenzettel. 100 prakt. Anweisgn. zur Bereitg. schmackhafter, gewählter u. doch wohlfeiler Kost. 12. (88) <placeName>Bern</placeName> 1891, J. Heubergers Verlag. geb. n 1.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_116026650">Kaiser, Frl. Isabella</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Kaiser, Frl. Isabella, Zug, Schweiz, Villa Bethlehem, geboren am 2. Oktober 1866 in <placeName>Beckenried</placeName> am Vierwaldstättersee, verbrachte ihre Jugendjahre in Genf und später in der väterlichen Besitzung »Villa Bethlehem« am Zugersee, wo sie der Poesie ihr Leben weihte. Von vielen schweren Trauerfällen in der Familie und schliesslich von Krankheit heimgesucht, musste sie auf der hohen Alp und an der Riviera Heilung suchen. Zur Zeit hat sie sich mit ihrer Mutter in <placeName>Zürich</placeName> niedergelassen. Sie schreibt Romane und Poesien in französischer Sprache und deutsche Gedichte. Ihre letzten Werke »Sozcière«, »Des ailes« und »Héro« sind in <placeName>Paris</placeName> erschienen; dieselben wurden oft preisgekrönt in Frankreich und in der Schweiz.</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Kalb, Freifrau Charlotte von</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kalb, Freifrau Charlotte von, geb. Marschalk von Ostheim, geboren 1761 in <placeName>Waltershausen</placeName>, gestorben 1843 in <placeName>Berlin</placeName>.</p><lb/>
+        <p>‒ Erinnerungen. (Nach deren Tode gedruckt.)</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01262">Kaliska</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kaliska, Biographie s. Liese <placeName>Landau</placeName> .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01263">Kallenberg, Anna</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kallenberg, Anna. Herzblättchen als Künstlerin. 4. <placeName>Halle</placeName> 1892, Wischan u. Wettengel, kart. 3.–</p><lb/>
+        <p>1. Puppen-Mütterchen. Anleitg. z. Anfertigen v. Puppenkleidern. (9 m. 12 Bl. Schnittmusterbeilagen.)</p><lb/>
+        <p>2. Die Blumen, den Blumen. Anleitg. z. Anfertigen v. künstl. Blumen. (8 m. 14 Bl. farb. Blumenmustern.)</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1011265028">Kallmann, Frau Emma</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Kallmann, Frau Emma, geb. Maas, <placeName>Berlin</placeName> W., Ansbacherstrasse 3, wurde 1848 zu <placeName>Berlin</placeName> als viertes von acht Kindern einer angesehenen Familie geboren. Sie bekam eine den damaligen Verhältnissen entsprechende gute Erziehung und besuchte die höhere Töchterschule von Wetzel. Schon als Schülerin hat sie deutsche Gedichte geschrieben und englische sowie französische Gedichte ins Deutsche übertragen. Mit besonderer Vorliebe pflegte sie das Wortspiel. Den meisten Beifall fanden bei den verschiedenen Journalen ihre humoristischen Aufsätze. Jedoch erst als ältere Frau, der Not gehorchend, trat Frau Kallmann im Jahre 1883 schriftstellerisch in die Öffentlichkeit. Ihre ersten kleinen Sinngedichte sind im Auerbachschen Liederkalender erschienen, dessen ständige Mitarbeiterin sie seitdem blieb. Ihre Märchen, meist humoristischer Natur, sind in verschiedenen Zeitschriften zum Abdruck gelangt, und sollen demnächst in Buchform erscheinen. Ausserdem fanden ihre Jugenderzählungen im »Kränzchen«, »Jungfreund« und in anderen Jugendblättern Aufnahme, ebenso ihre Humoresken in »Meggendorfers lustige Mappe«, »Schorers Familienblatt« und anderen. Auch verschiedene Frauenblätter des In- und Auslandes zählen Frau K. zu ihrer Mitarbeiterin.</p><lb/>
+        <p>‒ Damen-Korrespondenz. Neuer Briefsteller f. Damen n. Mädchen. 8. (194) <placeName>Berlin</placeName> 1896, H. Steinitz. n 2.–</p><lb/>
+        <p>‒ Der gute Ton. Handbuch d. feinen Lebensart u. guten Sitte. Nach den neuen Anstandsregeln bearb. 6. bis 8. Taus. 8. (285) Ebda. 1896. n 2.–; geb. nn 3.–</p><lb/>
+        <p>‒ Neuer Polterabend-Dichter. 7. Aufl. 8. (200) Ebda. 1894. n 1.–</p><lb/>
+        <p>‒ Neuer Tafel-Redner. Orig.-Toaste u. Tischreden. 3. Aufl. 8. (265) Ebda. 1896. n 2.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1050530144">Kallusky, Martha</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kallusky, Martha, Biographie s. Martha Winkler-Kallusky .</p><lb/>
+        <p>‒ Phönix. Dichtg. 8. (81) <placeName>Dresden</placeName> 1891, Pierson. n 1.–; geb. n 2.–</p><lb/>
+        <p>‒ Schnee u. Blüten. Nov. 8. (251) Ebda. 1890. 3.–; geb. 4.–</p><lb/>
+        <p>‒ Unkraut. Gedichte. 8. (66) <placeName>Wiesbaden</placeName> 1895, Sadowsky. 1.–; geb. 1.75</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01264">Kalnein, Gräfin Elsa</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Kalnein, Gräfin Elsa, Ps. Arpad Imre, Schloss <placeName>Domnau</placeName>, Ostpreussen, ist die Tochter (einziges Kind) des verstorbenen Kammerherrn des Kaisers und Landrats Herrn Grafen Friedrich von der Schulenburg-Altenhausen. Sie ist geboren am 2. August 1859 zu <placeName>Hohenberg</placeName> in der Provinz Sachsen. Am 30. Juni 1881 vermählte sie sich mit dem Kammerherrn Grafen Natango von Kainein auf Schloss <placeName>Domnau</placeName> in Ostpreussen. Seit dem Jahre 1889 ist sie als Schriftstellerin thätig.</p><lb/>
+        <p>Werke s. Arpad Imre .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_116035226">Kaltenhauser, Frau Fanny</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Kaltenhauser, Frau Fanny, <placeName>Linz</placeName> a. D., Bethlehemstrasse 41, in <placeName>Wien</placeName> am 12. Dezember 1863 geboren, ist ihre eigentliche Heimat Oberösterreich, woselbst ihr Vater, der Sohn eines oberösterreichischen Bauerngutsbesitzers ansässig war. Schon früh äusserte sich in ihr die Lust zum Dichten, indem sie schlechte Verse in der Schule machte. Mit 13 Jahren dramatisierte sie das Märchen: »Dornröschen« und spielte die Hauptrolle darin. Mit 20 Jahren hat sie sich verheiratet, im ersten Jahre ihrer Ehe ging sie ans dichterische Schaffen, wozu ihr die geliebte Heimat und das sie umgebende Volksleben den Stoff gab. Ihre oberösterreichischen Erzählungen und Dorfgeschichten: »In der Eschenmühle«, »D'Vevi«, »D'Goldhaub'n« und mehrere andere fanden in der »Illustrierten Welt«, »Österreichischen Volkszeitung«, im »Deutschen Volks-Kalender«, »Münchener deutschen Zeitung« und andern Blättern Aufnahme. Vier ihrer Novellen wurden preisgekrönt.</p><lb/>
+        <p>‒ Epheuranken. (Die Majorstöchter. Gräfin Judith. Der Name.) Nov. 8. (144) <placeName>Leipzig</placeName> 1888, Reinboth. n 1.50</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01265">Kameke, Frau Mathilde von</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kameke, Frau Mathilde von, geb. Boie, Ps. Marc. Boyen, <placeName>Erfurt</placeName>, geboren den 12. Oktober 1835 in <placeName>Danzig</placeName>, schrieb Romane, Novellen und Essays.</p><lb/>
+        <p>‒ Von Gott gezeichnet. <placeName>Rom</placeName>. 1880.</p><lb/>
+        <p>‒ Wie die Menschen lieben. Erzählgn. 1880</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Kamienska, Caroline Friederike v.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kamienska, Caroline Friederike v., geboren den 21. Januar 1755 zu <placeName>Dresden</placeName>, gestorben den 25. November 1813, ebendaselbst.</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01266">Kaminsky, Katharina von</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kaminsky, Katharina von. Indiskretionen aus dem Ehe- u. Gesellschaftsleben. 8. (86) <placeName>Leipzig</placeName> 1897, Carl Minde. 1.80</p><lb/>
+        </div>
+        <pb facs="#f0426"/>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01270">Kämpffert, Anna</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kämpffert, Anna. Mutterliebe. Nov. in Versen. 8. (180) <placeName>Wien</placeName> 1878, Gerolds Sohn. n 2.80</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01271">Kampmann, Frau Klara Ferdinande</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Kampmann, Frau Klara Ferdinande, verheiratete Niemann, <placeName>Tilsit</placeName>, ist am 24. Dezember 1862 zu <placeName>Dortmund</placeName> i. W. als die Tochter des westfälischen Dichters Friedrich Kampmann geboren. Nach Absolvierung der Schulen widmete sie sich litterarischen Studien und heiratete im Jahre 1888 den Steuerinspektor Niemann, der gegenwärtig in <placeName>Tilsit</placeName> als Steuerrat dem dortigen Hauptzollamt vorsteht. K. K. kultiviert vorzugsweise das Lied, die Ballade, die Hymne, das Epigramm und die in antiker Form verfasste Ode. Eine Sammlung ihrer Dichtungen, von denen bisher nur ein Teil in Zeitschriften und Anthologieen erschienen ist, befindet sich in Vorbereitung.</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01272">Kanitz, Frau Antonie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kanitz, Frau Antonie, geb. Semmel, Ps. Emma Allestein.</p><lb/>
+        <p>Werke s. Emma Allestein .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Kanitz, Gräfin Luise v.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kanitz, Gräfin Luise v. Die spanischen Brüder. Eine Erzählg. a. d. 16. Jahrh. 8. (396) <placeName>Leipzig</placeName> 1884, Buchhandlung des Vereinshauses in Kommission. n 6.–; geb. 7.20; Prachtband 8.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Kannacher, Freiin Anna v.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>□Kannacher, Freiin Anna v., <placeName>Aschaffenburg</placeName>, ist am 27. März 1840 in <placeName>Mainz</placeName> geboren, sie ist Jugendschriftstellerin und Redaktrice des »Echo der Annalen von Lourdes«, »Töchterchens Liebling«, »Armenseelenblattes«, »Das gute Komminionkind« u.a. Blätter in <placeName>Aschaffenburg</placeName>.</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Kapff-Essenther, Franziska v.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kapff-Essenther Franziska v., Biographie s. Franziska Blumenreich .</p><lb/>
+        <p>‒ Allerlei Liebe. Sechs Nov. 8. (361) <placeName>Leipzig</placeName> 1889, Elischers Nachfolger. n 5.–; geb. n 6.–</p><lb/>
+        <p>‒ Am Abgrund der Ehe. Novelletten. 2 TIe. in 1 Bde. 8. (314) <placeName>Leipzig</placeName> 1888, Wartigs Verlag. n 4.–</p><lb/>
+        <p>‒ Auf einsamer Höhe. <placeName>Rom</placeName>. 8. (397) Jena 1889, Costenoble. n 5.–</p><lb/>
+        <p>‒ Aus Bädern und Sommerfrischen. 16. (64) <placeName>Leipzig</placeName> 1890, Verlag der Zehnpfennig-Bibliothek, n –.10</p><lb/>
+        <p>‒ Blumengeschichten. 8. (248) Minden 1888, Bruns. Rest an A. Bauer in <placeName>Wien</placeName>. n 2.50; geb. n 3.75</p><lb/>
+        <p>‒ Das arme Ding. Nov. 8. (14) <placeName>Wien</placeName> 1895, Derflinger u. Fischer. n –.20</p><lb/>
+        <p>‒ Die graue Mauer. Nov. 12. (119 m. Illustr.) <placeName>Berlin</placeName> 1897, H. Hillger. n –.20; geb. n 40.–</p><lb/>
+        <p>‒ Don Juan-Phantasie. 8. (199) <placeName>Berlin</placeName> 1897, Hugo Steinitz. n 2.–</p><lb/>
+        <p>‒ Engel auf Erden. 8. (258) <placeName>Leipzig</placeName> 1891, Elischers Nachfolger, n 4.–; geb. n 5.–</p><lb/>
+        <p>‒ Evas Erziehung. <placeName>Rom</placeName>. 8. (387) <placeName>Berlin</placeName> 1895, Deutsches Verlagshaus Bong u. Co. n 4.–; geb. n 5.50</p><lb/>
+        <p>‒ Glückbeladen. Nov. 8. (200) <placeName>Leipzig</placeName> 1890, Elischer Nachfolger, n 3.–; geb. n 4.–</p><lb/>
+        <p>‒ Himmel und Hölle. <placeName>Rom</placeName>. 8. (319) <placeName>Berlin</placeName> 1894, Rosenbaum u. Hart. n 4.–</p><lb/>
+        <p>‒ In der kleinsten Hütte. <placeName>Rom</placeName>. 8. (353) <placeName>Berlin</placeName> 1896, Deutsches Verlagshaus Bong u. Co. n 4.–; geb. n 5.50</p><lb/>
+        <p>‒ Mein <placeName>Wien</placeName>. Wiener Sittenbilder. Neue Folge. 8. (320) <placeName>Leipzig</placeName> 1889, Elischer Nachfolger. n 5.–; geb. n 6.–</p><lb/>
+        <p>‒ Moderne Helden. Charakterbilder. 2 Tle. (Nur ein Mensch. Hans, der nicht sterben wollte. Sommernachtstraum.) 8. (418) Jena 1889, Costenoble. à n 1.–</p><lb/>
+        <p>‒ Neue Novellen 2 Bde. 8. (614) <placeName>Leipzig</placeName> 1890, Elischer Nachfolger. à n 4.–; geb. à n 5.–</p><lb/>
+        <p>‒ Reisegeschichten. 16. (ca. 64) <placeName>Leipzig</placeName> 1890, Verlag der Zehnpfennig-Bibliothek. n –.10</p><lb/>
+        <p>‒ Schulden. <placeName>Rom</placeName>. 8. (233) <placeName>Berlin</placeName> 1895, H. Steinitz. n 3.50</p><lb/>
+        <p>‒ Siegfried. <placeName>Rom</placeName>. 8. (280) <placeName>Dresden</placeName> 1894, E. Pierson. n 4.–; geb. n 5.–</p><lb/>
+        <p>‒ Stürme im Hafen. <placeName>Rom</placeName>. 2 Bde. 8. (440) <placeName>Breslau</placeName> 1892, <placeName>Leipzig</placeName> H. Paul. Vergriffen. n 6.–; geb. n 7.50</p><lb/>
+        <p>‒ Versorgung. <placeName>Rom</placeName>. 8. (243) <placeName>Berlin</placeName> 1895, Steinitz. n 3.50</p><lb/>
+        </div>
+        <pb facs="#f0427"/>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Kapff-Essenther, Franziska v.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kapff-Essenther, Franziska v. Wiener Sittenbilder. 2 Tle. (Mein Weib.– Das Sakrament der Liebe.) 8. (264) Jena 1884, Costenoble. n 2.–</p><lb/>
+        <p>‒ Ziel und Ende. Wiener <placeName>Rom</placeName>. 3 Bde. 8. (448) <placeName>Zürich</placeName> 1888, Verlags-Magazin. n 6.40</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01273">Kapp, Ottilie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kapp, Ottilie, geb. v. Rappart, Ps. A. <placeName>Steinau</placeName>. Iberin. <placeName>Rom</placeName>. 2 Bde. 8. (462) <placeName>Leipzig</placeName> 1856, H. Schultze. 3.–</p><lb/>
+        <p>‒ Manhold. <placeName>Rom</placeName>. 8. (406) <placeName>Berlin</placeName> 1850, Wiegandt. 6.–</p><lb/>
+        <p>‒ Offener Brief an meine teutschen Mitschwestern. 8. (11) <placeName>Arnsberg</placeName> 1848, Ritter. –.25</p><lb/>
+        <p>‒ Vorschläge zu weiblichen Schulen u. Erziehungsanstalten. 8. (35) Ebda. –.60</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Kapper-Mikolasch, J.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kapper-Mikolasch, J., s. Ida Mikolasch .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01274">Kappler, Eleonore</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kappler, Eleonore. Die Heidelberger Köchin. 12. (138) Oppenheim a. Rh. 1859, Kern. n 1.20</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01275">Käpplinger, Christiane</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Käpplinger, Christiane. Beschreibungen über das Wesen der Gottheit, der menschlichen Natur u. der christl. Religion. Gewidmet allen christlich gesinnten Freunden unserer Zeit. 2 Tle. 8. (384) Heilbronn 1843, Classische Buchhandlung. n 4.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1012966321">Kapri, Baronin, Mathilde von</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kapri, Baronin, Mathilde von, geb. Freiin von Guretzky-Kornitz, geboren am 5. Februar 1832 in <placeName>Santa-Maria di Capua</placeName> bei <placeName>Neapel</placeName>, gestorben am 4. Oktober 1889 in <placeName>Wien</placeName>.</p><lb/>
+        <p>‒ Aus eigener Schuld. <placeName>Rom</placeName>. 8. (370) <placeName>Leipzig</placeName> 1888, Reissner. n 6.–</p><lb/>
+        <p>‒ Herr Alexis. Novellette. 4. (32) <placeName>Stuttgart</placeName>, Kröner. n –.50</p><lb/>
+        <p>‒ Uradelig. <placeName>Rom</placeName>. 3 Bde. 8. (839) <placeName>Wien</placeName> 1879, Zamarski. n 10.–</p><lb/>
+        <p>‒ Va banque. <placeName>Rom</placeName>. 2 Bde. 8. (552) <placeName>Berlin</placeName> 1880, Janke. 9.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_101263279">Karbe, Anna</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Karbe, Anna, geboren am 4. Mai 1852 zu Granzow in der Uckermark, gestorben am 19. April 1875.</p><lb/>
+        <p>‒ Lieder. Mit e. Photogr. der Dichterin. 2. Aufl. 8. (206) (1881) 1886, <placeName>Gotha</placeName>, F. A. Perthes. n 3.–; geb. n 4.–</p><lb/>
+        <p>‒ Lieder einer früh Vollendeten. Mit Vorwort v. F. v. Bodelschwingh. 16. (96) <placeName>Bielefeld</placeName> 1895, Schriften-Niederlage der Anstalt Bethel. geb. n –.75</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1231579536">Kärcher, Amalie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kärcher, Amalie. Früchte. Studien. 1. u. 2. Lieferng. 4. (à 4 Chromolith.) <placeName>Leipzig</placeName> 1887, Baldamus ' Sep.-Cto. à n 4.–; einzelne Blätter bar à 1.50</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_117095494">Karol, Martha</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Karol, Martha. Ikaros. Erzählg. a. d. Leben. 8. (216) <placeName>Danzig</placeName> 1890, Hinstorff. n 3.–; geb. n 4.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01278">Karolas Tante</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Karolas Tante. Kinderstube. Heitere u. ernste Gedichte für die lieben Kleinen. 4. (116) <placeName>Aachen</placeName> 1896. A. Jacobi u. Co. geb. n 2.40</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1063350905">Karoline Luise</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Karoline Luise. Fürst u. Dichter. Lyrisch-dramat. Gedicht. 8. (120) <placeName>Berlin</placeName> 1855, Weber. n 2.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01280">Karrotom, Ady</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Karrotom, Ady. Traumnacht. Phantasieen n. Märchen. 8. (91) <placeName>Leipzig</placeName> 1890, Danz. n 2.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Karsch, Anna Luise</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Karsch, Anna Luise, Tochter des Pächters Ch. Dürbach, geboren den 1. Dezember 1722 auf dem Hammer bei <placeName>Züllichau</placeName>, gestorben den 12. Oktober 1790 (1791) in <placeName>Berlin</placeName>.</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Kartoffel- und Obstküche etc.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kartoffel- und Obstküche etc. Verfasst von einer praktischen Köchin. 2 Tle. 8. (144) <placeName>Nürnberg</placeName> 1840, Zeh. 1.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_116061308">Karsten, Frl. Paula Franziska Wilhelmine</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Karsten, Frl. Paula Franziska Wilhelmine, <placeName>Berlin</placeName>, Genthinerstrasse 14, ward am 8. März 1850 zu <placeName>Pasewalk</placeName> geboren. Sie gehörte zu den Kindern, die »eigenartig« genannt werden. Von frühester Kindheit an interessierte sie alles aufs lebhafteste, was Sprachen und Litteratur betraf. Als zehnjähriges Kind ward sie in der Schule mehrmals bestraft, weil die Lehrerin behauptete, sie liesse sich ihre Aufsätze von einem Erwachsenen schreiben, es sei nicht möglich, dass sie dieselben verfasst habe. In dieser Zeit kamen öfter Gedichte und kleine poetische Aufsätze in verschiedenen Blättern heraus. Unglückliche Vermögensverhältnisse entführten sie schon frühe dem Vaterhause. Ihr ganzes Leben von frühester Kindheit an gestaltete sich wechselvoll. In den verschiedensten Ländern, in denen sie zeitweise lebte, verkehrte sie in den ersten Gesellschaftskreisen. Mit hervorragenden Grössen auf allen Gebieten der Wissenschaft, Kunst und allen anderen Berufszweigen führte sie das Leben zusammen. Viele Jahre war sie als Erzieherin und Gesellschafterin thätig, daneben arbeitete und studierte sie immer weiter. Seit zehn Jahren hat sie sich ihr eignes kleines Heim in <placeName>Berlin</placeName> gegründet. Sie liess sich als Lehrerin und Vorleserin der deutschen, englischen, französischen, italienischen und schwedischen Sprache hier nieder und versuchte sich als Schriftstellerin. Eine eifrige Anhängerin der Feuerbestattung, schreibt sie darüber, und hält auch öffentliche Vorträge über dies Thema an verschiedenen Orten. Ihr ausgeprägtes Sprachgehör hat sie zu einem ganz eignen Studium geführt. Sie ergreift jede Gelegenheit, sich von fremden Völkern in ihrer Sprache Geschichten, Lieder, Wörter und Redensarten sagen zu lassen, um diese dann zu veröffentlichen. In der »Deutschen Jugend« erschien von ihr »Das kleine Märchenbuch«; nach dem Schwedischen von Richard Gustavsson. »Einige Kleinigkeiten für den Haushalt« in der »Deutschen Tageszeitung«. »Das kann ich nicht«, »Vornehme Handwerker«, »Mutter und Gesetz – einst und jetzt«, in der »Deutschen Hausfrauen-Zeitung«. Ferner veröffentlichte sie »Sprüche«, Übersetzungen aus orientalischen Werken und Beschreibungen zu 23 Mustern nach japanischen Zeichnungen u. dergl. in verschiedenen Zeitschriften. Völkerkundliche Studien im »Globus«, in »Zur guten Stunde« und im »Phönix«. Tunesische Geschichten und Lieder. In arabischem Texte. Arabischer Wortschatz und Redensarten werden nach und nach erscheinen in der Zeitschrift für afrikanische und oceanische Sprachen mit besonderer Berücksichtigung der deutschen Kolonieen. Herausgegeben mit Unterstützung der Koloinalabteilung des Auswärtigen Amts, der Deutschen Kolonialgesellschaft u.a. von A. Seidel, <placeName>Berlin</placeName>. Geographische Verlagshandlung Dietrich Reimer.</p><lb/>
+        <p>‒ Geschichten u. Lieder der Birmanen.</p><lb/>
+        <p>‒ Geschichten u. Lieder der Asiaten. 8. Herausgegeben von A. Seidel. In Vorbereitung.</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Karstens, M.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Karstens, M. Auch ein Fischerdorf. (24) <placeName>Hamburg</placeName> 1889, Agentur des Rauhen Hauses. n –.10</p><lb/>
+        <p>‒ Eine Heideblume. 8. (48) Ebda. n –.20</p><lb/>
+        <p>‒ Ein lieber Junge. Frei nach dem Engl. 2. Aufl. 8. (196) <placeName>Basel</placeName> 1891, Geering. n 1.60; geb. n 2.40</p><lb/>
+        <p>‒ Fürstin u. Frau. Übers. aus dem Holländ. (Kautzmann van Osterzee) 8. (301) <placeName>Basel</placeName> 1883, Schneider. n 3.–; geb. n 4.–</p><lb/>
+        <p>‒ Harte Zucht. 8. (48) <placeName>Hamburg</placeName> 1889, Agentur des Rauhen Hauses. n –.20</p><lb/>
+        <p>‒ Margas Bekenntnisse. Übers. a. d. Engl. 8. (160) Ebda. 1891. n 1.60; geb. 2.40</p><lb/>
+        <p>‒ Schneidermeister u. Flickschneider. 8. (48) Ebda. 1889. n –.20</p><lb/>
+        <p>‒ Vergeltung. (24) Ebda. 1888. n –.10</p><lb/>
+        <p>‒ Zur rechten Stunde. (24) Ebda. 1889. n –.10</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_unidentified01281">Kasch, Frau Anna Katharina</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Kasch, Frau Anna Katharina, geb. Sager, Plön, Neustadtstrasse, wurde am 12. Dezember 1839 als Tochter eines Bauern zu Hürup bei <placeName>Flensburg</placeName> geboren, wirkte später 22 Jahre lang als Bauersfrau, lebt jetzt im eignen Heim in Plön, zeitweilig im Winter in <placeName>Berlin</placeName>. Ausser einem »Geburtstagsbuch«, Erzählungen und Aufsätzen, erschienen 1881 Gedichte, deren 2. Auflage gänzlich vergriffen ist. Ausser Eigenem enthalten die Gedichte Übersetzungen aus dem Dänischen, Norwegischen, Schwedischen, Englischen, Schottischen, Spanischen, Französischen und Holländischen.</p><lb/>
+        <p>‒ Geburtstagsbuch. Ein Geschenk- u. Gedenkbuch. 8. (366) Altona 1887, A. C. Reher. geb. m. Goldschn. n 6.–</p><lb/>
+        <p>‒ Gedichte. 8. (192) Kiel 1881, Plön, Hahn. n 2.–; geb. m. Goldschn. n 3.–</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_138710546">Kassel, Emilie</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p><placeName>Kassel</placeName>, Emilie. Was wird heute gekocht? Speisezettel für jeden Tag im Jahre, sowie für besondere Festlichkeiten u. Gabelfrühstücke. 16. (207) <placeName>Stuttgart</placeName> 1889, Lutz. geb. n 1.60</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_116066350">Kastner-Michalitschke, Frau Else</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Kastner-Michalitschke, Frau Else, <placeName>Wien</placeName> XVIII 1, geboren am 28. April 1866 zu <placeName>Rokitnitz</placeName> im Adlergebirge, ist sie die Tochter des Rentmeisters Anton Michalitschke. Sie zeigte frühzeitig reiche Begabung. Zur Erzieherin ausgebildet, ertrug sie für die Dauer nicht den aufreibenden Beruf. 1889 vermählte sie sich mit ihrem Jugendfreund Ed. Fedor Kastner, Herausgeber von »Böhmens deutsche Poesie und Kunst«, der sich als Lyriker und Litteraturgeschichtler seiner engeren Heimat, Böhmen, einen verdienstvollen Namen machte. Die Erfüllung der häuslichen und Mutterpflichten gestattete ihr nur selten ihren litterarischen Neigungen nachzugeben. Sie schrieb Novellen und Gedichte. Ein Lied »Weckruf einer deutschen Frau« ist von dem Domkapellmeister J. Jungmann in Musik gesetzt worden. Von der Monographie: »Der Sternkreuzorden« ist die 4. Auflage bereits vergriffen.</p><lb/>
+        <p>‒ Cypressen. 1895.</p><lb/>
+        <p>‒ Der Sternkreuzorden. Eine Monographie. 1896.</p><lb/>
+        <p>‒ Ein stilles Drama.</p><lb/>
+        <p>‒ Ernste Weisen. Gedichte. 12. (32) <placeName>Wien</placeName> 1894, <placeName>Leipzig</placeName>, Litterarische Anstalt, A. Schulze. –.80; auf Büttenpapier 1.20</p><lb/>
+        <p>‒ Immortellen. Gedichte. 8. (14) Ebda. 1892. n –.50</p><lb/>
+        <p>‒ Mädchenfreundschaft.</p><lb/>
+        <p>‒ Schöne Hände.</p><lb/>
+        <p>‒ Zur rechten Zeit.</p><lb/>
+        <p>‒ Zu spät.</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Kastner, Rosina</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kastner, Rosina. Vollständiges Tiroler Kochbuch. 3. Aufl. 8. (368) (1844) 1866. <placeName>Innsbruck</placeName>, Wagner. kart. 2.70</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName>Kästner, W.</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kästner, W., Biographie s. Sidonie Peter .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_1189707438">Kastrobalas</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kastrobalas, Biographie und Werke s. Fanny Birndt .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_139642129">Käthchen, Gräfin</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Käthchen, Gräfin. Erzählg. nach d. Engl. der Verf. d. »Erben v. Redclyffe.« 16. (242) <placeName>Stuttgart</placeName> 1867, J. F. Steinkopf. 1.50</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_139642129">Käthchen</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Käthchen. Die Puppen-Schneiderin. 3. Aufl. 16. (64) <placeName>Berlin</placeName> 1872, Cronbach. 2. Tl. (78) 1873. à n 1.80</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_116931868">Kathrein, Ani</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>Kathrein, Ani, Biographie und Werke s. Ina Gutfeldt .</p><lb/>
+        </div>
+        <div type="lexiconEntry">
+        <head>
+        <supplied>
+            <persName xml:id="id_116067217">Katscher, Frau Berta</persName>
+        </supplied>
+        </head>
+        <lb/>
+        <p>*Katscher, Frau Berta, Ps. Ludwig Ungar, Albert Kellner, Ludwig Koelle und Ludmilla Koelle, <placeName>Budapest</placeName> I, Retekgasse 48, ist am 12. Juni 1860 in Trencsin, Oberungarn, geboren. Schon als Kind vermochte nichts ihren Geist so anzuregen wie Märchen. Am liebsten erfand sie sich selbst welche und gab sie ihren Mitschülern zum Besten. Das, was man ein Kinderparadies nennt, hat sie nie genossen, denn noch nicht zwei Jahre alt, starb ihre Mutter und sie wurde von ihrer ältesten Schwester sehr streng erzogen, so streng, dass sie die Tante bis zu ihrem Tode mehr fürchtete als liebte. B. K. lernte auch sonst sehr früh den Ernst des Lebens kennen. Mit 13 Jahren musste sie ihren Pflegeeltern nach der Herzegowina folgen, wo ihre lebhafte Phantasie reichliche Nahrung fand. Bis zu ihrer 1881 erfolgten Verheiratung mit ihrem Vetter, dem Schriftsteller Leopold Katscher, spielte sie die Rolle der »fleissigen Martha« und hat viel mehr den Kochlöffel als die Feder gehandhabt. Erst als ihr Gatte den Wunsch ausdrückte, eine schriftstellernde Frau zu haben, wagte sie einen Versuch, den sie auch in einer ihrer später erschienenen Novellen »Der Blaustrumpf« schilderte. Ihre zwei ersten Arbeiten erschienen in der »Frankfurter Zeitung« und der Wiener Zeitschrift »Die Heimat«. Durch jahrelangen Aufenthalt in <placeName>London</placeName> und durch Reisen angeregt, hat sie sich auch vielfach mit ethnographischen Skizzen befasst und für »<placeName>Fels</placeName> zu Meer«, »Wiener Mode«, »Münchener Allgemeine«, »Kölnische Zeitung«, »Leipziger Illustrierte«, »Leipziger Zeitung«, »Bazar«, »Didaskalia«, »Prochaskas Monatsbände« und andere Blätter zahlreiche Beiträge geliefert. In den letzten Jahren haben ihre belletristischen »Nippes« einen ernsteren Charakter angenommen, da sie mit Vorliebe Tendenzgeschichten schreibt für Tierschutz, gegen Justizirrtümer, Spiel- und Trunksucht, für Gewinnbeteiligung und für die Friedensidee. An der Berta von Suttnerschen Zeitschrift »Die Waffen nieder« ist sie eine fleissige Mitarbeiterin; auch sonst tritt sie in Wort und Schrift für die Idee ein. In Form von Märchen und Erzählungen sucht sie unsere Jugend für die Friedensidee zu interessieren. Für den Weihnachtstisch 1897 erschien von ihr in <placeName>Stuttgart</placeName> in 4000 Exemplaren »Soldatenkinder«, ein Friedensroman für die reifere Jugend. Unter den Pseudonymen Ludwig Ungar, Albert Kellner, Ludwig Koelle und Ludmilla Koelle sind in den verschiedensten Blättern eine Anzahl Novelletten, Humoresken, Kritiken und Feuilletons aus ihrer Feder erschienen. Seit Jahren schreibt B. K. für hervorragende Zeitschriften Übersetzungen aus dem Englischen und Ungarischen und Kritiken für verschiedene litterarische Fachzeitschriften.</p><lb/>
+        <p>‒ Aus Bädern u. Sommerfrischen. 16 (ca. 64) <placeName>Leipzig</placeName> 1890, Verlag der Zehnpfennig-Bibliothek. –.10</p><lb/>
+        <p>‒ Aus jungen Tagen. Humorist. Erzählgn. 16. (ca. 64) Ebda. 1890. à –.10</p><lb/>
+        <p>und Edward John Hardy. Die Kunst, Mensch zu sein. Herzensworte u. Lebensweisheit. 8. (146) <placeName>Leipzig</placeName> 1887, Wartigs Verlag. n 2.50; geb. n 3.50</p><lb/>
+        <p>‒ Hermann Vámbérys Leben und Reiseabenteuer. Der Jugend erzählt 12. (138 m. Illustr.) <placeName>Teschen</placeName> 1892, K. Prochaska. kart. n 1.60</p><lb/>
+        <p>‒ Soldatenkinder. Erzählg. f. d. reifere Jugend. 8. (112 m. 3 Bildern) <placeName>Stuttgart</placeName> 1897, Süddeutsches Verlags-Institut. geb. n 2.–</p><lb/>
+        <p>‒ Weihnachtsgeschichten. 16. (ca. 64) <placeName>Leipzig</placeName> 1890, Verlag der Zehnpfennig-Bibliothek. –.10</p><lb/>
+        </div>
+        
+</body>
+</text>
+</TEI>
