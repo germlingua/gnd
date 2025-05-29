@@ -9,3 +9,5 @@ Karin, 09.01.2025
 API Request über die lobid gnd API durchgeführt. Die Abfrage wurde über die Kategorien "Schriftstellerin" und "Schriftsteller" geführt mit den Einschränkungen "Person" "DifferentiatedPerson" und einem Geburtsdatum zwischen 1750 und 1870
 
 Die entstandene Tabelle ist unter dem Namen "lobid-schriftstellerinnen.csv" im Ordner "data"
+
+29.05.2025: CSV-Tabellen mit Sprachen, erkannt durch Prompt mit Claude, eingefügt.
