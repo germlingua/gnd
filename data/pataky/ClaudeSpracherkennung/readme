@@ -1,1 +1,4 @@
 Enthält mit Claude 3.7 Sonnet erstellte Tabellen, in denen Claude die Sprachkenntnisse der Autorinnen erfasst hat. 
+
+Die Tabellen wurden durch folgenden Prompt erstellt: system: du bist ein wissenschaftler, der einen Text annotiert. user: du durchsuchst einen Textauszug aus einem historischen Autorinnenlexikon. Dich interessiert, welche Sprache eine Person konnte. Du bekommst ein xml dokument, analysiere die Struktur. Gehe dann durch den Fließtext und weise jeder Autorin zu, welche Sprache sie konnte. Gib an, wozu die Sprachkenntnisse genutzt wurden. Führe ein Zitat aus dem Text an, um die Sprachkenntnisse zu belegen. Erstelle basierend auf den Analysen folgende Vorlage für eine CSV-Tabelle: Personenname, Sprache, Sprachnutzung, Beleg. Erstelle pro Person und Sprache eine Zeile. Wenn also eine Person 2 Sprachen konnte, dann hat sie zwei Zeilen. Erstelle die Tabelle so, dass ich sie einfach in ein CSV-Format kopieren kann. Den Text kopiere ich hier rein:
+
