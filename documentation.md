@@ -1,5 +1,32 @@
 # documentation
 
+- Anmerkungen: 
+- einheitliche Spaltenbenennung
+
+## Meeting 30.05.2025
+
+1. Testen 
+- Tabellen durchschauen und prüfen, dass Spalten nicht verrutscht sind
+- Tabellen zusammenfügen
+- Sprachen überprüfen im Vergleich mit Volltext 
+
+-> erledigt
+
+
+2. Wenn alles passt, Bruemmer
+- Bruemmer batches mit ca. 2000 Zeilen erstellen
+- an Jana schicken
+-> best case bis 2.6.
+
+3. Datenbank
+- mit Identifiern verknüpfen
+- alle Personen mit Orten, Sprachen, GND
+
+Letzter Schritt (best case: Ende Juni)
+- Endfassung: große Exceltabelle (Pataky)
+
+
+
 ## Update 10.05.2025
 - TEIs und csv in 10 bzw. 20 Teile aufgeteilt
 
