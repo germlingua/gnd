@@ -11,3 +11,9 @@ API Request über die lobid gnd API durchgeführt. Die Abfrage wurde über die K
 Die entstandene Tabelle ist unter dem Namen "lobid-schriftstellerinnen.csv" im Ordner "data"
 
 29.05.2025: CSV-Tabellen mit Sprachen, erkannt durch Prompt mit Claude, eingefügt.
+
+17.6.2025: Hinweise von Nanette zu Pseudonymen: 
+
+ja in dem Fall würde ich entweder eine Spalte für Pseudonyme nehmen, in der auch mehrere Namen drin stehen können, die dann aber mit dem immer gleichen Zeichen (;) und in der immer gleichen Art dargestellt werden: z .B. Vorname Nachname; Vorname Nachname oder Künstlername1; Künstlername2
+Alternativ, wenn du wirklich Fehler in diesem System (Trennung mit Semikolon und verschiedene Schreibweisen von Vorname Nachname etc) vermeiden willst, dann kannst du auch für jeden Namen eine eigene Spalte nehmen (auch da muss die Schreibweise aber ja einheitlich sein.
+Es gibt bestimmt ein paar best practices: hier hat José eine Korpustabelle erstellt, wo die Autoren einfach durch ihre VIAF (oder anderen Identifier) desambiguiert werden… https://github.com/cligs/conssa/blob/master/metadata/metadata.tsv 
