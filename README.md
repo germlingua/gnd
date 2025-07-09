@@ -22,7 +22,17 @@ Es gibt bestimmt ein paar best practices: hier hat José eine Korpustabelle erst
   Liste: Pataky-Gesamt: ALLE Autorinnen, GND und nicht-GND kombiniert.
 GesamtListe: alle Kategorien ID, Name, Vorname, Alternativnamen, Geburtsdatum, Sterbedatum, Ort1, Ort2, Ort3 ... , Sprache1..., Sprache2...   Publikationen (wenn möglich die Publikationen in einer Spalte, mit Semikolon getrennt). 
 
-
+9. Juli 2025
+   UTF-8 einstellen bei allen Tabellen
+   Zu Brümmer: Namensliste schön machen: Original, dann wo alles raus ist, dann einmal Nachname, Vorname
+   Abgleich mit Pataky
+   Eine Liste: Doppelte Treffer in Pataky und Brümmer.
+   Eine Liste Brümmer - Pataky-Leute
+   Schritt 1 Ortserkennung für Brümmer - Jana lädt Listen aus Recogito und stellt sie in Github
+   Ortsannotation in TEI, dann daraus CSV erstellen.
+   Jana: Spracherkennung in KI.
+   
+   
     
 
     
