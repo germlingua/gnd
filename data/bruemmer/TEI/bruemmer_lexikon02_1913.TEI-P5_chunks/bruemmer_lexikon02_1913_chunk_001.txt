@@ -1,0 +1,2000 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Lexikon der deutschen Dichter und Prosaisten vom Beginn des 19. Jahrhunderts bis zur Gegenwart</title>
+<title type="volume" n="2">Zweiter Band. Dennert bis Grütter</title>
+<author>
+<persName ref="http://d-nb.info/gnd/116751460">
+<surname>Brümmer</surname>
+<forename>Franz</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">492</measure>
+<measure type="tokens">239955</measure>
+<measure type="types">31012</measure>
+<measure type="characters">1758056</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-05-13T10:29:38Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by/4.0/deed.de"><p>Namensnennung 4.0 International (CC BY 4.0)</p></licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/bruemmer_lexikon02_1913</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/bruemmer_lexikon02_1913</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/bruemmer_lexikon02_1913</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/bruemmer_lexikon02_1913</idno>
+<idno type="DTADirName">bruemmer_lexikon02_1913</idno>
+<idno type="DTAID">25198</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-25198-0</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="MM">Brümmer, Franz: Lexikon der deutschen Dichter und Prosaisten vom Beginn des 19. Jahrhunderts bis zur Gegenwart. Bd. 2. 6. Aufl. Leipzig, 1913.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Lexikon der deutschen Dichter und Prosaisten vom Beginn des 19. Jahrhunderts bis zur Gegenwart</title>
+<title level="m" type="volume" n="2">Zweiter Band. Dennert bis Grütter</title>
+<author>
+<persName ref="http://d-nb.info/gnd/116751460">
+<surname>Brümmer</surname>
+<forename>Franz</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1">Sechste völlig neu bearbeitete und stark vermehrte Auflage</edition>
+</editionStmt>
+<extent>
+<measure type="pages">492</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Reclam</name></publisher>
+<pubPlace>Leipzig</pubPlace>
+<date type="publication">1913</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>University of Toronto, Robarts Library</repository>
+<idno>
+<idno type="shelfmark">University of Toronto, Robarts Library, ark:/13960/t5fb59x49</idno>
+<idno type="URLCatalogue">http://www.archive.org/details/lexikonderdeutsc02bruoft</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>Dieses Werk wurde gemäß den <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref>
+im Double-Keying-Verfahren von Nicht-Muttersprachlern erfasst und in XML/TEI P5 nach
+<ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat</ref> kodiert.</p>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Philologie</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Lexikon</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">core</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">china</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<pb facs="#f0001"/>
+<lb/>
+<pb facs="#f0002"/>
+<lb/>
+<pb facs="#f0003"/>
+<lb/>
+<pb facs="#f0004"/>
+<lb/>
+<front>
+<pb facs="#f0005" n="[1]"/>
+<lb/>
+<titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#b"><hi rendition="#g">Lexikon</hi></hi><lb/>
+der<lb/>
+<hi rendition="#b">deut&#x017F;chen Dichter und Pro&#x017F;ai&#x017F;ten</hi><lb/>
+vom Beginn<lb/>
+des 19. Jahrhunderts bis zur Gegenwart.</titlePart></docTitle><lb/>
+<byline>Bearbeitet<lb/>
+von<lb/>
+<docAuthor><hi rendition="#b"><hi rendition="#g">Franz Brümmer.</hi></hi></docAuthor></byline><lb/>
+<docEdition>Sech&#x017F;te<lb/>
+völlig neu bearbeitete und &#x017F;tark vermehrte Auflage.</docEdition><lb/>
+<titlePart type="volume"><hi rendition="#b">Zweiter Band.<lb/>
+Dennert</hi> bis <hi rendition="#b">Grütter.</hi></titlePart><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint><pubPlace><hi rendition="#b">Leipzig</hi></pubPlace><lb/>
+<publisher>Druck und Verlag von Philipp Reclam jun.</publisher></docImprint></titlePage></front><body><lb/>
+<pb facs="#f0006" n="[2]"/>
+<lb/>
+<pb facs="#f0007" n="[3]"/>
+<lb/>
+<cb/>
+<lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Dennert,</hi> Eberhard,</head><p> wurde am<lb/>
+31. Juli 1861 zu Pützerlin bei Star-<lb/>
+gard in Pommern als der Sohn des<lb/>
+dortigen Pfarrers geboren, kam nach<lb/>
+dem frühen Tode des letzteren mit<lb/>
+&#x017F;einer Familie 1867 nach Stargard<lb/>
+und 1871 nach Lipp&#x017F;tadt in We&#x017F;tfalen,<lb/>
+wo er 1880 das Gymna&#x017F;ium ab&#x017F;ol-<lb/>
+vierte. Jn den Jahren 1880&#x2013;84 &#x017F;tu-<lb/>
+dierte er auf den Univer&#x017F;itäten Mar-<lb/>
+burg und Bonn Naturwi&#x017F;&#x017F;en&#x017F;chaften<lb/>
+und Mathematik, machte 1884 &#x017F;ein<lb/>
+Doktorexamen, 1885 &#x017F;ein Staats-<lb/>
+examen, wurde dann A&#x017F;&#x017F;i&#x017F;tent am<lb/>
+botani&#x017F;chen Jn&#x017F;titut in Marburg und<lb/>
+machte gleichzeitig &#x017F;ein Probejahr<lb/>
+als Lehramtskandidat durch. Jm<lb/>
+Herb&#x017F;t 1888 ging er nach Rudol&#x017F;tadt,<lb/>
+wo er ein Jahr lang an der &#x201E;Deut-<lb/>
+&#x017F;chen Enzyklopädie&#x201C; Redakteur für<lb/>
+Naturwi&#x017F;&#x017F;en&#x017F;chaften u. Medizin war,<lb/>
+und folgte dann einem Rufe als Leh-<lb/>
+rer an das evangeli&#x017F;che Pädagogium<lb/>
+zu Godesberg am Rhein, wo er, &#x017F;eit<lb/>
+1908 als Profe&#x017F;&#x017F;or, jetzt noch wirkt u.<lb/>
+folgende Monats&#x017F;chriften heraus-<lb/>
+gibt: &#x201E;Glauben u. Wi&#x017F;&#x017F;en&#x201C; &#x2014; &#x201E;Ewig-<lb/>
+keitsfragen im Lichte großer Denker&#x201C;<lb/>
+&#x2014; &#x201E;Naturwi&#x017F;&#x017F;en&#x017F;chaftliche Zeit- und<lb/>
+Streitfragen&#x201C;. Außer einer Reihe von<lb/>
+naturwi&#x017F;&#x017F;en&#x017F;chaftlichen Schriften, un-<lb/>
+ter denen hervorzuheben &#x017F;ind &#x201E;Bibel<lb/>
+und Naturwi&#x017F;&#x017F;en&#x017F;chaft. Gedanken u.<lb/>
+Bekenntni&#x017F;&#x017F;e eines Naturfor&#x017F;chers&#x201C;<lb/>
+(4. A. 1905). &#x2013; &#x201E;Die Religion der<lb/>
+Naturfor&#x017F;cher&#x201C; (6. A. 1903). &#x2013; &#x201E;Die<lb/>
+Wahrheit über Ern&#x017F;t Häckel&#x201C; (9. A.<lb/>
+1906). &#x2013; &#x201E;Die Weltan&#x017F;chauung des<lb/>
+modernen Naturfor&#x017F;chers&#x201C; (1906). &#x2013;<lb/>
+&#x201E;Es werde! Ein Bild der Schöpfung&#x201C;<lb/>
+(13 T. 1907). &#x2013; Vom Sterbelager des<lb/>
+Darwinismus&#x201C; (<hi rendition="#aq">II,</hi> 1906), veröffent-<lb/>
+lichte er </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Parabeln nach der Na-<lb/>
+tur, 1888. &#x2013; Naturidyllen, 1891. &#x2013;<lb/>
+Vom Leben und Weben der Natur<lb/>
+(Plaudereien), 1905. &#x2013; Aus Höhen u.<lb/>
+<cb/>
+<lb/>
+Tiefen der Natur (Sk. u. Studien a.<lb/>
+d. Naturleben), 1902.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">De Nora,</hi> A.,</head><p> P&#x017F;eudonym für<lb/>
+A. <hi rendition="#g">Noder;</hi> &#x017F;. d.!</p><lb/>
+</div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Deppe,</hi> Bernhard,</head><p> geb. am 21. (n.<lb/>
+a. 20.) Januar 1845 in Salzkotten<lb/>
+bei Paderborn, trat, nachdem er in<lb/>
+Höxter &#x017F;einer Militärpflicht genügt<lb/>
+hatte, in die Pari&#x017F;er Picpus-Ge&#x017F;ell-<lb/>
+&#x017F;chaft der hl. Herzen Je&#x017F;u und Mariä<lb/>
+ein, vollendete &#x017F;eine humani&#x017F;ti&#x017F;chen,<lb/>
+philo&#x017F;ophi&#x017F;chen u. theologi&#x017F;chen Stu-<lb/>
+dien an der Univer&#x017F;ität Löwen in<lb/>
+Belgien und empfing am 2. Septbr.<lb/>
+1873 in Paris die Prie&#x017F;terweihe. Er<lb/>
+wirkte dann eine Reihe von Jahren<lb/>
+als Lehrer und Seel&#x017F;orger in der<lb/>
+Geno&#x017F;&#x017F;en&#x017F;chaft zu Paris, Poitiers,<lb/>
+Havre, Nizza, in der italieni&#x017F;chen Diö-<lb/>
+ze&#x017F;e Biella und zuletzt in Deut&#x017F;chland,<lb/>
+bis er &#x017F;ich durch zunehmende Kränk-<lb/>
+lichkeit gezwungen &#x017F;ah, &#x017F;ich 1891 in<lb/>
+das Ho&#x017F;pital zu Ehrenbreit&#x017F;tein zu-<lb/>
+rückzuziehen, wo er den Gottesdien&#x017F;t<lb/>
+ver&#x017F;ah und auch in der Umgegend noch<lb/>
+als beliebter Beichtvater unermüdlich<lb/>
+tätig war. Er &#x017F;tarb dort am 2. Mai<lb/>
+1900. &#x2013; Außer einigen theologi&#x017F;chen<lb/>
+Werken veröffentlichte er </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Sim-<lb/>
+plicius Langohr (L&#x017F;t&#x017F;p.), 1903.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Deppen,</hi> Otto von,</head><p> P&#x017F;eud. für<lb/>
+Karl Friedrich Heinrich <hi rendition="#g">Straß;</hi> &#x017F;. d.!</p><lb/>
+</div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Deppi&#x017F;ch,</hi> Augu&#x017F;t,</head><p> wurde am 24.<lb/>
+Augu&#x017F;t 1862 zu Arn&#x017F;tein in Unter-<lb/>
+franken als der Sohn eines ehemali-<lb/>
+gen Bierbrauer- und Färbermei&#x017F;ters,<lb/>
+eines kenntnisreichen Mannes, ge-<lb/>
+boren und von &#x017F;einen Eltern für das<lb/>
+Studium be&#x017F;timmt. Fa&#x017F;t wäre die&#x017F;er<lb/>
+Plan durch den Tod der Mutter (1872)<lb/>
+vereitelt worden, wenn &#x017F;ich nicht die<lb/>
+Tante des Knaben ent&#x017F;chlo&#x017F;&#x017F;en hätte,<lb/>
+dem Witwer den Haushalt zu führen.<lb/>
+So kam D. 1873 auf die Latein&#x017F;chule<lb/>
+in Hammelburg, 1875 auf das alte<lb/>
+Gymna&#x017F;ium in Würzburg, de&#x017F;&#x017F;en<lb/>
+<fw place="bottom" type="sig">* 1*</fw><lb/>
+<pb facs="#f0008" n="4"/>
+<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Deq</hi></fw><lb/>
+Rektor Miller dem Knaben ein väter-<lb/>
+licher Berater ward, mußte aber we-<lb/>
+gen Bluthu&#x017F;tens den Unterricht ein<lb/>
+Jahr lang unterbrechen und be&#x017F;uchte<lb/>
+dann noch ein Jahr das Gymna&#x017F;ium<lb/>
+in A&#x017F;chaffenburg. Jn Würzburg &#x017F;tu-<lb/>
+dierte er ein Jahr Philo&#x017F;ophie, Päda-<lb/>
+gogik, Nationalökonomie, Phy&#x017F;ik,<lb/>
+Anatomie u. Phy&#x017F;iologie, ging dann<lb/>
+aber, um &#x017F;o bald wie möglich in eine<lb/>
+einträgliche Lebens&#x017F;tellung zu kom-<lb/>
+men, zur Medizin über, beendete mit<lb/>
+an&#x017F;trengendem Eifer die&#x017F;es Studium,<lb/>
+wurde 1887 zum <hi rendition="#aq">Dr. med.</hi> promo-<lb/>
+viert, machte 1888 &#x017F;ein Approbations-<lb/>
+examen und ließ &#x017F;ich dann als prak-<lb/>
+ti&#x017F;cher Arzt in Jllerti&#x017F;&#x017F;en (Schwaben)<lb/>
+nieder. Hier trat er bald in regen<lb/>
+Gedankenaustau&#x017F;ch mit dem &#x017F;chwäbi-<lb/>
+&#x017F;chen Dichter Franz Keller (&#x017F;. d.), der<lb/>
+dann auch die Durch&#x017F;icht &#x017F;einer er&#x017F;ten<lb/>
+Gedichte übernahm. Jm Jahre 1891<lb/>
+&#x017F;iedelte D. nach Potten&#x017F;tein in &#x017F;einer<lb/>
+fränki&#x017F;chen Heimat über, wo ihn von<lb/>
+der Regierung zugleich das Amt eines<lb/>
+bezirksärztlichen Stellvertreters über-<lb/>
+tragen wurde. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Maiblumen (Manu-<lb/>
+&#x017F;kript für Freunde), 1889. &#x2013; Neu-<lb/>
+fränki&#x017F;che Lieder und Wei&#x017F;en, 1904.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Dequede,</hi> El&#x017F;e von,</head><p> p&#x017F;eud. <hi rendition="#g">Her-<lb/>
+bert von O&#x017F;ten,</hi> wurde am 28.<lb/>
+Augu&#x017F;t 1865 zu Spremberg als die<lb/>
+jüng&#x017F;te Tochter eines höheren Offi-<lb/>
+ziers geboren, be&#x017F;uchte &#x017F;eit ihrem 13.<lb/>
+Lebensjahre ein Dresdener Töchter-<lb/>
+in&#x017F;titut und legte dann ihr Examen<lb/>
+als Lehrerin ab. Mit 18 Jahren be-<lb/>
+gann &#x017F;ie ihre &#x017F;chrift&#x017F;telleri&#x017F;che Tätig-<lb/>
+keit, der &#x017F;ie auch, da ihr die&#x017F;elbe viel<lb/>
+Freude macht, bislang treu geblieben<lb/>
+i&#x017F;t. Die Schrift&#x017F;tellerin wohnte eine<lb/>
+Reihe von Jahren in Görlitz, nahm<lb/>
+aber, nachdem &#x017F;ie 1899&#x2013;1900 in Paris<lb/>
+geweilt, ihren dauernden Wohn&#x017F;itz in<lb/>
+Berlin. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Kinderge&#x017F;chichten, 1888. &#x2013;<lb/>
+Ein Opfer der Liebe (E.), 1889. &#x2013; Die<lb/>
+Schule des Lebens (R.), 1890. &#x2013;<lb/>
+Fromm und treu (E.), 1891. &#x2013; Aus<lb/>
+Schloß und Hütte (Kinderge&#x017F;chn.).<lb/>
+1892. &#x2013; Durch Sturm und Klippen<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Der</hi></fw><lb/>
+(Kün&#x017F;tlerrom.), 1893. &#x2013; Die Freun-<lb/>
+dinnen (E.), 1891. &#x2013; Gedichte, 1894.<lb/>
+&#x2013; Feier&#x017F;tunden (En.), 1896. &#x2013; &#x201E;Es<lb/>
+waren zwei Königskinder&#x201C; (R.), 1897.<lb/>
+&#x2013; Wieder daheim! (E.), 1897. &#x2013; Unter<lb/>
+der Sonne Südafrikas (E. a. d. Ge&#x017F;ch.<lb/>
+der Buren), 1901.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Derboeck,</hi> C. V.,</head><p> P&#x017F;eud. für C. <hi rendition="#g">van<lb/>
+der Boeck;</hi> &#x017F;. d.!</p><lb/>
+</div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Derelli,</hi> U.,</head><p> P&#x017F;eud. für <hi rendition="#g">Lucie<lb/>
+Jdeler;</hi> &#x017F;. d.!</p><lb/>
+</div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Deris,</hi> A.,</head><p> P&#x017F;eud. für <hi rendition="#g">Andreas<lb/>
+Gerhau&#x017F;er;</hi> &#x017F;. d.!</p><lb/>
+</div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Derlon,</hi> Hans,</head><p> P&#x017F;eud. für <hi rendition="#g">Wil-<lb/>
+helm Arent,</hi> &#x017F;. d.!</p><lb/>
+</div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Dernburg,</hi> Friedrich,</head><p> wurde am<lb/>
+3. Okt. 1833 zu Mainz geboren, ver-<lb/>
+lebte &#x017F;eine Jugend in Gießen, wo<lb/>
+&#x017F;ein Vater Profe&#x017F;&#x017F;or geworden war,<lb/>
+und erhielt hier auch &#x017F;eine Bildung.<lb/>
+Er &#x017F;tudierte die Rechte, wurde Hof-<lb/>
+gerichtsadvokat in Darm&#x017F;tadt und<lb/>
+machte &#x017F;ich bald als politi&#x017F;cher Pub-<lb/>
+lizi&#x017F;t in der ihm teilwei&#x017F;e gehörenden<lb/>
+&#x201E;Mainzeitung&#x201C; bekannt, &#x017F;o daß er in<lb/>
+die zweite he&#x017F;&#x017F;i&#x017F;che Kammer als Abge-<lb/>
+ordneter gewählt ward. Seit dem<lb/>
+Jahre 1871 vertrat er durch drei<lb/>
+Se&#x017F;&#x017F;ionen (bis 1881) den fünften<lb/>
+Wahlkreis des Großherzogtums He&#x017F;-<lb/>
+&#x017F;en im Deut&#x017F;chen Reichstage. Seine<lb/>
+Bilder, die er dem Publikum über<lb/>
+die Sitzungen die&#x017F;er Körper&#x017F;chaft gab,<lb/>
+machten &#x017F;eine journali&#x017F;ti&#x017F;che Feder<lb/>
+bald bekannt und berühmt, &#x017F;o daß<lb/>
+er nach <hi rendition="#aq">Dr.</hi> Zabels Tode 1875 zum<lb/>
+Chefredakteur der &#x201E;Nationalzeitung&#x201C;<lb/>
+berufen ward, die er bis 1890 lei-<lb/>
+tete. Jm Jahre 1883 begleitete D.<lb/>
+den deut&#x017F;chen Kronprinzen auf &#x017F;einer<lb/>
+Rei&#x017F;e nach Spanien und Rom, über<lb/>
+welche Rei&#x017F;e D. die intere&#x017F;&#x017F;ante&#x017F;ten<lb/>
+Berichte in der Nationalzeitung lie-<lb/>
+ferte, die &#x017F;päter, von Lüders mit Zeich-<lb/>
+nungen ausge&#x017F;tattet, auch be&#x017F;onders<lb/>
+im Buchhandel er&#x017F;chienen. Jn gleicher<lb/>
+Wei&#x017F;e beutete er &#x017F;eine Rei&#x017F;e aus, die<lb/>
+er 1893 zur Weltaus&#x017F;tellung in Chi-<lb/>
+cago unternahm. Jetzt arbeitet er<lb/>
+vorwiegend für das &#x201E;Berliner Tage-<lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0009" n="5"/>
+<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Der</hi></fw><lb/>
+blatt&#x201C;, de&#x017F;&#x017F;en Feuilleton er auch redi-<lb/>
+giert. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Ru&#x017F;&#x017F;i&#x017F;che Leute, 1885. &#x2013;<lb/>
+Spani&#x017F;che Bilder, 1884. &#x2013; Berliner<lb/>
+Ge&#x017F;chichten, 1886. &#x2013; Die Parlamen-<lb/>
+tarier (Sch&#x017F;p.), 1886. &#x2013; Der Over-<lb/>
+&#x017F;tolze (Berliner R.); <hi rendition="#aq">II,</hi> 1889. &#x2013; Aus<lb/>
+der weißen Stadt (Rei&#x017F;e&#x017F;kizzen), 1893.<lb/>
+&#x2013; Jn den Fe&#x017F;&#x017F;eln der Schuld (R.);<lb/>
+<hi rendition="#aq">II,</hi> 1894. &#x2013; Ein Berliner auf Helgo-<lb/>
+land (R.), und andere Novellen 1894.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Der&#x017F;chau,</hi> Augu&#x017F;t Egbert von,</head><p><lb/>
+p&#x017F;eud. <hi rendition="#g">Egbert Carl&#x017F;&#x017F;en,</hi> wurde<lb/>
+am 25. Aug. 1845 zu Lüneburg als<lb/>
+der Sohn eines hannöver&#x017F;chen Regie-<lb/>
+rungsrats geboren. Als die&#x017F;er bereits<lb/>
+1856 &#x017F;tarb, &#x017F;iedelte die fortwährend<lb/>
+körperlich leidende Mutter nach Dres-<lb/>
+den über und vertraute die gei&#x017F;tige<lb/>
+Ausbildung des Sohnes der Kreuz-<lb/>
+&#x017F;chule an, &#x017F;ah &#x017F;ich jedoch nach drei<lb/>
+Jahren veranlaßt, die&#x017F;e An&#x017F;talt mit<lb/>
+dem Gymna&#x017F;ium in Lingen zu ver-<lb/>
+tau&#x017F;chen. Hier zog &#x017F;ich D. bei einer<lb/>
+Feuersbrun&#x017F;t eine &#x017F;chwere Erkältung<lb/>
+zu, aus welcher &#x017F;ich &#x017F;päter ein Unter-<lb/>
+leibsleiden entwickelte, das ihn nie<lb/>
+mehr ganz verla&#x017F;&#x017F;en hat u. &#x017F;chließlich<lb/>
+die Ur&#x017F;ache &#x017F;eines frühen Todes wer-<lb/>
+den &#x017F;ollte. Nach Ab&#x017F;olvierung des<lb/>
+Gymna&#x017F;iums bezog er im Herb&#x017F;t 1864<lb/>
+die Univer&#x017F;ität Göttingen, um, frei-<lb/>
+lich ohne &#x017F;onderliche Neigung und nur<lb/>
+der Familientradition folgend, die<lb/>
+Rechte zu &#x017F;tudieren. Nebenher trieb<lb/>
+er auch fleißig Ge&#x017F;chichte und Mu&#x017F;ik.<lb/>
+1869 trat er in den preußi&#x017F;chen Ju-<lb/>
+&#x017F;tizdien&#x017F;t und war an den Amtsge-<lb/>
+richten Verden, Goslar, &#x017F;owie an den<lb/>
+Obergerichten Göttingen und Lüne-<lb/>
+burg tätig, &#x017F;chied aber 1871 wegen<lb/>
+Kränklichkeit aus dem Staatsdien&#x017F;t<lb/>
+und lebte &#x017F;eitdem, mit hi&#x017F;tori&#x017F;chen u.<lb/>
+belletri&#x017F;ti&#x017F;chen Arbeiten be&#x017F;chäftigt, in<lb/>
+Württemberg (er&#x017F;t in Ulm und &#x017F;eit<lb/>
+1874 in Cann&#x017F;tadt) und &#x017F;iedelte dann<lb/>
+mit &#x017F;einer Familie &#x2014; er war &#x017F;eit 1871<lb/>
+mit der Tochter des Göttinger Pro-<lb/>
+fe&#x017F;&#x017F;ors Zachariä verheiratet &#x2014; 1881<lb/>
+nach Dresden über. Hier &#x017F;tarb er am<lb/>
+12. Juni 1883. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Sir John Fen-<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Dér</hi></fw><lb/>
+wick (Hi&#x017F;t. E.), 1874. &#x2013; Die Tochter<lb/>
+von Wiedenau (R.), 1879. &#x2013; Aus den<lb/>
+Lehrjahren eines Strebers (R.), 1881.<lb/>
+&#x2013; Ein Stadtjunker von Braun&#x017F;chweig<lb/>
+(Hi&#x017F;t. E.), 1882. 2. A. 1910. &#x2013; Degen<lb/>
+und Palette (R.), 1883. &#x2013; Erzählun-<lb/>
+gen, 3. Bd., 1884 (Jnhalt: Der Edel-<lb/>
+marder. &#x2013; Der Doktor aus Batavia).</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">D<hi rendition="#aq">é</hi>ry,</hi> Juliane,</head><p> * am 10. Augu&#x017F;t<lb/>
+1864 zu Baja, einer Stadt in der<lb/>
+großen ungari&#x017F;chen Ebene, verbrachte<lb/>
+da&#x017F;elb&#x017F;t ihre Kindheit und fing da-<lb/>
+mals &#x017F;chon an, in ihrer Mutter&#x017F;prache<lb/>
+zu dichten. Später über&#x017F;iedelten ihre<lb/>
+Angehörigen nach Wien, wo Juliane<lb/>
+die deut&#x017F;che Sprache erlernte u. eine<lb/>
+deut&#x017F;che Ausbildung erhielt. Jm<lb/>
+Jahre 1888 führte K. E. Franzos in<lb/>
+&#x017F;einer &#x201E;Deut&#x017F;chen Dichtung&#x201C; die junge<lb/>
+Dame als Schrift&#x017F;tellerin ein und<lb/>
+ermutigte &#x017F;ie zu weiterem Schaffen.<lb/>
+Jm Jahre 1890 ging &#x017F;ie nach Paris,<lb/>
+wo &#x017F;ie, von der Prinze&#x017F;&#x017F;in Mathilde<lb/>
+protegiert, bald Zutritt zu den aus-<lb/>
+erle&#x017F;en&#x017F;ten Zirkeln, unter anderm bei<lb/>
+Madame Adam, fand und &#x017F;ich des-<lb/>
+halb dort &#x017F;chnell heimi&#x017F;ch fühlte. Der<lb/>
+Um&#x017F;tand, daß der Herzog Ern&#x017F;t <hi rendition="#aq">II.</hi><lb/>
+von Sach&#x017F;en-Koburg-Gotha ihren<lb/>
+Einakter &#x201E;Verlobung bei Pignerols&#x201C;<lb/>
+aufführen ließ, der in der Folge dann<lb/>
+auch im Re&#x017F;idenztheater in Berlin in<lb/>
+Szene ging, wurde die Veranla&#x017F;&#x017F;ung,<lb/>
+daß die Dichterin oft und viel in Ber-<lb/>
+lin weilte. Jm Jahre 1895 lebte &#x017F;ie<lb/>
+in München, kehrte 1898 nach Berlin<lb/>
+zurück und machte hier am 31. Mai<lb/>
+1899 ihrem Leben freiwillig ein Ende,<lb/>
+indem &#x017F;ie &#x017F;ich aus dem Fen&#x017F;ter ihres<lb/>
+Pen&#x017F;ionats auf die Straße &#x017F;türzte.<lb/>
+</p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Hoch oben (Nn.), 1888. &#x2013; Die Ver-<lb/>
+lobung bei Pignerols (Schw.), 1891.<lb/>
+&#x2013; Das Amulet (L&#x017F;p.), 1891. &#x2013; Ohne<lb/>
+Führer. Urban (2 Nn.), 1891. &#x2013; Die<lb/>
+Einwilligung, 1891. &#x2013; D&#x2019; Schand&#x2019;<lb/>
+(Volks&#x017F;t.), 1894. &#x2013; Kata&#x017F;trophen (Neue<lb/>
+Nn.), 1894. &#x2013; Es fiel ein Reif (Dr.),<lb/>
+1895. &#x2013; Die &#x017F;ieben mageren Kühe<lb/>
+(Komöd.), 1896. &#x2013; Die &#x017F;elige Jn&#x017F;el<lb/>
+(Dram. Jdyll), 1897.</p><lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0010" n="6"/>
+<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">De&#x017F;</hi></fw><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">De&#x017F;&#x017F;art,</hi> Otto,</head><p> p&#x017F;eud. <hi rendition="#g">Karl Otto,</hi><lb/>
+geb. am 27. Novbr. 1854 in Karls-<lb/>
+ruhe in Baden, lebt da&#x017F;elb&#x017F;t. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Lie-<lb/>
+derperlen (Ge.), 1879. &#x2013; Chlodwig <hi rendition="#aq">I.</hi><lb/>
+(Tr.), 1885. &#x2013; La Mole (Tr.), 1886.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">De&#x017F;&#x017F;auer,</hi> Adolf,</head><p> p&#x017F;eud. <hi rendition="#g">Erwin<lb/>
+Balder,</hi> geb. am 12. Septbr. 1849<lb/>
+in Frankfurt am Main, lebt (1892)<lb/>
+in Wien und i&#x017F;t gegenwärtig Direktor<lb/>
+der Allgemeinen Depo&#x017F;iten-Bank.<lb/>
+</p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Leonie (R.), 1888. &#x2013; Wahre Liebe<lb/>
+(R.) 1891. &#x2013; Götzendien&#x017F;t (Wiener<lb/>
+Ge&#x017F;ell&#x017F;chaftsbild), 2. A. 1899. 3. A.<lb/>
+1900. &#x2013; Jochwind (Ern&#x017F;te u. launige<lb/>
+En. a. luft&#x2019;ger Höhe), 1902. &#x2013; Ver-<lb/>
+&#x017F;tiegen? (Alpinp&#x017F;ycholog. R.), 2. A.<lb/>
+1902. &#x2013; Mit krummer Feder auf grü-<lb/>
+nem Hut (Ern&#x017F;te u. heitere En.), 1905.<lb/>
+&#x2013; &#x201E;Das Totenwannerl&#x201C; (Hum. R. a.<lb/>
+d. Berg&#x017F;teigerleben), 1906. &#x2013; Groß-<lb/>
+&#x017F;tadtjuden (R.), 1910.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">De&#x017F;&#x017F;ort,</hi> Laura,</head><p> wurde 1883 als<lb/>
+Schweizer Bürgerin in Wien geboren,<lb/>
+ab&#x017F;olvierte dort mehrere Unterrichts-<lb/>
+in&#x017F;titute und widmete &#x017F;ich dann dem<lb/>
+Studium der Literaturge&#x017F;chichte. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p><lb/>
+Aus &#x017F;tillen und bewegten Stunden<lb/>
+(Ge.), 1906.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">De&#x017F;tinn,</hi> Emmy,</head><p> Kün&#x017F;tlername für<lb/>
+<hi rendition="#g">Emmy Kittl,</hi> wurde am 26. Febr.<lb/>
+1878 in Prag als die Tochter des<lb/>
+Rentiers Kittl geboren. Sie zeigte<lb/>
+&#x017F;chon &#x017F;ehr frühe große Begabung für<lb/>
+Mu&#x017F;ik und eignete &#x017F;ich zunäch&#x017F;t eine<lb/>
+kün&#x017F;tleri&#x017F;che Fertigkeit auf der Geige<lb/>
+an; dann bildete &#x017F;ie ihr Talent für<lb/>
+den Opernge&#x017F;ang unter Leitung der<lb/>
+Ge&#x017F;anglehrerin Marie Löwe-De&#x017F;tinn,<lb/>
+deren Namen dann die Schülerin in<lb/>
+dankbarer Erinnerung an die hoch-<lb/>
+verehrte Lehrerin annahm. Mit 20<lb/>
+Jahren betrat &#x017F;ie als Santuzza in<lb/>
+Mascagnis &#x201E;Cavalleria&#x201C; die Bühne<lb/>
+des königl. Opernhau&#x017F;es in Berlin,<lb/>
+der &#x017F;ie &#x017F;eitdem als gefeierte Sopra-<lb/>
+ni&#x017F;tin angehört. Jm März 1908 er-<lb/>
+nannte &#x017F;ie der Kai&#x017F;er zur königlichen<lb/>
+Kammer&#x017F;ängerin. Seit dem Novbr.<lb/>
+1908 unternimmt &#x017F;ie für die Winter-<lb/>
+monate Ga&#x017F;t&#x017F;piele in den größeren<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Des</hi></fw><lb/>
+Städten Nordamerikas. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Sturm<lb/>
+und Ruhe (Ge.), 1902.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Destouches,</hi> Ulrich von,</head><p> Sohn<lb/>
+des Dichters Jo&#x017F;eph Anton v. D.,<lb/>
+wurde am 14. Okt. 1802 zu Amberg<lb/>
+geboren u. erhielt be&#x017F;onders von &#x017F;ei-<lb/>
+ner Mutter eine &#x017F;orgfältige Erzie-<lb/>
+hung, die auf das weiche empfängliche<lb/>
+Gemüt des Knaben für &#x017F;ein ganzes<lb/>
+Leben von Einfluß war. Jn Mün-<lb/>
+chen, wohin er 1817 mit &#x017F;einen Eltern<lb/>
+kam, be&#x017F;uchte er das Gymna&#x017F;ium und<lb/>
+Lyceum, gründete da&#x017F;elb&#x017F;t 1827 das<lb/>
+&#x201E;Münchener Tageblatt&#x201C;, de&#x017F;&#x017F;en Re-<lb/>
+daktion er bis 1832 führte, und nahm<lb/>
+dann eine ihm vom Bürgermei&#x017F;ter<lb/>
+Münchens angebotene Stelle im Ge-<lb/>
+meindedien&#x017F;te an: er wurde der Jn-<lb/>
+&#x017F;pektion des &#x017F;tädti&#x017F;chen allgemeinen<lb/>
+Krankenhau&#x017F;es zugeteilt, und hat be-<lb/>
+&#x017F;onders bei der er&#x017F;ten Münchener<lb/>
+Cholera-Epidemie (1836) ein ver-<lb/>
+dien&#x017F;tvolles Wirken bekundet. Jm<lb/>
+Jahre 1844 übertrug ihm die Stadt-<lb/>
+verwaltung die Gründung einer Ma-<lb/>
+gi&#x017F;tratsbibliothek und 1845 diejenige<lb/>
+einer Münchener Stadtchronik, und<lb/>
+hat er von der letzteren die Jahr-<lb/>
+bücher von 1818&#x2013;35 u. von 1842&#x2013;61<lb/>
+vollendet hinterla&#x017F;&#x017F;en. Die Ausfül-<lb/>
+lung der Lücke von 1836&#x2013;41 und die<lb/>
+Fortführung der Chronik bis auf die<lb/>
+Gegenwart, hat dann &#x017F;ein einziger<lb/>
+Sohn Ern&#x017F;t (&#x017F;. d. Folgenden) über-<lb/>
+nommen. Ulrich von D. &#x017F;tarb am<lb/>
+27. Januar 1863. Am Säkulartage<lb/>
+&#x017F;einer Geburt (1902) hat die dank-<lb/>
+bare Stadtgemeinde dem Gründer<lb/>
+ihrer Bibliothek und Chronik an &#x017F;ei-<lb/>
+nem Sterbehau&#x017F;e eine Gedenktafel<lb/>
+errichtet. D. hat in den Jahren 1825<lb/>
+bis 1858 eine große Zahl dramati-<lb/>
+&#x017F;cher Dichtungen und Fe&#x017F;t&#x017F;piele ver-<lb/>
+faßt, von denen 31 zur Aufführung<lb/>
+gelangten, aber nur zwei im Buch-<lb/>
+handel er&#x017F;chienen. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Erzählungen u.<lb/>
+Gedichte; <hi rendition="#aq">II,</hi> 1839 (Jnhalt: <hi rendition="#aq">I.</hi> En.:<lb/>
+Der Findling und die Kai&#x017F;erstochter.<lb/>
+&#x2013; Das Käthchen von Heilbronn und<lb/>
+der Bettel&#x017F;tudent. &#x2013; Der treue Ulan.<lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0011" n="7"/>
+<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Des</hi></fw><lb/>
+&#x2013; Der Teufel und der Schneider. &#x2013;<lb/>
+Der Sänger und &#x017F;eine Lieb&#x017F;te. &#x2013; Das<lb/>
+Bildnis. &#x2013; Lieber bayeri&#x017F;ch &#x017F;terben<lb/>
+als kai&#x017F;erlich verderben. <hi rendition="#aq">II.</hi> Gedichte.<lb/>
+&#x2013; Der treue Ulan [Dr.]). &#x2013; Die Heim-<lb/>
+kehr (Fe&#x017F;t&#x017F;p.), 1853.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Destouches,</hi> Ern&#x017F;t v.,</head><p> Sohn des<lb/>
+Vorigen, wurde am 4. Jan. 1843 in<lb/>
+München geboren, be&#x017F;uchte &#x017F;eit 1853<lb/>
+das Ludwigs-Gymna&#x017F;ium und bezog<lb/>
+1861 die dortige Univer&#x017F;ität, um die<lb/>
+Rechte zu &#x017F;tudieren. Der Tod &#x017F;eines<lb/>
+Vaters &#x2014; die Mutter war &#x017F;chon 1854<lb/>
+ge&#x017F;torben &#x2014; ver&#x017F;etzte ihn in eine trau-<lb/>
+rige Lage, doch wurde er vom Staat<lb/>
+und von der Stadt München hinrei-<lb/>
+chend unter&#x017F;tützt, &#x017F;o daß er 1865 &#x017F;eine<lb/>
+Studien beenden konnte. Auch über-<lb/>
+trug ihm der Münchener Magi&#x017F;trat<lb/>
+bereits 1863 die Fortführung der von<lb/>
+&#x017F;einem Vater auf Ko&#x017F;ten der Stadt<lb/>
+begonnenen Chronik der Stadt Mün-<lb/>
+chen und berief ihn 1864 als Adjunkt<lb/>
+in das &#x017F;tädti&#x017F;che Archiv. Jm Oktober<lb/>
+1865 be&#x017F;tand D. das theoreti&#x017F;che<lb/>
+Staatsexamen und bereitete &#x017F;ich nun<lb/>
+am Stadtgericht und Bezirksgericht<lb/>
+München für die Rechtspraxis vor.<lb/>
+Nachdem er 1868 die große Staats-<lb/>
+prüfung für Rechtskandidaten mit<lb/>
+be&#x017F;onderem Erfolge abgelegt hatte,<lb/>
+erfolgte &#x017F;ogleich &#x017F;eine An&#x017F;tellung als<lb/>
+rechtskundiger Funktionär beim<lb/>
+Stadtarchiv. Unter Beibehaltung &#x017F;ei-<lb/>
+ner Stellung als Archivadjunkt und<lb/>
+Stadtchroni&#x017F;t, erhielt er 1871 &#x017F;eine<lb/>
+Berufung als Regierungs-Akze&#x017F;&#x017F;i&#x017F;t in<lb/>
+das königl. Staatsmini&#x017F;terium des<lb/>
+königl. Hau&#x017F;es und des Äußern,<lb/>
+wurde 1873 zum Sekretär des königl.<lb/>
+bayer. St. Eli&#x017F;abeth-Ordens, 1876<lb/>
+außerdem zum Sekretär u. 1880 zum<lb/>
+Geheim&#x017F;ekretär des königl. Geheimen<lb/>
+Staatsarchivs, 1878 zum Archivar<lb/>
+der Stadt München, 1889 zum königl.<lb/>
+Archivrat, 1892 zum Vor&#x017F;tand des<lb/>
+Stadtarchivs, 1894 zum Vor&#x017F;tand des<lb/>
+von ihm gegründeten hi&#x017F;tori&#x017F;chen<lb/>
+Stadtmu&#x017F;eums und der Maillinger-<lb/>
+Sammlung, 1900 zum Vor&#x017F;tand der<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Det</hi></fw><lb/>
+&#x017F;tädti&#x017F;chen Modell&#x017F;ammlung u. 1902<lb/>
+zum Schatzmei&#x017F;ter des königl. bayer.<lb/>
+St. Eli&#x017F;abeth-Ordens ernannt. Er<lb/>
+i&#x017F;t Ehrenmitglied zahlreicher in- und<lb/>
+ausländi&#x017F;cher gelehrten Korporatio-<lb/>
+nen und Ehrenbürger der Stadt<lb/>
+Schwabing. Außer einer großen Zahl<lb/>
+hi&#x017F;tori&#x017F;cher, genealogi&#x017F;cher u. heral-<lb/>
+di&#x017F;cher Werke veröffentlichte er </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p><lb/>
+Aus der Jugendzeit (Ge.), 1866. &#x2013;<lb/>
+Berg&#x017F;eetraum (Dr. D.), 1886. &#x2013; Rot-<lb/>
+kehlchen (Dr. D.), 1886. &#x2013; Hildebold<lb/>
+von Schwangau (Kantate), 1887. &#x2013;<lb/>
+Vaterlandsklänge aus großer Zeit<lb/>
+(Dn.), 1895. &#x2013; Die Krone im Rhein<lb/>
+(D.), 2. A. 1897. &#x2013; Das Bayernlied,<lb/>
+1897. &#x2013; Max Emanuel (Fe&#x017F;t&#x017F;p.), 1899.<lb/>
+&#x2013; Der Willkomm zu Slivesheim (Fe&#x017F;t-<lb/>
+&#x017F;piel), 1899. &#x2013; An der Wende von<lb/>
+zwei Jahrhunderten (Fe&#x017F;t&#x017F;p.), 1900.<lb/>
+&#x2013; Jn der Garten&#x017F;tadt (Fe&#x017F;t&#x017F;p.), 1903.<lb/>
+&#x2013; Ein Königstag (Fe&#x017F;t&#x017F;p.), 1905. &#x2013;<lb/>
+Jm Zeichen der Barmherzigkeit (Fe&#x017F;t-<lb/>
+&#x017F;piel), 1905. &#x2013; Die Königskrone (Fe&#x017F;t-<lb/>
+&#x017F;piel), 1905. &#x2013; Ein Lebenstraum (Fe&#x017F;t-<lb/>
+&#x017F;piel), 1907. &#x2013; Horten&#x017F;ia (desgl.),<lb/>
+1908. &#x2013; Jm Reiche der Zither (desgl.),<lb/>
+1908. &#x2013; Jn Münchens Puppenheim<lb/>
+(desgl.), 1908.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Determann,</hi> Hermann,</head><p> geb. am<lb/>
+30. Septbr. 1841 in Am&#x017F;terdam, be-<lb/>
+&#x017F;uchte die dortigen Schulen, &#x017F;päter<lb/>
+das Athenäum in Brü&#x017F;&#x017F;el, die Gym-<lb/>
+na&#x017F;ien in Lingen und Meppen in<lb/>
+Hannover u. &#x017F;tudierte dann in Göt-<lb/>
+tingen und München Philologie und<lb/>
+Jurisprudenz. Jm Jahre 1870 wan-<lb/>
+derte er nach Amerika aus und wid-<lb/>
+mete &#x017F;ich &#x017F;ofort der Journali&#x017F;tik. Zu-<lb/>
+er&#x017F;t war er an der &#x201E;Neuyorker Staats-<lb/>
+zeitung&#x201C; tätig, dann Mitarbeiter des<lb/>
+&#x201E;Cincinnati-Volksfreund&#x201C; u. darauf<lb/>
+Redakteur des &#x201E;Evansville-Demo-<lb/>
+krat&#x201C;. Jm Jahre 1886 kam er von<lb/>
+Evansville nach Kolumbus im Staate<lb/>
+Ohio, wo er am &#x201E;We&#x017F;tboten&#x201C; die<lb/>
+Stellung des politi&#x017F;chen und Chef-<lb/>
+redakteurs übernahm, die er bis zu<lb/>
+&#x017F;einem Tode, am 14. März 1900, be-<lb/>
+kleidete. Seine Gedichte, die er unter<lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0012" n="8"/>
+<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Det</hi></fw><lb/>
+dem P&#x017F;eudonym <hi rendition="#g">Willibald Ro-<lb/>
+land</hi> in den ver&#x017F;chieden&#x017F;ten Blättern<lb/>
+veröffentlichte, &#x017F;ollen in näch&#x017F;ter Zeit<lb/>
+ge&#x017F;ammelt er&#x017F;cheinen.</p><lb/>
+</div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Dethlefs,</hi> Sophie,</head><p> wurde am 10.<lb/>
+Febr. 1809 zu Heide in Dithmar&#x017F;chen<lb/>
+geboren, wo ihr Vater als Brand-<lb/>
+direktor lebte. Jhre Mutter &#x017F;tarb bei<lb/>
+ihrer Geburt. Als Sophie eben kon-<lb/>
+firmiert war, wurde der Vater wegen<lb/>
+Unordnung in der ihm anvertrauten<lb/>
+Ka&#x017F;&#x017F;e &#x017F;eines Dien&#x017F;tes entla&#x017F;&#x017F;en, und<lb/>
+die Tochter fand Aufnahme und Be-<lb/>
+&#x017F;chäftigung in einer befreundeten<lb/>
+kinderlo&#x017F;en Beamtenfamilie in Heide,<lb/>
+in der &#x017F;ie vollauf Gelegenheit hatte,<lb/>
+ihre bis dahin nur mangelhafte Bil-<lb/>
+dung zu ergänzen und zu vertiefen.<lb/>
+Sie lebte viele Jahre in ihrer Vater-<lb/>
+&#x017F;tadt, bis &#x017F;ie 1853 in dem Schröder-<lb/>
+&#x017F;tift bei Hamburg ein freundliches<lb/>
+A&#x017F;yl fand. Dort &#x017F;tarb &#x017F;ie am 13. März<lb/>
+1864. Ein ihr von Freunden in Ham-<lb/>
+burg und Kiel mit für&#x017F;tlich augu&#x017F;ten-<lb/>
+burgi&#x017F;cher Unter&#x017F;tützung errichtetes<lb/>
+Grabdenkmal wurde den 30. Novbr.<lb/>
+1864 enthüllt. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Gedichte, 1850.<lb/>
+5. A. u. d. T.: Gedichte in hochdeut-<lb/>
+&#x017F;cher und plattdeut&#x017F;cher Mundart;<lb/>
+hrsg. von Klaus Groth, 1878. &#x2013; Ge-<lb/>
+legenheitsgedichte in hochdeut&#x017F;cher u.<lb/>
+plattdeut&#x017F;cher Mundart, 1861.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Detlef,</hi> Hugo,</head><p> P&#x017F;eud. für <hi rendition="#g">Meta<lb/>
+Detlef&#x017F;en;</hi> &#x017F;. d!</p><lb/>
+</div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Detlef,</hi> Karl,</head><p> P&#x017F;eud. für <hi rendition="#g">Klara<lb/>
+Bauer;</hi> &#x017F;. d.!</p><lb/>
+</div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Detlef&#x017F;en,</hi> Meta,</head><p> p&#x017F;eud. <hi rendition="#g">Hugo<lb/>
+Detlef,</hi> wurde am 2. Augu&#x017F;t 1855<lb/>
+zu Neu&#x017F;tadt in Hol&#x017F;tein geboren, wo<lb/>
+ihr Vater Pa&#x017F;tor war, erhielt ihre<lb/>
+Bildung er&#x017F;t in der dortigen Stadt-<lb/>
+&#x017F;chule und in Privatin&#x017F;tituten, dann<lb/>
+durch Privatlehrer und eine franzö-<lb/>
+&#x017F;i&#x017F;che Erzieherin. Sie lebte, zeitwei-<lb/>
+lige Rei&#x017F;en abgerechnet, &#x017F;tets in ihrem<lb/>
+Heimatsorte, auch nach dem Tode<lb/>
+ihres Vaters (1880) noch, bis &#x017F;ie 1888<lb/>
+mit ihrer Mutter nach Leipzig über-<lb/>
+&#x017F;iedelte. Jetzt lebt &#x017F;ie in Sach&#x017F;a am<lb/>
+Harz. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Auf &#x017F;eine Stelle jeder Mann<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Det</hi></fw><lb/>
+(E.), 1878. &#x2013; Gottes-Treu (E.), 1879.<lb/>
+&#x2013; Aus eigener Kraft (N.), 1880. &#x2013;<lb/>
+Ein Jahr mit deut&#x017F;chem Liederklang<lb/>
+(Sk.), 1881.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Detmold,</hi> Johann Hermann,</head><p><lb/>
+wurde am 24. Juli 1807 zu Hanno-<lb/>
+ver als der Sohn eines ange&#x017F;ehenen<lb/>
+Arztes geboren, be&#x017F;uchte das Gym-<lb/>
+na&#x017F;ium &#x017F;einer Vater&#x017F;tadt u. widmete<lb/>
+&#x017F;ich dann in Göttingen und Heidel-<lb/>
+berg juri&#x017F;ti&#x017F;chen Studien. Nach Be-<lb/>
+endigung der&#x017F;elben ließ er &#x017F;ich 1830<lb/>
+in Hannover als Advokat nieder, be-<lb/>
+&#x017F;chäftigte &#x017F;ich aber nebenbei viel mit<lb/>
+Kun&#x017F;t&#x017F;tudien, gab auch in den Jahren<lb/>
+1835 und 1836 mit dem Maler G.<lb/>
+O&#x017F;terwald die &#x201E;Hannöver&#x017F;chen Kun&#x017F;t-<lb/>
+blätter&#x201C; heraus. Nach Aufhebung des<lb/>
+hannöver&#x017F;chen Staatsgrundge&#x017F;etzes<lb/>
+1837 zum Deputierten der Stadt<lb/>
+Münden erwählt, beteiligte er &#x017F;ich<lb/>
+an allen Schritten zur Aufrechterhal-<lb/>
+tung jenes Grundge&#x017F;etzes, zog &#x017F;ich<lb/>
+aber, durch den &#x017F;chließlichen Ausgang<lb/>
+der Verfa&#x017F;&#x017F;ungs-Angelegenheit ver-<lb/>
+&#x017F;timmt, gänzlich vom öffentlichen Wir-<lb/>
+ken zurück. Den revolutionären Be-<lb/>
+wegungen des Jahres 1848 zeigte er<lb/>
+&#x017F;ich ent&#x017F;chieden abgeneigt, und in der<lb/>
+deut&#x017F;chen Nationalver&#x017F;ammlung ge-<lb/>
+hörte er anfangs der Zentrumspar-<lb/>
+tei, &#x017F;päter der kleinen Fraktion der<lb/>
+&#x017F;ogenannten äußer&#x017F;ten Rechten an.<lb/>
+Als Mitglied des Verfa&#x017F;&#x017F;ungsaus-<lb/>
+&#x017F;chu&#x017F;&#x017F;es gehörte er zu den wenigen,<lb/>
+die &#x017F;ich auf das ent&#x017F;chieden&#x017F;te den<lb/>
+Grundrechten und dem Verfa&#x017F;&#x017F;ungs-<lb/>
+entwurf wider&#x017F;etzten. Jm Mai 1849<lb/>
+wurde er vom Reichsverwe&#x017F;er nach<lb/>
+Gagerns Rücktritt mit der Bildung<lb/>
+eines neuen Mini&#x017F;teriums beauftragt,<lb/>
+in dem D. das Portefeuille der Ju&#x017F;tiz<lb/>
+u. bald darauf das des Jnnern über-<lb/>
+nahm. Er hielt auf die&#x017F;em Po&#x017F;ten<lb/>
+aus, bis am 21. Dezember 1849 der<lb/>
+Reichsverwe&#x017F;er &#x017F;elb&#x017F;t die von ihm<lb/>
+bisher ausgeübte Gewalt dem unter-<lb/>
+des ins Leben gerufenen Zentral-<lb/>
+organ der Bundeszentralkommi&#x017F;&#x017F;ion<lb/>
+übergab. Bei die&#x017F;er Kommi&#x017F;&#x017F;ion<lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0013" n="9"/>
+<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Det</hi></fw><lb/>
+wurde nun D. vom Könige v. Han-<lb/>
+nover zum Bevollmächtigten, &#x017F;päter<lb/>
+auch zum Ge&#x017F;andten bei dem Bun-<lb/>
+destage ernannt. Durch das Mini-<lb/>
+&#x017F;terium Münchhau&#x017F;en von &#x017F;einem<lb/>
+Frankfurter Po&#x017F;ten abberufen, kehrte<lb/>
+D. 1851 nach Hannover zurück, wo<lb/>
+er am 17. März 1856 &#x017F;tarb. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Rand-<lb/>
+zeichnungen (Satiren), 1843. Neue<lb/>
+Ausg. 1887. &#x2013; Die tote Tante (N.),<lb/>
+1845. &#x2013; Taten und Meinungen des<lb/>
+Herrn Piepmeyer (Sat.), 1849. &#x2013; Das<lb/>
+&#x017F;chwierige Problem. Humoreske. Neue<lb/>
+Ausg. 1887. &#x2013; Anleitung zur Kun&#x017F;t-<lb/>
+kenner&#x017F;chaft, oder: Die Kun&#x017F;t, in drei<lb/>
+Stunden ein Kenner zu werden, 1845.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Det&#x017F;chy,</hi> Seraphine,</head><p> wurde am<lb/>
+9. Juni 1858 in Graz als die Tochter<lb/>
+eines ange&#x017F;ehenen Arztes geboren.<lb/>
+Sie kränkelte viel als Kind, und das<lb/>
+machte &#x017F;ie beobachtend, nachdenklich<lb/>
+und ern&#x017F;t. Ein Ga&#x017F;t&#x017F;piel der berühm-<lb/>
+ten Klara Ziegler weckte in ihr eine<lb/>
+wahre Leiden&#x017F;chaft für die Bühne,<lb/>
+und nachdem &#x017F;ie nach vielen ern&#x017F;ten<lb/>
+Kämpfen mit den Eltern durch die<lb/>
+Wiener Hof&#x017F;chau&#x017F;pieler Jo&#x017F;eph Le-<lb/>
+winsky und Bernhard Baumei&#x017F;ter<lb/>
+ausgebildet war, betrat &#x017F;ie 1873 in<lb/>
+Brünn zum er&#x017F;tenmal die Bretter,<lb/>
+welche die Welt bedeuten. Nach einem<lb/>
+kurzen Noviziat, das &#x017F;ie teils in Graz,<lb/>
+teils am Schweriner Hoftheater ab-<lb/>
+&#x017F;olvierte, erhielt &#x017F;ie 1878 einen Ruf<lb/>
+an das Burgtheater in Wien, wo &#x017F;ie<lb/>
+mit vielem Glück debütierte. Der un-<lb/>
+erwartet plötzliche Tod ihrer Mutter<lb/>
+und ihre darauf erfolgende Erkran-<lb/>
+kung unterbrach das Ga&#x017F;t&#x017F;piel. Nach<lb/>
+ihrer Gene&#x017F;ung nahm &#x017F;ie ein Engage-<lb/>
+ment am Wiener Stadttheater an<lb/>
+(1882), und nach de&#x017F;&#x017F;en Brand im<lb/>
+Mai 1884 wurde &#x017F;ie vom Direktor<lb/>
+Pollini nach Hamburg berufen, wo<lb/>
+&#x017F;ie vier Jahre lang eine viel benei-<lb/>
+dete Stellung als Heroine einnahm,<lb/>
+bis ihre durch Überan&#x017F;trengung zer-<lb/>
+rüttete Ge&#x017F;undheit &#x017F;ie zwang, ein<lb/>
+weniger an&#x017F;trengendes Engagement<lb/>
+am Hoftheater in Stuttgart anzu-<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Det</hi></fw><lb/>
+nehmen. Von hier aus ging &#x017F;ie für<lb/>
+kürzere Zeit an das Thaliatheater in<lb/>
+Hamburg und an das Deut&#x017F;che Hof-<lb/>
+theater in Petersburg, nach de&#x017F;&#x017F;en<lb/>
+Schließung durch Zar Alexander <hi rendition="#aq">III.</hi><lb/>
+(1890) &#x017F;ie an das Le&#x017F;&#x017F;ingtheater in<lb/>
+Berlin berufen ward. Nach einer<lb/>
+Ga&#x017F;t&#x017F;pielrei&#x017F;e mit der Ge&#x017F;ell&#x017F;chaft des<lb/>
+Direktors Amberg nach Neuyork<lb/>
+(1891) kehrte &#x017F;ie 1892 wieder ans<lb/>
+Le&#x017F;&#x017F;ingtheater zurück und nahm 1894<lb/>
+ein Engagement am Schillertheater<lb/>
+in Berlin an, bis nach einigen Jah-<lb/>
+ren ihre ganz er&#x017F;chöpften Nerven &#x017F;ie<lb/>
+zwangen, ihre Bühnentätigkeit vor-<lb/>
+läufig aufzugeben. Sie wurde nun<lb/>
+Schrift&#x017F;tellerin, als welche &#x017F;ie &#x017F;ich<lb/>
+&#x017F;chon durch mancherlei Feuilletons in<lb/>
+Wien, Neuyork u. Hamburg ver&#x017F;ucht<lb/>
+hatte, und erteilt als Speziali&#x017F;tin<lb/>
+Unterricht in der hygieni&#x017F;chen Rede-<lb/>
+kun&#x017F;t. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Die offizielle Frau (Dra-<lb/>
+mati&#x017F;ierte Bearbeitung des Romans<lb/>
+<hi rendition="#aq">&#x201E;My official wife&#x201C;</hi> von Richard Sa-<lb/>
+vage), 1895. &#x2013; Dunkelrote Ro&#x017F;en (R.<lb/>
+a. d. Bühnenwelt), 1903.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Detter,</hi> Ludwig,</head><p> geb. am 5. Febr.<lb/>
+1867 in Kelheim a. d. Donau (Bayern),<lb/>
+Lehrer, i&#x017F;t (1892) Schulverwe&#x017F;er in<lb/>
+Straubing, 1895 Hilfslehrer am dor-<lb/>
+tigen Lehrer&#x017F;eminar und wurde 1898<lb/>
+ordentl. Lehrer am Lehrer&#x017F;eminar in<lb/>
+Frei&#x017F;ing (Bayern). </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Gertrud Baum-<lb/>
+garten (R. a. d. Gegenwart) <hi rendition="#aq">II,</hi> 1907.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Dettmering,</hi> C. A. F.,</head><p> geboren am<lb/>
+16. Jan. 1822 zu Rinteln in He&#x017F;&#x017F;en,<lb/>
+be&#x017F;uchte das dortige Gymna&#x017F;ium und<lb/>
+&#x017F;tudierte darauf 1842&#x2013;45 in Marburg<lb/>
+Theologie. Jm Jahre 1847 wurde er<lb/>
+Pfarrgehilfe in Röddenau bei Fran-<lb/>
+kenberg, 1851 in Wetter, noch in dem-<lb/>
+&#x017F;elben Jahre Rektor in Schlüchtern,<lb/>
+1853 Pfarrer in Frankenberg, 1874<lb/>
+in Dreihau&#x017F;en und 1878 auch Metro-<lb/>
+politan der Kla&#x017F;&#x017F;e Kirchhain. Von<lb/>
+hier kam er 1888 als Oberpfarrer<lb/>
+nach Marburg, wo ihm 1889 auch die<lb/>
+Superintendentur der lutheri&#x017F;chen<lb/>
+Diöze&#x017F;e Oberhe&#x017F;&#x017F;en übertragen wurde.<lb/>
+Jn die&#x017F;en Ämtern blieb er bis zu<lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0014" n="10"/>
+<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Det</hi></fw><lb/>
+&#x017F;einem Tode am 23. Dezember 1893.<lb/>
+</p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Eli&#x017F;abeth von Thüringen (Ep. G.),<lb/>
+1872.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Detto,</hi> Albert,</head><p> geb. am 25. Febr.<lb/>
+1845 zu Seehau&#x017F;en in der Altmark,<lb/>
+be&#x017F;uchte das Gymna&#x017F;ium zu Stendal<lb/>
+u. &#x017F;tudierte 1864&#x2013;67 in Berlin Phi-<lb/>
+lologie und Ge&#x017F;chichte. Nachdem er<lb/>
+im Dezember 1868 &#x017F;ein Examen als<lb/>
+Oberlehrer ab&#x017F;olviert, wurde er 1869<lb/>
+als Hilfslehrer am Gymna&#x017F;ium in<lb/>
+Sorau, O&#x017F;tern 1870 definitiv als Leh-<lb/>
+rer am Gymna&#x017F;ium in Witt&#x017F;tock an-<lb/>
+ge&#x017F;tellt, 1893 da&#x017F;elb&#x017F;t zum Profe&#x017F;&#x017F;or<lb/>
+ernannt und 1895 in gleicher Eigen-<lb/>
+&#x017F;chaft an das Gymna&#x017F;ium in Frank-<lb/>
+furt a. O. ver&#x017F;etzt. Seit 1907 i&#x017F;t er<lb/>
+Mitglied des Reichstags für Frank-<lb/>
+furt-Lebus. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Cornelia (Sch&#x017F;p.),<lb/>
+1888. &#x2013; Frau Hopf (L&#x017F;p.), 1888.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Deumeland,</hi> H.,</head><p> * am 8. April<lb/>
+1822 zu Mör&#x017F;e, einem Dorfe bei Fal-<lb/>
+lersleben im Braun&#x017F;chweigi&#x017F;chen,<lb/>
+Sohn eines dortigen kleinen Grund-<lb/>
+be&#x017F;itzers, erhielt in der Schule &#x017F;eines<lb/>
+Dorfes nur einen mangelhaften Un-<lb/>
+terricht, &#x017F;uchte aber &#x017F;päter jede Ge-<lb/>
+legenheit zu benutzen, &#x017F;eine Bildung<lb/>
+zu erweitern. Noch als Mann von fa&#x017F;t<lb/>
+30 Jahren wanderte er ein halbes<lb/>
+Jahr lang nach Fallersleben, um bei<lb/>
+einem dortigen Hauslehrer Privat-<lb/>
+unterricht zu nehmen. Er lebte bis<lb/>
+zu &#x017F;einem Tode in &#x017F;einem Heimats-<lb/>
+orte Mör&#x017F;e, wo er als Be&#x017F;itzer eines<lb/>
+Käthnerhofes die Landwirt&#x017F;chaft be-<lb/>
+trieb und &#x017F;eine wenigen Muße&#x017F;tunden<lb/>
+der Schrift&#x017F;tellerei widmete. Er &#x017F;tarb<lb/>
+am 16. Mai 1889. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Dei Äckerjagd<lb/>
+(Eichhörnchenjagd) tau Vorigeslewen<lb/>
+am Baren&#x017F;ee (Plattdeut&#x017F;che E.), 1875.<lb/>
+&#x2013; Hapütjen ut mienen Blaumenjah-<lb/>
+ren (Plattdeut&#x017F;che En.), 1878. &#x2013;<lb/>
+Quiekjorg-Kicheri (Plattd. hum. En.),<lb/>
+1886. &#x2013; Tut-Rut-Kicheri (Plattd.<lb/>
+humor. En.), 1887.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Deutl,</hi> Jo&#x017F;eph,</head><p> ent&#x017F;tammt einer<lb/>
+aus Deut&#x017F;chböhmen vor 150 Jahren<lb/>
+nach Linz eingewanderten deut&#x017F;chen<lb/>
+Familie, die &#x017F;ich urkundlich Taitl oder<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Deu</hi></fw><lb/>
+Taytl &#x017F;chrieb, u. wurde am 16. Aug.<lb/>
+1839 zu St. Veit im Mühlkrei&#x017F;e Ober-<lb/>
+ö&#x017F;terreichs als der Sohn eines Arztes<lb/>
+geboren. Seine Mutter, die er leider<lb/>
+&#x017F;chon im 12. Jahre verlor, legte ihm<lb/>
+die Liebe zur Heimat, zum Vaterlande,<lb/>
+zu &#x017F;einem Volks&#x017F;tamme und de&#x017F;&#x017F;en<lb/>
+Sprache ins Herz, was er &#x017F;ein ganzes<lb/>
+Leben lang als ein heiliges Vermächt-<lb/>
+nis bewahrte und befolgte. Entbeh-<lb/>
+rungen ver&#x017F;chieden&#x017F;ter Art lernte er<lb/>
+dann im Laufe der weiteren Jahre<lb/>
+kennen. Jm Jahre 1864 machte D.<lb/>
+den Feldzug nach Dänemark mit, &#x017F;tu-<lb/>
+dierte 1868&#x2013;72 in Wien Veterinär-<lb/>
+kunde auf Militärko&#x017F;ten, trat 1875<lb/>
+aus dem Heere aus, war bis 1878<lb/>
+Privattierarzt in Schärding, bis 1880<lb/>
+in Vöcklabruck und wurde dann als<lb/>
+Amts- und Stadttierarzt in Linz an-<lb/>
+ge&#x017F;tellt, wo er bis zu Ende d. J. 1909<lb/>
+in &#x017F;einem Berufe tätig war und &#x017F;eit-<lb/>
+dem im Ruhe&#x017F;tande lebt. Er&#x017F;t in &#x017F;ei-<lb/>
+nem 57. Lebensjahre wurde D., der<lb/>
+&#x017F;on&#x017F;t wenig Jntere&#x017F;&#x017F;e für Dichtungen<lb/>
+bekundete, durch das Le&#x017F;en der Werke<lb/>
+Stelzhamers, Mo&#x017F;ers, Pur&#x017F;chkas,<lb/>
+Hanrieders u. a. angeregt, &#x017F;ich &#x017F;elb&#x017F;t<lb/>
+in der mundartlichen Dichtung Ober-<lb/>
+ö&#x017F;terreichs zu ver&#x017F;uchen. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Volks-<lb/>
+dichtungen in oberö&#x017F;terreichi&#x017F;cher<lb/>
+Mundart; <hi rendition="#aq">VIII,</hi> 1896&#x2013;1910.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Deutlich,</hi> Jeremias,</head><p> P&#x017F;eud. für<lb/>
+<hi rendition="#g">Max Kalbeck,</hi> &#x017F;. d.!</p><lb/>
+</div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Deut&#x017F;ch,</hi> Chri&#x017F;tian,</head><p> P&#x017F;eud. für<lb/>
+<hi rendition="#g">Augu&#x017F;t Ebrard;</hi> &#x017F;. d.!</p><lb/>
+</div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Deut&#x017F;ch,</hi> Gotthard,</head><p> geboren am<lb/>
+31. Januar 1859 zu Kanitz im Bezirk<lb/>
+Brünn (Mähren) als der Sohn eines<lb/>
+jüdi&#x017F;chen Kaufmanns, be&#x017F;uchte die<lb/>
+Elementar&#x017F;chule &#x017F;einer Vater&#x017F;tadt,<lb/>
+das Gymna&#x017F;ium in Nikolsburg, das<lb/>
+er 1878 mit dem Reifezeugnis verließ,<lb/>
+und trat dann in das jüdi&#x017F;ch-theo-<lb/>
+logi&#x017F;che Seminar in Breslau, hörte<lb/>
+auch gleichzeitig philo&#x017F;ophi&#x017F;che und<lb/>
+hi&#x017F;tori&#x017F;che Vorle&#x017F;ungen an der dor-<lb/>
+tigen Univer&#x017F;ität. Seit 1879 &#x017F;etzte er<lb/>
+&#x017F;eine Studien in Wien fort, wurde<lb/>
+hier 1881 zum <hi rendition="#aq">Dr. phil.</hi> promoviert,<lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0015" n="11"/>
+<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Deu</hi></fw><lb/>
+im Sept. d. J. als Religionslehrer<lb/>
+von der jüdi&#x017F;chen Gemeinde in Brünn<lb/>
+berufen und am 1. Dezbr. 1882 von<lb/>
+der ö&#x017F;terreich. Unterrichtsverwaltung<lb/>
+zum Lehrer der jüdi&#x017F;chen Religion an<lb/>
+den deut&#x017F;chen Staatsmittel&#x017F;chulen<lb/>
+die&#x017F;er Stadt be&#x017F;tellt. Jm Sept. 1887<lb/>
+ging er als Rabbiner nach Brüx und<lb/>
+am 1. Septbr. 1891 nach Cincinnati<lb/>
+(Ohio) in Nord-Amerika, wo er eine<lb/>
+Profe&#x017F;&#x017F;ur für jüdi&#x017F;che Ge&#x017F;chichte und<lb/>
+Religionsphilo&#x017F;ophie am <hi rendition="#aq">Hebrew<lb/>
+Union College</hi> (Rabbiner&#x017F;eminar)<lb/>
+übernahm und &#x017F;eit 1903 auch die Di-<lb/>
+rektion die&#x017F;er An&#x017F;talt führte. Er lebt<lb/>
+und wirkt noch jetzt (1911) in Cin-<lb/>
+cinnati. Er gab längere Zeit die Mo-<lb/>
+nats&#x017F;chrift &#x201E;Deborah&#x201C; heraus u. war<lb/>
+Redaktionsmitglied der <hi rendition="#aq">Jewish En-<lb/>
+cyclopedia.</hi> </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Andere Zeiten (E. a.<lb/>
+d. jüdi&#x017F;chen Leben der jüng&#x017F;ten Ver-<lb/>
+gangenh.), 1898. &#x2013; Unlösbare Fe&#x017F;&#x017F;eln<lb/>
+(E. a. d. jüd. Leben d. Gegenwart),<lb/>
+1903.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Deut&#x017F;ch,</hi> Karl,</head><p> geb. am 23. Febr.<lb/>
+1859 zu Jm&#x017F;t in Tirol, wo &#x017F;ein Va-<lb/>
+ter Apotheker war, kam nach Ab&#x017F;ol-<lb/>
+vierung der dortigen Volks&#x017F;chule auf<lb/>
+die Real&#x017F;chule in Jnnsbruck, wo er<lb/>
+&#x017F;ich nach des Vaters Wun&#x017F;ch zum<lb/>
+Techniker vorbilden &#x017F;ollte. Da aber<lb/>
+die&#x017F;er Beruf dem Knaben gar nicht<lb/>
+zu&#x017F;agte, ge&#x017F;tattete &#x017F;ein Vater den Über-<lb/>
+tritt zum Gymna&#x017F;ium u. &#x017F;päter auch<lb/>
+die Erlernung der Pharmacie. Jm<lb/>
+Mai 1880 bezog D. die Univer&#x017F;ität<lb/>
+Jnnsbruck, wo er im Juli 1882 als<lb/>
+<hi rendition="#aq">Mag. Pharm.</hi> graduiert wurde, &#x017F;tu-<lb/>
+dierte dann noch zwei weitere Se-<lb/>
+me&#x017F;ter unter Prof. Sennhofer und<lb/>
+<hi rendition="#aq">Dr.</hi> Brummer Chemie u. kehrte 1884<lb/>
+nach Jm&#x017F;t zurück, wo er 1890 die<lb/>
+väterliche Apotheke übernahm, die er<lb/>
+bis 1900 &#x017F;elb&#x017F;t leitete. Während die-<lb/>
+&#x017F;er Zeit, wo er ganz unter dem Volke<lb/>
+lebte und tiefe Einblicke in das Ti-<lb/>
+roler Volksleben gewann, da ihm die<lb/>
+Leute ihr voll&#x017F;tes Vertrauen &#x017F;chenkten,<lb/>
+ent&#x017F;tanden &#x017F;eine er&#x017F;ten literari&#x017F;chen<lb/>
+Arbeiten, die das Volksleben im obe-<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Dev</hi></fw><lb/>
+ren Jnntal &#x017F;childern und mei&#x017F;t im<lb/>
+&#x201E;Tiroler Tagblatt&#x201C; und in der &#x201E;Ti-<lb/>
+roler Landzeitung&#x201C; er&#x017F;chienen. Für<lb/>
+letztere &#x017F;chrieb er zwei Jahre lang<lb/>
+wöchentlich u. d. T. &#x201E;D&#x2019;Rofer Katl&#x201C;<lb/>
+einen Artikel in Jm&#x017F;ter Mundart.<lb/>
+Nachdem er 1900 &#x017F;eine Apotheke ver-<lb/>
+kauft, widmet er &#x017F;ich vorwiegend der<lb/>
+Schrift&#x017F;tellerei und lebt während des<lb/>
+Sommers in Jm&#x017F;t und während des<lb/>
+Winters in München, dem Geburts-<lb/>
+ort &#x017F;einer Gattin. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> A Sträußla<lb/>
+vom Berg (Ge. in Oberinntaler Mdt.),<lb/>
+1890. &#x2013; Wo der Jochwind pfeift<lb/>
+(Ge&#x017F;chn. a. Tirol), 1903. &#x2013; Der Jä-<lb/>
+ger vom Stein&#x017F;ee (E. a. d. Zeit der<lb/>
+Tiroler Freiheitskämpfe), 1903. &#x2013;<lb/>
+Die Gottlo&#x017F;en (E. a. Tirol), 1905.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Deut&#x017F;ch,</hi> Karoline,</head><p> P&#x017F;eudon. für<lb/>
+<hi rendition="#g">Karoline Weiß;</hi> &#x017F;. d.!</p><lb/>
+</div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Deut&#x017F;ch,</hi> Richard Friedrich,</head><p> &#x017F;iehe<lb/>
+<hi rendition="#g">Richard A. Edon!</hi></p><lb/>
+</div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Deut&#x017F;chmann,</hi> E.,</head><p> P&#x017F;eudon. für<lb/>
+<hi rendition="#g">Paul Lippert;</hi> &#x017F;. d.!</p><lb/>
+</div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Deut&#x017F;chmann,</hi> Marie,</head><p> p&#x017F;eud. M.<lb/>
+<hi rendition="#g">Albert,</hi> wurde am 15. Aug. 1841<lb/>
+in Goldap (O&#x017F;tpreußen) als die Toch-<lb/>
+ter eines Pfarrers geboren. Sie legte<lb/>
+1871 in Königsberg das Lehrerin-<lb/>
+nenexamen ab, erteilte dann Unter-<lb/>
+richt u. &#x017F;tudierte daneben Sprachen,<lb/>
+Philo&#x017F;ophie u. Poe&#x017F;ie. Obwohl früh-<lb/>
+zeitig zur Schrift&#x017F;tellerei hinneigend,<lb/>
+kam &#x017F;ie doch er&#x017F;t zu regelmäßigem,<lb/>
+literari&#x017F;chem Schaffen, &#x017F;eit &#x017F;ie &#x017F;ich<lb/>
+1874 in Halle a. S. niedergela&#x017F;&#x017F;en<lb/>
+hatte. Sie &#x017F;chrieb eine Reihe von<lb/>
+Novellen u. Skizzen für ver&#x017F;chiedene<lb/>
+Zeitungen, auch mehrere Libretti für<lb/>
+Komponi&#x017F;ten. Später lebte &#x017F;ie eine<lb/>
+Zeitlang in Arn&#x017F;tadt und Weilburg,<lb/>
+hat aber &#x017F;eit 1891 ihren &#x017F;tändigen<lb/>
+Wohn&#x017F;itz wieder in Halle a. S. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p><lb/>
+Ohne Sterben kommt man nicht zum<lb/>
+Leben! (E.), 1884. &#x2013; Sonnen&#x017F;trahl<lb/>
+N.), 1906. Claudia (Dr.), 1906. &#x2013;<lb/>
+<hi rendition="#aq">Spes unica</hi> (R.), 1907. &#x2013; Un&#x017F;chuldig<lb/>
+(R.), 1908.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Deviloff,</hi> Paul,</head><p> P&#x017F;eud. für <hi rendition="#g">Jo-<lb/>
+&#x017F;eph von Doblhoff;</hi> &#x017F;. d.!</p><lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0016" n="12"/>
+<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Dev</hi></fw><lb/>
+</div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Devrient,</hi> Philipp <hi rendition="#g">Eduard,</hi></head><p> be-<lb/>
+deutender Schau&#x017F;pieler und drama-<lb/>
+ti&#x017F;cher Dichter, Neffe des berühmten<lb/>
+Ludwig Devrient und Sohn eines<lb/>
+Berliner Kaufmanns, wurde am 11.<lb/>
+Augu&#x017F;t 1801 in Berlin geboren und<lb/>
+wie &#x017F;eine beiden noch berühmteren<lb/>
+Brüder Karl Augu&#x017F;t u. Gu&#x017F;tav Emil<lb/>
+vom Vater für den Kaufmanns&#x017F;tand<lb/>
+be&#x017F;timmt; aber wie die&#x017F;e widmete<lb/>
+auch er &#x017F;ich der Kün&#x017F;tlerlaufbahn, die<lb/>
+er 1819 zuer&#x017F;t als Sänger betrat, da<lb/>
+ihm &#x017F;eine &#x017F;chöne Bariton&#x017F;timme und<lb/>
+&#x017F;eine gründliche unter Zelter erwor-<lb/>
+bene mu&#x017F;ikali&#x017F;che Bildung eine Stelle<lb/>
+bei der königlichen Oper ver&#x017F;chafft<lb/>
+hatten. Später wandte er &#x017F;ich wegen<lb/>
+eingetretener Hei&#x017F;erkeit dem rezitie-<lb/>
+renden Fache zu, worin er wegen<lb/>
+&#x017F;eines tief eingehenden Studiums<lb/>
+Bedeutendes lei&#x017F;tete. Jm Jahre 1839<lb/>
+ging er nach Paris u. übergab &#x017F;eine<lb/>
+dort gemachten Beobachtungen in &#x017F;ei-<lb/>
+nen &#x201E;Briefen aus Paris&#x201C; der Öffent-<lb/>
+lichkeit. An der Berliner Hofbühne<lb/>
+blieb er bis 1841; im Jahre 1844 er-<lb/>
+hielt er einen Ruf als Schau&#x017F;pieler<lb/>
+und Oberregi&#x017F;&#x017F;eur nach Dresden; doch<lb/>
+gab er, durch ver&#x017F;chiedene Mißver-<lb/>
+hältni&#x017F;&#x017F;e bewogen, das Amt des Ober-<lb/>
+regi&#x017F;&#x017F;eurs bereits 1846 wieder auf.<lb/>
+Jm Jahre 1852 wurde er zum Direk-<lb/>
+tor des Karlsruher Hoftheaters er-<lb/>
+nannt, in welcher Stellung er bis<lb/>
+zum Jahre 1870 mit ent&#x017F;chiedenem<lb/>
+Erfolge wirkte. Bei Gelegenheit &#x017F;ei-<lb/>
+nes Kün&#x017F;tlerjubiläums (1869) wur-<lb/>
+den ihm aus allen Gauen Deut&#x017F;ch-<lb/>
+lands ehrende Bewei&#x017F;e der Anerken-<lb/>
+nung zuteil, und breits 1858 hatte<lb/>
+die philo&#x017F;ophi&#x017F;che Fakultät in Jena<lb/>
+ihn zum Doktor ernannt. Er &#x017F;tarb<lb/>
+in Karlsruhe am 4. Oktbr. 1877. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p><lb/>
+Briefe aus Paris, 1840. &#x2013; Das Na-<lb/>
+tional-Theater des neuen Deut&#x017F;ch-<lb/>
+land, 1848. &#x2013; Deut&#x017F;cher Bühnen- u.<lb/>
+Familien-Shake&#x017F;peare (Auswahl der<lb/>
+bedeutend&#x017F;ten Dr. Shake&#x017F;peares; mit<lb/>
+&#x017F;einem Sohne Otto D. hrsg.); <hi rendition="#aq">IV,</hi><lb/>
+1873 ff. &#x2013; Dramati&#x017F;che und drama-<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Dev</hi></fw><lb/>
+turgi&#x017F;che Schriften; <hi rendition="#aq">X,</hi> 1846&#x2013;74 [Jn-<lb/>
+halt: Das graue Männlein (Sch&#x017F;p.).<lb/>
+&#x2013; Die Gun&#x017F;t des Augenblicks (L&#x017F;p.). &#x2013;<lb/>
+Hans Heiling (O.) &#x2013; Verirrungen<lb/>
+(Sch&#x017F;p.) &#x2013; Die Kirmes (O.). &#x2013; Treue<lb/>
+Liebe (Sch&#x017F;p.). &#x2013; Wer bin ich? (P.).<lb/>
+&#x2013; Der Zigeuner (O.). &#x2013; Briefe aus<lb/>
+Paris. &#x2013; Über Theater&#x017F;chulen. &#x2013; Ge-<lb/>
+&#x017F;chichte der deut&#x017F;chen Schau&#x017F;pielkun&#x017F;t.<lb/>
+&#x2013; Meine Erinnerungen an Felix Men-<lb/>
+dels&#x017F;ohn-Bartholdy und &#x017F;eine Briefe<lb/>
+an mich]. &#x2013; Eduard und There&#x017F;e<lb/>
+Devrient: Briefwech&#x017F;el; hrsg. von<lb/>
+Hans Devrient, 1909.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Devrient,</hi> Otto,</head><p> jüng&#x017F;ter Sohn<lb/>
+des Vorigen, wurde am 3. Oktober<lb/>
+1838 in Berlin geboren, erhielt &#x017F;eine<lb/>
+Schulbildung &#x017F;eit 1844 in Dresden<lb/>
+und &#x017F;eit 1852 in Karlsruhe, betrat<lb/>
+1856 in Karlsruhe die Bühne, ver-<lb/>
+&#x017F;uchte &#x017F;ich dann &#x017F;eit 1859 in Stutt-<lb/>
+gart, Berlin und Leipzig und kehrte<lb/>
+1863 nach Karlsruhe zurück, wo er<lb/>
+als Kün&#x017F;tler die Richtung &#x017F;eines Va-<lb/>
+ters verfolgte. Mit dem 1. April<lb/>
+1873 trat er als Schau&#x017F;pielregi&#x017F;&#x017F;eur<lb/>
+u. Charakter&#x017F;pieler an die Hofbühne<lb/>
+zu Weimar über und machte &#x017F;ich hier<lb/>
+be&#x017F;onders durch die Jn&#x017F;zenierung<lb/>
+beider Teile von Goethes &#x201E;Fau&#x017F;t&#x201C;<lb/>
+verdient. Seit 1876 arti&#x017F;ti&#x017F;cher Büh-<lb/>
+nenleiter des National-Theaters in<lb/>
+Mannheim, ging er 1878 als Jnten-<lb/>
+dant des Stadttheaters nach Frank-<lb/>
+furt a M., gab aber &#x017F;chon im Febr.<lb/>
+1879 &#x017F;eine Entla&#x017F;&#x017F;ung. Er lebte &#x017F;eit<lb/>
+1880 mei&#x017F;t in Jena, wurde hier zum<lb/>
+Ehrenbürger und von der Univer&#x017F;i-<lb/>
+tät 1883 zum <hi rendition="#aq">Dr. phil. h. c.</hi> ernannt<lb/>
+und übernahm am 1. Januar 1884<lb/>
+die Leitung der Hofbühne in Olden-<lb/>
+burg. Jm Juni 1889 zum Direktor<lb/>
+des königl. Schau&#x017F;pielhau&#x017F;es nach<lb/>
+Berlin berufen, trat er am 1. Sept.<lb/>
+1889 &#x017F;eine neue Stellung an, aber<lb/>
+&#x017F;chon im Dezbr. 1890 von der&#x017F;elben<lb/>
+zurück. Zu Anfang des folgenden<lb/>
+Jahres &#x017F;iedelte er wieder nach Jena<lb/>
+über und be&#x017F;chäftigte &#x017F;ich in der Folge<lb/>
+vielfach mit der Aufführung &#x017F;einer<lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0017" n="13"/>
+<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Dew</hi></fw><lb/>
+&#x201E;Luther&#x201E;- und &#x201E;Gu&#x017F;tav-Adolf&#x201C;-Fe&#x017F;t-<lb/>
+&#x017F;piele in größeren Provinzial&#x017F;tädten.<lb/>
+Er &#x017F;tarb ganz plötzlich während eines<lb/>
+Aufenthalts in Stettin, wo er die<lb/>
+Aufführung &#x017F;eines &#x201E;Gu&#x017F;tav Adolf&#x201C;<lb/>
+vorbereitete, am 23. Juni 1894. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p><lb/>
+Zehn Minuten Aufenthalt (Schw.),<lb/>
+1866. &#x2013; Zwei Könige (Sch&#x017F;p.), 1867.<lb/>
+&#x2013; Zwei Shake&#x017F;peare-Vorträge, 1869.<lb/>
+&#x2013; Ein armer Millionär (Sch&#x017F;p.), 1869.<lb/>
+&#x2013; Tiberius Gracchus (Hi&#x017F;tor. Schau-<lb/>
+&#x017F;piel), 1871. &#x2013; Kai&#x017F;er Rotbart (Phan-<lb/>
+ta&#x017F;t. Sch&#x017F;p.), 1871. &#x2013; Was wir bieten<lb/>
+(Fe&#x017F;t&#x017F;p.), 1873. &#x2013; Goethes Fau&#x017F;t. Als<lb/>
+My&#x017F;terium in 2 Tagewerken einge-<lb/>
+richtet, 1877. &#x2013; Über allen Zauber<lb/>
+Liebe (Sch&#x017F;p. n. Calderon), 1881. &#x2013;<lb/>
+Luther. Hi&#x017F;tor. Charakterbild (Fe&#x017F;t-<lb/>
+&#x017F;piel, 1883. &#x2013; Kai&#x017F;er Rotbart (Phan-<lb/>
+ta&#x017F;t. Volks&#x017F;ch&#x017F;p.), 1889. &#x2013; Gu&#x017F;tav<lb/>
+Adolf (Hi&#x017F;t. Charakterbild), 1891.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Dewa,</hi> Friedrich,</head><p> P&#x017F;eudonym für<lb/>
+<hi rendition="#g">Karl Fri&#x017F;ch;</hi> &#x017F;. d.!</p><lb/>
+</div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Dewall,</hi> Johannes von,</head><p> P&#x017F;eudon.<lb/>
+für <hi rendition="#g">Augu&#x017F;t Kühne;</hi> &#x017F;. d.!</p><lb/>
+</div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Dewitz,</hi> Alexandrine von,</head><p> p&#x017F;eud.<lb/>
+<hi rendition="#g">Charlotte Ern&#x017F;t,</hi> geb. am 2. Mai<lb/>
+1827 als die Tochter des mecklenbur-<lb/>
+gi&#x017F;chen Gutsbe&#x017F;itzers Grafen <hi rendition="#g">von<lb/>
+Moltcke,</hi> erhielt ihre er&#x017F;te Erzie-<lb/>
+hung im elterlichen Hau&#x017F;e zu Wolde<lb/>
+und kam mit ihrem Vater, der 1839<lb/>
+&#x017F;eine Güter verkauft hatte, nach Neu-<lb/>
+&#x017F;trelitz, wo er die Stellung eines Ober-<lb/>
+&#x017F;tallmei&#x017F;ters des Großherzogs ein-<lb/>
+nahm. Hier von Lehrern des Gym-<lb/>
+na&#x017F;iums und von dem Kirchenrate<lb/>
+Kaempfer weiter unterrichtet, eignete<lb/>
+&#x017F;ie &#x017F;ich eine umfa&#x017F;&#x017F;ende Bildung an,<lb/>
+während der Verkehr mit den Freun-<lb/>
+den des väterlichen Hau&#x017F;es, be&#x017F;onders<lb/>
+mit E. Geibel, auf die Entwicklung<lb/>
+ihres Gei&#x017F;teslebens äußer&#x017F;t anregend<lb/>
+einwirkte. Sie vermählte &#x017F;ich mit dem<lb/>
+Geh. Ju&#x017F;tizrat von Dewitz. Nach<lb/>
+dem Tode ihres er&#x017F;ten Kindes griff<lb/>
+die junge Frau zur Feder, um Tro&#x017F;t<lb/>
+zu &#x017F;uchen und zu finden, und ihre<lb/>
+Freundin, die Herzogin Karoline von<lb/>
+Mecklenburg, regte &#x017F;ie zu weiterem<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Dey</hi></fw><lb/>
+Schaffen an. Die Dichterin lebte lange<lb/>
+Zeit in Stettin u. &#x017F;tarb am 30. März<lb/>
+1892. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Allerlei Blüten u. Blätter<lb/>
+aus ern&#x017F;ten und frohen Tagen, 1879.<lb/>
+&#x2013; Das Bild der Gouvernante (E.),<lb/>
+1880.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Dewitz,</hi> Annette von,</head><p> p&#x017F;eud. <hi rendition="#g">An-<lb/>
+nette Weditz,</hi> wurde am 8. Juli<lb/>
+1836 als die älte&#x017F;te Tochter eines pom-<lb/>
+mer&#x017F;chen Landedelmanns zu Star-<lb/>
+gard in Pommern geboren, wo ihr<lb/>
+Vater damals eine An&#x017F;tellung als<lb/>
+A&#x017F;&#x017F;e&#x017F;&#x017F;or innehatte, und kam im fünf-<lb/>
+ten Lebensjahre mit ihren Eltern auf<lb/>
+das &#x017F;eit Jahrhunderten im Be&#x017F;itz<lb/>
+ihrer Familie &#x017F;ich befindende Erbgut<lb/>
+Wu&#x017F;&#x017F;ow, wo &#x017F;ie in herrlicher Natur<lb/>
+fri&#x017F;ch und fröhlich aufwuchs. Jm<lb/>
+Krei&#x017F;e ihrer jüngeren Ge&#x017F;chwi&#x017F;ter be-<lb/>
+kundete &#x017F;ie &#x017F;ich bald als gewandte Er-<lb/>
+zählerin und Erfinderin von Märchen<lb/>
+und Ge&#x017F;chichten, und frühe &#x017F;chon kam<lb/>
+ihr der Gedanke, ihre Phanta&#x017F;iege-<lb/>
+bilde dem Papiere anzuvertrauen.<lb/>
+Doch er&#x017F;t 1867, als es galt, &#x017F;ich mit<lb/>
+Gewalt dem Schmerz über den Ver-<lb/>
+lu&#x017F;t ihres bei Git&#x017F;chin gefallenen Lieb-<lb/>
+lingsbruders zu entreißen, nahm &#x017F;ie<lb/>
+die Feder zur Hand, und hat &#x017F;ie &#x017F;eit-<lb/>
+dem eine Reihe von Kinder-, Jugend-<lb/>
+und chri&#x017F;tlichen Volks&#x017F;chriften ver-<lb/>
+öffentlicht. Die Schrift&#x017F;tellerin lebt<lb/>
+&#x017F;eit Jahren in Berlin, wohin &#x017F;ie nach<lb/>
+des Vaters Tode überge&#x017F;iedelt war.<lb/>
+</p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Liedermärchen, 1872. &#x2013; Aus mei-<lb/>
+nen Träumen (M. und Phanta&#x017F;ien),<lb/>
+1877. &#x2013; Des Lumpen&#x017F;ammlers Pflege-<lb/>
+kind (Volkserz.), 1880. 2. A. 1902.<lb/>
+&#x2013; Bilder a. d. Kinderleben, 1880. &#x2013;<lb/>
+Treue im Kleinen (Volkserz.), 1884.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Deye,</hi> Richard,</head><p> p&#x017F;eud. <hi rendition="#g">Richard<lb/>
+von Jever,</hi> wurde am 25. März<lb/>
+1853 zu Jever in Oldenburg geboren,<lb/>
+verlebte &#x017F;eine Jugend, einen 2½jäh-<lb/>
+rigen Aufenthalt in Brahe a. d. We&#x017F;er<lb/>
+abgerechnet, in &#x017F;einer Vater&#x017F;tadt und<lb/>
+ab&#x017F;olvierte hier O&#x017F;tern 1874 das Ma-<lb/>
+riengymna&#x017F;ium. Er &#x017F;tudierte darauf<lb/>
+in Marburg, Straßburg und Mün-<lb/>
+chen Philologie und Literaturge-<lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0018" n="14"/>
+<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Dey</hi></fw><lb/>
+&#x017F;chichte, be&#x017F;tand im Herb&#x017F;t 1877 das<lb/>
+bayeri&#x017F;che Staatsexamen und wurde<lb/>
+noch in dem&#x017F;elben Jahre als Lehrer<lb/>
+der neueren Sprachen an der &#x201E;Han-<lb/>
+dels&#x017F;chule der königl. Haupt- u. Re-<lb/>
+&#x017F;idenz&#x017F;tadt München&#x201C; ange&#x017F;tellt. Er<lb/>
+wirkt noch jetzt da&#x017F;elb&#x017F;t. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Vom grü-<lb/>
+nen Zweig (Ge.), 1885. &#x2013; Zu Deut&#x017F;ch-<lb/>
+lands Ehr&#x2019; (Vaterl. Ge.), 1897. &#x2013;<lb/>
+Neue Gedichte, 1907.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Deyerl,</hi> Karl Chri&#x017F;tian Bernhard,</head><p><lb/>
+* am 18. Oktober 1819 zu Regens-<lb/>
+burg, lebte längere Zeit in Eich&#x017F;tätt<lb/>
+in Bayern, wo er den aus Freunden<lb/>
+der Poe&#x017F;ie, Mu&#x017F;ik und Bildnerei be-<lb/>
+&#x017F;tehenden Verein der &#x201E;E&#x017F;chenbacher&#x201C;<lb/>
+gründen half und in Verbindung mit<lb/>
+andern Literaturfreunden das Un-<lb/>
+terhaltungsblatt &#x201E;Flora&#x201C; herausgab<lb/>
+(1863&#x2013;64). Später war er könig-<lb/>
+licher Rentbeamter in Auerbach und<lb/>
+danach in Dingolfing. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Deut&#x017F;che<lb/>
+Lieder, 1863.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Deza&#x017F;&#x017F;e,</hi> Blanka Gräfin,</head><p> geb. am<lb/>
+4. April 1875 in Görz, lebt &#x017F;eit ihrer<lb/>
+Kindheit, einige Rei&#x017F;en oder den Auf-<lb/>
+enthalt bei Verwandten abgerechnet,<lb/>
+auf dem Landgute ihrer Eltern Bo-<lb/>
+hunicz im Preßburger Komitat. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p><lb/>
+Eine dreifache Wette (N.), 1897. &#x2013;<lb/>
+Das Jdeal (R. u. Nn. u. En.), 1899.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Diamantidi,</hi> Julie,</head><p> p&#x017F;eud. <hi rendition="#g">Ju-<lb/>
+lius Damati,</hi> wurde am 5. Nov.<lb/>
+1870 in Wien als die Tochter eines<lb/>
+Mini&#x017F;terialbeamten geboren und hat<lb/>
+&#x017F;ich nach dem frühen Tode ihres Gat-<lb/>
+ten, den &#x017F;ie nach &#x017F;echswöchiger Ehe<lb/>
+verlor, der Schrift&#x017F;tellerei zugewandt.<lb/>
+</p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Fata Morgana (Sch&#x017F;p.), 1897. &#x2013;<lb/>
+Pega&#x017F;us im Joche (L&#x017F;p.), 1897. &#x2013;<lb/>
+Spätblüten (Dr. Zeitbild), 1897. &#x2013;<lb/>
+Meta (Sch&#x017F;p.), 1900.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Dibelius,</hi> <hi rendition="#g">Franz</hi> Wilhelm,</head><p> geb.<lb/>
+am 6. Januar 1847 in Prenzlau, wo<lb/>
+&#x017F;ein Vater Oberlehrer am Gymna-<lb/>
+&#x017F;ium war, ab&#x017F;olvierte die&#x017F;e An&#x017F;talt<lb/>
+und &#x017F;tudierte dann in Berlin Theo-<lb/>
+logie. Jm Jahre 1871 wurde er<lb/>
+Hilfsprediger am Dom zu Berlin,<lb/>
+1873 Jn&#x017F;pektor des Domkandidaten-<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Dick</hi></fw><lb/>
+&#x017F;tifts da&#x017F;elb&#x017F;t und folgte 1874 einem<lb/>
+Rufe nach Dresden, wo er zuer&#x017F;t Pfar-<lb/>
+rer an der Annenkirche, 1878 Kon-<lb/>
+&#x017F;i&#x017F;torialrat und 1884 Stadt&#x017F;uperin-<lb/>
+tendent und er&#x017F;ter Pfarrer an der<lb/>
+Kreuzkirche wurde. Später erhielt er<lb/>
+den Titel eines Oberkon&#x017F;i&#x017F;torialrats.<lb/>
+Außer mehreren theologi&#x017F;chen Schrif-<lb/>
+ten veröffentlichte er </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Vom heili-<lb/>
+gen Kreuz (Schlichte evang. Lr.),<lb/>
+1903. 2. A. 1904.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Dickin&#x017F;on-Wildberg,</hi> Heino L.<lb/>
+B. von,</head><p> p&#x017F;eud. <hi rendition="#g">Bodo Wildberg,</hi><lb/>
+wurde am 7. Aug. 1862 zu Lemberg<lb/>
+als der Sohn eines ö&#x017F;terreichi&#x017F;chen<lb/>
+Stabsoffiziers geboren, der in der<lb/>
+Schlacht bei Königgrätz 1866 tödlich<lb/>
+verwundet ward. Einige Jahre &#x017F;pä-<lb/>
+ter zog der Sohn mit der Mutter nach<lb/>
+Dresden, wo er die Schule be&#x017F;uchte,<lb/>
+und kam 1876 in die There&#x017F;iani&#x017F;che<lb/>
+Akademie in Wien, nach deren Ab&#x017F;ol-<lb/>
+vierung er an den Univer&#x017F;itäten Wien<lb/>
+und Prag die Rechte und Philo&#x017F;ophie<lb/>
+&#x017F;tudierte. Auf &#x017F;ein Werden und &#x017F;eine<lb/>
+innere Entwicklung war vor allem<lb/>
+Wagner und Schopenhauer von tief-<lb/>
+gehendem Einfluß. Nach Ab&#x017F;olvie-<lb/>
+rung &#x017F;eines Studiums mußte er in-<lb/>
+folge eines &#x017F;chweren Nervenleidens<lb/>
+zurückgezogen in einer kleinen Stadt<lb/>
+Deut&#x017F;ch-Böhmens (in Teplitz) leben,<lb/>
+ein Um&#x017F;tand, der dem Bekanntwerden<lb/>
+&#x017F;einer Werke nicht gerade förderlich<lb/>
+war. Seit 1895 lebte er wieder in<lb/>
+Dresden, nahm aber 1909 &#x017F;einen<lb/>
+Wohn&#x017F;itz in Berlin. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Auf der<lb/>
+Woge des Lebens (Ge. von <hi rendition="#g">Paul<lb/>
+Nord</hi> [p&#x017F;eudonym], 1882. &#x2013; Die<lb/>
+Maid von Mirogh. Sita (zwei epi-<lb/>
+&#x017F;che Dn.), 1884. &#x2013; Tödliche Triebe<lb/>
+(Nn.), 1893 (Jnhalt: Blonder Zau-<lb/>
+ber. &#x2013; Der Sigen&#x017F;tein. &#x2013; Der unfreie<lb/>
+Wille). &#x2013; Alpennovellen. 1. Folge,<lb/>
+1894. &#x2013; Höhenluft (Nn.), 2. A. 1896<lb/>
+(Jnhalt: Tödliche Triebe; &#x017F;. o.! &#x2013;<lb/>
+Alpennovellen; &#x017F;. o.!) &#x2013; Helldunkle<lb/>
+Lieder, 1897. &#x2013; Die Sehn&#x017F;üchtigen<lb/>
+(En. u. Sk.) 1900. &#x2013; Stunden und<lb/>
+Sterne (Neue Ge.), 1903. &#x2013; Heilfried<lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0019" n="15"/>
+<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Dick</hi></fw><lb/>
+(Bühnen-M.), 1903.&#x2013;Ro&#x017F;a Margarete<lb/>
+(Traum-M.), 1906. &#x2013; Nurmahal (Mär-<lb/>
+chen&#x017F;p.), 1906. &#x2013; Eine oriental. Nacht<lb/>
+(L&#x017F;p.), 1906. &#x2013; Dunkle Ge&#x017F;chicht., 1910.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Dickmann,</hi> Hermann,</head><p> p&#x017F;eudon.<lb/>
+<hi rendition="#g">Franz Othen,</hi> wurde am 21. Juli<lb/>
+1836 in Mülheim an der Ruhr ge-<lb/>
+boren, widmete &#x017F;ich dem Lehrer&#x017F;tande<lb/>
+und be&#x017F;uchte von 1855&#x2013;57 das Lehrer-<lb/>
+&#x017F;eminar in Mörs. Über &#x017F;eine Er-<lb/>
+fahrungen während die&#x017F;er Zeit &#x017F;chrieb<lb/>
+er kurz darauf einen längeren Artikel<lb/>
+in Die&#x017F;terwegs &#x201E;Rheini&#x017F;chen Blät-<lb/>
+tern&#x201C;. Jm Jahre 1858 folgte er<lb/>
+einem Rufe nach England als Er-<lb/>
+zieher in einer deut&#x017F;chen Familie und<lb/>
+blieb in die&#x017F;er Stellung bis O&#x017F;tern<lb/>
+1872. Seitdem lebte er als Privat-<lb/>
+mann in Wiesbaden, wo jene Fami-<lb/>
+lie &#x017F;chon früher Wohn&#x017F;itz genommen<lb/>
+hatte. Er &#x017F;tarb da&#x017F;elb&#x017F;t am 29. Juni<lb/>
+1897. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Gedichte, 1869. &#x2013; Kriegs-<lb/>
+gedichte, 1870. &#x2013; Ein Lebens&#x017F;piegel<lb/>
+(Sprüche und Sinngedichte) 1873. &#x2013;<lb/>
+Neuer Frühling (Ge.), 1874. &#x2013; Rät-<lb/>
+&#x017F;elbuch für große und kleine Kinder,<lb/>
+1876. &#x2013; Die Welt im Becher (Ge.),<lb/>
+1879. &#x2013; Jedem das Seine. Ein welt-<lb/>
+lich Brevier, 1896.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Dido,</hi> Paul.,</head><p> P&#x017F;eud. für <hi rendition="#g">Augu&#x017F;te<lb/>
+Cornelius;</hi> &#x017F;. d.!</p><lb/>
+</div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Dieckmann,</hi> Friedrich,</head><p> geb. am<lb/>
+10. Aug. 1858 in Stade (Hannover)<lb/>
+als Sohn des dortigen Superinten-<lb/>
+denten, &#x017F;tudierte be&#x017F;onders Deut&#x017F;ch,<lb/>
+Ge&#x017F;chichte und Erdkunde, legte nach<lb/>
+einjährigem Aufenthalte in Rom von<lb/>
+O&#x017F;tern 1886&#x2013;87 &#x017F;ein pädagogi&#x017F;ches<lb/>
+Probejahr in Marburg zurück, erwarb<lb/>
+&#x017F;ich in die&#x017F;er Zeit die Würde eines<lb/>
+<hi rendition="#aq">Dr. phil.</hi> u. im Dezbr. 1886 die Qua-<lb/>
+lifikation als Oberlehrer und wurde<lb/>
+O&#x017F;tern 1887 wi&#x017F;&#x017F;en&#x017F;chaftlicher Lehrer<lb/>
+in Wiesbaden. Von hier kam er 1893<lb/>
+als Oberlehrer an die höhere Töch-<lb/>
+ter&#x017F;chule in Osnabrück, an der er jetzt<lb/>
+noch, und zwar &#x017F;eit 1905 als Pro-<lb/>
+fe&#x017F;&#x017F;or, tätig i&#x017F;t. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Gedichte, 1886.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Dieckmann,</hi> Marie,</head><p> geb. <hi rendition="#g">Stie-<lb/>
+low,</hi> bekannt unter ihrem er&#x017F;ten<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Die</hi></fw><lb/>
+Frauennamen <hi rendition="#g">Marie Maleckau.</hi><lb/>
+unter dem P&#x017F;eudon. <hi rendition="#g">Marie Stahl,</hi><lb/>
+wurde am 23. Nov. 1852 zu Kartzow<lb/>
+bei Potsdam als die Tochter eines<lb/>
+Rittergutsbe&#x017F;itzers geboren, erhielt<lb/>
+ihre Bildung durch Privatunterricht<lb/>
+im Elternhau&#x017F;e und zuletzt auf einer<lb/>
+höheren Töchter&#x017F;chule in Wernige-<lb/>
+rode, die &#x017F;ie 1868 ab&#x017F;olvierte. Von<lb/>
+früher Jugend an zeigte &#x017F;ie viel Ta-<lb/>
+lent für Malerei und brachte es trotz<lb/>
+mangelhaften Unterrichts doch &#x017F;o<lb/>
+weit, daß &#x017F;ie einige Bilder aus&#x017F;tellen<lb/>
+konnte. Daneben betätigte &#x017F;ie &#x017F;ich als<lb/>
+Schrift&#x017F;tellerin. Jhre Ehe mit <hi rendition="#aq">Dr.</hi> J.<lb/>
+P. Malecki, mit dem &#x017F;ie in London<lb/>
+und Ea&#x017F;tbourne lebte, war keine glück-<lb/>
+liche und wurde 1889 wieder gelö&#x017F;t.<lb/>
+Sie kehrte mit ihrem einzigen Töch-<lb/>
+terchen nach Deut&#x017F;chland zurück, lebte<lb/>
+hier zuer&#x017F;t in Berlin in dem Pen&#x017F;io-<lb/>
+nat einer Verwandten und &#x017F;iedelte<lb/>
+1898 nach München über. Jm Jahre<lb/>
+1900 verheiratete &#x017F;ie &#x017F;ich mit einem<lb/>
+Herrn D., mit dem &#x017F;ie er&#x017F;t in St. Jo-<lb/>
+hann a. d. Saar, &#x017F;eit 1903 in Groß-<lb/>
+lichterfelde bei Berlin und jetzt in<lb/>
+Charlottenburg lebt. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Die arme<lb/>
+Vornehme (R.), 1892. &#x2013; Zwei Seelen<lb/>
+(N.), 1895. &#x2013; Manneswert (R.), 1895.<lb/>
+&#x2013; Aus der Gründerzeit (R.), 1896. &#x2013;<lb/>
+Frauenehre (R.); <hi rendition="#aq">II,</hi> 1896. &#x2013; Jch will<lb/>
+(R.), 1897. &#x2013; Anonym (R.), 1900. &#x2013;<lb/>
+Weltmacht (R.); <hi rendition="#aq">II,</hi> 1902. &#x2013; Höhen-<lb/>
+luft (R.); <hi rendition="#aq">II,</hi> 1904. &#x2013; Sommernachts-<lb/>
+dunkel (R.), 1904. &#x2013; Zauberkrei&#x017F;e<lb/>
+(R.), 1905. &#x2013; Wurzel&#x017F;tock (R.), 1911.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Diederich,</hi> Erne&#x017F;tine,</head><p> p&#x017F;eud. E.<lb/>
+<hi rendition="#g">Hainberg,</hi> wurde am 14. Februar<lb/>
+1843 in Rodenberg (Prov. He&#x017F;&#x017F;en-<lb/>
+Na&#x017F;&#x017F;au) geboren und kam in ihrer<lb/>
+Jugend nach Ka&#x017F;&#x017F;el. Jhr Leben ver-<lb/>
+lief mei&#x017F;t in eng um&#x017F;chlo&#x017F;&#x017F;ener Häus-<lb/>
+lichkeit, in der Pflege und Stütze ihres<lb/>
+früh verwitweten, in den be&#x017F;ten Man-<lb/>
+nesjahren an einem &#x017F;chweren Augen-<lb/>
+leiden erkrankten und &#x017F;päter noch<lb/>
+&#x017F;chwer leidenden Vaters. Er&#x017F;t nach<lb/>
+de&#x017F;&#x017F;en Tode widmete &#x017F;ie &#x017F;ich, abge-<lb/>
+&#x017F;ehen von einzelnen &#x017F;chon früher er-<lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0020" n="16"/>
+<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Die</hi></fw><lb/>
+&#x017F;chienenen Novellen, der Schrift&#x017F;tel-<lb/>
+lerei, und die&#x017F;es Schaffen und Ge-<lb/>
+&#x017F;talten nach dem wirklichen Leben ge-<lb/>
+währte ihr die größte Freude. Sie<lb/>
+lebte &#x017F;eit einer Reihe von Jahren in<lb/>
+Göttingen, verfiel aber im Herb&#x017F;t<lb/>
+1906 in gei&#x017F;tige Umnachtung und<lb/>
+mußte der dortigen Provinzial-Jrren-<lb/>
+an&#x017F;talt überwie&#x017F;en werden, in der &#x017F;ie<lb/>
+am 11. Dezember 1906 &#x017F;tarb. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p><lb/>
+Prüfung. Ein Stückchen Zeug (2 Nn.),<lb/>
+1902. &#x2013; Des Bruders Schuld. Unter<lb/>
+fal&#x017F;chem Verdacht (En.), 1902. &#x2013; Alte<lb/>
+Schuld. Haß. Lohn des Guten (Nn.),<lb/>
+1903. &#x2013; Zwei Mütter (R.), 1905.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Diederich,</hi> Franz,</head><p> geboren am<lb/>
+2. April 1865 in Hannover als der<lb/>
+Sohn eines Telegraphenbeamten, be-<lb/>
+&#x017F;uchte die beiden Realgymna&#x017F;ien da-<lb/>
+&#x017F;elb&#x017F;t und &#x017F;tudierte 1885&#x2013;89 in Leip-<lb/>
+zig u. Jena anfänglich Naturwi&#x017F;&#x017F;en-<lb/>
+&#x017F;chaften, dann aber vorwiegend Erd-<lb/>
+kunde, Völkerkunde, Ge&#x017F;chichte u. Li-<lb/>
+teratur, erwarb 1888 auch die Würde<lb/>
+eines <hi rendition="#aq">Dr. phil.</hi> Jm Jahre 1889 trat<lb/>
+er in die Redaktion des Brockhaus-<lb/>
+&#x017F;chen Konver&#x017F;ationslexikons ein, an<lb/>
+dem er für Erd- und Völkerkunde<lb/>
+tätig war, redigierte 1889&#x2013;90 auch<lb/>
+die &#x201E;Literari&#x017F;che Korre&#x017F;pondenz und<lb/>
+Kriti&#x017F;che Rund&#x017F;chau,&#x201C; eine in Leipzig<lb/>
+er&#x017F;cheinende Monats&#x017F;chrift. Seit Ende<lb/>
+1889 der &#x017F;oziali&#x017F;ti&#x017F;chen Richtung fol-<lb/>
+gend, wurde er im Herb&#x017F;t 1891 Re-<lb/>
+dakteur der &#x201E;We&#x017F;tfäli&#x017F;chen Freien<lb/>
+Pre&#x017F;&#x017F;e&#x201C; (&#x017F;päteren &#x201E;Rheini&#x017F;ch-we&#x017F;t-<lb/>
+fäli&#x017F;chen Arbeiterzeitung&#x201C;) in Dort-<lb/>
+mund und, nachdem er wegen Preß-<lb/>
+vergehens eine Gefängnis&#x017F;trafe von<lb/>
+18 Monaten verbüßt hatte, im Ja-<lb/>
+nuar 1895 Chefredakteur der &#x017F;ozia-<lb/>
+li&#x017F;ti&#x017F;chen &#x201E;Bremer Bürgerzeitung&#x201C;<lb/>
+in Bremen. Nach einigen Jahren<lb/>
+&#x017F;iedelte er nach Dresden über, wo<lb/>
+er das Feuilleton der &#x201E;Säch&#x017F;i&#x017F;chen<lb/>
+Volks-Zeitung&#x201C; redigiert. Außer<lb/>
+einigen biologi&#x017F;chen Schriften aus<lb/>
+dem Gebiet der Ornithologie und<lb/>
+Völkerkunde und außer Über&#x017F;etzungen<lb/>
+religiö&#x017F;er Schriften aus dem Hollän-<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Die</hi></fw><lb/>
+di&#x017F;chen veröffentlichte er </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Du mein<lb/>
+Jena, dein gedenk&#x2019; ich! (Epi&#x017F;ch-lyr.<lb/>
+G.), 1889. &#x2013; Anno Neunzig (Ge.),<lb/>
+(konfisziert), 1891. &#x2013; Hochflut (Soz.<lb/>
+Ge.), 1891. &#x2013; Bahn frei! (Polem. G.<lb/>
+gegen Wilh. Jordan), 1891. &#x2013; Win-<lb/>
+ter&#x017F;onnenwende. Zum Gipfel auf!<lb/>
+(2 Volksfe&#x017F;t&#x017F;piele, 1893. &#x2013; Worpswe-<lb/>
+der Stimmungen (Ge.), 1902. 2. A.<lb/>
+1904. &#x2013; Friedrich Hölderlin und &#x017F;ein<lb/>
+Schick&#x017F;alslied (Zeitbild), 1903. &#x2013; Die<lb/>
+weite Heide (Stimmungen. Ge.),<lb/>
+1904. &#x2013; Die Hämmer dröhnen (Werde-<lb/>
+&#x017F;timmen. Ge.), 1905.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Diederichs,</hi> Helene,</head><p> bekannt<lb/>
+unter ihrem Mädchennamen <hi rendition="#g">Helene<lb/>
+Voigt,</hi> wurde am 26. Mai 1876 auf<lb/>
+dem adeligen Gute Marienhoff bei<lb/>
+Holzdorf in der Provinz Schleswig-<lb/>
+Hol&#x017F;tein als die Tochter eines Guts-<lb/>
+be&#x017F;itzers geboren, wuchs da&#x017F;elb&#x017F;t in<lb/>
+ländlicher Freiheit auf und kehrte<lb/>
+auch nach mancherlei größeren Rei-<lb/>
+&#x017F;en immer wieder dorthin zurück, bis<lb/>
+&#x017F;ie &#x017F;ich im Juni 1898 mit dem Buch-<lb/>
+händler Eugen Diederichs in Leipzig<lb/>
+vermählte, de&#x017F;&#x017F;en Bekannt&#x017F;chaft &#x017F;ie<lb/>
+auf einer Rei&#x017F;e nach Jtalien in Flo-<lb/>
+renz gemacht hatte. 1904 verlegte der<lb/>
+Gatte &#x017F;eine Buchhandlung nach Jena.<lb/>
+</p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Schleswig-Hol&#x017F;teiner Landleute<lb/>
+(Bilder a. d. Volksleben), 1897. 4. A.<lb/>
+1908. &#x2013; Abendrot (E. a. d. Volks-<lb/>
+leben), 1899. &#x2013; Unter&#x017F;trom (Ge.),<lb/>
+1901. &#x2013; Regine Vosgerau (Aus dem<lb/>
+&#x017F;chlesw. Volksleben), 1901. &#x2013; Leben<lb/>
+ohne Lärmen, 1903. &#x2013; Dreiviertel<lb/>
+Stund&#x2019; vor Tag (R. a. d. nieder&#x017F;äch&#x017F;.<lb/>
+Volksleben), 1905. 4. T. 1906. &#x2013; Vor-<lb/>
+frühling (5 Nn.), 1906. &#x2013; Die Bal-<lb/>
+&#x017F;aminen. Mittags&#x017F;tunde (En.), 1906.<lb/>
+&#x2013; Aus Kinderland, 1907. &#x2013; Nur ein<lb/>
+Gleichnis, 1909.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Diefenbach,</hi> Heinrich,</head><p> geb. am<lb/>
+22. Aug. 1871 in dem Dorfe Ma&#x017F;&#x017F;en-<lb/>
+heim (im &#x017F;ogenannten &#x201E;blauen Länd-<lb/>
+chen&#x201C; Na&#x017F;&#x017F;aus) als Sohn armer Ar-<lb/>
+beitsleute, konnte nur den Unterricht<lb/>
+in der Volks&#x017F;chule be&#x017F;uchen, bildete<lb/>
+&#x017F;ich aber als ländlicher Tagelöhner<lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0021" n="17"/>
+<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Die</hi></fw><lb/>
+unter den &#x017F;chwierig&#x017F;ten Verhältni&#x017F;&#x017F;en<lb/>
+weiter, bis der bekannte Schrift&#x017F;teller<lb/>
+Walther Schulte vom Brühl (&#x017F;. d.!)<lb/>
+auf ihn aufmerk&#x017F;am wurde und &#x017F;ich<lb/>
+&#x017F;einer annahm. Anfangs mit kleinen<lb/>
+Reporterarbeiten am &#x201E;Wiesbadener<lb/>
+Tageblatt&#x201C; be&#x017F;chäftigt, entwickelte er<lb/>
+in &#x017F;tetem Streben &#x017F;ein Talent und<lb/>
+&#x017F;eine Bildung &#x017F;o erfolgreich weiter,<lb/>
+daß er &#x017F;chließlich nicht nur mit wich-<lb/>
+tigen, redaktionellen Re&#x017F;&#x017F;orts betraut<lb/>
+werden konnte, &#x017F;ondern &#x017F;ich als Volks-<lb/>
+&#x017F;chrift&#x017F;teller An&#x017F;ehen errang. D. lebt<lb/>
+&#x017F;eit einer Reihe von Jahren in Wies-<lb/>
+baden. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Aus der Dingskirchener<lb/>
+Chronik (Ern&#x017F;te und heitere Ge&#x017F;chn.),<lb/>
+1904. &#x2013; Die Scholle (Ein Bauern-<lb/>
+roman aus Na&#x017F;&#x017F;au. Mit Einleitung<lb/>
+v. W. Schulte vom Brühl); <hi rendition="#aq">II,</hi> 1909.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Diefenbach,</hi> Lorenz,</head><p> deut&#x017F;cher<lb/>
+Sprachfor&#x017F;cher und Novelli&#x017F;t, wurde<lb/>
+am 29. Juli 1806 zu O&#x017F;theim im Groß-<lb/>
+herzogtum He&#x017F;&#x017F;en geboren, wo &#x017F;ein<lb/>
+Vater Johann Georg D., ein frei-<lb/>
+&#x017F;inniger theologi&#x017F;cher Schrift&#x017F;teller<lb/>
+&#x017F;einer Zeit, als Pfarrer wirkte. Von<lb/>
+letzterem &#x017F;chon in frühe&#x017F;ter Jugend in<lb/>
+den Sprachen unterrichtet und von<lb/>
+&#x017F;einer fein gebildeten Mutter in das<lb/>
+kla&#x017F;&#x017F;i&#x017F;che Altertum eingeführt, bezog<lb/>
+D., nachdem er das Gymna&#x017F;ium in<lb/>
+Gießen ab&#x017F;olviert, &#x017F;chon im 15. Jahre<lb/>
+die dortige Univer&#x017F;ität und widmete<lb/>
+&#x017F;ich theologi&#x017F;chen und philo&#x017F;ophi&#x017F;chen<lb/>
+Studien. Seit 1823 lebte er eine<lb/>
+Zeitlang in Frankfurt a. M., &#x017F;ich<lb/>
+mit neueren Sprachen be&#x017F;chäftigend,<lb/>
+dann führte er eine Art Wanderleben,<lb/>
+bis er 1830 in Laubach als Pfarrer<lb/>
+und Bibliothekar des Grafen Solms<lb/>
+einen fe&#x017F;ten Halt fand. Hier ent-<lb/>
+&#x017F;tanden mehrere &#x017F;einer germani&#x017F;ti-<lb/>
+&#x017F;chen Werke, wie: Über die romani-<lb/>
+&#x017F;chen Schrift&#x017F;prachen (1837); &#x2013; Über<lb/>
+Leben, Ge&#x017F;chichte u. Sprache (1835);<lb/>
+&#x2013; Mitteilung über eine noch unge-<lb/>
+druckte mittelhochdeut&#x017F;che Bearbei-<lb/>
+tung der Sage von Barlaam und<lb/>
+Jo&#x017F;aphat (1836); &#x2013; <hi rendition="#aq">Celtica (III,</hi> 1839<lb/>
+bis 1842). Um &#x017F;ich ungeteilt &#x017F;einen<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Die</hi></fw><lb/>
+Studien widmen zu können, gab er<lb/>
+&#x017F;eine Stelle 1842 wieder auf und<lb/>
+hielt &#x017F;ich nun an ver&#x017F;chiedenen Orten<lb/>
+Deut&#x017F;chlands auf; auch die Schweiz,<lb/>
+Frankreich und Belgien berei&#x017F;te er.<lb/>
+Dann ließ er &#x017F;ich in Offenbach nie-<lb/>
+der, begründete hier 1845 die deut&#x017F;ch-<lb/>
+katholi&#x017F;che Gemeinde, wurde 1848<lb/>
+Ehrenbürger der Stadt u. zum Mit-<lb/>
+gliede des Vorparlaments in Frank-<lb/>
+furt gewählt. Seitdem behielt er in<lb/>
+der alten Stadt des Bundestags &#x017F;ei-<lb/>
+nen Wohn&#x017F;itz bei und be&#x017F;chäftigte &#x017F;ich<lb/>
+aus&#x017F;chließlich mit &#x017F;chrift&#x017F;telleri&#x017F;chen<lb/>
+Arbeiten. Nachdem er einen Ruf an<lb/>
+die Univer&#x017F;ität Gießen abgelehnt,<lb/>
+wurde er 1865 zum zweiten Stadt-<lb/>
+bibliothekar ernannt. Jm Jahre 1876<lb/>
+trat er in den Ruhe&#x017F;tand und &#x017F;iedelte<lb/>
+nach Darm&#x017F;tadt über, wo er am 28.<lb/>
+März 1883 &#x017F;tarb. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Gedichte, 1840.<lb/>
+Gedichte, 2. Samml. 1841. &#x2013; Die<lb/>
+Ari&#x017F;tokraten (R.), 1843. &#x2013; Ein Pilger<lb/>
+und &#x017F;eine Geno&#x017F;&#x017F;en (R.), 1851. &#x2013;<lb/>
+E&#x017F;chenburg und E&#x017F;chenhof (N.), 1852.<lb/>
+&#x2013; Novellen; <hi rendition="#aq">II,</hi> 1856&#x2013;65. &#x2013; Der Ver-<lb/>
+tau&#x017F;chte (R.), 1858. &#x2013; Die Pfarrers-<lb/>
+kinder (N.), 1867. &#x2013; Margarete (N.),<lb/>
+1868. &#x2013; Arbeit macht frei (E.), 1873.<lb/>
+&#x2013; Der Zögling der Ur&#x017F;ulinerinnen<lb/>
+(N.) 1881.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Dieffenbach,</hi> Georg Chri&#x017F;tian,</head><p><lb/>
+wurde am 4. Dez. 1822 zu Schlitz im<lb/>
+Großherzogtum He&#x017F;&#x017F;en als der Sohn<lb/>
+des dortigen Pfarrers geb., erhielt<lb/>
+&#x017F;einen er&#x017F;ten Unterricht teils von &#x017F;ei-<lb/>
+nem Vater, teils von &#x017F;einem Groß-<lb/>
+vater mütterlicher&#x017F;eits, dem bekann-<lb/>
+ten Pädagogen J. F. Schlez, und<lb/>
+bezog nach Ab&#x017F;olvierung des Gymna-<lb/>
+&#x017F;iums zu Gießen die dortige Univer-<lb/>
+&#x017F;ität, an der er von O&#x017F;tern 1840 bis<lb/>
+zum Herb&#x017F;t 1843 Theologie &#x017F;tudierte.<lb/>
+Er be&#x017F;uchte dann noch ein Jahr das<lb/>
+Prediger&#x017F;eminar in Friedberg, wurde<lb/>
+1845 Lehrer an einer Knabenerzie-<lb/>
+hungsan&#x017F;talt in Darm&#x017F;tadt, 1847<lb/>
+Pfarrvikar in Kirchberg, &#x017F;päter zu<lb/>
+Vielbrunn im Odenwalde, 1855<lb/>
+Amtsnachfolger &#x017F;eines Vaters in<lb/>
+<fw place="bottom" type="sig">* 2</fw><lb/>
+<pb facs="#f0022" n="18"/>
+<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Die</hi></fw><lb/>
+Schlitz u. 1873 Oberpfarrer da&#x017F;elb&#x017F;t.<lb/>
+Jn die&#x017F;er Stellung blieb er bis zu<lb/>
+&#x017F;einem Tode, der am 10. Mai 1901<lb/>
+eintrat. &#x2013; Neben &#x017F;einem Amte leitete<lb/>
+er durch mehrere Jahre eine Privat-<lb/>
+&#x017F;chule in Schlitz, gehörte auch &#x017F;eit 1872<lb/>
+der he&#x017F;&#x017F;i&#x017F;chen Landes&#x017F;ynode an, in<lb/>
+deren Ge&#x017F;etzgebungsaus&#x017F;chuß er wie-<lb/>
+derholt gewählt wurde. Außerdem<lb/>
+war er als Schrift&#x017F;teller teils auf<lb/>
+theologi&#x017F;chem, teils auf poeti&#x017F;chem<lb/>
+Gebiet und für die Jugend ungemein<lb/>
+rührig, und die Univer&#x017F;ität Greifs-<lb/>
+wald erkannte denn auch &#x017F;eine Ver-<lb/>
+dien&#x017F;te 1884 durch Verleihung der<lb/>
+Würde eines <hi rendition="#aq">Dr. theol.</hi> an, während<lb/>
+&#x017F;ein Landesherr ihn 1893 zum Kirchen-<lb/>
+rat u. 1897 gelegentlich &#x017F;eines 50jähr.<lb/>
+Amtsjubiläums zum Geh. Kirchenrat<lb/>
+ernannte. Von den von ihm redigier-<lb/>
+ten Kun&#x017F;t&#x017F;chriften &#x201E;Für un&#x017F;ere Klei-<lb/>
+nen. Jllu&#x017F;trierte Monats&#x017F;chrift&#x201C; er-<lb/>
+&#x017F;chienen (1884&#x2013;1901) 17 Hefte und<lb/>
+von der &#x201E;Sammlung von Kinder-<lb/>
+&#x017F;chriften für jedes Alter&#x201C; (1883&#x2013;1900)<lb/>
+30 Hefte. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Kinderlieder, 1852, 2. A.<lb/>
+1868. &#x2013; Gedichte, 1857. Neue Ausg.<lb/>
+u. d. T.: Lied und Leben (Ge.), 1880.<lb/>
+&#x2013; Jn der deut&#x017F;chen Frühlingszeit (Va-<lb/>
+terl. Ge.), 1871. &#x2013; Aus dem Kinder-<lb/>
+leben (Ge.) Zwei Sammlgn. 1873<lb/>
+bis 1881. &#x2013; Kinderlieder mit Kom-<lb/>
+po&#x017F;itionen, 1882. &#x2013; Glückliche Kinder-<lb/>
+zeit (Bilder v. F. Flinzer, Lr. von D.),<lb/>
+1883. &#x2013; Ein Hochzeits&#x017F;trauß, 1873. &#x2013;<lb/>
+Zum Geburtstage (Eine Fe&#x017F;tgabe),<lb/>
+1875. Ein Kranz zur &#x017F;ilbernen Hoch-<lb/>
+zeit (Ge. Manu&#x017F;kr.), 1880. &#x2013; Aus vier<lb/>
+Reichen (Ge.), 1887. 2. A. 1894. &#x2013;<lb/>
+Aus der Jugendzeit (Lr. f. d. Jugend,<lb/>
+komp. von C. A. Kern); <hi rendition="#aq">II,</hi> 1894. &#x2013;<lb/>
+Das goldene Märchenbuch (Auswahl)<lb/>
+2. A. 1904.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Diegmann,</hi> Heinrich Ludwig,</head><p> ge-<lb/>
+boren am 8. Juni 1875 in Worbis<lb/>
+(Prov. Sach&#x017F;en), verlor &#x017F;einen Vater<lb/>
+&#x017F;ehr frühe, und mußte er &#x017F;ich deshalb<lb/>
+mit dem Unterricht in der Stadt&#x017F;chule<lb/>
+begnügen. Doch fand er danach als<lb/>
+Bureaubeamter Gelegenheit genug,<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Die</hi></fw><lb/>
+den Kreis &#x017F;einer Kenntni&#x017F;&#x017F;e zu erwei-<lb/>
+tern. Jnfolge Nervenüberreizung war<lb/>
+er 1894 gezwungen, in einer An&#x017F;talt<lb/>

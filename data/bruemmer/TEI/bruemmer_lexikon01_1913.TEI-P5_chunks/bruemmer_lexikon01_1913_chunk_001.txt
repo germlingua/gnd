@@ -1,0 +1,2000 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">     <teiHeader>
+<fileDesc>
+<titleStmt>
+<title type="main">Lexikon der deutschen Dichter und Prosaisten vom Beginn des 19. Jahrhunderts bis zur Gegenwart</title>
+<title type="volume" n="1">Erster Band. Aar bis Dennemark</title>
+<author>
+<persName ref="http://d-nb.info/gnd/116751460">
+<surname>Brümmer</surname>
+<forename>Franz</forename>
+</persName>
+</author>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/115266127">
+<surname>Geyken</surname>
+<forename>Alexander</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1222198746">
+<surname>Haaf</surname>
+<forename>Susanne</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName ref="http://d-nb.info/gnd/1019062681">
+<surname>Jurish</surname>
+<forename>Bryan</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Boenig</surname>
+<forename>Matthias</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Thomas</surname>
+<forename>Christian</forename>
+</persName>
+</editor>
+<editor corresp="#DTACorpusPublisher">
+<persName>
+<surname>Wiegand</surname>
+<forename>Frank</forename>
+</persName>
+</editor>
+<respStmt>
+<orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<resp>
+<note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+<ref target="https://www.bbaw.de"/>
+</resp>
+</respStmt>
+</titleStmt>
+<editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+<extent>
+<measure type="images">492</measure>
+<measure type="tokens">238697</measure>
+<measure type="types">31309</measure>
+<measure type="characters">1746923</measure>
+</extent>
+<publicationStmt>
+<publisher xml:id="DTACorpusPublisher">
+<email>dta@bbaw.de</email>
+<orgName role="project">Deutsches Textarchiv</orgName>
+<orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+<orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+<address>
+<addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+<country>Germany</country>
+</address>
+</publisher>
+<pubPlace>Berlin</pubPlace>
+<date type="publication">2021-05-13T10:29:38Z</date>
+<availability>
+<licence target="http://creativecommons.org/licenses/by/4.0/deed.de"><p>Namensnennung 4.0 International (CC BY 4.0)</p></licence>
+</availability>
+<idno>
+<idno type="URLWeb">https://www.deutschestextarchiv.de/bruemmer_lexikon01_1913</idno>
+<idno type="URLXML">https://www.deutschestextarchiv.de/book/download_xml/bruemmer_lexikon01_1913</idno>
+<idno type="URLHTML">https://www.deutschestextarchiv.de/book/download_html/bruemmer_lexikon01_1913</idno>
+<idno type="URLText">https://www.deutschestextarchiv.de/book/download_text/bruemmer_lexikon01_1913</idno>
+<idno type="DTADirName">bruemmer_lexikon01_1913</idno>
+<idno type="DTAID">25197</idno>
+<idno type="URN">urn:nbn:de:kobv:b4-25197-5</idno>
+</idno>
+</publicationStmt>
+<sourceDesc>
+<bibl type="MM">Brümmer, Franz: Lexikon der deutschen Dichter und Prosaisten vom Beginn des 19. Jahrhunderts bis zur Gegenwart. Bd. 1. 6. Aufl. Leipzig, 1913.</bibl>
+<biblFull>
+<titleStmt>
+<title level="m" type="main">Lexikon der deutschen Dichter und Prosaisten vom Beginn des 19. Jahrhunderts bis zur Gegenwart</title>
+<title level="m" type="volume" n="1">Erster Band. Aar bis Dennemark</title>
+<author>
+<persName ref="http://d-nb.info/gnd/116751460">
+<surname>Brümmer</surname>
+<forename>Franz</forename>
+</persName>
+</author>
+</titleStmt>
+<editionStmt>
+<edition n="1">Sechste völlig neu bearbeitete und stark vermehrte Auflage</edition>
+</editionStmt>
+<extent>
+<measure type="pages">480</measure>
+</extent>
+<publicationStmt>
+<publisher><name>Reclam</name></publisher>
+<pubPlace>Leipzig</pubPlace>
+<date type="publication">1913</date>
+</publicationStmt>
+</biblFull>
+<msDesc>
+<msIdentifier>
+<repository>University of Toronto, Robarts Library</repository>
+<idno>
+<idno type="shelfmark">University of Toronto, Robarts Library, ark:/13960/t2z322q5g</idno>
+<idno type="URLCatalogue">http://www.archive.org/details/lexikonderdeutsc01bruoft</idno>
+</idno>
+</msIdentifier>
+<physDesc>
+<typeDesc>
+<p>Fraktur</p>
+</typeDesc>
+</physDesc>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>Dieses Werk wurde gemäß den <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref>
+im Double-Keying-Verfahren von Nicht-Muttersprachlern erfasst und in XML/TEI P5 nach
+<ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat</ref> kodiert.</p>
+<p/>
+</editorialDecl>
+<tagsDecl>
+<rendition scheme="css" xml:id="aq">font-family:sans-serif</rendition>
+<rendition scheme="css" xml:id="b">font-weight:bold</rendition>
+<rendition scheme="css" xml:id="blue">color:blue</rendition>
+<rendition scheme="css" xml:id="c">display:block; text-align:center</rendition>
+<rendition scheme="css" xml:id="et">display:block; margin-left:2em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et2">display:block; margin-left:4em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="et3">display:block; margin-left:6em; text-indent:0</rendition>
+<rendition scheme="css" xml:id="f">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="fr">border:1px dotted silver</rendition>
+<rendition scheme="css" xml:id="g">letter-spacing:0.125em</rendition>
+<rendition scheme="css" xml:id="i">font-style:italic</rendition>
+<rendition scheme="css" xml:id="in">font-size:150%</rendition>
+<rendition scheme="css" xml:id="k">font-variant:small-caps</rendition>
+<rendition scheme="css" xml:id="larger">font-size:larger</rendition>
+<rendition scheme="css" xml:id="red">color:red</rendition>
+<rendition scheme="css" xml:id="right">display:block; text-align:right</rendition>
+<rendition scheme="css" xml:id="s">text-decoration:line-through</rendition>
+<rendition scheme="css" xml:id="smaller">font-size:smaller</rendition>
+<rendition scheme="css" xml:id="sub">vertical-align:sub; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="sup">vertical-align:super; font-size:.7em</rendition>
+<rendition scheme="css" xml:id="u">text-decoration:underline</rendition>
+<rendition scheme="css" xml:id="uu">border-bottom:double 3px #000</rendition>
+</tagsDecl>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="deu">(Früh-)Neuhochdeutsch</language>
+<language ident="deu">German</language>
+</langUsage>
+<textClass>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtamain">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dtasub">Lexikon</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Philologie</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">core</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</classCode>
+<classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">china</classCode>
+</textClass>
+</profileDesc>
+</teiHeader>
+<text>
+<pb facs="#f0001"/>
+<lb/>
+<pb facs="#f0002"/>
+<lb/>
+<pb facs="#f0003"/>
+<lb/>
+<pb facs="#f0004"/>
+<lb/>
+<pb facs="#f0005" n="[1]"/>
+<lb/>
+<front><titlePage type="main"><docTitle><titlePart type="main"><hi rendition="#b"><hi rendition="#g">Lexikon</hi></hi><lb/>
+der<lb/>
+<hi rendition="#b">deut&#x017F;chen Dichter und Pro&#x017F;ai&#x017F;ten</hi><lb/>
+vom Beginn<lb/>
+des 19. Jahrhunderts bis zur Gegenwart.</titlePart></docTitle><lb/>
+<byline>Bearbeitet<lb/>
+von<lb/>
+<docAuthor><hi rendition="#b"><hi rendition="#g">Franz Brümmer.</hi></hi></docAuthor></byline><lb/>
+<docEdition>Sech&#x017F;te<lb/>
+völlig neu bearbeitete und &#x017F;tark vermehrte Auflage.</docEdition><lb/>
+<titlePart type="volume">Er&#x017F;ter Band.<lb/>
+<hi rendition="#b">Aar</hi> bis <hi rendition="#b">Dennemark.</hi></titlePart><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<docImprint><pubPlace><hi rendition="#b">Leipzig</hi></pubPlace><lb/>
+<publisher>Druck und Verlag von Philipp Reclam jun.</publisher></docImprint></titlePage></front><body><lb/>
+<pb facs="#f0006" n="[2]"/>
+<lb/>
+<pb facs="#f0007" n="[3]"/>
+<lb/>
+<div type="preface" n="1"><head><hi rendition="#fr">Aus dem Vorwort zur er&#x017F;ten Auflage.</hi></head><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<p>Das vorliegende Lexikon, welches Fort&#x017F;etzung und Schluß des<lb/>
+von mir im vorigen Jahre bearbeiteten &#x201E;<hi rendition="#g">Lexikons der deut&#x017F;chen<lb/>
+Dichter und Pro&#x017F;ai&#x017F;ten bis zu Ende des 18. Jahrhun-<lb/>
+derts</hi>&#x201C; bildet, unter&#x017F;cheidet &#x017F;ich hin&#x017F;ichtlich Plan und Ausführung<lb/>
+in nichts von &#x017F;einem Vorläufer, und habe ich daher nicht nötig, hier<lb/>
+zu wiederholen, was ich bereits dort im Vorwort ge&#x017F;agt habe.<lb/>
+Speziell für das vorliegende Werk wären etwa folgende Bemer-<lb/>
+kungen am Platze.</p><lb/>
+<p>Das Lexikon enthält alle nach ihrem Leben und Schaffen mir be-<lb/>
+kannt gewordenen Dichter in Reim und Pro&#x017F;a, die im 19. Jahrhun-<lb/>
+dert geboren &#x017F;ind. Daß ihre Zahl auch nur annähernd er&#x017F;chöpft i&#x017F;t,<lb/>
+wage ich nicht zu behaupten; doch i&#x017F;t von meiner Seite nichts unter-<lb/>
+la&#x017F;&#x017F;en, bei die&#x017F;er Arbeit die größte Voll&#x017F;tändigkeit anzu&#x017F;treben. We&#x017F;ent-<lb/>
+lich unter&#x017F;tützt wurde ich durch un&#x017F;ere Dichter und Schrift&#x017F;teller &#x017F;elber,<lb/>
+welche mir &#x2014; mit nur wenigen Ausnahmen &#x2014; bereitwillig&#x017F;t biogra-<lb/>
+phi&#x017F;che Daten zur Verfügung &#x017F;tellten, &#x017F;o daß das vorliegende Lexikon<lb/>
+das einzige &#x017F;ein dürfte, welches &#x017F;einen Gegen&#x017F;tand doch noch er&#x017F;chöpfen-<lb/>
+der behandelt, als je ein anderes derartiges Werk. Allen Förderern<lb/>
+des&#x017F;elben &#x017F;age ich an die&#x017F;er Stelle meinen herzlichen Dank.</p><lb/>
+<p>Jch will gern zugeben, daß unter den Tau&#x017F;enden von Namen in<lb/>
+die&#x017F;em Lexikon &#x017F;ich mancher finden mag, dem nach dem wirklich un-<lb/>
+anfechtbaren Urteil Kundiger kein Platz in dem Reigen hervorragen-<lb/>
+der und auserwählter Gei&#x017F;ter gebührt; allein man kann wohl billig<lb/>
+nicht von mir verlangen, daß ich die Schriften &#x017F;ämtlicher Autoren<lb/>
+hätte le&#x017F;en und nach ihrem poeti&#x017F;chen Werte beurteilen &#x017F;ollen, um<lb/>
+davon die Aufnahme in die&#x017F;es Lexikon abhängig zu machen. Meine<lb/>
+Aufgabe be&#x017F;tand lediglich darin, zu &#x017F;ammeln und zu regi&#x017F;trieren, was<lb/>
+das 19. Jahrhundert auf dem Gebiete der &#x017F;chönen Literatur auf-<lb/>
+wei&#x017F;t, und ich muß es den Literarhi&#x017F;torikern überla&#x017F;&#x017F;en, &#x017F;ich mit den<lb/>
+einzelnen Dichtern über den Wert ihrer poeti&#x017F;chen Schöpfungen aus-<lb/>
+einanderzu&#x017F;etzen.</p><lb/>
+<fw place="bottom" type="sig">* 1*</fw><lb/>
+<pb facs="#f0008" n="4"/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Vorwort.</hi></fw><lb/>
+<p>Da &#x017F;ich die&#x017F;es Lexikon vorwiegend mit den Schrift&#x017F;tellern der<lb/>
+<hi rendition="#g">Gegenwart</hi> be&#x017F;chäftigt, &#x017F;o habe ich es für zweckmäßig gehalten, die<lb/>
+Schriften der&#x017F;elben, &#x017F;oweit &#x017F;ie der &#x017F;chönen Literatur angehören,<lb/>
+<hi rendition="#g">&#x017F;ämtlich</hi> aufzuführen, einige Einzeldrucke oder Kleinigkeiten etwa<lb/>
+ausgenommen. J&#x017F;t eine Ge&#x017F;amtausgabe der Werke er&#x017F;chienen, &#x017F;o<lb/>
+tritt die&#x017F;e in den Vordergrund; durch Angabe ihres Jnhalts, unter<lb/>
+Beifügung des Jahres, wann die einzelnen Stücke der&#x017F;elben er&#x017F;chie-<lb/>
+nen, konnte ein be&#x017F;onderes, nochmaliges Aufzählen der letzteren um-<lb/>
+gangen und eine lä&#x017F;tige Wiederholung vermieden werden.</p><lb/>
+<p>Schließlich richte ich noch an alle Le&#x017F;er die ganz ergeben&#x017F;te Bitte,<lb/>
+mich auf etwaige Ungenauigkeiten und Fehler in die&#x017F;em Lexikon gütig&#x017F;t<lb/>
+aufmerk&#x017F;am machen, un&#x017F;ichere Angaben, namentlich in bezug auf Ge-<lb/>
+burts- und Todeszeit, &#x017F;icher&#x017F;tellen und mich durch neue Mitteilungen<lb/>
+über die&#x017F;en oder jenen, im Lexikon nicht vertretenen Dichter erfreuen<lb/>
+zu wollen. Bin ich mir auch bewußt, meine Angaben aus den be&#x017F;ten<lb/>
+Quellen ge&#x017F;chöpft und be&#x017F;onders manche Ungenauigkeiten in meinen<lb/>
+früheren lexikali&#x017F;chen Arbeiten hier glücklich vermieden zu haben, &#x017F;o<lb/>
+bleibt meine Arbeit ja doch immer nur Men&#x017F;chenwerk und als &#x017F;olches<lb/>
+&#x017F;tets der Vervollkommnung bedürftig.</p><lb/>
+<closer><dateline><hi rendition="#g">Nauen,</hi> im Januar 1885.<lb/>
+</dateline><signed><hi rendition="#et"><hi rendition="#g">Franz Brümmer.</hi></hi></signed></closer><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+</div> <div type="preface" n="1"><head><hi rendition="#fr">Vorwort zur &#x017F;ech&#x017F;ten Auflage.</hi></head><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<p>Zum &#x017F;ech&#x017F;ten Male &#x017F;ende ich mein Lexikon in die Krei&#x017F;e un&#x017F;erer<lb/>
+Literaturfreunde und zwar zum dritten Male in einer völlig neuen<lb/>
+Bearbeitung, die &#x017F;ich dem Le&#x017F;er als eine we&#x017F;entlich verbe&#x017F;&#x017F;erte und<lb/>
+bedeutend vermehrte Ausgabe prä&#x017F;entiert. Das Werk hat in &#x017F;einer<lb/>
+bisherigen Darbietung &#x017F;eit Jahren in weiten Krei&#x017F;en Beachtung und<lb/>
+Freunde gefunden, und deshalb i&#x017F;t auch diesmal von einer we&#x017F;ent-<lb/>
+lichen Veränderung in der Anlage und Durchführung des Ganzen<lb/>
+abge&#x017F;ehen worden. So er&#x017F;cheinen denn die Biographien der Schrift-<lb/>
+&#x017F;teller und Dichter wieder unter dem <hi rendition="#g">wahren Namen</hi> der letzteren<lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0009" n="5"/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Vorwort.</hi></fw><lb/>
+und nicht unter ihrem P&#x017F;eudonym; doch vermittelt die Aufführung<lb/>
+des letzteren leicht die Kenntnis des er&#x017F;teren. Eben&#x017F;o &#x017F;ind bei Auf-<lb/>
+zählung der Schriften die&#x017F;er Autoren wieder bloß die zur &#x201E;<hi rendition="#g">&#x017F;chön-<lb/>
+wi&#x017F;&#x017F;en&#x017F;chaftlichen Literatur</hi>&#x201C; gehörenden Werke notiert wor-<lb/>
+den, und konnte die &#x017F;chrift&#x017F;telleri&#x017F;che Tätigkeit auf anderen Gebieten<lb/>
+nur angedeutet werden.</p><lb/>
+<p>Dagegen bin ich be&#x017F;trebt gewe&#x017F;en, ver&#x017F;chiedene Wün&#x017F;che, die mir<lb/>
+be&#x017F;onders aus den Krei&#x017F;en Literaturkundiger geäußert wurden, zu<lb/>
+berück&#x017F;ichtigen. So habe ich bei den Schriften der Autoren die neue-<lb/>
+&#x017F;ten Auflagen erwähnt und bei Novellen&#x017F;ammlungen deren Jnhalt<lb/>
+angegeben, &#x017F;oweit mich eben die Verlagskataloge der Buchhändler<lb/>
+über beides unterrichteten. Einem anderen Wun&#x017F;che, auch diejenigen<lb/>
+Schrift&#x017F;teller aufzunehmen, über welche mir nur dürftige biographi-<lb/>
+&#x017F;che Angaben zur Verfügung &#x017F;tänden, bin ich um &#x017F;o lieber und bereit-<lb/>
+williger entgegengekommen, als ich erfuhr, daß die Fortführung von<lb/>
+Karl Gödekes &#x201E;Grundriß zur Ge&#x017F;chichte der deut&#x017F;chen Dichtung&#x201C;,<lb/>
+der mit dem Jahre 1830 ab&#x017F;chließt, in &#x017F;ichere Aus&#x017F;icht genommen<lb/>
+&#x017F;ei. Jch glaube, mit meinen kurzen Artikeln den Bearbeitern des<lb/>
+&#x201E;Grundri&#x017F;&#x017F;es&#x201C; wenig&#x017F;tens das&#x017F;elbe bieten zu können, was Gödeke<lb/>
+&#x017F;einerzeit dem &#x201E;alten Meu&#x017F;el&#x201C; entnahm: nicht viel, aber immerhin<lb/>
+doch etwas.</p><lb/>
+<p>Ent&#x017F;chieden ablehnend aber habe ich mich einem An&#x017F;innen gegen-<lb/>
+über verhalten mü&#x017F;&#x017F;en, das dahinging, auf neuere Schrift&#x017F;teller, die<lb/>
+er&#x017F;t jüng&#x017F;t an die Öffentlichkeit getreten und daher noch gar nicht<lb/>
+allgemein bekannt wären, in meinem Lexikon keine Rück&#x017F;icht zu neh-<lb/>
+men. Ja, wer will denn die Behauptung wagen, daß die&#x017F;e Schrift-<lb/>
+&#x017F;teller niemals eine erfolgreiche Zukunft haben werden? Als ich in<lb/>
+den Jahren 1872&#x2014;75 mein &#x201E;Deut&#x017F;ches Dichter-Lexikon&#x201C; bearbei-<lb/>
+tete &#x2014; wieviele kannten da wohl (ich will nur wenige Namen nen-<lb/>
+nen) Julius Wolff, Ern&#x017F;t von Wildenbruch, Otto von Leixner, Rudolf<lb/>
+Lindau, Oskar Blumenthal, Eufemia von Adlersfeld-Balle&#x017F;trem,<lb/>
+Eli&#x017F;abeth Bür&#x017F;tenbinder, Max Eyth, Oskar Meding und viele<lb/>
+andere? Dennoch habe ich &#x017F;chon damals die&#x017F;e Autoren in mein Lexikon<lb/>
+aufgenommen, und nach gar nicht langer Zeit hatten &#x017F;ie &#x017F;ich einen<lb/>
+ehrenvollen Platz in un&#x017F;erer Literatur errungen und &#x017F;eitdem auch<lb/>
+behauptet. Ähnliche Erfahrungen mußte ich von 1885 ab bei den<lb/>
+ver&#x017F;chiedenen Ausgaben die&#x017F;es Lexikons machen; ja &#x017F;elb&#x017F;t noch im<lb/>
+Jahre 1900, als ich die 5. Ausgabe bearbeitete, war Gu&#x017F;tav Fren&#x017F;&#x017F;en<lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0010" n="6"/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Vorwort.</hi></fw><lb/>
+eine ziemlich unbekannte Dichterper&#x017F;önlichkeit, während er bereits<lb/>
+im folgenden Jahre zu den gele&#x017F;en&#x017F;ten Schrift&#x017F;tellern in Deut&#x017F;ch-<lb/>
+land gehörte.</p><lb/>
+<p>So habe ich denn alle Dichter und Schrift&#x017F;teller, deren Adre&#x017F;&#x017F;e<lb/>
+mir bekannt geworden &#x2014; und dem liebenswürdigen Entgegenkom-<lb/>
+men der Verlagsbuchhandlungen verdanke ich eine &#x017F;tattliche Anzahl<lb/>
+der&#x017F;elben &#x2014; um Ein&#x017F;endung biographi&#x017F;cher und bibliographi&#x017F;cher<lb/>
+Angaben gebeten, und in den mei&#x017F;ten Fällen i&#x017F;t die&#x017F;er Bitte auch<lb/>
+ent&#x017F;prochen worden. Daß bei der er&#x017F;taunlichen Produktivität un&#x017F;erer<lb/>
+Schrift&#x017F;teller in den letzten zwanzig Jahren deren Zahl auch nur an-<lb/>
+nähernd er&#x017F;chöpft i&#x017F;t, wage ich nicht zu behaupten; inde&#x017F;&#x017F;en läßt das<lb/>
+Anwach&#x017F;en des Lexikons von zwei Bänden (1885) auf acht Bände<lb/>
+und der Biographien von 3000 auf 9900 immerhin auf eine an-<lb/>
+&#x017F;ehnliche Vermehrung &#x017F;chließen. Während ich &#x017F;o dem literari&#x017F;chen<lb/>
+Nachwuchs &#x017F;ein volles Recht gewährte, &#x017F;ind die Biographien der<lb/>
+ver&#x017F;torbenen Dichter nach den neue&#x017F;ten Quellen überarbeitet und die<lb/>
+bereits früher aufgenommenen lebenden Dichter &#x2014; &#x017F;oweit &#x017F;ie mir<lb/>
+erreichbar waren &#x2014; um Ergänzung, bzw. Berichtigung ihrer Bio-<lb/>
+graphie gebeten worden.</p><lb/>
+<p>Es i&#x017F;t für den einzelnen eine &#x017F;chwere Aufgabe, 9900 Schrift&#x017F;teller<lb/>
+nach ihrem Leben, Wirken und Schaffen zu verfolgen, und mancher<lb/>
+Artikel im Lexikon mag gewiß der Ergänzung und Berichtigung be-<lb/>
+dürfen. Darum möchte ich allen, die an meiner Arbeit ein Jntere&#x017F;&#x017F;e<lb/>
+haben, meine &#x017F;chon früher geäußerte Bitte nochmals dringend ans<lb/>
+Herz legen, mich auf Ungenauigkeiten und Fehler aufmerk&#x017F;am machen,<lb/>
+un&#x017F;ichere Angaben, namentlich über Geburts- und Todeszeit, &#x017F;icher-<lb/>
+&#x017F;tellen und durch neue Mitteilungen über die&#x017F;en oder jenen, im<lb/>
+Lexikon nicht vertretenen Dichter erfreuen zu wollen.</p><lb/>
+<p>Ein <hi rendition="#g">Nachtrag</hi> befindet &#x017F;ich im achten Bande und &#x017F;chließt mit<lb/>
+dem 31. Dezember 1912 ab.</p><lb/>
+<closer><dateline><hi rendition="#g">Nauen,</hi> Januar 1913.<lb/>
+</dateline><signed><hi rendition="#et"><hi rendition="#fr">Franz Brümmer.</hi></hi></signed></closer><lb/>
+<pb facs="#f0011" n="[7]"/>
+<lb/>
+</div> <div n="1"><head><hi rendition="#fr">Verzeichnis der benutzten Quellen&#x017F;chriften.</hi><note place="foot" n="*)">Nicht erwähnt &#x017F;ind alle diejenigen Werke, welche &#x017F;ich über Schrift&#x017F;teller aus<lb/>
+früherer Zeit verbreiten, ferner alle periodi&#x017F;chen Zeit&#x017F;chriften und Zeitungen, &#x017F;owie<lb/>
+Monographien über Dichter und Schrift&#x017F;teller; die Aufzählung aller die&#x017F;er Quellen<lb/>
+würde mehrere Bogen füllen.</note></head><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<div n="2"><head><hi rendition="#b">Ge&#x017F;amt-Deut&#x017F;chland. Allgemeines.</hi></head><lb/>
+<list><item><hi rendition="#fr">Allgemeine deut&#x017F;che Biographie.</hi> Auf Veranla&#x017F;&#x017F;ung Seiner Maje&#x017F;tät des<lb/>
+Königs von Bayern herausgegeben durch die hi&#x017F;tori&#x017F;che Kommi&#x017F;&#x017F;ion bei<lb/>
+der Königl. Akademie der Wi&#x017F;&#x017F;en&#x017F;chaften [Prälat <hi rendition="#aq">DDr.</hi> Rochus Frei-<lb/>
+herr von Liliencron und Univer&#x017F;itätsprofe&#x017F;&#x017F;or Fr. von Wegele]. Leipzig,<lb/>
+1875 ff. Verlag v. Duncker u. Humblot. Bis jetzt (1909) 54 Bde.;<lb/>
+A bis Z und Nachträge.</item><item><hi rendition="#fr">Pierers</hi> Univer&#x017F;al-Lexikon der Vergangenheit und Gegenwart oder Neue&#x017F;tes<lb/>
+enzyklopädi&#x017F;ches Wörterbuch der Wi&#x017F;&#x017F;en&#x017F;chaften, Kün&#x017F;te und Gewerbe.<lb/>
+5. verbe&#x017F;&#x017F;erte Stereotyp-Auflage. 19 Bde. Altenburg o. J.</item><item><hi rendition="#fr">Pierers</hi> Jahrbücher der Wi&#x017F;&#x017F;en&#x017F;chaften, Kün&#x017F;te und Gewerbe. Ergän-<lb/>
+zungswerk zu &#x017F;ämtlichen Auflagen des Univer&#x017F;al-Lexikons. 3 Bde.<lb/>
+Altenburg, 1865&#x2014;73.</item><item><hi rendition="#fr">Brockhaus&#x2019;</hi> Konver&#x017F;ations-Lexikon. 13. voll&#x017F;tändig neubearbeitete Auf-<lb/>
+lage. 16 Bde. Leipzig, 1883&#x2014;87. F. A. Brockhaus.</item><item>&#x2014; Das&#x017F;elbe. 14. voll&#x017F;tändig neubearb. Aufl. 16 Bde. Ebd. 1892&#x2014;97.</item><item><hi rendition="#fr">Neuer Nekrolog</hi> der Deut&#x017F;chen. 30 Jahrgänge 1823&#x2014;52, 60 Bde. Jahrg.<lb/>
+1823&#x2014;24 hrsg. von Friedrich Augu&#x017F;t Schmidt, 1825&#x2014;52 vom Verleger<lb/>
+B. F. Voigt. Jlmenau 1824&#x2014;34 und Weimar 1835&#x2014;54.</item><item><hi rendition="#fr">Allgemeiner deut&#x017F;cher Literaturkalender</hi> f. d. J. 1879&#x2014;1901, Jahrg. 1&#x2014;4<lb/>
+hrsg. von Heinrich Hart und Julius Hart, Bremen 1879&#x2014;80, J. Küht-<lb/>
+manns Verlagshdlg., Bremen 1881&#x2014;82, Hinricius Fi&#x017F;cher. Jahrg 5<lb/>
+bis 24 u. d. T.: Deut&#x017F;cher Literaturkalender; hrsg. von Jo&#x017F;eph Kür&#x017F;chner,<lb/>
+Berlin u. Stuttgart 1883&#x2014;89, W. Spemann; 1890&#x2014;93 Stuttgart und<lb/>
+Ei&#x017F;enach, Selb&#x017F;tverlag; 1894&#x2014;1902 Leipzig, G. J. Gö&#x017F;chen&#x017F;che Verlags-<lb/>
+buchhdlg.; Jahrg. 25 u. d. T.: Kür&#x017F;chners deut&#x017F;cher Literaturkalender;<lb/>
+hrsg. von Hermann Hillger. Ebd. 1903. Jahrg. 26&#x2014;31 unter dem&#x017F;elben<lb/>
+Titel, hrsg. von Heinrich Klenz, 1904&#x2014;09 Leipzig, G. J. Gö&#x017F;chen&#x017F;che<lb/>
+Verlagsbuchhdlg.</item><item><hi rendition="#fr">Adolf Hinrich&#x017F;en:</hi> Das literari&#x017F;che Deut&#x017F;chland. Mit einer Einleitung<lb/>
+von Prof. <hi rendition="#aq">Dr.</hi> C. Beyer, Berlin u. Ro&#x017F;tock 1887. Verlag der Album-<lb/>
+&#x017F;tiftung (Carl Hin&#x017F;torffs Verlag).</item><item>&#x2014; Das&#x017F;elbe. Zweite vermehrte und verbe&#x017F;&#x017F;erte Auflage. Berlin 1891.<lb/>
+Verlag des &#x201E;Literari&#x017F;chen Deut&#x017F;chlands&#x201C;.</item><item><hi rendition="#fr">Franz Bornmüller:</hi> Biographi&#x017F;ches Schrift&#x017F;teller-Lexikon der Gegenwart.<lb/>
+Die bekannte&#x017F;ten Zeitgeno&#x017F;&#x017F;en auf dem Gebiet der Nationalliteratur<lb/>
+aller Völker mit Angabe ihrer Werke. Leipzig 1882. Verl. des Biblio-<lb/>
+graphi&#x017F;chen Jn&#x017F;tituts.</item></list><lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0012" n="8"/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Quellen&#x017F;chriften.</hi></fw><lb/>
+<list><item><hi rendition="#fr">Karl Schütze:</hi> Deut&#x017F;chlands Dichter und Schrift&#x017F;teller von den älte&#x017F;ten<lb/>
+Zeiten bis auf die Gegenwart. Berlin 1862. Albert Bach.</item><item><hi rendition="#fr">Heinrich Kurz:</hi> Ge&#x017F;chichte der deut&#x017F;chen Literatur mit ausgewählten Stücken<lb/>
+aus den Werken der vorzüglich&#x017F;ten Schrift&#x017F;teller. 4 Bde. Bd. 1&#x2014;3,<lb/>
+6. Aufl. Leipzig 1880. B. G. Teubner; Bd. 4 in 4. [von Franz Brümmer]<lb/>
+revidierter Aufl. Ebd. 1881.</item><item><hi rendition="#fr">Karl Gödeke:</hi> Elf Bücher deut&#x017F;cher Dichtung. Von Seba&#x017F;tian Brant (1500)<lb/>
+bis auf die Gegenwart. Aus den Quellen. Mit biographi&#x017F;ch-literari&#x017F;chen<lb/>
+Einleitungen und mit Abweichungen der er&#x017F;ten Drucke, ge&#x017F;ammelt und<lb/>
+herausg. 2 Bde. Leipzig 1849, Hahn&#x017F;che Verlagsbuchhdlg.</item><item><hi rendition="#fr">Karl Gödeke:</hi> Deut&#x017F;chlands Dichter von 1813&#x2014;43. Eine Auswahl von<lb/>
+872 charakteri&#x017F;ti&#x017F;chen Gedichten aus 131 Dichtern mit biographi&#x017F;ch-lite-<lb/>
+rari&#x017F;chen Bemerkungen &#xA75B;c. Hannover 1844. Hahn&#x017F;che Hofbuchhdlg.</item><item><hi rendition="#fr">Karl Gödeke:</hi> Grundriß zur Ge&#x017F;chichte der deut&#x017F;chen Dichtung. 3 Bde.<lb/>
+Dresden 1859&#x2014;81. Louis Ehlermann.</item><item>&#x2014; Das&#x017F;elbe. Zweite ganz neubearbeitete Aufl. (Bd. 1&#x2014;3 bearb. von Karl<lb/>
+Gödeke; Bd. 4 bis 9 fortgeführt in Verbindung mit Fachgelehrten von<lb/>
+Edmund Götze.) Ebd. 1884&#x2014;1909.</item><item><hi rendition="#fr">Karl Leimbach:</hi> Ausgewählte deut&#x017F;che Dichtungen für Lehrer und Freunde<lb/>
+der Literatur erläutert. 4 Bde. 3. vermehrte und verbe&#x017F;&#x017F;erte Aufl.<lb/>
+Ka&#x017F;&#x017F;el 1882&#x2014;85. Theod. Kay.</item><item><hi rendition="#fr">Karl Leimbach:</hi> Die deut&#x017F;chen Dichter der Neuzeit und Gegenwart. Bio-<lb/>
+graphien, Charakteri&#x017F;tiken und Auswahl ihrer Dichtungen. Bd. 1&#x2014;4<lb/>
+Ka&#x017F;&#x017F;el 1884&#x2014;90. Theod. Kay; Bd. 5&#x2014;10 Frankfurt a. M. 1893&#x2014;1908<lb/>
+Ke&#x017F;&#x017F;elring&#x017F;che Hofbuchhdlg. (Fort&#x017F;etzung des vorigen Werkes; nach Leim-<lb/>
+bachs Tode [1905] fortgeführt von <hi rendition="#aq">Dr.</hi> Klaudius Bojunga.)</item><item><hi rendition="#fr">Johannes Minckwitz:</hi> Der neuhochdeut&#x017F;che Parnaß. 1740&#x2014;1860. Eine<lb/>
+Grundlage zum be&#x017F;&#x017F;eren Ver&#x017F;tändni&#x017F;&#x017F;e un&#x017F;erer Literaturge&#x017F;chichte in Bio-<lb/>
+graphien, Charakteri&#x017F;tiken und Bei&#x017F;pielen un&#x017F;erer vorzüglich&#x017F;ten Dichter.<lb/>
+Leipzig 1861. Arnoldi&#x017F;che Buchhdlg.</item><item><hi rendition="#fr">Karl Barthels</hi> Vorle&#x017F;ungen über die deut&#x017F;che Nationalliteratur der Neu-<lb/>
+zeit. 9., gänzlich umgearb. Aufl., begonnen von G. Emil Barthel, fort-<lb/>
+ge&#x017F;etzt und bis auf die Gegenwart geführt von <hi rendition="#aq">Dr.</hi> Georg Reinhard<lb/>
+Röpe. Gütersloh 1879. E. Bertelsmann.</item><item><hi rendition="#fr">Angelika von Lager&#x017F;tröm:</hi> Biographi&#x017F;ches Gedenkbuch. Biographien der<lb/>
+berühmte&#x017F;ten Männer, deren Charakteri&#x017F;tiken und merkwürdige Aus-<lb/>
+&#x017F;prüche. 2. Ausgabe, 2 Bde. Leipzig 1877. Siegismund u. Volkening.</item><item><hi rendition="#fr">Deut&#x017F;cher Novellen&#x017F;chatz,</hi> herausgeg. von <hi rendition="#g">Paul Hey&#x017F;e</hi> und <hi rendition="#g">Hermann<lb/>
+Kurz.</hi> 24 Bde. München 1871&#x2014;76, Oldenbourg.</item><item><hi rendition="#fr">Franz Jedrzejewski:</hi> Ein Veilchen&#x017F;trauß. Skizzen. Bielefeld 1892. A. Helmich.</item><item><hi rendition="#fr">Deut&#x017F;che Lyriker</hi> &#x017F;eit 1850. Mit einer literarhi&#x017F;tori&#x017F;chen Einleitung und<lb/>
+biographi&#x017F;ch-kriti&#x017F;chen Notizen. Herausgeg. von <hi rendition="#aq">Dr.</hi> Emil <hi rendition="#g">Kne&#x017F;chke</hi><lb/>
+und <hi rendition="#g">Max Moltke.</hi> 4., bedeutend vermehrte und verbe&#x017F;&#x017F;erte Aufl.<lb/>
+Leipzig 1874. C. G. Theile. (772 S.)</item><item>&#x2014; Das&#x017F;elbe. 5., voll&#x017F;tändig neubearb. Aufl. Herausgeg. von <hi rendition="#aq">Dr.</hi> Emil<lb/>
+<hi rendition="#g">Kne&#x017F;chke.</hi> Leipzig 1883. Rud. Linckes Verlag. (816 S.)</item><item><hi rendition="#fr">Ferdinand Avenarius:</hi> Deut&#x017F;che Lyrik der Gegenwart &#x017F;eit 1850. Eine An-<lb/>
+thologie mit biographi&#x017F;chen und bibliographi&#x017F;chen Notizen, herausgeg.<lb/>
+Aus den Quellen. 2. verbe&#x017F;&#x017F;erte und &#x017F;ehr verm. Aufl. Dresden 1884.<lb/>
+Louis Ehlermann.</item></list><lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0013" n="9"/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Quellen&#x017F;chriften.</hi></fw><lb/>
+<list><item><hi rendition="#fr">Heinrich Eduard Apel:</hi> Die Sänger un&#x017F;erer Tage. Blätter aus dem deut-<lb/>
+&#x017F;chen Dichterwald der Gegenwart. 2 Bde. 3. &#x017F;ehr verm. Aufl. Altenburg<lb/>
+1851&#x2014;55. H. A. Pierer.</item><item><hi rendition="#fr">Männer der Zeit.</hi> Biographi&#x017F;ches Lexikon der Gegenwart. Mit Supple-<lb/>
+ment: Frauen der Zeit. Leipzig 1862. Karl B. Lorck.</item><item><hi rendition="#fr">Hermann Eichhorn:</hi> Neue Quellen. Dichtungen Unbekannter. Ge&#x017F;ammelt<lb/>
+u. herausgeg. Großenhain in Sach&#x017F;en 1884. Baumert u. Ronge.</item><item><hi rendition="#fr">Friedrich O&#x017F;er:</hi> Album lyri&#x017F;cher Originalien. Aus Deut&#x017F;chland, Ö&#x017F;ter-<lb/>
+reich, dem El&#x017F;aß und der Schweiz. Zum Be&#x017F;ten der Hinterla&#x017F;&#x017F;enen der<lb/>
+im Hauen&#x017F;teintunnel Verunglückten herausgeg. Ba&#x017F;el 1858. Schweig-<lb/>
+hau&#x017F;er&#x017F;che Verlagsbuchhdlg.</item><item><hi rendition="#fr">Heinrich Wilhelmi:</hi> Die Lyrik der Deut&#x017F;chen in ihren vollendeten Schöp-<lb/>
+fungen während der letzten hundert Jahre, vornehmlich von Goethe bis<lb/>
+auf die Gegenwart. Jn fünf Büchern. 2. vervoll&#x017F;tänd. u. erweiterte<lb/>
+Aufl. Frankfurt a. M. 1852.</item><item><hi rendition="#fr">Karl Weller:</hi> Dichter&#x017F;timmen der Gegenwart. Eine Sammlung vom Felde<lb/>
+der deut&#x017F;chen Lyrik &#x017F;eit 1850. Hrsgeg. Leipzig 1856. Heinrich Hübner.</item><item><hi rendition="#fr">Gu&#x017F;tav Haller</hi> (d. i. G. <hi rendition="#g">Emil Barthel</hi>): Humori&#x017F;ti&#x017F;che Dichtungen für<lb/>
+ge&#x017F;ellige Krei&#x017F;e. Aus den Quellen ge&#x017F;chöpft u. mit biograph. Nachrichten<lb/>
+über die Dichter ver&#x017F;ehen. 3 Bde. Halle 1868&#x2014;71. G. Emil Barthel.</item><item><hi rendition="#fr">Otto Lange:</hi> Literaturge&#x017F;chichtliche Lebensbilder und Charakteri&#x017F;tiken.<lb/>
+Biographi&#x017F;ches Repertorium der Ge&#x017F;chichte der deut&#x017F;chen Literatur;<lb/>
+herausgeg. Berlin 1870. Rudolf Gärtner.</item><item><hi rendition="#fr">Adolf Stern:</hi> Fünfzig Jahre deut&#x017F;cher Dichtung (1820&#x2014;70). Mit bio-<lb/>
+graphi&#x017F;ch-kriti&#x017F;chen Einleitungen. Leipzig 1871. E. Wartig.</item><item><hi rendition="#fr">Adolf Stern:</hi> Fünfzig Jahre deut&#x017F;cher Pro&#x017F;a (1820&#x2014;70). Mit biogra-<lb/>
+phi&#x017F;ch-kriti&#x017F;chen Einleitungen. Leipzig 1873. E. Wartig.</item><item><hi rendition="#fr">Neue deut&#x017F;che Dichter</hi> aus dem Verlag v. A. G. Liebeskind, Leipzig 1882.</item><item><hi rendition="#fr">Anton Bettelheim:</hi> Biographi&#x017F;ches Jahrbuch und Deut&#x017F;cher Nekrolog.<lb/>
+Unter &#x017F;tändiger Mitwirkung von andern herausgegeben. 1.&#x2014;11. Band,<lb/>
+Berlin 1897&#x2014;1906. Verlag von Georg Reimer.</item><item><hi rendition="#fr">Deut&#x017F;cher Dichterwald</hi> von Opitz bis Lenau (Herausgeber war Max Moltke).<lb/>
+1. und 2. Band (mehr i&#x017F;t nicht er&#x017F;chienen), Berlin 1853. Verlag von<lb/>
+Theodor Grieben.</item><item><hi rendition="#fr">Martin Maack:</hi> Die Novelle. Ein kriti&#x017F;ches Lexikon über die bekannte&#x017F;ten<lb/>
+deut&#x017F;chen Dichter der Gegenwart mit be&#x017F;onderer Berück&#x017F;ichtigung der<lb/>
+Novelli&#x017F;ten. Mit einer Einleitung von Prof. <hi rendition="#aq">Dr.</hi> C. Beyer. Mit zahl-<lb/>
+reichen Porträts. Lübeck 1896. Verlag der Novellen-Bibliothek (Leipzig,<lb/>
+Eduard Strauch).</item><item><hi rendition="#fr">Wilhelm Bube:</hi> Die ländliche Volksbibliothek. Ein kriti&#x017F;cher Wegwei&#x017F;er<lb/>
+und Mu&#x017F;terkatalog neb&#x017F;t Grund&#x017F;töcken und Winken zur Errichtung und<lb/>
+Leitung. Berlin 1896. Verlag von Trowitz&#x017F;ch &amp; Sohn.</item><item>&#x2014; Das&#x017F;elbe. 3. Aufl. 1903. 4. Aufl. 1907.</item><item><hi rendition="#fr">Robert Claußner</hi> und <hi rendition="#aq">Dr.</hi> <hi rendition="#fr">Franz Tetzner:</hi> Un&#x017F;ere Dichter in Wort und Bild.<lb/>
+Bd. 1&#x2014;3 hrsgeg. von Robert Claußner, Bd. 4&#x2014;6 von <hi rendition="#aq">Dr.</hi> Franz Tetzner.<lb/>
+Leipzig 1891&#x2014;96. Verlagsbuchhdl. von R. Claußner.</item><item><hi rendition="#fr">Jeannot Martinelli:</hi> Das große illu&#x017F;tr. Dichter- und Kün&#x017F;tlerbuch. Ein<lb/>
+Dichter-Album mit zahlreichen Porträts und Originalbeiträgen bedeu-<lb/>
+tender Autoren der Gegenwart. Herausgeg. Berlin [1896]. Verlag von<lb/>
+J. Martinelli.</item></list><lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0014" n="10"/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Quellen&#x017F;chriften.</hi></fw><lb/>
+<list><item><hi rendition="#fr">Karl Maria Klob</hi> und <hi rendition="#fr">Oskar Pach:</hi> Deut&#x017F;che Literaturbilder aus alter<lb/>
+und neuer Zeit; herausgeg.; <hi rendition="#aq">III,</hi> Wien 1902&#x2014;04. Verlag der &#x201E;Deut&#x017F;chen<lb/>
+Literaturbilder&#x201C;.</item><item><hi rendition="#fr">Hugo Ganske:</hi> Neue deut&#x017F;che Dichtung. Herausgeg., mit biographi&#x017F;chen<lb/>
+Skizzen, 32 Porträts und einem Anhang. Karlshor&#x017F;t bei Berlin, 1905.<lb/>
+Verlag Neue deut&#x017F;che Dichtung.</item><item><hi rendition="#fr">Martin Müller:</hi> Moderner Mu&#x017F;entempel. Herausgeg. Hamburg 1907.<lb/>
+Wilhelm Car&#x017F;tens.</item><item><hi rendition="#fr">Heinz Voß</hi> und <hi rendition="#fr">Bruno Volger:</hi> Literari&#x017F;che Silhouetten. Deut&#x017F;che Dichter<lb/>
+und Denker und ihre Werke. Ein literar-kriti&#x017F;ches Jahrbuch. 1.&#x2014;4.<lb/>
+Jahrg. 1906&#x2014;09. Oetz&#x017F;ch-Leipzig, jetzt Gohlis-Leipzig. Literaturwi&#x017F;&#x017F;en-<lb/>
+&#x017F;chaftl. Verlag Bruno Volger.</item><item><hi rendition="#fr">Franz Neubert:</hi> Deut&#x017F;ches Zeitgeno&#x017F;&#x017F;en-Lexikon. Biographi&#x017F;ches Handbuch<lb/>
+deut&#x017F;cher Männer und Frauen der Gegenwart. Leipzig, Weihnachten<lb/>
+1905. Verlagsbuchhdlg. Schulze &amp; Co.</item><item><hi rendition="#fr">Hermann A. L. Degener:</hi> Wer i&#x017F;t&#x2019;s? Un&#x017F;ere Zeitgeno&#x017F;&#x017F;en. Zeitgeno&#x017F;&#x017F;en-<lb/>
+Lexikon, enthaltend Biographien neb&#x017F;t Bibliographien, Angaben über<lb/>
+Herkunft, Familie, Lebenslauf, Werke u&#x017F;w. Zu&#x017F;ammenge&#x017F;tellt u. hrsgeg.<lb/>
+Leipzig o. J. (1905). Verlag von H. A. L. Degener.</item><item>&#x2014; Das&#x017F;elbe. 2. Jahrg. 1906. 3. Jahrg. 1908. 4. Jahrg. 1909.</item></list><lb/>
+</div><lb/>
+<div n="2"><head><hi rendition="#b">Norddeut&#x017F;chland.</hi></head><lb/>
+<list><item><hi rendition="#fr">Dom. Korioth:</hi> Vom Weich&#x017F;el&#x017F;trand. Ein o&#x017F;t- und we&#x017F;tpreußi&#x017F;ches Dichter-<lb/>
+buch. Herausgeg. Danzig 1887. B. Lehmann&#x017F;che Buchhandlg.</item><item><hi rendition="#fr">Bruno Pompecki:</hi> Die We&#x017F;tpreußen in der Literatur. Eine biographi&#x017F;ch-<lb/>
+literaturhi&#x017F;tori&#x017F;che Zu&#x017F;ammen&#x017F;tellung der in der Provinz We&#x017F;tpreußen<lb/>
+geborenen belletri&#x017F;ti&#x017F;chen Schrift&#x017F;teller und Schrift&#x017F;tellerinnen des 19.<lb/>
+Jahrhunderts. Bearbeitet und herausgeg. (Manu&#x017F;kript.)</item><item><hi rendition="#fr">Julius Nicolaus Weisfert:</hi> Biographi&#x017F;ch-literari&#x017F;ches Lexikon für die<lb/>
+Haupt- und Re&#x017F;idenz&#x017F;tadt Königsberg in O&#x017F;tpreußen. 2. Ausg. Königs-<lb/>
+berg 1897. Bons Buchhandlg.</item><item><hi rendition="#fr">Augu&#x017F;t Boldt:</hi> Elbinger Gei&#x017F;tesleben im 19. Jahrhundert. Ein Beitrag<lb/>
+zur Chronik der Stadt Elbing. Mohrungen [1894]. Verlag von C. L.<lb/>
+Rautenberg.</item><item><hi rendition="#fr">A. Blanck:</hi> Die mecklenburgi&#x017F;chen Ärzte von den älte&#x017F;ten Zeiten bis zur<lb/>
+Gegenwart mit kurzen Angaben über ihr Leben und ihre Schriften.<lb/>
+Schwerin 1874. Al. Schmiedekampf.</item><item>&#x2014; Das&#x017F;elbe. Eine Neuausgabe, Vervoll&#x017F;tändigung und Fort&#x017F;etzung von<lb/>
+Sanitätsrat <hi rendition="#aq">Dr.</hi> Axel Wilhelmi. Schwerin 1901. E. Herberger.</item><item><hi rendition="#fr">Friedrich Walter:</hi> Un&#x017F;ere Landesgei&#x017F;tlichen von 1810&#x2014;1888. Biographi&#x017F;che<lb/>
+Skizzen &#x017F;ämtlicher Mecklenburg-Schwerin&#x017F;cher Gei&#x017F;tlichen. Penzlin 1889.<lb/>
+Selb&#x017F;tverlag des Verfa&#x017F;&#x017F;ers. Gedruckt von Otto Oskar Fink.</item><item>&#x2014; Das&#x017F;elbe. Fort&#x017F;etzung. Un&#x017F;ere Landesgei&#x017F;tlichen von 1888&#x2014;1899.<lb/>
+Schwerin 1900. Selb&#x017F;tverlag des Verfa&#x017F;&#x017F;ers. Druck von W. Sengebu&#x017F;ch.</item><item><hi rendition="#fr">Richard Doh&#x017F;e:</hi> Mecklenburgi&#x017F;ches Dichterbuch. Herausgeg. Berlin 1903.<lb/>
+Wilhelm Sü&#x017F;&#x017F;erots Verlagsbuchhdlg.</item><item><hi rendition="#fr">Lexikon</hi> der Schleswig-Hol&#x017F;tein-Lauenburgi&#x017F;chen und Eutini&#x017F;chen Schrift-<lb/>
+&#x017F;teller von 1796&#x2014;1828. Zu&#x017F;ammengetragen von D. L. <hi rendition="#g">Lübker</hi> und<lb/>
+H. <hi rendition="#g">Schröder.</hi> 2 Bde. Altona 1829&#x2014;30. K. Bu&#x017F;ch Nachfolger.</item></list><lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0015" n="11"/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Quellen&#x017F;chriften.</hi></fw><lb/>
+<list><item><hi rendition="#fr">Lexikon</hi> der Schleswig-Hol&#x017F;tein-Lauenburgi&#x017F;chen und Eutini&#x017F;chen Schrift-<lb/>
+&#x017F;teller von 1829 bis Mitte 1866. Ge&#x017F;ammelt u. hrsgeg. von <hi rendition="#aq">Dr.</hi> <hi rendition="#g">Eduard<lb/>
+Alberti.</hi> 2 Bde. Kiel 1867&#x2014;68. Akademi&#x017F;che Buchhdlg.</item><item>&#x2014; Das&#x017F;elbe. Von 1866&#x2014;82. [Jm An&#x017F;chluß an das vorige Werk] ge&#x017F;am-<lb/>
+melt u. herausgeg. von <hi rendition="#aq">Dr.</hi> <hi rendition="#g">Eduard Alberti.</hi> 2 Bde. Kiel 1885&#x2014;86.<lb/>
+Karl Biernatzki.</item><item><hi rendition="#fr">Ludwig Frahm:</hi> Lebensbilder der Heldengei&#x017F;ter und Altmei&#x017F;ter, der ver-<lb/>
+dien&#x017F;tvoll&#x017F;ten und hervorragend&#x017F;ten Männer Schleswig-Hol&#x017F;teins. Her-<lb/>
+ausgeg. Er&#x017F;ter Band. Poppenbüttel 1892. Selb&#x017F;tverlag.</item><item><hi rendition="#fr">Heinrich Zei&#x017F;e:</hi> Aus dem Leben und den Erinnerungen eines norddeut&#x017F;chen<lb/>
+Poeten. Altona 1888. A. C. Reher.</item><item><hi rendition="#fr">Richard Doh&#x017F;e:</hi> Meerum&#x017F;chlungen. Ein literari&#x017F;ches Heimatbuch für Schles-<lb/>
+wig-Hol&#x017F;tein, Hamburg und Lübeck. Herausgeg. Mit Bildern von Her-<lb/>
+mann Linde. Hamburg 1907. Verlag von Alfred Jans&#x017F;en.</item><item><hi rendition="#fr">Ern&#x017F;t Wechsler:</hi> Berliner Autoren. Leipzig o. J. (1891). Wilhelm Friedrich.</item><item><hi rendition="#fr">Gelehrtes Berlin</hi> im Jahre 1825. Verzeichnis im Jahre 1825 in Berlin<lb/>
+lebender Schrift&#x017F;teller und ihrer Werke. Aus den von ihnen &#x017F;elb&#x017F;t ent-<lb/>
+worfenen oder revidierten Artikeln zu&#x017F;ammenge&#x017F;tellt [von <hi rendition="#aq">Dr.</hi> Julius<lb/>
+Eduard <hi rendition="#g">Hitzig</hi>]. Berlin 1826. Ferd. Dümmler.</item><item>&#x2014; Das&#x017F;elbe. Fortge&#x017F;etzt u. d. T.: Biographi&#x017F;che und literari&#x017F;che Nachrich-<lb/>
+ten von den in Berlin lebenden Schrift&#x017F;tellern und Schrift&#x017F;tellerinnen.<lb/>
+Herausgeg. von <hi rendition="#g">Karl Büchner.</hi> Er&#x017F;tes Heft (nicht mehr er&#x017F;chienen).<lb/>
+Berlin 1834. Duncker u. Humblot.</item><item><hi rendition="#fr">Gelehrtes Berlin</hi> im Jahre 1845. Verzeichnis im Jahre 1845 in Berlin<lb/>
+lebender Schrift&#x017F;teller und ihrer Werke [von <hi rendition="#g">Wilhelm Koner</hi>]. Berlin<lb/>
+1846. Verlag von Th. Scherk.</item><item><hi rendition="#fr">Richard Wrede</hi> und <hi rendition="#fr">Hans von Reinfels:</hi> Das gei&#x017F;tige Berlin. Eine Enzy-<lb/>
+klopädie des gei&#x017F;tigen Lebens Berlins. Herausgeg. Er&#x017F;ter Band: Leben<lb/>
+und Wirken der Architekten, Bildhauer, Bühnenkün&#x017F;tler, Journali&#x017F;ten,<lb/>
+Maler, Mu&#x017F;iker, Schrift&#x017F;teller, Zeichner. Berlin 1897. Verlag von Hugo<lb/>
+Storm.</item><item><hi rendition="#fr">Richard Wrede:</hi> Das gei&#x017F;tige Berlin. Eine Enzyklopädie des gei&#x017F;tigen<lb/>
+Lebens Berlins. Herausgeber R. W. Dritter Band: Leben und Wirken<lb/>
+der Ärzte, Apotheker, Baumei&#x017F;ter, Jngenieure, Militär&#x017F;chrift&#x017F;teller, Natur-<lb/>
+wi&#x017F;&#x017F;en&#x017F;chaftler. Berlin 1898. Verlag von <hi rendition="#aq">Dr.</hi> R. Wrede (der 2. Bd. i&#x017F;t<lb/>
+noch nicht er&#x017F;chienen).</item><item><hi rendition="#fr">L. H. Fi&#x017F;cher:</hi> Aus der märki&#x017F;chen Heimat. Natur- und Land&#x017F;chaftsbilder<lb/>
+in Gedichten. Ge&#x017F;ammelt. Berlin 1902. L. Oehmigkes Verlag (enthält<lb/>
+auch biogr. Daten).</item><item><hi rendition="#fr">Andreas Gottfried Schmidt:</hi> Anhalt&#x017F;ches Schrift&#x017F;teller-Lexikon oder hi&#x017F;to-<lb/>
+ri&#x017F;ch-literari&#x017F;che Nachrichten über die Schrift&#x017F;teller, welche in Anhalt ge-<lb/>
+boren &#x017F;ind oder gewirkt haben, aus den drei letzten Jahrhunderten ge-<lb/>
+&#x017F;ammelt und bis auf un&#x017F;ere Zeiten fortgeführt. Bernburg 1830. Frdr.<lb/>
+Wilh. Gröning.</item><item><hi rendition="#fr">Friedrich Leopold Gehricke:</hi> Album anhalti&#x017F;cher Schrift&#x017F;teller. Eine Fe&#x017F;t-<lb/>
+gabe. Zum Be&#x017F;ten eines Turnhau&#x017F;es in Cöthen herausgeg. De&#x017F;&#x017F;au 1860.<lb/>
+H. Neubürger.</item><item><hi rendition="#fr">Jean Bernard Mu&#x017F;chi</hi> und <hi rendition="#fr">Hermann Wä&#x017F;chke:</hi> Das literari&#x017F;che Anhalt.<lb/>
+Arbeiten zeitgenö&#x017F;&#x017F;i&#x017F;cher Schrift&#x017F;teller. Herausgeg. 2. Ausgabe. De&#x017F;&#x017F;au<lb/>
+1889. Franz Meyer.</item></list><lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0016" n="12"/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Quellen&#x017F;chriften.</hi></fw><lb/>
+</div><lb/>
+<div n="2"><head><hi rendition="#b">Nordwe&#x017F;tdeut&#x017F;chland.</hi></head><lb/>
+<list><item><hi rendition="#fr">Lexikon</hi> der Hamburgi&#x017F;chen Schrift&#x017F;teller bis zur Gegenwart. Jm Auf-<lb/>
+trage des Vereins für Hamburgi&#x017F;che Ge&#x017F;chichte ausgearbeitet. 8 Bde.<lb/>
+(Bd. 1&#x2014;3 von <hi rendition="#g">Hans Schröder;</hi> Bd. 4 von F. A. <hi rendition="#g">Cropp</hi> und C. R.<lb/>
+W. <hi rendition="#g">Klo&#x017F;e;</hi> Bd. 5 u. 6 von <hi rendition="#g">Klo&#x017F;e;</hi> Bd. 7 u. 8 von A. H. <hi rendition="#g">Kelling-<lb/>
+hu&#x017F;en</hi>). Hamburg 1851&#x2014;83. Auf Ko&#x017F;ten des Vereins.</item><item><hi rendition="#fr">Julius Graefe:</hi> Bremer Dichter des 19. Jahrhunderts. Auswahl ihrer<lb/>
+Gedichte mit biographi&#x017F;chen Notizen, herausgeg. Bremen 1875. Karl<lb/>
+Tannen.</item><item><hi rendition="#fr">Franziskus Hähnel:</hi> Die bremi&#x017F;chen Dichter und Schrift&#x017F;teller der Gegen-<lb/>
+wart. Eine literari&#x017F;che Plauderei. Bremen 1893. J. Kühtmann.</item><item><hi rendition="#fr">Franz Poppe:</hi> Album oldenburgi&#x017F;cher Dichter. Herausgeg. Oldenburg<lb/>
+1883. Expedition der &#x201E;Nachrichten für Stadt und Land&#x201C;.</item><item><hi rendition="#fr">Rudolf Eckart:</hi> Lexikon der nieder&#x017F;äch&#x017F;i&#x017F;chen Schrift&#x017F;teller von den älte&#x017F;ten<lb/>
+Zeiten bis zur Gegenwart. Bearbeitet. O&#x017F;terwieck 1891. A. W. Zickfeldt.</item><item><hi rendition="#fr">Rudolf Eckart:</hi> Nieder&#x017F;äch&#x017F;i&#x017F;ches Dichterbuch. Unter Mitwirkung der her-<lb/>
+vorragend&#x017F;ten nieder&#x017F;äch&#x017F;i&#x017F;chen Lyriker herausgeg. Bremen 1890. M.<lb/>
+Hein&#x017F;ius Nachfolger.</item><item><hi rendition="#fr">Rudolf Eckart,</hi> &#x017F;iehe auch: Religiö&#x017F;e Dichtung!</item><item><hi rendition="#fr">Hans Müller-Brauel:</hi> Hannover&#x017F;ches Dichterbuch. Ein Sammelbuch hei-<lb/>
+matlicher Dichtung. Mit vielen Beiträgen lebender Dichter und reichem<lb/>
+Buch&#x017F;chmuck vom Maler Heinrich Vogeler-Worpswede. Herausgeg. Göt-<lb/>
+tingen 1898. Verlag von Lüder Hor&#x017F;tmann.</item></list><lb/>
+</div><lb/>
+<div n="2"><head><hi rendition="#b">Rheinland und We&#x017F;tfalen.</hi></head><lb/>
+<list><item><hi rendition="#fr">Paul Baehr:</hi> Rheini&#x017F;ch-we&#x017F;tfäli&#x017F;ches Dichterbuch. Herausgeg. Mün&#x017F;ter<lb/>
+und Paderborn 1888. F. Schöningh.</item><item><hi rendition="#fr">Hermann Hartmann:</hi> Schatzkä&#x017F;tlein we&#x017F;tfäli&#x017F;cher Dichtkun&#x017F;t in hoch- und<lb/>
+plattdeut&#x017F;cher Sprache. Herausgeg. und mit kurzen Lebensbe&#x017F;chreibungen<lb/>
+der Dichter ver&#x017F;ehen. Minden 1885. Bruns&#x2019; Verlag.</item><item><hi rendition="#fr">Ern&#x017F;t Raßmann:</hi> Nachrichten von dem Leben und den Schriften Mün&#x017F;ter-<lb/>
+ländi&#x017F;cher Schrift&#x017F;teller des 18. und 19. Jahrhunderts. Mün&#x017F;ter 1866.<lb/>
+Coppenrath&#x017F;che Buch- u. Kun&#x017F;thandlung.</item><item>&#x2014; Das&#x017F;elbe. Neue Folge. Ebend. 1881.</item><item><hi rendition="#fr">Friedrich Roeber:</hi> Literatur und Kun&#x017F;t im Wuppertale bis zur Mitte des<lb/>
+gegenwärtigen Jahrhunderts. J&#x017F;erlohn 1886. Jul. Baedeker.</item><item><hi rendition="#fr">Albert Herzog:</hi> Die neuere Literatur im Wuppertale in Biographien und<lb/>
+Charakteri&#x017F;tiken. Barmen 1888. D. B. Wiemann.</item><item><hi rendition="#fr">Heinrich Freimuth:</hi> Aachens Dichter und Pro&#x017F;ai&#x017F;ten. Eine Anthologie,<lb/>
+herausgeg. 3 Bde. Aachen 1882&#x2014;83. J. Stercken.</item><item><hi rendition="#fr">Uhlmann-Bixterheide</hi> und <hi rendition="#fr">Karl Hülter:</hi> We&#x017F;tfäli&#x017F;che Dichtung der Gegen-<lb/>
+wart. Beiträge zur Würdigung we&#x017F;tfäli&#x017F;chen Gei&#x017F;teslebens. Leipzig 1895.<lb/>
+Otto Lenz.</item><item><hi rendition="#fr">Gu&#x017F;tav Koepper:</hi> Literaturge&#x017F;chichte des rheini&#x017F;ch-we&#x017F;tfäli&#x017F;chen Landes.<lb/>
+Elberfeld 1898. S. Lucas.</item><item><hi rendition="#fr">Jo&#x017F;eph Joe&#x017F;ten:</hi> Erinnerung an Bonn und das Siebengebirge. Ein Lie-<lb/>
+der&#x017F;trauß für den Freund der Natur und heimatlichen Dichtung. Her-<lb/>
+ausgeg. mit einer Einleitung und biogr.-kriti&#x017F;chen Bemerkungen. Bonn<lb/>
+1903. Verlag von P. Han&#x017F;tein.</item></list><lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0017" n="13"/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Quellen&#x017F;chriften.</hi></fw><lb/>
+<list><item><hi rendition="#fr">Cheo Schäfer:</hi> Frankfurter Dichterbuch. Herausgeg. Frankfurt a. M.<lb/>
+Weihnachten 1905. Karl Friedrich Schulz&#x2019; Verlag.</item><item><hi rendition="#fr">Nicolaus Welter:</hi> &#x017F;iehe Dialekt-Dichtung!</item></list><lb/>
+</div><lb/>
+<div n="2"><head><hi rendition="#b">He&#x017F;&#x017F;en.</hi></head><lb/>
+<list><item><hi rendition="#fr">Johannes Marbach:</hi> He&#x017F;&#x017F;. Dichterbuch. Hrsg. Friedberg 1857. C. Scriba.</item><item><hi rendition="#fr">Heinrich Eduard Scriba:</hi> Biographi&#x017F;ch-literari&#x017F;ches Lexikon der Schrift-<lb/>
+&#x017F;teller des Großherzogtums He&#x017F;&#x017F;en im 19. Jahrhundert. Bearbeitet und<lb/>
+herausgeg. 2 Bde. Darm&#x017F;tadt 1831. Verlag v. K. W. Leske, und 1843,<lb/>
+Verlag v. G. Jonghaus.</item><item><hi rendition="#fr">Karl Wilhelm Ju&#x017F;ti:</hi> Grundlage zu einer he&#x017F;&#x017F;i&#x017F;chen Gelehrten-, Schrift-<lb/>
+&#x017F;teller- und Kün&#x017F;tlerge&#x017F;chichte vom Jahre 1806 bis zum Jahre 1830.<lb/>
+Marburg 1831. Chr. Garthe [Fort&#x017F;etzung von Strieders he&#x017F;&#x017F;i&#x017F;cher Ge-<lb/>
+lehrtenge&#x017F;chichte].</item><item><hi rendition="#fr">Otto Gerland:</hi> Grundlage zu einer he&#x017F;&#x017F;i&#x017F;chen Gelehrten-, Schrift&#x017F;teller-<lb/>
+und Kün&#x017F;tlerge&#x017F;chichte von 1831 bis auf die neue&#x017F;te Zeit; herausgeg.<lb/>
+2 Bde. Ka&#x017F;&#x017F;el 1863&#x2014;68. Augu&#x017F;t Frey&#x017F;chmidt [Fort&#x017F;etzung von Strieder<lb/>
+und Ju&#x017F;ti].</item><item><hi rendition="#fr">Wilhelm Schoof:</hi> He&#x017F;&#x017F;i&#x017F;ches Dichterbuch. (Begründet durch Valentin<lb/>
+Traudt.) 3. Aufl. Neuherausgeg. Marburg 1901. N. G. Elwert&#x017F;che<lb/>
+Verlagsbuchhdlg.</item><item><hi rendition="#fr">Wilhelm Schoof:</hi> Die deut&#x017F;che Dichtung in He&#x017F;&#x017F;en. Studien zu einer he&#x017F;-<lb/>
+&#x017F;i&#x017F;chen Literaturge&#x017F;chichte. Marburg 1901. N. G. Elwert&#x017F;che Vrlbchhdlg.</item><item><hi rendition="#fr">Chr. W. Stromberger:</hi> &#x017F;iehe Religiö&#x017F;e Dichtung!</item><item><hi rendition="#fr">Alexander Burger:</hi> Bibliographie der &#x017F;chönen Literatur He&#x017F;&#x017F;ens. Zu&#x017F;am-<lb/>
+menge&#x017F;tellt. 1. Teil, enthaltend die im Großherzogtum He&#x017F;&#x017F;en geborenen<lb/>
+belletri&#x017F;ti&#x017F;chen Schrift&#x017F;teller. Nieder-Jngelheim 1908. Selb&#x017F;tverlag.</item></list><lb/>
+</div><lb/>
+<div n="2"><head><hi rendition="#b">Mitteldeut&#x017F;chland.</hi></head><lb/>
+<list><item><hi rendition="#fr">Wilhelm Haan:</hi> Säch&#x017F;i&#x017F;ches Schrift&#x017F;teller-Lexikon. Alphabeti&#x017F;ch geordnete<lb/>
+Zu&#x017F;ammen&#x017F;tellung der im Königreich Sach&#x017F;en gegenwärtig lebenden Ge-<lb/>
+lehrten, Schrift&#x017F;teller und Kün&#x017F;tler neb&#x017F;t kurzen biographi&#x017F;chen Notizen<lb/>
+und Nachweis ihrer im Druck er&#x017F;chienenen Schriften. Herausgeg. Leipzig<lb/>
+1875. Robert Schaefers Verlag.</item><item><hi rendition="#fr">Bruno Volger:</hi> Sach&#x017F;ens Gelehrte, Kün&#x017F;tler und Schrift&#x017F;teller in Wort und<lb/>
+Bild, neb&#x017F;t einem Anhang: &#x201E;Nicht&#x017F;ach&#x017F;en.&#x201C; Herausgeg. und redigiert.<lb/>
+Leipzig-Gohlis 1908. Bruno Volgers Verlagshandl.</item><item><hi rendition="#fr">Das literari&#x017F;che Leipzig.</hi> Jllu&#x017F;triertes Handbuch der Schrift&#x017F;teller- und<lb/>
+Gelehrtenwelt, der Pre&#x017F;&#x017F;e und des Verlagsbuchhandels in Leipzig.<lb/>
+Leipzig 1897. Verlag von Walther Fiedler.</item><item><hi rendition="#fr">Kurt Warmuth:</hi> Dresdener Dichterbuch. Dichtungen (von ver&#x017F;chiedenen<lb/>
+Dichtern) mit biographi&#x017F;chen und bibliographi&#x017F;chen Notizen herausgeg.<lb/>
+Dresden 1903. Wilhelm Baen&#x017F;ch.</item><item><hi rendition="#fr">Eduard Heyden:</hi> Galerie berühmter und merkwürdiger Reußenländer.<lb/>
+Eine biographi&#x017F;che Sammlung. Frankfurt a. M. 1858. Selb&#x017F;tverlag.</item><item><hi rendition="#fr">V. Behrends:</hi> Die reußi&#x017F;chen Kirchenliederdichter. Zu&#x017F;ammenge&#x017F;tellt. Gera<lb/>
+1872. Köhler.</item><item><hi rendition="#fr">Karl Gu&#x017F;tav Heinrich Berner:</hi> Schle&#x017F;i&#x017F;che Landsleute. Ein Gedenkbuch<lb/>
+hervorragender, in Schle&#x017F;ien geborener Männer und Frauen aus der Zeit<lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0018" n="14"/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Quellen&#x017F;chriften.</hi></fw><lb/>
+von 1180 bis zur Gegenwart. Zu&#x017F;ammenge&#x017F;tellt und herausgeg. Leipzig<lb/>
+1901. Verlag von Paul Schimmelwitz.</item><item><hi rendition="#fr">Alfred Feige:</hi> Das lachende Schle&#x017F;ien. Fröhliche Wei&#x017F;en &#x017F;chle&#x017F;i&#x017F;cher Dichter.<lb/>
+Ein Buch für Freunde guten Humors. Als Vortragsgedichte ge&#x017F;ammelt<lb/>
+u. herausgeg. 2. verb. Aufl. Leipzig 1903. Verlag von Richard Lipinski<lb/>
+(enthält auch biographi&#x017F;che Notizen).</item><item><hi rendition="#fr">Hugo Kegel:</hi> Ober&#x017F;chle&#x017F;ien in der Dichtung. Eine Anthologie. Nach &#x017F;ei-<lb/>
+nem Tode herausgeg. von Ludwig Sittenfeld. Kattowitz o. J. (1897).<lb/>
+Verlag von G. Siwinna.</item><item><hi rendition="#fr">Karl Gabriel Nowack:</hi> Schle&#x017F;i&#x017F;ches Schrift&#x017F;teller-Lexikon oder bio-biblio-<lb/>
+graphi&#x017F;ches Verzeichnis der im zweiten Viertel des 19. Jahrhunderts<lb/>
+lebenden &#x017F;chle&#x017F;i&#x017F;chen Schrift&#x017F;teller. 6 Hefte. Breslau 1836&#x2014;43. W. G.<lb/>
+Korn.</item><item><hi rendition="#fr">Chri&#x017F;tian Friedrich Keßlin:</hi> Nachrichten von Schrift&#x017F;tellern und Kün&#x017F;tlern<lb/>
+der Graf&#x017F;chaft Wernigerode vom J. 1074&#x2014;1855, verfaßt. Magdeburg<lb/>
+1856. Gebrüder Baeni&#x017F;ch.</item></list><lb/>
+</div><lb/>
+<div n="2"><head><hi rendition="#b">Süddeut&#x017F;chland und El&#x017F;aß.</hi></head><lb/>
+<list><item><hi rendition="#fr">Clemens Alois Baader:</hi> Lexikon ver&#x017F;torbener bayeri&#x017F;cher Schrift&#x017F;teller<lb/>
+des 18. und 19. Jahrhunderts. Ausgearbeitet. 4 Bde. Augsburg und<lb/>
+Leipzig 1824&#x2014;25. Verlag von v. Jeni&#x017F;ch u. Stage.</item><item><hi rendition="#fr">Adolf von Schaden:</hi> Gelehrtes München im Jahre 1834 oder Verzeichnis<lb/>
+mehrerer zurzeit in Bayerns Haupt&#x017F;tadt lebenden Schrift&#x017F;teller und ihrer<lb/>
+Werke. Aus den von ihnen &#x017F;elb&#x017F;t entworfenen oder revidierten Artikeln<lb/>
+zu&#x017F;ammenge&#x017F;tellt u. herausgeg. München 1834. Jo&#x017F;eph Rösl.</item><item><hi rendition="#fr">Pfälzi&#x017F;ches Memorabile.</hi> Gabe des evangeli&#x017F;chen Vereins für die pro-<lb/>
+te&#x017F;tanti&#x017F;che Pfalz. 14 Hefte. We&#x017F;theim 1873&#x2014;86. Verlag des evangel.<lb/>
+Vereins [Herausgeb. war der Pfarrer <hi rendition="#g">Johannes Schiller</hi> in<lb/>
+We&#x017F;theim].</item><item><hi rendition="#fr">Friedrich Augu&#x017F;t u. Johannes Greger:</hi> Sonette von bayeri&#x017F;chen Dichtern.<lb/>
+Ge&#x017F;ammelt. 4 Bde. Sulzbach 1831&#x2014;34. J. E. v. Seidel&#x017F;che Buchhdlg.</item><item><hi rendition="#fr">Joh. Babt. Tränkle:</hi> Die alemanni&#x017F;che Dichtung &#x017F;eit Johann Peter Hebel.<lb/>
+Ein Beitrag zur Ge&#x017F;chichte der &#x017F;üddeut&#x017F;chen Dialektdichtung. Tauber-<lb/>
+bi&#x017F;chofsheim 1881. J. Lang.</item><item><hi rendition="#fr">Heinrich Neubauer:</hi> Die deut&#x017F;che Literatur im El&#x017F;aß. Darm&#x017F;tadt 1871.<lb/>
+Zernin.</item><item><hi rendition="#fr">Theodor Klein:</hi> Pfeffel-Album. Gaben el&#x017F;ä&#x017F;&#x017F;i&#x017F;cher Dichter, ge&#x017F;ammelt.<lb/>
+Kolmar 1859. J. B. Geng.</item><item><hi rendition="#fr">Jahrbuch</hi> für Ge&#x017F;chichte, Sprache und Literatur El&#x017F;aß-Lothringens. Her-<lb/>
+ausgeg. von dem hi&#x017F;tori&#x017F;ch-literari&#x017F;chen Zweigverein des Voge&#x017F;enklubs.<lb/>
+Straßburg i. E. 1885&#x2014;88. Verlag von J. A. D. Heitz.</item><item><hi rendition="#fr">El&#x017F;ä&#x017F;&#x017F;er Schatzkä&#x017F;tel</hi> &#x017F;iehe Dialektdichtungen!</item><item><hi rendition="#fr">Friedrich von Weech:</hi> Badi&#x017F;che Biographien, herausgeg. Bd. 1 u. 2. Hei-<lb/>
+delberg 1875. F. Ba&#x017F;&#x017F;ermann. Bd. 3. Karlsruhe 1881. G. Braun&#x017F;che<lb/>
+Hofbuchhandlung. Bd. 4. Ebd. 1891. Bd. 5 herausgeg. von Friedrich<lb/>
+von Weech und A. Kriegor. Heidelberg 1904. C. Winters Verlag.</item><item><hi rendition="#fr">Albert Geiger:</hi> Badi&#x017F;che Dichter. Ein Sammelbuch badi&#x017F;cher Lyrik bis auf<lb/>
+die jüng&#x017F;te Zeit. Karlsruhe 1905. G. Braun&#x017F;che Hofbuchdruckerei.</item><item><hi rendition="#fr">Augu&#x017F;t Holder:</hi> Ge&#x017F;chichte der &#x017F;chwäbi&#x017F;chen Dialektdichtung mit vielen<lb/>
+Bildni&#x017F;&#x017F;en mundartlicher Dichter und For&#x017F;cher. Offenbarungen un&#x017F;eres<lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0019" n="15"/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Quellen&#x017F;chriften.</hi></fw><lb/>
+&#x017F;tammheitlichen Volks- und Sprachgei&#x017F;tes aus drei Jahrhunderten kul-<lb/>
+turge&#x017F;chichtlich beleuchtet. Heilbronn 1896. Max Kielmann.</item><item><hi rendition="#fr">Rudolf Krauß:</hi> Schwäbi&#x017F;che Literaturge&#x017F;chichte in zwei Bänden. 1. Bd.<lb/>
+Von den Anfängen bis in das 19. Jahrhundert. 2. Bd. Die württem-<lb/>
+bergi&#x017F;che Literatur im 19. Jahrhundert. Freiberg i. B. 1897&#x2014;99. J. C.<lb/>
+B. Mohr.</item><item><hi rendition="#fr">F. X. Hodler:</hi> Dichter&#x017F;timmen aus Hohenzollern. Herausgeg. Haigerloch<lb/>
+1898. Druck und Verlag von Karl Albrecht.</item></list><lb/>
+</div><lb/>
+<div n="2"><head><hi rendition="#b">Ö&#x017F;terreich-Ungarn. Allgemeines.</hi></head><lb/>
+<list><item><hi rendition="#fr">Kon&#x017F;tantin von Wurzbach:</hi> Biographi&#x017F;ches Lexikon des Kai&#x017F;ertums Ö&#x017F;ter-<lb/>
+reich, enthaltend die Lebens&#x017F;kizzen der denkwürdigen Per&#x017F;onen, welche<lb/>
+&#x017F;eit 1750 in den ö&#x017F;terreichi&#x017F;chen Kronländern geboren wurden und darin<lb/>
+gelebt und gewirkt haben. 60 Bde. Wien 1857&#x2014;91. Verl. von L. C.<lb/>
+Zamarski, &#x017F;päter Verl. der k. k. Hof- und Staatsdruckerei.</item><item><hi rendition="#fr">Ludwig Ei&#x017F;enberg:</hi> Von der Strecke. Ern&#x017F;te und heitere Ge&#x017F;chichten aus<lb/>
+dem Ei&#x017F;enbahnleben. Herausgeg. Wien u. Leipzig 1891. Heinrich Brock-<lb/>
+hau&#x017F;en [enthält biograph. Mitteilungen].</item><item><hi rendition="#fr">Ludwig Scheyrer:</hi> Die Schrift&#x017F;teller Ö&#x017F;terreichs in Reim und Pro&#x017F;a auf<lb/>
+dem Gebiete der &#x017F;chönen Literatur aus der älte&#x017F;ten Zeit bis auf die<lb/>
+neue&#x017F;te Zeit. Mit biographi&#x017F;chen Angaben und Proben aus ihren Wer-<lb/>
+ken. Wien 1858. Verlag der typographi&#x017F;ch-literar.-arti&#x017F;ti&#x017F;chen An&#x017F;talt.</item><item><hi rendition="#fr">Karl Emil Franzos:</hi> Deut&#x017F;ches Dichterbuch aus Ö&#x017F;terreich. Herausgeg.<lb/>
+Leipzig 1883. Breitkopf &amp; Härtel.</item><item><hi rendition="#fr">Jürg Simani:</hi> Ö&#x017F;terreichs Lyriker in Wort und Bild. Herausgeg. Prag<lb/>
+1873 (es &#x017F;ind nur zwei Hefte er&#x017F;chienen).</item><item><hi rendition="#fr">Viktor A. Reko</hi> und <hi rendition="#fr">Heinrich Bohrmann d. j.:</hi> Deut&#x017F;ch-ö&#x017F;terreichi&#x017F;ches Kün&#x017F;t-<lb/>
+ler- und Schrift&#x017F;teller-Lexikon. 2. Bd.: Biographien und Bibliographie<lb/>
+der deut&#x017F;chen Kün&#x017F;tler und Schrift&#x017F;teller in Ö&#x017F;terreich-Ungarn außer Wien.<lb/>
+Wien 1906. Verlag von Rudolf Lechner &amp; Sohn.</item><item><hi rendition="#fr">Hermann Cl. Ko&#x017F;el</hi> und <hi rendition="#fr">Emil Hofmann:</hi> &#x017F;iehe: Lehrer!</item></list><lb/>
+</div><lb/>
+<div n="2"><head><hi rendition="#b">Ö&#x017F;terreich-Ungarn. Provinzielles.</hi></head><lb/>
+<list><item><hi rendition="#fr">Ern&#x017F;t Wechsler:</hi> Wiener Autoren. Leipzig 1888. Wilhelm Friedrich.</item><item><hi rendition="#fr">Ludwig Ei&#x017F;enberg:</hi> Das gei&#x017F;tige Wien. Kün&#x017F;tler- und Schrift&#x017F;teller-Lexi-<lb/>
+kon. Mitteilungen über Wiener Architekten, Bildhauer, Bühnenkün&#x017F;tler,<lb/>
+Graphiker, Journali&#x017F;ten, Maler, Mu&#x017F;iker u. Schrift&#x017F;teller. 1.&#x2014;4. Jahrg.<lb/>
+Wien 1889&#x2014;92. Brockhau&#x017F;en u. Bräuer, dann Heinr. Brockhau&#x017F;en, dann<lb/>
+C. Daberkows Verlag [Jahrg. 1889 u. 1890 im Verein mit <hi rendition="#g">Richard<lb/>
+Groner</hi> herausgegeben].</item><item><hi rendition="#fr">Ludwig Ei&#x017F;enberg:</hi> Das&#x017F;elbe. Fort&#x017F;etzung u. d. T.: Das gei&#x017F;tige Wien.<lb/>
+Kün&#x017F;tler- und Schrift&#x017F;teller-Lexikon. Er&#x017F;ter Band. Belletri&#x017F;ti&#x017F;ch-kün&#x017F;t-<lb/>
+leri&#x017F;cher Teil. Wien 1893. C. Daberkows Verlag. &#x2014; Zweiter Band.<lb/>
+Medizini&#x017F;ch-naturwi&#x017F;&#x017F;en&#x017F;chaftlicher Teil. Wien 1893. Ebend.</item><item><hi rendition="#fr">Hermann Cl. Ko&#x017F;el:</hi> Deut&#x017F;ch-ö&#x017F;terreichi&#x017F;ches Kün&#x017F;tler- und Schrift&#x017F;teller-<lb/>
+Lexikon. 1. Band: Biographien der Wiener Kün&#x017F;tler und Schrift&#x017F;teller.<lb/>
+Wien 1902. Druck und Verlag der Ge&#x017F;ell&#x017F;chaft für graphi&#x017F;che Jndu&#x017F;trie.</item><item><hi rendition="#fr">Ambros Mayr:</hi> Tiroler Dichterbuch. Herausgeg. im Auftrage des Vereins<lb/>
+zur Errichtung eines Denkmals Walters von der Vogelweide in Bozen.<lb/>
+Jnnsbruck 1888. Verlag der Wagner&#x017F;chen Univer&#x017F;itäts-Buchhandlung.</item></list><lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0020" n="16"/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Quellen&#x017F;chriften.</hi></fw><lb/>
+<list><item><hi rendition="#fr">Anton Schlo&#x017F;&#x017F;ar:</hi> Steiermark im deut&#x017F;chen Liede. Eine poeti&#x017F;che Antho-<lb/>
+logie, herausg. Mit biographi&#x017F;ch-literarhi&#x017F;tori&#x017F;chem Anhang. 2 Bde.<lb/>
+Graz 1880. Verlag vom Leykam-Jo&#x017F;ephsthal.</item><item><hi rendition="#fr">Anton Schlo&#x017F;&#x017F;ar:</hi> Hundert Jahre deut&#x017F;cher Dichtung in Steiermark, 1785<lb/>
+bis 1885. Wien 1893. Karl Grae&#x017F;er.</item><item><hi rendition="#fr">Karl W. Gawalowski:</hi> Steiermärki&#x017F;ches Dichterbuch. Herausgeg. Graz<lb/>
+1887. Franz Pechel.</item><item><hi rendition="#fr">Julius Reinwald:</hi> Heimatliche Dichter. Eine Sammlung kärnti&#x017F;cher Poe-<lb/>
+&#x017F;ien mit biographi&#x017F;chen Daten und einem Vorworte. Klagenfurt o. J.<lb/>
+Druck und Verlag von Johann Leon &#x017F;en.</item><item><hi rendition="#fr">Eduard Fedor Ka&#x017F;tner:</hi> Böhmens deut&#x017F;che Poe&#x017F;ie und Kun&#x017F;t. Jllu&#x017F;triertes<lb/>
+Jahrbuch in Monatsheften über alle Gebiete des Schönen. Gegründet,<lb/>
+herausgeg. u. geleitet. 1.&#x2014;6. Jahrgang. Wien 1891&#x2014;96. Selb&#x017F;tverlag<lb/>
+des Herausgebers (mehr i&#x017F;t nicht er&#x017F;chienen).</item><item><hi rendition="#fr">Paul Kir&#x017F;ch</hi> und <hi rendition="#fr">Ottokar Stoklaska:</hi> Deut&#x017F;ches Dichterbuch aus Mähren.<lb/>
+Herausgeg. Brünn 1892. Rudolf M. Rohrer.</item><item><hi rendition="#fr">Hermann Heller:</hi> Mährens Männer der Gegenwart. Biographi&#x017F;ches Lexi-<lb/>
+kon. 5 Bände. Brünn 1885&#x2014;92. Jm Verlage des Verfa&#x017F;&#x017F;ers.</item><item><hi rendition="#fr">Hermann Sander:</hi> Dichter&#x017F;timmen aus Vorarlberg. Ein Dichterbüchlein,<lb/>
+aus den Werken heimi&#x017F;cher Sänger und Erzähler des 19. Jahrhunderts<lb/>
+zu&#x017F;ammenge&#x017F;tellt. Jnnsbruck 1895. Wagner&#x017F;che Univer&#x017F;itätsbuchhandlg.</item><item><hi rendition="#fr">Jo&#x017F;eph Trau&#x017F;ch:</hi> Schrift&#x017F;teller-Lexikon oder biographi&#x017F;ch-literari&#x017F;che Denk-<lb/>
+blätter der Siebenbürger Deut&#x017F;chen. 3 Bde. Kron&#x017F;tadt 1868&#x2014;71.<lb/>
+Johann Gött &amp; Sohn Heinrich (jetzt: Hermann&#x017F;tadt bei W. Krafft).</item><item><hi rendition="#fr">Friedrich Schuller:</hi> Schrift&#x017F;teller-Lexikon der Siebenbürger Deut&#x017F;chen.<lb/>
+4. Bd. (Ergänzungsband zum vorigen Werk). Hermann&#x017F;tadt 1902. W.<lb/>
+Krafft.</item></list><lb/>
+</div><lb/>
+<div n="2"><head><hi rendition="#b">Amerika.</hi></head><lb/>
+<list><item><hi rendition="#fr">Gu&#x017F;tav Adolf Zimmermann:</hi> Handbuch der deut&#x017F;chen Literatur Europas<lb/>
+und Amerikas. Ein kla&#x017F;&#x017F;i&#x017F;ches Le&#x017F;ebuch für Schule und Haus. 3 Bde.<lb/>
+(Der 2. Band enthält deut&#x017F;ch-amerikani&#x017F;che Dichter.) Chicago 1876.<lb/>
+H. Enderis.</item><item><hi rendition="#fr">Gu&#x017F;tav A. Zimmermann:</hi> Deut&#x017F;ch-amerikani&#x017F;che Poe&#x017F;ie. Beiträge, mit-<lb/>
+geteilt. [Gedruckt in der &#x201E;We&#x017F;ten&#x201C;, Zeitung für Chicago, 1884.]</item><item><hi rendition="#fr">G. A. Zimmermann:</hi> Deut&#x017F;ch in Amerika. Beiträge zur Ge&#x017F;chichte der<lb/>
+deut&#x017F;ch-amerikani&#x017F;chen Literatur. <hi rendition="#aq">I.</hi> Epi&#x017F;ch-lyri&#x017F;che Poe&#x017F;ie. Herausgeg.<lb/>
+vom &#x201E;Germania-Männerchor in Chicago.&#x201C; Chicago 1892. Ackermann<lb/>
+u. Eyller.</item><item>&#x2014; Das&#x017F;elbe. 2. verbe&#x017F;&#x017F;erte und durch einen Nachtrag vermehrte Auflage.<lb/>
+Ebend. 1894.</item><item><hi rendition="#fr">Gotthold Augu&#x017F;t Neeff:</hi> Vom Lande des Sternenbanners. Eine Blumen-<lb/>
+le&#x017F;e deut&#x017F;cher Dichtungen aus Amerika. Heidelberg 1905. Carl Winters<lb/>
+Univer&#x017F;itätsbuchhdlg. und Ellenville (Neuyork), Neefs German Authors<lb/>
+Agency.</item></list><lb/>
+</div><lb/>
+<div n="2"><head><hi rendition="#b">Rußland. O&#x017F;t&#x017F;eeprovinzen.</hi></head><lb/>
+<list><item><hi rendition="#fr">Johann Friedrich von Recke</hi> und <hi rendition="#fr">Karl Eduard Napiersky:</hi> Allgemeines<lb/>
+Schrift&#x017F;teller- und Gelehrten-Lexikon der Provinzen Livland, E&#x017F;thland<lb/>
+und Kurland. Bearbeitet. 4 Bde. Mitau 1827&#x2014;32. Joh. Frdr. Stef-<lb/>
+fenhagen u. Sohn. &#x2014; Nachträge und Fort&#x017F;etzungen, unter Mitwirkung<lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0021" n="17"/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Quellen&#x017F;chriften.</hi></fw><lb/>
+von K. E. Napiersky bearb. von <hi rendition="#aq">Dr.</hi> <hi rendition="#g">Theodor Bei&#x017F;e.</hi> 2 Bde. Mitau<lb/>
+1859&#x2014;61.</item><item><hi rendition="#fr">Jeg</hi><hi rendition="#aq">ó</hi><hi rendition="#fr">r von Sievers:</hi> Deut&#x017F;che Dichter in Rußland. Studien zur Literatur-<lb/>
+ge&#x017F;chichte. Berlin 1855. Verlag von E. H. Schroeder.</item><item><hi rendition="#fr">Jeann<hi rendition="#aq">ó</hi>t Emil Freiherr von Grotthuß:</hi> Das balti&#x017F;che Dichterbuch. Eine<lb/>
+Auswahl deut&#x017F;cher Dichtungen aus den balti&#x017F;chen Provinzen Rußlands<lb/>
+mit einer literarhi&#x017F;tori&#x017F;chen Einleitung und biographi&#x017F;ch-kriti&#x017F;chen Stu-<lb/>
+dien, herausgeg. Reval 1894. Franz Kluge.</item><item><hi rendition="#fr">Heinrich Johan&#x017F;on:</hi> Die balti&#x017F;chen Lande in Liedern ihrer Dichter. Eine<lb/>
+Anthologie mit biographi&#x017F;chen und bibliographi&#x017F;chen Notizen herausgeg.<lb/>
+Zürich 1894. Sterns literari&#x017F;ches Bulletin der Schweiz.</item><item><hi rendition="#fr">Nicolai Graf Rehbinder:</hi> Die belletri&#x017F;ti&#x017F;che Literatur der O&#x017F;t&#x017F;eeprovinzen<lb/>
+Rußlands von 1800&#x2014;52. Sonderabdruck aus dem &#x201E;Jnland&#x201C;. Dorpat<lb/>
+1853. Heinrich Laakmann.</item><item><hi rendition="#fr">Freifrau von Sta</hi><hi rendition="#aq">ë</hi><hi rendition="#fr">l-Hol&#x017F;tein,</hi> geb. Freiin von Nolcken: Balti&#x017F;che Dichtungen<lb/>
+(Anthologie), herausgeg. Riga 1896. Verlag von L. Hoer&#x017F;chelmann.</item></list><lb/>
+</div><lb/>
+<div n="2"><head><hi rendition="#b">Die Schweiz.</hi></head><lb/>
+<list><item><hi rendition="#fr">Die poeti&#x017F;che Nationalliteratur</hi> der deut&#x017F;chen Schweiz. Mu&#x017F;ter&#x017F;tücke aus<lb/>
+den Dichtungen der be&#x017F;ten &#x017F;chweizeri&#x017F;chen Schrift&#x017F;teller von Haller bis<lb/>
+auf die Gegenwart. Mit biographi&#x017F;chen und kriti&#x017F;chen Einleitungen.<lb/>
+4 Bde. (Bd. 1&#x2014;3 von <hi rendition="#g">Robert Weber,</hi> Bd. 4 von J. J. <hi rendition="#g">Honegger</hi>).<lb/>
+Glarus 1866&#x2014;76. Verlagsbuchhandl. von Jakob Vogel.</item><item><hi rendition="#fr">Rudolf Fa&#x017F;tenrath:</hi> Jm Haine der Mu&#x017F;en. Neue Liederperlen ausgewählt.<lb/>
+Straßburg i. E. 1878. J. Schneiders Buchhandl.</item><item><hi rendition="#fr">Ern&#x017F;t Heller:</hi> Sänger aus Helvetiens Gauen. Album deut&#x017F;ch-&#x017F;chweizeri&#x017F;cher<lb/>
+Dichtungen der Gegenwart. Aus Originalbeiträgen zu&#x017F;ammenge&#x017F;tellt<lb/>
+und herausgeg. Neue Ausgabe. Bern 1882. B. F. Haller.</item><item><hi rendition="#fr">Victor Hardung:</hi> Schweizeri&#x017F;cher Literaturkalender a. d. J. 1893. Hrsg.<lb/>
+1. Jahrg. Zürich. Otto Erbs Verlag.</item><item><hi rendition="#fr">Aargaui&#x017F;ches Dichterbuch.</hi> Fe&#x017F;t&#x017F;chrift zur Aargaui&#x017F;chen Zentenarfeier 1903.<lb/>
+Herausgeg. von der &#x201E;Literari&#x017F;chen Ge&#x017F;ell&#x017F;chaft Aarau&#x201C;. Aarau 1903.<lb/>
+Druck und Verlag von Emil Wirz.</item><item><hi rendition="#fr">Emil Ermatinger</hi> und <hi rendition="#fr">Eduard Haug:</hi> Schweizeri&#x017F;ches Dichterbuch. Hrsgb.<lb/>
+Frauenfeld 1903. Huber &amp; Co.</item></list><lb/>
+</div><lb/>
+<div n="2"><head><hi rendition="#b">Frauen.</hi></head><lb/>
+<list><item><hi rendition="#fr">Damen-Konver&#x017F;ations-Lexikon.</hi> Zweite unveränderte Ausgabe. 10 Bde.<lb/>
+Adorf 1846. Verlags-Bureau.</item><item><hi rendition="#fr">Karl Wilhelm Otto Augu&#x017F;t von Schindel:</hi> Die deut&#x017F;chen Schrift&#x017F;tellerin-<lb/>
+nen des 19. Jahrhunderts. 3 Bde. Leipzig 1823&#x2014;25. F. A. Brockhaus.</item><item><hi rendition="#fr">Heinrich Groß:</hi> Deut&#x017F;che Dichterinnen und Schrift&#x017F;tellerinnen in Wort und<lb/>
+Bild. Herausgeg. 3 Bde. Berlin 1885. Fr. Thiel.</item><item><hi rendition="#fr">Gu&#x017F;tav Scheve:</hi> Phrenologi&#x017F;che Frauenbilder. Dresdens Schrift&#x017F;tellerin-<lb/>
+nen der Gegenwart. Dresden 1865. H. Schöpff.</item><item><hi rendition="#fr">Karl Schrattenthal</hi> (d. i. <hi rendition="#g">Karl Weiß</hi>): Deut&#x017F;che Dichterinnen u. Schrift-<lb/>
+&#x017F;tellerinnen in Böhmen, Mähren und Schle&#x017F;ien. Ein Beitrag zur Ge-<lb/>
+&#x017F;chichte der deut&#x017F;chen Dichtung in Ö&#x017F;terreich-Ungarn. Brünn 1885. Frd.<lb/>
+Jrrgang.</item></list><lb/>
+<fw place="bottom" type="sig">* 2</fw><lb/>
+<pb facs="#f0022" n="18"/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Quellen&#x017F;chriften.</hi></fw><lb/>
+<list><item><hi rendition="#fr">Karl Schrattenthal:</hi> Un&#x017F;ere Frauen in einer Auswahl aus ihren Dichtun-<lb/>
+gen. Poe&#x017F;ie-Album zeitgenö&#x017F;&#x017F;i&#x017F;cher Dichterinnen. Mitgabe für Frauen<lb/>
+und Töchter gebildeter Stände. Stuttgart 1888. Greiner u. Pfeiffer.</item><item><hi rendition="#fr">Hermann Kletke:</hi> Deut&#x017F;chlands Dichterinnen. Berlin o. J. (1854). Her-<lb/>
+mann Holl&#x017F;tein.</item><item><hi rendition="#fr">Lina Morgen&#x017F;tern:</hi> Die Frauen des 19. Jahrhunderts. Biographi&#x017F;che und<lb/>
+kulturhi&#x017F;tori&#x017F;che Zeit- und Charaktergemälde. 3 Bde. Berlin 1888&#x2014;91.<lb/>
+Verl. der deut&#x017F;chen Hausfrauenzeitung.</item><item><hi rendition="#fr">Marianne Nigg:</hi> Biographien der ö&#x017F;terreichi&#x017F;chen Dichterinnen u. Schrift-<lb/>
+&#x017F;tellerinnen. Ein Beitrag zur deut&#x017F;chen Literatur in Ö&#x017F;terreich. Heraus-<lb/>
+gegeben. Korneuburg 1893. Julius Kühkopfs Buchhandlg.</item><item><hi rendition="#fr">Karl Schrattenthal:</hi> Die deut&#x017F;che Frauenlyrik un&#x017F;erer Tage. Mitgabe für<lb/>
+Frauen und Töchter gebildeter Stände. Mit &#x017F;echs Porträts in Lichtdruck.<lb/>
+Leipzig (1893). Karl Naumburg.</item><item><hi rendition="#fr">Karl Schrattenthal:</hi> Frauenzeitung. 1. Jahrg. vom 1. Oktbr. 1893 bis<lb/>
+1. Oktbr. 1894. Preßburg. Karl Angermayers Buchdruckerei. 2. Jahrg.<lb/>
+1894&#x2014;95 u. d. T.: Rund&#x017F;chau. Zeit&#x017F;chrift für Frauen-Literatur, für der<lb/>
+Frauen Kun&#x017F;t und Wi&#x017F;&#x017F;en. Preßburg. Druck von Adolf Alkalay. (Mehr<lb/>
+i&#x017F;t nicht er&#x017F;chienen.)</item><item><hi rendition="#fr">Sophie Pataky:</hi> Lexikon deut&#x017F;cher Frauen der Feder. Eine Zu&#x017F;ammen&#x017F;tel-<lb/>
+lung der &#x017F;eit dem Jahre 1840 er&#x017F;chienenen Werke weiblicher Autoren,<lb/>
+neb&#x017F;t Biographien der lebenden und einem Verzeichnis der P&#x017F;eudonyme.<lb/>
+Herausgeg. Berlin 1898. 2 Bde. Verlagsbuchhandlg. von Karl Pataky.</item></list><lb/>
+</div><lb/>
+<div n="2"><head><hi rendition="#b">Adel.</hi></head><lb/>
+<list><item><hi rendition="#fr">Rudolf Eckart:</hi> Der deut&#x017F;che Adel in der Literatur. Biographi&#x017F;ch-kriti&#x017F;che<lb/>
+E&#x017F;&#x017F;ays. Eingeleitet von Oldwig von Üchtritz. Berlin 1895. J. A. Star-<lb/>
+gardt.</item></list><lb/>
+</div><lb/>
+<div n="2"><head><hi rendition="#b">Lehrer.</hi></head><lb/>
+<list><item><hi rendition="#fr">Joh. Bapt. Heindl:</hi> Galerie berühmter Pädagogen, verdienter Schulmän-<lb/>
+ner, Jugend- und Volks&#x017F;chrift&#x017F;teller und Komponi&#x017F;ten aus der Gegen-<lb/>
+wart in Biographien und biographi&#x017F;chen Skizzen herausgeg. 2 Bde.<lb/>
+München 1859. J. A. Fin&#x017F;terlin.</item><item><hi rendition="#fr">Johannes Günther:</hi> Lebens&#x017F;kizzen der Profe&#x017F;&#x017F;oren der Univer&#x017F;ität Jena<lb/>
+&#x017F;eit 1558&#x2014;1858. Eine Fe&#x017F;tgabe zur 300 jähr. Säkularfeier der Univer-<lb/>
+&#x017F;ität. Jena 1858. Friedr. Mauke.</item><item><hi rendition="#fr">H. Kühn:</hi> Lehrer als Schrift&#x017F;teller. Handbuch der &#x017F;chrift&#x017F;tellernden Lehrer<lb/>
+mit Biographien und Angabe ihrer literari&#x017F;chen Erzeugni&#x017F;&#x017F;e. Zu&#x017F;ammen-<lb/>
+ge&#x017F;tellt. Leipzig 1888. Siegismund u. Volkening.</item><item><hi rendition="#fr">J. Pawlecki:</hi> Dichter&#x017F;timmen aus der deut&#x017F;chen Lehrerwelt. Hamburg<lb/>
+1892. Verlagsan&#x017F;talt und Druckerei A.-G. (382 S.)</item><item>&#x2014; Das&#x017F;elbe. 2. Aufl. Langen&#x017F;alza 1893. Schulbuchhandlg. von F. G. L.<lb/>
+Greßler. (576 S.)</item><item>&#x2014; Das&#x017F;elbe. 3. Aufl. Gera 1898. Th. Hofmann (411 S.). 4. Aufl. Ebd.<lb/>
+1902. (423 S.)</item><item><hi rendition="#fr">R. W. Enzio:</hi> Dichter der Gegenwart im deut&#x017F;chen Schulhau&#x017F;e. Charak-<lb/>
+teri&#x017F;tiken neb&#x017F;t Proben. Langen&#x017F;alza 1905. Schulbuchhdlg. von F. G. L.<lb/>
+Greßler.</item><item><hi rendition="#fr">C. Ziegler:</hi> Dichter im deut&#x017F;chen Schulhau&#x017F;e. Bielefeld 1892. A. Helmich.</item></list><lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0023" n="19"/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Quellen&#x017F;chriften.</hi></fw><lb/>
+<list><item><hi rendition="#fr">Heinrich Werner:</hi> Kurze Biographien der Verfa&#x017F;&#x017F;er der Le&#x017F;e&#x017F;tücke in den<lb/>
+pfälzi&#x017F;chen, &#x017F;äch&#x017F;i&#x017F;chen und he&#x017F;&#x017F;i&#x017F;chen Volks&#x017F;chul-Le&#x017F;ebüchern. Speyer<lb/>
+1888. Ferd. Kleeberger&#x017F;che Buchhandlg.</item><item><hi rendition="#fr">Hermann Cl. Ko&#x017F;el</hi> und <hi rendition="#fr">Emil Hofmann:</hi> Der Lehrer als Dichter. Ge-<lb/>
+&#x017F;ammelte Dichtungen aus der Lehrerwelt Deut&#x017F;ch-Ö&#x017F;terreichs. Mit einem<lb/>
+Geleitsbriefe von Peter Ro&#x017F;egger und vier Bildnistafeln in Lichtdruck.<lb/>
+Wien 1901 (Neurode 1901. Druck und Kommi&#x017F;&#x017F;ionsverlag von Leu&#x017F;chner<lb/>
+und Te&#x017F;ch).</item></list><lb/>
+</div><lb/>
+<div n="2"><head><hi rendition="#b">Religiö&#x017F;e Dichtung.</hi></head><lb/>
+<list><item><hi rendition="#fr">Eduard Emil Koch:</hi> Ge&#x017F;chichte des Kirchenlieds und Kirchenge&#x017F;angs der<lb/>
+chri&#x017F;tlichen, insbe&#x017F;ondere der deut&#x017F;chen evangeli&#x017F;chen Kirche. Er&#x017F;ter<lb/>
+Hauptteil: Die Dichter und Sänger. 7 Bde. 3. umgearbeitete, durchaus<lb/>
+vermehrte Auflage. Stuttgart 1866&#x2014;72. Chr. Bel&#x017F;er&#x017F;che Buchhandlung.</item><item><hi rendition="#fr">O. Wetz&#x017F;tein:</hi> Die religiö&#x017F;e Lyrik der Deut&#x017F;chen im 19. Jahrhundert. Ein<lb/>
+Beitrag zur Literaturge&#x017F;chichte der Neuzeit. Neu&#x017F;trelitz 1891. Barne-<lb/>
+witz&#x017F;che Hofbuchhandlung.</item><item><hi rendition="#fr">Otto Kraus:</hi> Gei&#x017F;tliche Lieder im 19. Jahrhundert. Herausgeg. 2. &#x017F;tark<lb/>
+vermehrte Aufl. Gütersloh 1879. C. Bertelsmann.</item><item><hi rendition="#fr">Chr. W. Stromberger:</hi> Die gei&#x017F;tliche Dichtung in He&#x017F;&#x017F;en. Ein Vortrag,<lb/>
+durch biographi&#x017F;che und literari&#x017F;che Bemerkungen und eine Auswahl von<lb/>
+Dichtungen erweitert. Darm&#x017F;tadt 1886. Johs. Waitz. Neue Folge.<lb/>
+Ebend. 1898.</item><item><hi rendition="#fr">Rudolf Eckart:</hi> Die gei&#x017F;tliche Dichtung in Hannover. Hermannsburg 1903.<lb/>
+Druck und Verlag der Mi&#x017F;&#x017F;ionshandlung.</item></list><lb/>
+</div><lb/>
+<div n="2"><head><hi rendition="#b">Katholiken.</hi></head><lb/>
+<list><item><hi rendition="#fr">Jo&#x017F;eph Kehrein:</hi> Biographi&#x017F;ch-literari&#x017F;ches Lexikon der katholi&#x017F;chen deut-<lb/>
+&#x017F;chen Dichter, Volks- u. Jugend&#x017F;chrift&#x017F;teller im 19. Jahrhundert. 2 Bde.<lb/>
+Zürich, Stuttgart und Würzburg 1868&#x2014;71. Leo Wörls Verlag.</item><item><hi rendition="#fr">Franz Alfred Muth:</hi> Dichterbilder und Dichter&#x017F;tudien aus der neueren und<lb/>
+neue&#x017F;ten Literatur. Frankfurt a. M. und Luzern 1887. A. Foe&#x017F;&#x017F;er Nach-<lb/>
+folger [enthält nur katholi&#x017F;che Dichter].</item><item><hi rendition="#fr">Heinrich Keiter:</hi> Katholi&#x017F;che Erzähler der Neuzeit. Ge&#x017F;childert. Paderborn<lb/>
+1880. Ferdinand Schöningh. (304 S.)</item><item>&#x2014; Das&#x017F;elbe u. d. T.: Katholi&#x017F;che Erzähler der neue&#x017F;ten Zeit. Literatur-<lb/>
+hi&#x017F;tori&#x017F;che Studien. 2. verbe&#x017F;&#x017F;erte und bedeutend vermehrte Auflage.<lb/>
+(396 S.) Ebend. 1890.</item><item><hi rendition="#fr">Heinrich Keiter:</hi> Zeitgenö&#x017F;&#x017F;i&#x017F;che katholi&#x017F;che Dichter Deut&#x017F;chlands. Studien.<lb/>
+Paderborn 1884. Ferd. Schöningh.</item><item><hi rendition="#fr">J. Neubauer:</hi> Die katholi&#x017F;che Dichtung in der deut&#x017F;chen Literatur &#x017F;eit der<lb/>
+Reformation bis zur Gegenwart. Literaturge&#x017F;chichtliche Studie. Prag<lb/>
+1874.</item><item><hi rendition="#fr">David Augu&#x017F;t Ro&#x017F;enthal:</hi> Konvertitenbilder aus dem 19. Jahrhundert.<lb/>
+<hi rendition="#aq">I.</hi> Bd.: Deut&#x017F;chland, 3 Abteilungen. Regensburg 1889. 3. verb. u. verm.<lb/>
+Aufl. 1902. Verlagsan&#x017F;talt vormals G. J. Manz. Supplement zur 1. u.<lb/>
+2. Abteilung. Ebend. 1902.</item><item><hi rendition="#fr">Friedrich Wien&#x017F;tein:</hi> Lexikon der katholi&#x017F;chen deut&#x017F;chen Dichter vom Aus-<lb/>
+gang des Mittelalters bis zur Gegenwart. Biographi&#x017F;ch-literari&#x017F;ch be-<lb/>
+arbeitet. Hamm i. W. 1899. Druck und Verlag von Breer &amp; Thiemann.</item></list><lb/>
+<fw place="bottom" type="sig">* 2*</fw><lb/>
+<pb facs="#f0024" n="20"/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Quellen&#x017F;chriften.</hi></fw><lb/>
+<list><item><hi rendition="#fr">A. Kellen:</hi> Katholi&#x017F;che Dichter. Eine literari&#x017F;che Studie. E&#x017F;&#x017F;en-Ruhr 1898.<lb/>
+Fredebeul &amp; Koenen.</item><item><hi rendition="#fr">A. Kellen:</hi> Katholi&#x017F;che Dichterinnen. Eine literari&#x017F;che Studie. Ebd. 1898.</item><item><hi rendition="#fr">Adam Görgen:</hi> Sängergrüße aus dem katholi&#x017F;chen Prie&#x017F;ter- und Lehrer-<lb/>
+hau&#x017F;e, neb&#x017F;t kurzen Biographien der Dichter; herausgeg. Heiligen&#x017F;tadt<lb/>
+1897. F. W. Cordier.</item><item><hi rendition="#fr">Georg Harra&#x017F;&#x017F;er,</hi> <hi rendition="#aq">S. J.:</hi> Dichter-Gärtlein. Eine Blütenle&#x017F;e aus katholi&#x017F;chen<lb/>
+Dichtern Ö&#x017F;terreichs. Klo&#x017F;terneuburg bei Wien (1907). Verlag des<lb/>
+&#x201E;Gralbundes&#x201C;.</item><item><hi rendition="#fr">Wilhelm Oehl:</hi> Mon&#x017F;alvat. Eine lyri&#x017F;che Blütenle&#x017F;e. Jm Auftrage des<lb/>
+Gralbundes herausgeg. Ravensburg 1908. Verlag von Fr. Alber.</item></list><lb/>
+</div><lb/>
+<div n="2"><head><hi rendition="#b">Juden.</hi></head><lb/>
+<list><item><hi rendition="#fr">M. Kay&#x017F;erling:</hi> Die jüdi&#x017F;chen Frauen in der Ge&#x017F;chichte, Literatur und<lb/>
+Kun&#x017F;t. Leipzig 1879. F. A. Brockhaus.</item><item><hi rendition="#fr">M. Kay&#x017F;erling:</hi> Gedenkblätter. Hervorragende jüdi&#x017F;che Per&#x017F;önlichkeiten<lb/>
+des 19. Jahrhunderts. Jn kurzen Charakteri&#x017F;tiken. Leipzig 1892. Th.<lb/>
+Griebens Verlag.</item></list><lb/>
+</div><lb/>
+<div n="2"><head><hi rendition="#b">Dialekt-Dichtungen.</hi></head><lb/>
+<list><item><hi rendition="#fr">E. Hackland-Rheinländer</hi> (d. i. <hi rendition="#g">Wilhelm Annas</hi>): Van de Waterkant<lb/>
+bit an de Alpenrand. Die Dialekt-Dichter der Gegenwart. Herausgeg.<lb/>
+Großenhain in Sach&#x017F;en 1885. Baumert u. Ronge.</item><item><hi rendition="#fr">C. Regenhardt:</hi> Die deut&#x017F;chen Mundarten. Auserle&#x017F;enes aus den Werken<lb/>
+der be&#x017F;ten Dichter alter und neuer Zeit, herausgeg. 3 Bde. (Nieder-<lb/>
+deut&#x017F;ch &#x2014; Mitteldeut&#x017F;ch &#x2014; Oberdeut&#x017F;ch). Berlin o. J. (1896&#x2014;98). Ver-<lb/>
+lag von C. Regenhardt.</item><item><hi rendition="#fr">Wilhelm Seelmann:</hi> Die plattdeut&#x017F;che Literatur des 19. Jahrhunderts.<lb/>
+Bibliographi&#x017F;che Zu&#x017F;ammen&#x017F;tellung. Separatdruck aus dem Jahrbuch<lb/>
+des Vereins für niederdeut&#x017F;che Sprachfor&#x017F;chung. 22. Jahrg. 1896 und<lb/>
+28. Jahrg. 1902. Norden u. Leipzig. Dietrich Soltaus Verlag.</item><item><hi rendition="#fr">Johann Priem:</hi> Konrad Grübel und &#x017F;eine Nachfolger in der nürnbergi-<lb/>
+&#x017F;chen mundartlichen Dichtung. Eine Auswahl nürnbergi&#x017F;cher Gedichte<lb/>
+mit bibliographi&#x017F;ch-biographi&#x017F;chen Notizen über die Dichter. Herausgeg.<lb/>
+2. veränderte u. verm. Aufl. Nürnberg 1878. Ebner.</item><item><hi rendition="#fr">Aus dá Hoamát.</hi> Eine Sammlung ausgewählter oberö&#x017F;terreichi&#x017F;cher Dia-<lb/>
+lektdichtungen. Herausgeg. von <hi rendition="#aq">Dr.</hi> H. <hi rendition="#g">Zötl,</hi> <hi rendition="#aq">Dr.</hi> A. <hi rendition="#g">Mato&#x017F;ch</hi> und<lb/>
+H. <hi rendition="#g">Commenda.</hi> Linz 1885. Selb&#x017F;tverlag der Herausgeber.</item><item><hi rendition="#fr">Leopold Hörmann:</hi> Biographi&#x017F;ch-kriti&#x017F;che Beiträge zur ö&#x017F;terreichi&#x017F;chen<lb/>
+Dialektliteratur. Dresden 1895. E. Pier&#x017F;ons Verlag.</item><item><hi rendition="#fr">Eduard Winder:</hi> Die Vorarlberger Dialektdichtung. (Abdruck der Pro-<lb/>
+gramme des k. k. Staatsgymna&#x017F;iums Jnnsbruck aus den Jahren 1887<lb/>
+bis 1890). Jnnsbruck 1890. Wagner&#x017F;che Univer&#x017F;itätsbuchhandlung.</item><item><hi rendition="#fr">El&#x017F;ä&#x017F;&#x017F;er Schatzkä&#x017F;tel.</hi> Sammlung von Gedichten und pro&#x017F;ai&#x017F;chen Auf&#x017F;ätzen<lb/>
+in Straßburger Mundart neb&#x017F;t einigen Vers&#x017F;tücken in anderen Jdiomen<lb/>
+des El&#x017F;a&#x017F;&#x017F;es [Herausgeber <hi rendition="#g">Daniel Ro&#x017F;en&#x017F;tiehl</hi>]. Straßburg 1877.<lb/>
+R. Schultz u. Co.</item><item><hi rendition="#fr">Nikolaus Welter:</hi> Die Dichter der luxemburgi&#x017F;chen Mundart. Literari&#x017F;che<lb/>
+Unterhaltungen. Diekirch 1906. Buchdruckerei J. Schroell.</item></list><lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0025" n="21"/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Quellen&#x017F;chriften.</hi></fw><lb/>
+</div><lb/>
+<div n="2"><head><hi rendition="#b">Jugend&#x017F;chrift&#x017F;teller.</hi></head><lb/>
+<list><item><hi rendition="#fr">A. Merget:</hi> Ge&#x017F;chichte der deut&#x017F;chen Jugendliteratur. 3. Aufl. von <hi rendition="#aq">Dr.</hi> Lud-<lb/>
+wig <hi rendition="#g">Berthold.</hi> Berlin 1882. Plahn&#x017F;che Buchhandlung.</item><item><hi rendition="#fr">Dietrich Theden:</hi> Führer durch die Jugendliteratur. Für Eltern, Erzieher<lb/>
+und Bibliothekare. Hamburg 1883. B. S. Berend&#x017F;ohn.</item></list><lb/>
+</div><lb/>
+<div n="2"><head><hi rendition="#b">Schau&#x017F;pieler. Bühnendichtung.</hi></head><lb/>
+<list><item><hi rendition="#fr">Deut&#x017F;che Bühne</hi> in Wort und Bild. Unter dem Protektorat Sr. Exzellenz<lb/>
+des Generalintendanten der Königlichen Schau&#x017F;piele Bolko Reichsgrafen<lb/>
+von Hochberg. Herausgeber und Redakteur: Julius Eck&#x017F;tein. 2 Bände<lb/>
+<hi rendition="#aq">à</hi> 25 Lieferungen. Berlin 1892&#x2014;93. Eck&#x017F;teins Verlagsan&#x017F;talt.</item><item><hi rendition="#fr">Friedrich Johann Freiherr von Reden-Esbeck:</hi> Deut&#x017F;ches Bühnen-Lexikon.<lb/>
+Das Leben und Wirken aller hervorragenden deut&#x017F;chen Bühnenleiter und<lb/>
+Kün&#x017F;tler vom Beginn der Schau&#x017F;pielkun&#x017F;t bis zur Gegenwart. <hi rendition="#aq">I.</hi> Band<lb/>
+(Abt bis Lux; mehr i&#x017F;t nicht er&#x017F;chienen). Eich&#x017F;tätt und Stuttgart 1879.<lb/>
+Krüll&#x017F;che Buchhandlung.</item><item><hi rendition="#fr">O. G. Flüggen:</hi> Biographi&#x017F;ches Bühnen-Lexikon der deut&#x017F;chen Theater.<lb/>
+Vom Beginn der deut&#x017F;chen Schau&#x017F;pielkun&#x017F;t bis zur Gegenwart zu&#x017F;am-<lb/>
+menge&#x017F;tellt. 1. Jahrgang. München 1892. A. Bruckmanns Verlag.</item><item><hi rendition="#fr">Jo&#x017F;eph Kür&#x017F;chner:</hi> Jahrbuch für das deut&#x017F;che Theater. 2 Jahrgänge<lb/>
+(Oktober 1877 bis September 1879). Leipzig 1879&#x2014;80. Hermann Foltz.</item><item><hi rendition="#fr">Karl Bie&#x017F;endahl:</hi> Deut&#x017F;ches Theaterjahrbuch. Ein bibliographi&#x017F;ches und<lb/>
+biographi&#x017F;ches Handbuch der dramati&#x017F;chen Literatur der Gegenwart für<lb/>
+Theater- und Literaturfreunde. Herausgeg. Berlin 1892. Ca&#x017F;&#x017F;irer und<lb/>
+Danziger [Fort&#x017F;etzung des vorigen Werkes].</item><item><hi rendition="#fr">Adelheid Bernhardt:</hi> Aus dem Dresdener Hoftheater. Biographi&#x017F;che<lb/>
+Skizzen. Dresden 1882. E. Pier&#x017F;on.</item><item><hi rendition="#fr">Ludwig Ei&#x017F;enberg:</hi> Großes biographi&#x017F;ches Lexikon der deut&#x017F;chen Bühne im<lb/>
+19. Jahrhundert. Leipzig 1903. Verlagsbuchhandl. Paul Li&#x017F;t.</item></list><lb/>
+</div><lb/>
+<div n="2"><head><hi rendition="#b">Arti&#x017F;ten.</hi></head><lb/>
+<list><item><hi rendition="#fr">Signor Saltarino</hi> (d. i. <hi rendition="#g">Hermann Otto</hi>): <hi rendition="#aq">Pauvres Saltimbanques,</hi><lb/>
+Dü&#x017F;&#x017F;eldorf 1892. Verlag von Ed. Lintz.</item></list><lb/>
+</div><lb/>
+<div n="2"><head><hi rendition="#b">Buchhändler.</hi></head><lb/>
+<list><item><hi rendition="#fr">Hans Elli&#x017F;&#x017F;en:</hi> Zeitgenö&#x017F;&#x017F;i&#x017F;che Schrift&#x017F;teller aus den Krei&#x017F;en des deut&#x017F;chen<lb/>
+Buchhandels (in &#x201E;Allgemeine Buchhändlerzeitung. Wochen&#x017F;chrift. Leipzig.<lb/>
+C. F. Müllers Verlag. Jahrg. 1895, Nr. 40 bis Jahrg. 1896. Nr. 7.&#x201C;)</item></list><lb/>
+</div><lb/>
+<div n="2"><head><hi rendition="#b">Nachtrag.</hi></head><lb/>
+<list><item>Deut&#x017F;chlands, Ö&#x017F;terreich-Ungarns und der Schweiz Gelehrte, Kün&#x017F;tler und<lb/>
+Schrift&#x017F;teller in Wort und Bild. Leipzig-Gohlis 1908. Bruno Volger<lb/>
+Verlag.</item></list><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0026" n="[22]"/>
+<lb/>
+</div></div> <div n="1"><head><hi rendition="#fr">Erklärung der Abkürzungen.</hi></head><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<cb/>
+<lb/>
+<list><item>A. = Auflage</item><item>Ausg. = Ausgabe</item><item>B. = Ballade</item><item>Bn. = Balladen</item><item>Br. = Briefe</item><item>D. = Dichtung</item><item>Dn. = Dichtungen</item><item>Dd. = didakti&#x017F;ch</item><item>Dr. = Drama</item><item>E. = Erzählung</item><item>En. = Erzählungen</item><item>Ep. = Epos, epi&#x017F;ch</item><item>G. = Gedicht</item><item>Ge. = Gedichte</item><item>Ge&#x017F;. = Ge&#x017F;ang</item><item>Ge&#x017F;ch. = Ge&#x017F;chichte</item><item>Ge&#x017F;chn. = Ge&#x017F;chichten</item><item>Hum. = Humoreske, humori&#x017F;ti&#x017F;ch</item><item>Jd. = Jdylle, idylli&#x017F;ch</item><item>Jgd. = Jugend</item><item>Kom. = Komödie, komi&#x017F;ch</item><item>L. = Lied</item><item>Lr. = Lieder</item><item>Lg. = Legende, Legenden</item><lb/>
+<item>Lr&#x017F;p. = Lieder&#x017F;piel</item><lb/>
+<cb/>
+<lb/>
+<item>L&#x017F;p. = Lu&#x017F;t&#x017F;piel</item><lb/>
+<item>M. = Märchen</item><item>Mdt. &#x2014; Mundart</item><item>N. = Novelle</item><item>Nn. = Novellen</item><item>O. = Oper, Operette</item><item>Or. = Oratorium</item><item>P. = Po&#x017F;&#x017F;e</item><lb/>
+<item>R. = Roman</item><item>Re. = Romane</item><lb/>
+<item>Rz. = Romanzen</item><item><hi rendition="#i">S:</hi> = Schriften</item><item>Sat. &#x2014; Satire, &#x017F;atiri&#x017F;ch</item><item>Schw. = Schwank</item><item>Sg. = Sage, Sagen</item><item>Son. = Sonette</item><lb/>
+<item>S&#x017F;p. = Sing&#x017F;piel</item><lb/>
+<item>Sch&#x017F;p. = Schau&#x017F;piel</item><lb/>
+<item>Spr. = Sprüche</item><item>Sk. = Skizze, Skizzen</item><item>Sv. = Selb&#x017F;tverlag.</item><item>T. = Tau&#x017F;end</item><lb/>
+<item>Tl. = Teil</item><lb/>
+<item>Tr. = Trauer&#x017F;piel, Tragödie</item><item>V. = Vers, Ver&#x017F;e.</item></list><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<p>Ein * vor dem Namen des Schrift&#x017F;tellers wei&#x017F;t daraufhin, daß ent-<lb/>
+weder aus&#x017F;chließlich oder doch zum Teil autobiographi&#x017F;che Angaben benutzt<lb/>
+wurden, oder daß die Angaben von den näch&#x017F;ten Angehörigen der Autoren<lb/>
+herrühren.</p><lb/>
+<milestone rendition="#hr" unit="section"/><lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0027" n="[23]"/>
+<lb/>
+<cb/>
+<lb/>
+</div> <div type="index" n="1"><head><hi rendition="#b">Aar,</hi> Alexis,</head><p> P&#x017F;eud. für <hi rendition="#g">An&#x017F;elm<lb/>
+Rumpelt;</hi> &#x017F;. d.!</p><lb/>
+</div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Aarau,</hi> Friedrich,</head><p> P&#x017F;eud. für <hi rendition="#g">Fer-<lb/>
+dinand</hi> Freiherr <hi rendition="#g">von Augu&#x017F;tin;</hi><lb/>
+&#x017F;. d.!</p><lb/>
+</div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Abbot,</hi> Karoline L.,</head><p> p&#x017F;eud. &#x201E;<hi rendition="#g">Ver-<lb/>
+fa&#x017F;&#x017F;er von Schild und Pfeil</hi>&#x201C;,<lb/>
+wurde am 28. Septbr. 1839 in Ber-<lb/>
+lin von amerikani&#x017F;chen Eltern ge-<lb/>
+boren. Jhr Vater, Th. S. <hi rendition="#g">Fay,</hi> war<lb/>
+damals amerikani&#x017F;cher Legations-<lb/>
+&#x017F;ekretär in Berlin und wurde &#x017F;päter<lb/>
+als Ge&#x017F;andter nach Bern berufen.<lb/>
+Hier blieb die Tochter von ihrem<lb/>
+14. Lebensjahre an bis zu ihrer Ver-<lb/>
+heiratung mit <hi rendition="#aq">Dr.</hi> Abbot, ebenfalls<lb/>
+einem Amerikaner, mit dem &#x017F;ie dann<lb/>
+nach Berlin zurückkehrte. Er&#x017F;t nach<lb/>
+dem Tode ihres Gatten (1866) be-<lb/>
+gann &#x017F;ie ihre &#x017F;chrift&#x017F;telleri&#x017F;che Tätig-<lb/>
+keit. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Schild u. Pfeil (bevorwortet<lb/>
+von <hi rendition="#aq">Dr.</hi> E. Frommel), 1888. 4. A.<lb/>
+1905. &#x2013; Blicke in Herz u. Welt, 1891.<lb/>
+2. A. 1894. &#x2013; Hin u. zurück (Aus den<lb/>
+Papieren eines Arztes), 1899. 5. A.<lb/>
+1905. &#x2013; Allerhand (Kleine En.), 1902.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Abeken,</hi> Bernhard.</head><p> p&#x017F;eud. <hi rendition="#g">Ern&#x017F;t<lb/>
+Andolt,</hi> wurde am 27. März 1826<lb/>
+in Braun&#x017F;chweig geboren, &#x017F;tudierte<lb/>
+in den Jahren 1845&#x2013;49 in Heidel-<lb/>
+berg, Bonn und Berlin die Rechte,<lb/>
+wurde 1850 Auditor, 1856 Advokat<lb/>
+in &#x017F;einer Vater&#x017F;tadt, gab aber die<lb/>
+Advokatur nach einigen Jahren wie-<lb/>
+der auf, um &#x017F;ich belletri&#x017F;ti&#x017F;chen und<lb/>
+journali&#x017F;ti&#x017F;chen Arbeiten zuzuwen-<lb/>
+den. Vom Juli 1870 bis Ende 1872<lb/>
+redigierte er den politi&#x017F;chen Teil des<lb/>
+&#x201E;Braun&#x017F;chweiger Tageblattes&#x201C;. Jm<lb/>
+Januar 1874 wurde er als Abgeord-<lb/>
+neter für den zweiten Wahlkreis des<lb/>
+Herzogtums Braun&#x017F;chweig in den<lb/>
+Reichstag gewählt, welchem er als<lb/>
+Mitglied der nationalliberalen Par-<lb/>
+<cb/>
+<lb/>
+tei bis 1877 angehörte. Auch war<lb/>
+er langjähriges Mitglied des Braun-<lb/>
+&#x017F;chweiger Landtags. Er &#x017F;tarb am<lb/>
+1. April 1901. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Greifen&#x017F;ee (R.);<lb/>
+<hi rendition="#aq">II,</hi> 1862. &#x2013; Eine Nacht (N.), 1857.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Abel,</hi> Clementine,</head><p> geb. Hofmei&#x017F;ter,<lb/>
+p&#x017F;eud. <hi rendition="#g">Clelie Betemann,</hi> geb.<lb/>
+am 15. Januar 1826 in Leipzig, lebte<lb/>
+da&#x017F;elb&#x017F;t und &#x017F;tarb am 30. November<lb/>
+1905. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Meine Sonntage (Rückblicke<lb/>
+und Erinnerungen), 1882. &#x2013; An der<lb/>
+Mutter Hand, 1883. &#x2013; Sprüche, Stro-<lb/>
+phen und Stimmungsbilder (Lyri-<lb/>
+&#x017F;ches und Didakti&#x017F;ches), 1889.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Abel,</hi> <hi rendition="#g">Hans</hi> Karl,</head><p> wurde am<lb/>
+8. Augu&#x017F;t 1876 in Bärenthal, einem<lb/>
+Dorfe in den Nordvoge&#x017F;en, geboren,<lb/>
+wo &#x017F;ein aus He&#x017F;&#x017F;en &#x017F;tammender Vater<lb/>
+För&#x017F;ter war, der dann zwei Jahre<lb/>
+&#x017F;päter nach Metzeral ver&#x017F;etzt wurde.<lb/>
+Auf den Bildungsgang des Knaben,<lb/>
+der bis zu &#x017F;einem 10. Jahre fa&#x017F;t nur<lb/>
+franzö&#x017F;i&#x017F;ch &#x017F;prach, konnte der Vater<lb/>
+wegen &#x017F;eines &#x017F;chweren Dien&#x017F;tes we-<lb/>
+niger einwirken; das be&#x017F;orgte aber<lb/>
+nach be&#x017F;ten Kräften &#x017F;eine Mutter,<lb/>
+eine frühere Lehrerin beim Grafen<lb/>
+von Württemberg zu Reichenweier,<lb/>
+die trotz ihrer franzö&#x017F;i&#x017F;chen Ab&#x017F;tam-<lb/>
+mung doch alemanni&#x017F;ches Empfinden<lb/>
+beim Unterricht zu pflegen und zu<lb/>
+wecken ver&#x017F;tand. Von Metzeral war<lb/>
+der Vater nach Urbeis, dann nach<lb/>
+Rixheim und zuletzt als kai&#x017F;erl. Re-<lb/>
+vierför&#x017F;ter wieder nach Metzeral ver-<lb/>
+&#x017F;etzt worden. Bis dahin von der<lb/>
+Mutter unterrichtet, kam A. mit 11<lb/>
+Jahren auf das Gymna&#x017F;ium in Kol-<lb/>
+mar, &#x017F;päter auf das zu Schlett&#x017F;tadt,<lb/>
+wo er das Zeugnis der Reife erhielt,<lb/>
+und ging dann, um die Rechte zu<lb/>
+&#x017F;tudieren, nach München, wo er auch<lb/>
+&#x017F;einer Militärpflicht genügte. Seine<lb/>
+Rechts&#x017F;tudien &#x017F;etzte er in Straßburg<lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0028" n="24"/>
+<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Abe</hi></fw><lb/>
+und Berlin fort, verband damit auch<lb/>
+durch zwei Jahre das Studium der<lb/>
+Germani&#x017F;tik. Nach einem kurzen Ver-<lb/>
+&#x017F;uch als Lehrer in Barr (El&#x017F;aß) kehrte<lb/>
+er ins Elternhaus nach Metzeral zu-<lb/>
+rück, wo er &#x017F;eitdem als Schrift&#x017F;teller<lb/>
+tätig i&#x017F;t. Nachdem ihn das El&#x017F;ä&#x017F;&#x017F;i&#x017F;che<lb/>
+Theater in Straßburg in &#x017F;einen Bann<lb/>
+gezogen hatte, &#x017F;chrieb er für das&#x017F;elbe<lb/>
+mehrere Dialekt&#x017F;tücke. Dann verband<lb/>
+er &#x017F;ich mit dem Maler Georges Rit-<lb/>
+leng aus Straßburg zur Herausgabe<lb/>
+von Monographien aus dem El&#x017F;aß,<lb/>
+von denen bisher drei Bände (&#x201E;Tänn-<lb/>
+chel&#x201C; &#x2013; &#x201E;Reichenweier&#x201C; &#x2013; &#x201E;Jm Reich<lb/>
+der Spitzköpfe&#x201C;) er&#x017F;chienen &#x017F;ind. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p><lb/>
+D&#x2019;Waldmühl (E-n-el&#x017F;a&#x017F;&#x017F;i&#x017F;ch Volks&#x017F;t.,<lb/>
+mit <hi rendition="#g">René Prév<hi rendition="#aq">ô</hi>t</hi>), 1901. &#x2013; Jm<lb/>
+Herb&#x017F;chtnawel (E Stuck in 3 Akte),<lb/>
+1902. &#x2013; Un&#x017F;eri &#x017F;chöne Rawe (E Stuck<lb/>
+in 3 A.), 1902. &#x2013; Jn Halm und Feder<lb/>
+(Jd.), 1904. &#x2013; Conceptio divina (Fe&#x017F;t-<lb/>
+&#x017F;piel z. Einweihung des Goethe-Denk-<lb/>
+mals in Straßburg), 1904. &#x2013; Michel-<lb/>
+angelo (Dr.), 1908.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Abels,</hi> Ludwig,</head><p> geb. am 16. März<lb/>
+1867 in Wien als der Sohn eines<lb/>
+Uhrmachers, rührte &#x017F;chon als Schü-<lb/>
+ler des Gymna&#x017F;iums &#x017F;eine poeti&#x017F;chen<lb/>
+Schwingen und fand an Adolf Wil-<lb/>
+brandt, Jo&#x017F;eph Weilen u. Hermann<lb/>
+Rollett warme Förderer &#x017F;einer Be-<lb/>
+&#x017F;trebungen. Der letztere erwirkte ihm<lb/>
+auch die Möglichkeit, an der Wiener<lb/>
+Univer&#x017F;ität Philo&#x017F;ophie u. Germani-<lb/>
+&#x017F;tik zu &#x017F;tudieren. Seit 1892 &#x017F;etzte er<lb/>
+&#x017F;eine Studien in Berlin fort, nach<lb/>
+deren Beendigung er &#x017F;ich da&#x017F;elb&#x017F;t<lb/>
+&#x017F;chrift&#x017F;telleri&#x017F;cher Tätigkeit widmete.<lb/>
+Kurze Zeit redigierte er hier die &#x017F;ati-<lb/>
+ri&#x017F;che Wochen&#x017F;chrift &#x201E;Das Narren-<lb/>
+&#x017F;chiff&#x201C;. Nach &#x017F;einer Verheiratung<lb/>
+(1898) ließ er &#x017F;ich in Steinwand-<lb/>
+klamm bei Pernitz in Niederö&#x017F;terreich<lb/>
+nieder. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Am Zahltag (Volks&#x017F;tück),<lb/>
+1893. &#x2014; Aus der Schule der Liebe<lb/>
+(Nn.), 1897.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Abraham-Rieve,</hi> Katharina,</head><p><lb/>
+geb. am 17. Mai 1844 zu Eider&#x017F;tedt<lb/>
+ni Schleswig als die Tochter des Hof-<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Abr</hi></fw><lb/>
+be&#x017F;itzers Peter Hinrich <hi rendition="#g">Rieve,</hi> ver-<lb/>
+lor ihre Mutter bald nach der Ge-<lb/>
+burt und ihren Vater, als &#x017F;ie er&#x017F;t<lb/>
+12 Jahre zählte, doch ver&#x017F;chaffte ihr<lb/>
+die Liebe ihrer alten Großmutter eine<lb/>
+&#x017F;onnige Kindheit. Sie be&#x017F;uchte bis zu<lb/>
+ihrer Kon&#x017F;irmation nur eine ländliche<lb/>
+Di&#x017F;trikt&#x017F;chule, hatte aber in ihrem<lb/>
+Lehrer Han&#x017F;en einen Mann gefunden,<lb/>
+de&#x017F;&#x017F;en Streben be&#x017F;onders auf Bil-<lb/>
+dung des Gemüts und auf Schulung<lb/>
+zu &#x017F;elb&#x017F;tändigem Denken gerichtet<lb/>
+war. Jn Hu&#x017F;um erhielt ihre Aus-<lb/>
+bildung den letzten Schliff. Dann<lb/>
+erlernte &#x017F;ie die Führung der Haus-<lb/>
+wirt&#x017F;chaft und verheiratete &#x017F;ich da-<lb/>
+nach mit dem Kaufmann Abraham,<lb/>
+mit dem &#x017F;ie er&#x017F;t in Garding, &#x017F;eit 1888<lb/>
+aber in Lübeck wohnt. Jhre er&#x017F;ten<lb/>
+Gedichte &#x017F;chrieb &#x017F;ie 1881 und &#x017F;andte<lb/>
+&#x017F;ie unter dem P&#x017F;eud. M. <hi rendition="#g">Reinhold</hi><lb/>
+in die ver&#x017F;chieden&#x017F;ten Blätter. Eine<lb/>
+Viel&#x017F;chreiberin i&#x017F;t &#x017F;ie nicht, da &#x017F;ie nur<lb/>
+wenige Stunden, welche ihr die Haus-<lb/>
+frauen- u. Mutterpflichten gewähren,<lb/>
+zu &#x017F;chrift&#x017F;telleri&#x017F;cher Tätigkeit be-<lb/>
+nutzen kann. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Frauenliebe und<lb/>
+Blumenleben (Nn.), 1898.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Abramczyk,</hi> Roland,</head><p> geb. am<lb/>
+27. Januar 1880 zu Treuen im Vogt-<lb/>
+lande, verlebte dort eine &#x017F;orglo&#x017F;e und<lb/>
+heitere Kindheit u. be&#x017F;uchte &#x017F;eit 1893<lb/>
+das Gymna&#x017F;ium, um &#x017F;ich für die Uni-<lb/>
+ver&#x017F;ität Leipzig vorzubereiten, die er<lb/>
+1898 bezog u. an der er neuere Spra-<lb/>
+chen, be&#x017F;onders Germani&#x017F;tik u. Lite-<lb/>
+ratur &#x017F;tudierte. Jn Berlin brachte er<lb/>
+&#x017F;eine Studien zum Ab&#x017F;chluß u. wurde<lb/>
+1903 mit einer Arbeit über &#x201E;Die<lb/>
+Quellen zu W. Scotts Roman Jvan-<lb/>
+hoe&#x201C; zum <hi rendition="#aq">Dr. phil.</hi> promoviert. Jn<lb/>
+Berlin &#x017F;chloß er &#x017F;ich jenem Krei&#x017F;e von<lb/>
+Männern an, die unter dem Namen<lb/>
+&#x201E;Neue Gemein&#x017F;chaft&#x201C; einer moni-<lb/>
+&#x017F;ti&#x017F;ch-panthei&#x017F;ti&#x017F;chen Kulturreligion<lb/>
+folgen wollten, und wurde er be&#x017F;on-<lb/>
+ders durch Julius Hart, Bruno<lb/>
+Wille, Gu&#x017F;tav Landauer (&#x017F;. d.) an-<lb/>
+gezogen und beeinflußt. Nach &#x017F;einer<lb/>
+Promotion ging A. nach War&#x017F;chau,<lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0029" n="25"/>
+<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Abr</hi></fw><lb/>
+wo er ein Jahr lang als Hauslehrer<lb/>
+wirkte, lebte darauf ein halbes Jahr<lb/>
+in Berlin, &#x017F;eit dem Sommer 1904<lb/>
+als Lehrer am Pädagogium in Ber-<lb/>
+nau in der Mark und &#x017F;eit 1906 wieder<lb/>
+in Berlin. Seit 1907 i&#x017F;t er wi&#x017F;&#x017F;en-<lb/>
+&#x017F;chaftlicher Lehrer an der Real&#x017F;chule<lb/>
+in Oranienburg. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Mein heiliger<lb/>
+Frühling (Ge.), 1903.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">d&#x2019;Abre&#x017F;t,</hi> Paul,</head><p> eigentlich <hi rendition="#g">Fried-<lb/>
+rich Kohn</hi> geheißen, wurde am 4.<lb/>
+Januar 1850 zu Prag geboren, kam<lb/>
+als Knabe nach Paris u. erhielt hier<lb/>
+&#x017F;eine Erziehung u. Ausbildung. Jm<lb/>
+Jahre 1877 erwarb er die franzö&#x017F;i-<lb/>
+&#x017F;che Staatsangehörigkeit. Er war<lb/>
+Mitarbeiter der ver&#x017F;chieden&#x017F;ten deut-<lb/>
+&#x017F;chen und franzö&#x017F;i&#x017F;chen Blätter, zu-<lb/>
+letzt vorwiegend Korre&#x017F;pondent des<lb/>
+Pari&#x017F;er &#x201E;Temps&#x201C; in Wien. Er &#x017F;tarb<lb/>
+in Vöslau am 25. Juli 1893. Seine<lb/>
+Werke &#x017F;ind mei&#x017F;t in franzö&#x017F;i&#x017F;cher<lb/>
+Sprache ge&#x017F;chrieben; am bekannte-<lb/>
+&#x017F;ten i&#x017F;t <hi rendition="#aq">&#x201E;Vienne sous François Jo-<lb/>
+seph I.&#x201C;</hi> (1888). Jn deut&#x017F;cher Spra-<lb/>
+che veröffentlichte er </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Ge&#x017F;chichten<lb/>
+aus der Pari&#x017F;er Belagerung, 1878.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Abt,</hi> <hi rendition="#g">Anton,</hi></head><p> p&#x017F;eud. <hi rendition="#g">Walther<lb/>
+von Münich,</hi> wurde am 26. Dezbr.<lb/>
+1841 zu Seelenberg, einem kleinen<lb/>
+Dorfe am Taunus, von einfachen,<lb/>
+gottesfürchtigen Eltern geboren und<lb/>
+be&#x017F;uchte, als die&#x017F;elben nach Seitzen-<lb/>
+hahn verzogen waren, die Real&#x017F;chule<lb/>
+zu Langen&#x017F;chwalbach, 1855&#x2014;61 als<lb/>
+Konviktori&#x017F;t das Gymna&#x017F;ium zu Ha-<lb/>
+damar, widmete &#x017F;ich dann bis zum<lb/>
+Frühjahr 1864 im bi&#x017F;chöflichen Se-<lb/>
+minar zu Mainz dem Studium der<lb/>
+Philo&#x017F;ophie und Theologie und trat<lb/>
+dann ins Prie&#x017F;ter&#x017F;eminar zu Limburg<lb/>
+ein, wo er Ende Dezember 1864 die<lb/>
+Weihe empfing. Bis zum 1. Aug. 1865<lb/>
+Kaplan in Hadamar, wurde er vom<lb/>
+Bi&#x017F;chofe in gleicher Eigen&#x017F;chaft nach<lb/>
+Limburg zurückgerufen, im April<lb/>
+1866 zum Subregens (Leiter) des neu-<lb/>
+begründeten Konvikts in Montabaur<lb/>
+u. zum Kaplan da&#x017F;elb&#x017F;t ernannt und<lb/>
+1867 auch zum Religionslehrer am<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Abt</hi></fw><lb/>
+dortigen Progymna&#x017F;ium be&#x017F;tellt. Jn<lb/>
+die&#x017F;en Stellungen blieb er bis zum<lb/>
+Jahre 1870. Dann gründete A. in<lb/>
+Oberlahn&#x017F;tein eine höhere Privat-<lb/>
+&#x017F;chule u. wurde, als die&#x017F;elbe nach drei<lb/>
+Jahren in eine &#x017F;tädti&#x017F;che höhere Bür-<lb/>
+ger&#x017F;chule umge&#x017F;taltet ward, zum Rek-<lb/>
+tor der&#x017F;elben berufen, von der Be-<lb/>
+hörde aber nicht be&#x017F;tätigt. Eine ihm<lb/>
+1875 angetragene Pfarr&#x017F;telle lehnte<lb/>
+er als Gegner der Kulturkampfge&#x017F;etze<lb/>
+ab, nahm dagegen aber eine Stelle<lb/>
+als Hausgei&#x017F;tlicher u. Religionslehrer<lb/>
+in Bukare&#x017F;t am Filialklo&#x017F;ter der Eng-<lb/>
+li&#x017F;chen Fräulein von Nymphenburg<lb/>
+an, die er vom Herb&#x017F;t 1875 bis zu<lb/>
+Ende d. J. 1882 verwaltete. Dann<lb/>
+kehrte er in die Heimat zurück, wurde<lb/>
+zunäch&#x017F;t Hilfskaplan in Frankfurt<lb/>
+a. M. u. Gründer des dortigen &#x201E;Leo-<lb/>
+Verein&#x201C; zur Unter&#x017F;tützung von Gym-<lb/>
+na&#x017F;ia&#x017F;ten, die &#x017F;ich dem gei&#x017F;tlichen<lb/>
+Stande widmen wollten, im Januar<lb/>
+1884 Pfarrer in König&#x017F;tein u. 1885<lb/>
+Domkapitular in Limburg u. Stadt-<lb/>
+pfarrer da&#x017F;elb&#x017F;t. Das letzte Amt trat<lb/>
+er aber &#x017F;chon im Juni 1887 wieder<lb/>
+ab, um &#x017F;ich aus&#x017F;chließlich der Verwal-<lb/>
+tung der Diöze&#x017F;e zu widmen. Meh-<lb/>
+rere heftige Anfälle von Jnfluenza<lb/>
+er&#x017F;chütterten &#x017F;eine &#x017F;on&#x017F;t kräftige Ge-<lb/>
+&#x017F;undheit, u. am 16. Febr. 1895 &#x017F;chied<lb/>
+er aus dem Leben. Seit dem Herb&#x017F;t<lb/>
+gab er den &#x201E;Anzeig. für die kathol.<lb/>
+Gei&#x017F;tlichkeit Deut&#x017F;chlands&#x201C; heraus;<lb/>
+auch war er Leiter ver&#x017F;chiedener katho-<lb/>
+li&#x017F;cher Vereine u. auf dem Gebiete der<lb/>
+Erbauungsliteratur als Schrift&#x017F;teller<lb/>
+tätig. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Der Bürgermei&#x017F;ter von<lb/>
+Kattenhahn (N.), 1876. &#x2013; Lu&#x017F;tige Ge-<lb/>
+&#x017F;chichten vom Rhein, 1879. &#x2013; Die Mil-<lb/>
+lionenerb&#x017F;chaft (E.), 1883. &#x2013; Durch<lb/>
+die Zeitung (E.), 1886. &#x2013; Nur drei<lb/>
+Beine (Schw., dramati&#x017F;iert von A.<lb/>
+Billigmann), 2. Aufl. 1897. &#x2013; Lu&#x017F;tige<lb/>
+Ge&#x017F;chichten vom Rhein. Ge&#x017F;ammelt<lb/>
+u. hrsg. von L. Abt, 1899.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Abt,</hi> Hedwig,</head><p> geb. am 20. Septbr.<lb/>
+1856 in Lehe&#x017F;ten (Herzogt. Sach&#x017F;en-<lb/>
+Meiningen), lebte unvermählt als<lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0030" n="26"/>
+<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Achi</hi></fw><lb/>
+Schrift&#x017F;tellerin in Berlin (noch 1895).<lb/>
+Jhr jetziger Wohn&#x017F;itz i&#x017F;t mir unbe-<lb/>
+kannt. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Evas Roman (R.), 1890.<lb/>
+&#x2013; Eine gute Partie (R.), 1892. &#x2013; Ab-<lb/>
+&#x017F;eits vom Glück (R.); <hi rendition="#aq">II,</hi> 1894. &#x2013; Der<lb/>
+fünf&#x017F;töckige Don Juan (N.), 1895. &#x2013;<lb/>
+Ein Weib aus dem Volke (E.), 1897.<lb/>
+&#x2013; Janusmasken (Ein Eheroman),<lb/>
+1902. &#x2013; Sich &#x017F;elb&#x017F;t gefunden (R.); <hi rendition="#aq">II,</hi><lb/>
+1903. &#x2013; Ge&#x017F;pannte Flügel (R.), 1910.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Achilles,</hi> <hi rendition="#g">Wilhelm,</hi></head><p> geb. am 5.<lb/>
+Nov. 1862 zu Leipzig, be&#x017F;uchte da&#x017F;elb&#x017F;t<lb/>
+mehrere höhere Schulen u. &#x017F;tudierte<lb/>
+darauf an der Univer&#x017F;ität &#x017F;einer Va-<lb/>
+ter&#x017F;tadt Jurisprudenz, Staatswi&#x017F;-<lb/>
+&#x017F;en&#x017F;chaften und Nationalökonomie.<lb/>
+Dem Willen &#x017F;eines Vaters ent&#x017F;pre-<lb/>
+chend, wollte er &#x017F;ich nach ab&#x017F;olvier-<lb/>
+tem Studium der Laufbahn eines<lb/>
+Rechtsanwaltes widmen, inde&#x017F;&#x017F;en<lb/>
+führte ihn die gün&#x017F;tige Aufnahme<lb/>
+einiger literari&#x017F;chen Arbeiten bald in<lb/>
+das Fahrwa&#x017F;&#x017F;er der Schrift&#x017F;tellerei,<lb/>
+der er denn auch um &#x017F;o freier folgen<lb/>
+konnte, als er &#x017F;ich in pekuniärer Hin-<lb/>
+&#x017F;icht in völlig unabhängiger Lage be-<lb/>
+findet. Er lebt noch jetzt in Leipzig.<lb/>
+</p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Gedichte, 1891. &#x2013; Neue Gedichte<lb/>
+und poeti&#x017F;che Erzählungen, 1895.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Achleitner,</hi> <hi rendition="#g">Arthur,</hi></head><p> ent&#x017F;tammt<lb/>
+einer bayeri&#x017F;chen Lehrerfamilie und<lb/>
+wurde am 16. Aug. 1858 als der Sohn<lb/>
+des damaligen Stadtpfarrchorali&#x017F;ten<lb/>
+Jnnocenz A. zu Straubing geboren.<lb/>
+Noch &#x017F;ehr jung kam er in die Berg-<lb/>
+welt Salzburgs u. be&#x017F;uchte das Gym-<lb/>
+na&#x017F;ium die&#x017F;er freundlichen Berg&#x017F;tadt,<lb/>
+um &#x017F;ich nach dem Wun&#x017F;che &#x017F;einer El-<lb/>
+tern für das Lehramt vorzubereiten.<lb/>
+Nach dem Tode des Vaters änderte<lb/>
+jedoch der Sohn &#x017F;einen Lebensplan;<lb/>
+er gab &#x017F;einem Freiheitsdrange nach<lb/>
+und wanderte, mit einer gründlichen<lb/>
+mu&#x017F;ikali&#x017F;chen Ausbildung ver&#x017F;ehen,<lb/>
+in die Welt hinaus. Auf abenteuer-<lb/>
+lichen Fahrten vom Rhein bis hinab<lb/>
+zu den Balkan&#x017F;taaten griff A. zur Fe-<lb/>
+der und &#x017F;chrieb Feuilletons, die von<lb/>
+&#x017F;elten &#x017F;charfer Beobachtungsgabe<lb/>
+Zeugnis ablegten und &#x017F;o flott ge-<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Achl</hi></fw><lb/>
+&#x017F;chrieben waren, daß &#x017F;ie &#x017F;ofort von<lb/>
+ange&#x017F;ehenen Zeit&#x017F;chriften angenom-<lb/>
+men wurden. Er widmete &#x017F;ich nun<lb/>
+gänzlich der Schrift&#x017F;tellerei u. wählte<lb/>
+be&#x017F;onders die Erfor&#x017F;chung des alpi-<lb/>
+nen Volkstums zum Gegen&#x017F;tande &#x017F;ei-<lb/>
+ner literari&#x017F;chen Tätigkeit. Ende der<lb/>
+achtziger Jahre wurde A. als Redak-<lb/>
+teur in die &#x201E;Süddeut&#x017F;che Pre&#x017F;&#x017F;e&#x201C; nach<lb/>
+München berufen, der er auch bis zu<lb/>
+ihrem Erlö&#x017F;chen angehörte. Jetzt lebt<lb/>
+er da&#x017F;elb&#x017F;t als freier Schrift&#x017F;teller,<lb/>
+durchwandert in den Sommermona-<lb/>
+ten mit &#x017F;einem Stutzen die Berge<lb/>
+Bayerns, Tirols u. der Steiermark,<lb/>
+wo ihm die höch&#x017F;ten Per&#x017F;onen ihre<lb/>
+Jagdgebiete geöffnet halten, u. ver-<lb/>
+traut dann im Winter &#x017F;eine Jagd- u.<lb/>
+Rei&#x017F;eerlebni&#x017F;&#x017F;e u. &#x017F;eine Beobachtungen<lb/>
+des Volkslebens der Feder an. Jm<lb/>
+Jahre 1897 ernannte ihn der Herzog<lb/>
+von Anhalt zum Profe&#x017F;&#x017F;or u. 1900 ver-<lb/>
+lieh ihm die&#x017F;er Landesherr den Titel<lb/>
+eines Hofrates, 1903 den eines Geh.<lb/>
+Hofrates. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Ge&#x017F;chichten aus den<lb/>
+Bergen, 5 Bdchn., 1889&#x2013;95. &#x2013; Jm<lb/>
+Pa&#x017F;&#x017F;ionsdorfe, 1890. &#x2013; Aus dem Hoch-<lb/>
+wald (Bergge&#x017F;chn., Sk. u. Kulturbil-<lb/>
+der), 1892. 3. A. 1904. &#x2013; Bilder a. den<lb/>
+deut&#x017F;chen Alpen (Neue Hochlanderz.),<lb/>
+1892. &#x2013; Jm Gamsgebirg (Neue En.<lb/>
+a. d. Bergen), 1893. &#x2013; Grüne Brüche<lb/>
+(Schildergn. u. En. a. d. Wild- und<lb/>
+Weidmannsleben), 1894. 2. A. 1905.<lb/>
+&#x2013; Tirol u. Vorarlberg (Neue Schil-<lb/>
+dergn. v. Land u. Leuten), 1894. 2. A.<lb/>
+1902. &#x2013; Re&#x017F;che Luft! (3 Bergnovel-<lb/>
+len), 1894. &#x2013; Fels u. Firn (En. a. d.<lb/>
+Bergen), 1895. 2. Aufl. 1900. &#x2013; Fröh-<lb/>
+lich Gejaid! (Jagdge&#x017F;chn. a. d. Alpen),<lb/>
+1895. &#x2013; Die Dobrat&#x017F;chro&#x017F;e (E.), 1895.<lb/>
+&#x2013; Grenzerblut (E.), 1895. &#x2013; Erzäh-<lb/>
+lungen, 1896. &#x2013; Auf ein&#x017F;amer Höh&#x2019;<lb/>
+(Tiroler Nn.), 1896. 3. A. 1905 (Jn-<lb/>
+halt: Der Lawinenpfarrer. &#x2013; Der<lb/>
+wilde Galthirt). &#x2013; Halali! (Ge&#x017F;chn. a.<lb/>
+Bergrevieren), 1896. &#x2013; Familie Lug-<lb/>
+müller (R.), 1896. 2. A. 1901. &#x2013; Das<lb/>
+Jochkreuz (E. a. Tirol), 1896. &#x2013; Gren-<lb/>
+zerleut&#x2019; (Bilder a. d. Alpen), 1896.<lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0031" n="27"/>
+<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Achl</hi></fw><lb/>
+Neue Ausg. u. d. T.: Achterdru&#x017F;ch<lb/>
+und Puchlmu&#x017F;ik, 1899. &#x2013; Jagdbrevier<lb/>
+(Lu&#x017F;tige Weidwerksge&#x017F;chn.), 1896. &#x2013;<lb/>
+Jm grünen Tann (Schwarzwald-<lb/>
+novellen), 1896. &#x2013; Der Stier von<lb/>
+Salzburg (Kulturbild aus dem 16.<lb/>
+Jahrh.), 1897. &#x2013; Der Radmei&#x017F;ter<lb/>
+von Vorderberg (Gewerk&#x017F;chaftsbild),<lb/>
+1897. &#x2013; Die Herzogskerze (Volks-<lb/>
+&#x017F;ch&#x017F;p.), 1897. &#x2013; Der Hir&#x017F;ch von Eßlin-<lb/>
+gen (R.), 1897. &#x2013; Der For&#x017F;tme&#x017F;&#x017F;ias<lb/>
+(Waldge&#x017F;chichte a. Steiermark), 1897.<lb/>
+2. A. 1901. &#x2013; Ein treues Blut (R.),<lb/>
+1897. &#x2013; Vroneli. Tannenreis (2 Ge-<lb/>
+&#x017F;chichten), 1898. &#x2013; Der Jagdbi&#x017F;chof<lb/>
+(R.), 1898. &#x2013; Bayern, wie es war und<lb/>
+i&#x017F;t (Vaterl. En., Sk. u. Sg.), 1898. &#x2013;<lb/>
+Bergquellen (Altes u. Neues a. d. Al-<lb/>
+penwelt), 1898. &#x2013; Ö&#x017F;terreich, wie es<lb/>
+war und i&#x017F;t (Vaterl. En., Sk. u. Sg.),<lb/>
+1899. &#x2013; Amor im Hochland (Lebens-<lb/>
+bilder a. d. Alpen), 1899. &#x2013; Die Erbin<lb/>
+des Schrofenhofes (E. a. Tirol), 1899.<lb/>
+&#x2013; Am &#x017F;chwäbi&#x017F;chen Meer (Nn.), 1900.<lb/>
+&#x2013; Jm Gebiet des Großglockners (E.),<lb/>
+1900. &#x2013; Bergrichters Erdenwallen<lb/>
+(R.), 1900. &#x2013; Das Po&#x017F;tfräulein (Hoch-<lb/>
+landsrom.), 1900. &#x2013; Das treue Leut&#x2019;<lb/>
+(Bilder a. d. Alpen), 1900. &#x2013; Tiroli&#x017F;che<lb/>
+Namen (Handbuch zur Namendeu-<lb/>
+tung), 1901. &#x2013; Der Bezirkshauptmann<lb/>
+(Hochlandsrom.), 1901. &#x2013; Angela (Ti-<lb/>
+roler N.), 1901. &#x2013; Leute vom Flügel-<lb/>
+rad (R.), 1901. &#x2013; Tirol und Vorarl-<lb/>
+berg (Neue Schilderung von Land u.<lb/>
+Leuten; mit C. Ubl), 1901. &#x2013; Cel&#x017F;i&#x017F;&#x017F;i-<lb/>
+mus (Salzburger R.), 1902. &#x2013; Baye-<lb/>
+ri&#x017F;che u. &#x017F;alzburgi&#x017F;che Namen (Hand-<lb/>
+buch zur Namenkunde), 1902. &#x2013; Auf<lb/>
+Luxen&#x017F;tein (Hum. R.), 1902. &#x2013; Themis<lb/>
+im Gebirge (2 En. a. d. Allgäu), 1902.<lb/>
+&#x2013; Hüben und drüben (Grenzroman),<lb/>
+1903. &#x2013; Der Finanzer (E. vom Bo-<lb/>
+den&#x017F;ee), 1903. &#x2013; Das Schloß im Moor<lb/>
+(R.), 1903. &#x2013; Der Militärkurat (R.),<lb/>
+1903. &#x2013; Jn Treue fe&#x017F;t (Hi&#x017F;t. R.), 1903.<lb/>
+&#x2013; Die Luft&#x017F;chiffer (R.), 1903. &#x2013; Ei&#x017F;en-<lb/>
+bahn&#x017F;treik (R.), 1904. &#x2013; Portiunkula<lb/>
+(E. a. d. Hochland), 1904. &#x2013; Stöffele<lb/>
+(Lebensbild eines tirol. Heldenprie-<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Achl</hi></fw><lb/>
+&#x017F;ters), 1904. &#x2013; Hotel &#x201E;Alpenro&#x017F;e&#x201C; (R.),<lb/>
+1904. &#x2013; Der Eiskaplan (E. a. d. Hoch-<lb/>
+gebirge), 1904. &#x2013; Das Bähnle (Hu-<lb/>
+mor. Hochland-R.), 1904. &#x2013; Gregorius<lb/>
+Sturmfried (Zeitbild a. d. Katholi-<lb/>
+zismus der Gegenwart); <hi rendition="#aq">III,</hi> 1905<lb/>
+bis 1906. [Jnhalt: <hi rendition="#aq">I.</hi> Der Dorfpfar-<lb/>
+rer (Hochland-R.). &#x2013; <hi rendition="#aq">II.</hi> Der Stadt-<lb/>
+pfarrer (E.). &#x2013; <hi rendition="#aq">III.</hi> Kanonikus Sturm-<lb/>
+fried (E.).] &#x2013; Bergge&#x017F;chichten 1905. &#x2013;<lb/>
+Die nach Glück und Liebe &#x017F;uchen<lb/>
+(Moderner Ge&#x017F;ell&#x017F;chafts-R.), 1905. &#x2013;<lb/>
+Exzellenz Pokrok (R.), 1905. &#x2013; Jeru-<lb/>
+&#x017F;alem (Zeitbild a. d. heil. Stadt),<lb/>
+1905. &#x2013; Von Tegern&#x017F;ee bis Ga<hi rendition="#aq">ë</hi>ta<lb/>
+(E.), 1906. &#x2013; Tugendlo&#x017F;es Ge&#x017F;tein<lb/>
+(Gewerksnovelle a. Steiermark), 1906.<lb/>
+&#x2013; Ein gekaufter Mann (R.), 1906. &#x2013;<lb/>
+Raub&#x017F;chützen (E. a. d. Wildererleben),<lb/>
+1906. &#x2013; Bekehrung (R. a. Berchtes-<lb/>
+gaden), 1906. &#x2013; Sport bei Hof (R.),<lb/>
+1907. &#x2013; Der Hofmar&#x017F;chall (R.), 1907.<lb/>
+&#x2013; &#x201E;Mein Herz i&#x017F;t im Hochland&#x201C; (Al-<lb/>
+penerzählgn.), 1907. &#x2013; Das Hennen-<lb/>
+dirndl (R. vom Kiem&#x017F;ee), 1907. &#x2013; Der<lb/>
+Hofjagdleiter (R. a. d. &#x017F;teieri&#x017F;chen<lb/>
+Bergen), 1907. &#x2013; Der Landprofos<lb/>
+(R. a. d. Ende d. 16. Jahrh.), 1907. &#x2013;<lb/>
+Aus der grünen Steiermark (Steie-<lb/>
+ri&#x017F;che Nn.), 1908. &#x2013; Ge&#x017F;chichten aus<lb/>
+deut&#x017F;chen Alpen, 1908. &#x2013; Karl der<lb/>
+Wei&#x017F;e (Ein Königsrom.), 1908. &#x2013; Jm<lb/>
+Lande der Kraft (E.), 1908.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Achleitner,</hi> Jo&#x017F;eph,</head><p> geb. am 30.<lb/>
+Novbr. 1872 auf dem Badlhofe zu<lb/>
+Zell am Moos (Oberö&#x017F;terreich) als<lb/>
+Sohn eines wohlhabenden Land-<lb/>
+wirts, &#x017F;ollte nach dem Wun&#x017F;che &#x017F;einer<lb/>
+Eltern Gei&#x017F;tlicher werden, wurde<lb/>
+daran aber durch eine &#x017F;chwere Krank-<lb/>
+heit u. folgende andauernde Kränk-<lb/>
+lichkeit gehindert, &#x017F;o daß er nach<lb/>
+Schluß der Schulzeit gleichfalls Land-<lb/>
+wirt auf dem väterlichen Be&#x017F;itztum<lb/>
+ward. Um ein Fi&#x017F;chermädchen vom<lb/>
+Jrr&#x017F;ee &#x017F;päter als Gattin heimführen<lb/>
+zu können, änderte er 1890 &#x017F;einen<lb/>
+Lebensplan und bildete &#x017F;ich in dem<lb/>
+Jn&#x017F;titute S. R. Hocheggers in Salz-<lb/>
+burg privatim auf den Lehrerberuf<lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0032" n="28"/>
+<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Achl</hi></fw><lb/>
+vor. Nach vier Jahren erhielt er das<lb/>
+Zeugnis der Reife und wurde nun<lb/>
+Volks&#x017F;chullehrer in Stranzendorf im<lb/>
+Weinland Niederö&#x017F;terreichs, bald dar-<lb/>
+auf Schulleiter in Haslach bei Ober-<lb/>
+hollabrunn und kam von hier nach<lb/>
+Muhr im Lugau (Salzburger Gebiet),<lb/>
+wo er gleichzeitig auch als Organi&#x017F;t<lb/>
+und Gemeinde&#x017F;ekretär tätig i&#x017F;t. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p><lb/>
+Amors Launen (Das Liebesleben in<lb/>
+Lr.), 1907.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Achleitner,</hi> <hi rendition="#g">Karl,</hi></head><p> P&#x017F;eud. <hi rendition="#g">Karl<lb/>
+Kellnarn,</hi> wurde am 30. Oktober<lb/>
+1859 zu Braunau am Jnn als der<lb/>
+Sohn eines Lehrers geboren, wid-<lb/>
+mete &#x017F;ich dem Berufe &#x017F;eines Vaters,<lb/>
+wirkte mehrere Jahre in Überaggern<lb/>
+im Jnnviertel u. i&#x017F;t jetzt (1887) Schul-<lb/>
+leiter zu Senftenbach im Jnnkrei&#x017F;e<lb/>
+Oberö&#x017F;terreichs. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Aus dem Walde<lb/>
+(Lr.), 1884. &#x2013; Weil ma&#x2019; in d&#x2019;Welt<lb/>
+taug&#x2019;n (Dialektgedichte), 1889. &#x2013;<lb/>
+Wier&#x2019;s wollt&#x2019;s (Dialektgedichte), 1891.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Aeckerle,</hi> Helene,</head><p> * am 12. Jan.<lb/>
+1875 in Arensburg auf der zu Liv-<lb/>
+land gehörigen Jn&#x017F;el Ö&#x017F;el, wo ihr<lb/>
+Vater Oberlehrer a. &#x017F;tädti&#x017F;chen Gym-<lb/>
+na&#x017F;ium war, wuchs in engem, aber<lb/>
+literari&#x017F;ch intere&#x017F;&#x017F;iertem und urteils-<lb/>
+fähigem Krei&#x017F;e auf, der trotz der Ab-<lb/>
+ge&#x017F;chiedenheit der Lage der Jn&#x017F;el an<lb/>
+allen großen Ereigni&#x017F;&#x017F;en und Fragen<lb/>
+der Zeit Anteil nahm. Eine gute<lb/>
+Schule und vor allem ein ausgezeich-<lb/>
+neter Literaturunterricht weckten und<lb/>
+unter&#x017F;tützten die vorhandenen litera-<lb/>
+ri&#x017F;chen Neigungen. Als die in den<lb/>
+achtziger und neunziger Jahren des<lb/>
+vorigen Jahrh. bis aufs äußer&#x017F;te zu-<lb/>
+ge&#x017F;pitzte Ru&#x017F;&#x017F;ifizierungsnot der bal-<lb/>
+ti&#x017F;chen Provinzen viele Deut&#x017F;che zur<lb/>
+Auswanderung trieb, mußte auch der<lb/>
+Oberlehrer Ae. den ru&#x017F;&#x017F;i&#x017F;chen Einflü&#x017F;-<lb/>
+&#x017F;en weichen und in Deut&#x017F;chland &#x017F;ein<lb/>
+Fortkommen &#x017F;uchen. Hier wurde die<lb/>
+Tochter auch zu ihren er&#x017F;ten &#x017F;chrift-<lb/>
+&#x017F;telleri&#x017F;chen Ver&#x017F;uchen angeregt, und<lb/>
+da die&#x017F;e Anklang fanden, &#x017F;o &#x017F;chreitet<lb/>
+&#x017F;ie rü&#x017F;tig auf dem betretenen Pfade<lb/>
+fort. Sie lebt in Berlin. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Stille<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Ada</hi></fw><lb/>
+Wa&#x017F;&#x017F;er (Nn.), 1904. &#x2013; Prismen (Weih-<lb/>
+nachtliche (Ge&#x017F;chn.), 1906.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Ackermann,</hi> <hi rendition="#g">Ern&#x017F;t</hi> Wilhelm,</head><p> geb.<lb/>
+am 14. Oktbr. 1821 in Königsberg in<lb/>
+Pr. als Sohn eines Lehrers, der 1827<lb/>
+als Gymna&#x017F;iallehrer nach Lübeck kam,<lb/>
+machte auf dem Gymna&#x017F;ium &#x017F;o über-<lb/>
+ra&#x017F;chend &#x017F;chnelle Fort&#x017F;chritte, daß der<lb/>
+Vater Bedenken trug, ihn in zu jun-<lb/>
+gen Jahren auf die Univer&#x017F;ität zu<lb/>
+&#x017F;enden. Er ordnete deshalb eine Un-<lb/>
+terbrechung des Gymna&#x017F;ialkur&#x017F;us an,<lb/>
+u. Ern&#x017F;t fand im Hau&#x017F;e eines Oheims<lb/>
+in Sach&#x017F;en die be&#x017F;te Gelegenheit, &#x017F;ei-<lb/>
+nen Körper zu kräftigen. Er &#x017F;tudierte<lb/>
+&#x017F;eit 1840 in Leipzig, Berlin u. Bonn<lb/>
+Theologie, Philo&#x017F;ophie u. Ge&#x017F;chichte,<lb/>
+berei&#x017F;te &#x017F;eit 1844 die Schweiz, Jtalien<lb/>
+und Griechenland u. nahm im Septbr.<lb/>
+1845 die Stelle eines Erziehers in<lb/>
+einer ru&#x017F;&#x017F;i&#x017F;chen Familie an. Als &#x017F;ol-<lb/>
+cher weilte er in Venedig, Florenz,<lb/>
+Rom, Neapel, und hier erlag er am<lb/>
+14. Juni 1846 dem Nerven&#x017F;ieber.<lb/>
+</p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Aus dem poeti&#x017F;chen Nachla&#x017F;&#x017F;e;<lb/>
+hrsg. von &#x017F;einem Vater, 1848.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Adam,</hi> Ern&#x017F;t,</head><p> p&#x017F;eud. <hi rendition="#g">Ern&#x017F;t</hi> A.<lb/>
+<hi rendition="#g">Dam,</hi> wurde am 24. April 1879 in<lb/>
+Gel&#x017F;enkirchen geboren, wo &#x017F;ein Vater<lb/>
+als Hauptlehrer wirkt, be&#x017F;uchte das<lb/>
+Realgymna&#x017F;ium da&#x017F;elb&#x017F;t, bis er das<lb/>
+Zeugnis zum einjährigen Dien&#x017F;t er-<lb/>
+langt hatte, und widmete &#x017F;ich darauf<lb/>
+der Technik, indem er zwei Jahre<lb/>
+lang in den ver&#x017F;chieden&#x017F;ten Werk&#x017F;tät-<lb/>
+ten großer Fabriken des Jndu&#x017F;trie-<lb/>
+reviers prakti&#x017F;ch arbeitete. Zu O&#x017F;tern<lb/>
+1899 ließ er &#x017F;ich als Student der<lb/>
+Techni&#x017F;chen Hoch&#x017F;chule in Darm&#x017F;tadt<lb/>
+immatrikulieren, wo er fa&#x017F;t drei Jahre<lb/>
+lang neben &#x017F;einen Fach&#x017F;tudien auch<lb/>
+Vorle&#x017F;ungen über Philo&#x017F;ophie, An-<lb/>
+thropologie u. Sozialökonomie hörte.<lb/>
+Dann aber faßte er den Ent&#x017F;chluß,<lb/>
+&#x017F;ich der Schrift&#x017F;tellerei zu widmen u.<lb/>
+war er &#x017F;eitdem nach die&#x017F;er Richtung<lb/>
+hin in &#x017F;einer Vater&#x017F;tadt tätig, bis er<lb/>
+1907 nach E&#x017F;&#x017F;en a. d. Ruhr über&#x017F;ie-<lb/>
+delte. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Die Ru&#x017F;&#x017F;alka (Moderne<lb/>
+N.), 1903. &#x2013; Jrrende Treue (Eine<lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0033" n="29"/>
+<lb/>
+<cb/>
+<lb/>
+<fw type="header" place="top"><hi rendition="#g">Ada</hi></fw><lb/>
+Ge&#x017F;ch.), 1904. &#x2013; Wilde Liebe (N.),<lb/>
+1904. &#x2013; Heidezauber u. Mädchenliebe<lb/>
+(N.), 1905.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Adam,</hi> <hi rendition="#g">Otto,</hi></head><p> geb. am 19. Novbr.<lb/>
+1864 zu Magdeburg, be&#x017F;uchte die dor-<lb/>
+tige Guericke-Schule, die er aber in<lb/>
+den oberen Kla&#x017F;&#x017F;en auf Wun&#x017F;ch &#x017F;eines<lb/>
+Vaters verließ, um &#x017F;ich dem Kauf-<lb/>
+manns&#x017F;tande zu widmen. Fünf Jahre<lb/>
+hielt er in die&#x017F;em Berufe aus, dann<lb/>
+folgte er &#x017F;einer Neigung und widmete<lb/>
+&#x017F;ich &#x017F;eitdem, durch glückliche Verhält-<lb/>
+ni&#x017F;&#x017F;e unter&#x017F;tützt, aus&#x017F;chließlich den<lb/>
+&#x017F;chönen Wi&#x017F;&#x017F;en&#x017F;chaften. Er lebt noch<lb/>
+jetzt in Magdeburg. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Die Hu&#x017F;&#x017F;iten<lb/>
+(Sch&#x017F;p.), 1890.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Adami,</hi> <hi rendition="#g">Friedrich,</hi></head><p> p&#x017F;eud. <hi rendition="#g">Paul<lb/>
+Frohberg,</hi> wurde am 18. Oktbr.<lb/>
+1816 zu Suhl geboren, &#x017F;tudierte von<lb/>
+1835&#x2013;36 Medizin, dann Philo&#x017F;ophie<lb/>
+u. Ge&#x017F;chichte in Berlin und lebt &#x017F;eit-<lb/>
+dem als Schrift&#x017F;teller in der preußi-<lb/>
+&#x017F;chen Haupt&#x017F;tadt. Jm Jahre 1839<lb/>
+begründete er den Novellenalmanach<lb/>
+&#x201E;Sonnenblumen&#x201C;, den er durch zehn<lb/>
+Jahrgänge leitete. Auch dichtete er<lb/>
+für das damalige Königs&#x017F;tädter Thea-<lb/>
+ter in Berlin mehrere Originaldra-<lb/>
+men und lieferte freie Bearbeitungen<lb/>
+fremder Stoffe. Seit 1849 beteiligte<lb/>
+&#x017F;ich A. als literari&#x017F;cher Mitarbeiter<lb/>
+u. Referent über die königl. Bühnen<lb/>
+an der &#x201E;Neuen Preuß. Zeitung&#x201C;;<lb/>
+gleichzeitig wandte er &#x017F;ich mehr der<lb/>
+hi&#x017F;tori&#x017F;chen Novelli&#x017F;tik zu, &#x017F;chrieb auch<lb/>
+&#x017F;eit 1853 fa&#x017F;t alljährlich Fe&#x017F;t&#x017F;piele u.<lb/>
+Prologe für die königliche Bühne in<lb/>
+Berlin. Jn Anerkennung &#x017F;einer pa-<lb/>
+trioti&#x017F;ch-literari&#x017F;chen Tätigkeit wurde<lb/>
+er 1868 zum königlichen Hofrat er-<lb/>
+nannt. Er &#x2020; in Berlin am 5. Augu&#x017F;t<lb/>
+1893. Seine bedeutend&#x017F;te Schrift i&#x017F;t<lb/>
+&#x017F;eine Lebensbe&#x017F;chreibung der &#x201E;Lui&#x017F;e,<lb/>
+Königin von Preußen&#x201C; (9. A., 1876.<lb/>
+18. A. 1906). </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Richard u. Blondel<lb/>
+(O.), 1835. &#x2013; König und Zwerg (N.),<lb/>
+1835. &#x2013; Die Frei&#x017F;chützenbraut (N.),<lb/>
+1836. &#x2013; Frauen-Novellen a. d. hi&#x017F;tor.<lb/>
+u. modernen Leben; <hi rendition="#aq">III,</hi> 1840. &#x2013; No-<lb/>
+vellengei&#x017F;ter der Vorzeit und Gegen-<lb/>
+<cb/>
+<lb/>
+<fw type="header" place="top"><hi rendition="#g">Ade</hi></fw><lb/>
+wart, 1. Bd., 1841. &#x2013; Sonnenblumen<lb/>
+aus Süd u. We&#x017F;t. Novellenalmanach<lb/>
+für 1839&#x2013;49. &#x2013; Vor und hinter den<lb/>
+Kuli&#x017F;&#x017F;en (Almanach erprobter Büh-<lb/>
+nen&#x017F;piele), 1. Bd. 1843 (Darin von<lb/>
+A.: Lord und Räuber. Melodrama.<lb/>
+&#x2013; Mathilde. Familiengemälde). &#x2013;<lb/>
+Neue Frauen-Novellen, 1849. &#x2013; Ein<lb/>
+ehrlicher Mann (L&#x017F;p.), 1850. &#x2013; Für&#x017F;t<lb/>
+u. Bergmann (E.), 1851. &#x2013; Die ei&#x017F;erne<lb/>
+Maske (E.), 1851. &#x2013; Die Weihnachts-<lb/>
+glocken (N.), 1851. &#x2013; Der Auf&#x017F;tand in<lb/>
+Barcelona (Sch&#x017F;p.), 1852. &#x2013; Zwei<lb/>
+Junitage (Genrebild), 1854. &#x2013; Prinz<lb/>
+u. Apotheker, oder: Der letzte Stuart<lb/>
+(L&#x017F;p.), 1862. &#x2013; Tau&#x017F;end Äng&#x017F;te um<lb/>
+nichts (L&#x017F;p.), 1863. &#x2013; Für&#x017F;ten- und<lb/>
+Volksbilder a. d. vaterländ. Ge&#x017F;chichte<lb/>
+(En.), 1863. &#x2013; Aus den Tagen zweier<lb/>
+Könige (En.); <hi rendition="#aq">II,</hi> 1866. (Jnhalt:<lb/>
+<hi rendition="#aq">I.</hi> Ein Abend und ein Morgen Fried-<lb/>
+rich Wilhelms <hi rendition="#aq">I. &#x2013; II.</hi> Eine Konfi-<lb/>
+denz-Tafel Friedrichs des Großen.) &#x2013;<lb/>
+Große u. kleine Welt (Re.); <hi rendition="#aq">IV,</hi> 1870.<lb/>
+&#x2013; Der Doppelgänger (L&#x017F;p.), 1870. &#x2013;<lb/>
+Ein deut&#x017F;cher Leinweber (L&#x017F;p.), 1870.<lb/>
+&#x2013; Provinzial-Unruhen (P.), 1871. &#x2013;<lb/>
+Dramati&#x017F;che Genrebilder); <hi rendition="#aq">II,</hi> 1870.<lb/>
+&#x2013; Fen&#x017F;ter zu vermieten (L&#x017F;p.), 1872.<lb/>
+&#x2013; Die Falken&#x017F;teiner (O.), 1876. &#x2013; Aus<lb/>
+Friedrichs des Großen Zeit (En.);<lb/>
+<hi rendition="#aq">II,</hi> 1878. &#x2013; Das Buch vom Kai&#x017F;er<lb/>
+Wilhelm; <hi rendition="#aq">II,</hi> 1888&#x2013;89.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Adamus,</hi> Franz,</head><p> P&#x017F;eud. für <hi rendition="#g">Fer-<lb/>
+dinand Bronner;</hi> &#x017F;. d.!</p><lb/>
+</div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Adelaide Marie,</hi></head><p> P&#x017F;eud. für<lb/>
+Adelaide Marie <hi rendition="#g">Jwer&#x017F;en;</hi> &#x017F;. d.!</p><lb/>
+</div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Adelbert,</hi> Karl,</head><p> P&#x017F;eud. für <hi rendition="#g">Ade-<lb/>
+line von Rumohr;</hi> &#x017F;. d.!</p><lb/>
+</div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Adelmann von Adelmanns-<lb/>
+felden,</hi> Alfred Graf</head><p>, wurde am 4.<lb/>
+Juli 1848 in Stuttgart geboren, wo<lb/>
+&#x017F;ein Vater damals Ju&#x017F;tiza&#x017F;&#x017F;e&#x017F;&#x017F;or war<lb/>
+und vorübergehend dem katholi&#x017F;chen<lb/>
+Kirchenrat angehörte, der den konfe&#x017F;-<lb/>
+&#x017F;ionellen Frieden im Lande befe&#x017F;tigen<lb/>
+&#x017F;ollte, aber durch die Herr&#x017F;ch&#x017F;ucht der<lb/>
+Römlinge gerade das Gegenteil her-<lb/>
+vorrief. Schon 1852 &#x017F;tarb der Vater,<lb/>
+und die Mutter, eine Verwandte Uh-<lb/>
+<fw type="sig" place="bottom">*</fw><lb/>
+<pb facs="#f0034" n="30"/>
+<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Ade</hi></fw><lb/>
+lands und Prote&#x017F;tantin, widmete &#x017F;ich<lb/>
+nun mit ganzer Kraft und Liebe der<lb/>
+Erziehung ihrer beiden Knaben, von<lb/>
+denen Alfred der älte&#x017F;te war. Nach<lb/>
+Be&#x017F;uch des Gymna&#x017F;iums in Stuttgart<lb/>
+trat die&#x017F;er im Herb&#x017F;t 1864 in die da-<lb/>
+malige Kriegs&#x017F;chule in Ludwigsburg<lb/>
+ein, wurde nach deren Auflö&#x017F;ung 1866<lb/>
+mit dem Offizierspatent zur Re&#x017F;erve<lb/>
+ge&#x017F;tellt, nach dem Friedens&#x017F;chluß aber<lb/>
+wieder in die Leutnants&#x017F;chule in Lud-<lb/>
+wigsburg aufgenommen u. 1867 zum<lb/>
+Leutnant im jetzigen Ulanenregiment<lb/>
+Nr. 20 ernannt. Jm Juli 1870 zum<lb/>
+Premierleutnant befördert, &#x017F;ollte er<lb/>
+bei Ausbruch des Krieges gegen<lb/>
+Frankreich in der Heimat zurückblei-<lb/>
+ben; doch wußte er &#x017F;ich vom Könige<lb/>
+&#x017F;elber die Erlaubnis zur Teilnahme<lb/>
+an dem Feldzuge zu erbitten. Bei<lb/>
+Sedan, Mezières, Nogent a. S., wo<lb/>
+er &#x017F;ich das ei&#x017F;erne Kreuz erwarb, bei<lb/>
+Villiers und Champigny hatte er Ge-<lb/>
+legenheit, &#x017F;ich als pflichttreuer Soldat<lb/>
+zu bewähren. Aber trotz der An&#x017F;pan-<lb/>
+nung aller Kräfte, welche die Kriegs-<lb/>
+zeit erforderte, fand A. in Biwaks, in<lb/>
+Quartieren und während der Okku-<lb/>
+pation der Champagne immer noch<lb/>
+Zeit, in fri&#x017F;ch gezeichneten Bildern<lb/>
+kurze Erinnerungen, Skizzen und No-<lb/>
+velletten in die Heimat zu &#x017F;enden.<lb/>
+Nach dem Kriege wurde A. nach Lud-<lb/>
+wigsburg ver&#x017F;etzt, wo er neben &#x017F;ei-<lb/>
+nem täglichen Dien&#x017F;t im Ulanenregi-<lb/>
+ment König Karl Nr. 19 auch den<lb/>
+Unterricht in Ge&#x017F;chichte u. Geographie<lb/>
+in der Regiments&#x017F;chule u. den Fecht-<lb/>
+unterricht der Offiziere des Regiments<lb/>
+zu erteilen hatte. Jm Jahre 1872<lb/>
+unternahm er eine Rei&#x017F;e nach Nor-<lb/>
+wegen und Schweden, Dänemark und<lb/>
+Helgoland, und 1873 eine &#x017F;olche in<lb/>
+das Salzkammergut und nach Wien.<lb/>
+Jm Herb&#x017F;t 1874 war er während der<lb/>
+württembergi&#x017F;chen, he&#x017F;&#x017F;i&#x017F;chen u. pfäl-<lb/>
+zi&#x017F;chen Manöver als Ordonnanzoffi-<lb/>
+zier zum Kronprinzen des Deut&#x017F;chen<lb/>
+Reiches kommandiert u. erhielt dar-<lb/>
+auf den läng&#x017F;t er&#x017F;trebten Urlaub, auf<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Ade</hi></fw><lb/>
+ein Jahr zu weiterer Ausbildung auf<lb/>
+die Univer&#x017F;ität Wien u. nach Jtalien<lb/>
+gehen zu dürfen. Die&#x017F;es Land durch-<lb/>
+wanderte er während &#x017F;ieben Monate<lb/>
+von Trie&#x017F;t bis Syrakus. Nach &#x017F;einer<lb/>
+Heimkehr wurde er 1876 zum Adju-<lb/>
+tanten der 27. Kavalleriebrigade,<lb/>
+1877 zum per&#x017F;önlichen Adjutanten<lb/>
+des Prinzen Wilhelm Thronfolgers<lb/>
+u. bald darauf zum Rittmei&#x017F;ter beför-<lb/>
+dert. Be&#x017F;ondere Neigung für &#x017F;chrift-<lb/>
+&#x017F;telleri&#x017F;che Tätigkeit veranlaßte ihn<lb/>
+1880 &#x017F;einen Ab&#x017F;chied zu nehmen, und<lb/>
+benutzte er die folgende Zeit teils zum<lb/>
+Be&#x017F;uch der Univer&#x017F;ität Berlin, teils<lb/>
+zu Rei&#x017F;en. Nach &#x017F;einer Verheiratung<lb/>
+(1882) ließ er &#x017F;ich zunäch&#x017F;t in Hor&#x017F;t<lb/>
+(Reg.-Bez. Dü&#x017F;&#x017F;eldorf), im Sommer<lb/>
+1883 auf Schloß Allner im Siegtal<lb/>
+nieder, zog 1886 nach Wiesbaden und<lb/>
+&#x017F;tarb hier am 18. April 1887. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Aus<lb/>
+dem Felde (Sk. u. Nn.), 1871. &#x2013; Selb&#x017F;t<lb/>
+errungen (R.); <hi rendition="#aq">II,</hi> 1872. &#x2013; Ein Aus-<lb/>
+flug in die Normandie (N.), 1873. &#x2014;<lb/>
+Aus Jtalien. Sieben Monate in<lb/>
+Kun&#x017F;t u. Natur, 1877. &#x2013; Schwert u.<lb/>
+Feder (R.), 1881. &#x2013; Am liguri&#x017F;chen<lb/>
+Meere. Die Naturpracht der Riviera<lb/>
+di Ponente, 1884. &#x2013; Was i&#x017F;t Glück?<lb/>
+(Nn.), 1885. &#x2013; Beno Donzini (R.),<lb/>
+1885. &#x2014; Fenella (R.), 1886. &#x2013; Frei<lb/>
+von Rom! (Manife&#x017F;t), 1886. &#x2013; Ge&#x017F;am-<lb/>
+melte Werke, Bd. <hi rendition="#aq">I&#x2013;VI;</hi> 1889&#x2013;1900<lb/>
+(Jnhalt: <hi rendition="#aq">I.</hi> Biographie und ge&#x017F;am-<lb/>
+melte Auf&#x017F;ätze. &#x2013; <hi rendition="#aq">II.</hi> Jm Königsfor&#x017F;t.<lb/>
+Roman. &#x2013; <hi rendition="#aq">III.</hi> Novellen u. Skizzen. &#x2013;<lb/>
+<hi rendition="#aq">IV.</hi> Jtalieni&#x017F;che Novellen u. anderes.<lb/>
+&#x2013; <hi rendition="#aq">V.</hi> Am blauen Meere. Die Natur-<lb/>
+pracht der Riviera di Ponente. &#x2013;<lb/>
+<hi rendition="#aq">VI.</hi> Aus Jtalien. Sieben Monate in<lb/>
+Kun&#x017F;t und Natur).</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Adelmann,</hi> Margareta,</head><p> geb. am<lb/>
+3. Novbr. 1811 zu Würzburg, verlor<lb/>
+&#x017F;chon im 8. Jahre ihren Vater, er-<lb/>
+hielt aber durch eine liebenswürdige<lb/>
+Mutter im eng&#x017F;ten Familienkrei&#x017F;e<lb/>
+eine vortreffliche Erziehung. Sie<lb/>
+lebte unverheiratet in Würzburg bis<lb/>
+zu ihrem Tode am 12. Dezbr. 1887.<lb/>
+</p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Gedichte, 1844. &#x2013; Erinnerungen<lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0035" n="31"/>
+<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Ade</hi></fw><lb/>
+an Ki&#x017F;&#x017F;ingen, 1864. &#x2013; Gedichte (hrsg.<lb/>
+v. Karl Schrattenthal), 1889.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Adelmi,</hi> M.,</head><p> P&#x017F;eud. für <hi rendition="#g">Mela-<lb/>
+nie Steinrück;</hi> &#x017F;. d.!</p><lb/>
+</div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Adelt,</hi> Leonhard,</head><p> * am 17. Juni<lb/>
+1881 in Boitzenburg a. d. Elbe als<lb/>
+der Sohn eines Generalagenten, be-<lb/>
+&#x017F;uchte das Gymna&#x017F;ium in Dortmund<lb/>
+und &#x017F;chrieb unmittelbar nach &#x017F;einem<lb/>
+Abgang von dem&#x017F;elben mit 17 Jahren<lb/>
+als Buchhändlerlehrling in Kleve die<lb/>
+Schülernovelle &#x201E;Werden&#x201C;, die &#x017F;o un-<lb/>
+lieb&#x017F;ames Auf&#x017F;ehen erregte, daß A.<lb/>
+&#x017F;eine Stellung in Kleve aufgeben<lb/>
+mußte u. &#x017F;eine Mutter u. Ge&#x017F;chwi&#x017F;ter<lb/>
+zum Fortgang von Dortmund ge-<lb/>
+zwungen waren. Nachdem A. noch in<lb/>
+einer Kölner Buchhandlung tätig ge-<lb/>
+we&#x017F;en war, &#x017F;iedelte er er&#x017F;t zur Unter-<lb/>
+&#x017F;tützung einer finanziell &#x017F;chwer be-<lb/>
+drängten Familie nach Huckarde bei<lb/>
+Dortmund über und trat 1899 in die<lb/>
+journali&#x017F;ti&#x017F;che Laufbahn ein. Er redi-<lb/>
+gierte er&#x017F;t den &#x201E;Generalanzeiger&#x201C; in<lb/>
+Eberswalde, 1900&#x2013;03 die &#x201E;Neue Stet-<lb/>
+tiner Zeitung&#x201C;, 1904 das Feuilleton<lb/>
+der Wiener &#x201E;Zeit&#x201C;, und i&#x017F;t &#x017F;eit dem<lb/>
+Herb&#x017F;t 1906 Feuilletonredakteur der<lb/>
+&#x201E;Neuen Hamburger Zeitung&#x201C;. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p><lb/>
+Werden (N.), 1899. &#x2013; Der Dritte<lb/>
+(Dr.), 1899. &#x2013; Sein Erlö&#x017F;er (Tr.),<lb/>
+1901. &#x2013; Die Wand (Tragikom.), 1901.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Adelt-Duc,</hi> Mina,</head><p> p&#x017F;eud. <hi rendition="#g">Aimée<lb/>
+Duc,</hi> geb. am 1. Mai 1869 in Straß-<lb/>
+burg i. E., erhielt ihre Erziehung in<lb/>
+Frankreich, verheiratete &#x017F;ich mit dem<lb/>
+Schweizer Schrift&#x017F;teller <hi rendition="#aq">Dr.</hi> Wett-<lb/>
+&#x017F;tein, lebte 1891 in Berlin-Charlot-<lb/>
+tenburg, gibt &#x017F;eit 1893 die &#x201E;Berliner<lb/>
+Modenkorre&#x017F;pondenz&#x201C; heraus, die &#x017F;ie<lb/>
+auch 1894 von Pegli bei Genua aus,<lb/>
+1895 von München aus, 1897 von<lb/>
+Dresden aus, 1899 von Paris aus<lb/>
+und 1900 von Berlin aus redigierte.<lb/>
+Seit 1903 lebt &#x017F;ie in Kairo. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Sind<lb/>
+es Frauen? (R. über das dritte Ge-<lb/>
+&#x017F;chlecht), 1901. &#x2013; Des Pa&#x017F;tors Liebe.<lb/>
+Ein modernes Sittenbild (R.), 1904.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head><hi rendition="#b">Aderholdt,</hi> <hi rendition="#g">Augu&#x017F;t</hi> Eduard,</head><p> geb.<lb/>
+am 2. Dezbr. 1828 zu Nordhau&#x017F;en in<lb/>
+<cb/>
+<lb/>
+<fw place="top" type="header"><hi rendition="#g">Adl</hi></fw><lb/>
+der Provinz Sach&#x017F;en, &#x017F;tudierte 1848<lb/>
+bis 1852 in Bonn Mathematik u. Na-<lb/>
+turwi&#x017F;&#x017F;en&#x017F;chaften, promovierte zum<lb/>
+<hi rendition="#aq">Dr. phil.,</hi> war dann nach Er&#x017F;tehung<lb/>
+der Oberlehrerprüfung A&#x017F;&#x017F;i&#x017F;tent im<lb/>
+chemi&#x017F;chen Laboratorium zu Göttin-<lb/>
+gen, 1853&#x2013;58 Lehrer in Frankfurt<lb/>
+a. M., privati&#x017F;ierte darauf in Jena<lb/>
+u. Weimar, wirkte wieder als Lehrer<lb/>
+in Dresden u. lebte in der Folge als<lb/>
+Schrift&#x017F;teller in Moskau, Karlsruhe,<lb/>
+Berlin, Ka&#x017F;&#x017F;el, worauf er 1870 nach<lb/>
+Paris ging. 1883 nach Deut&#x017F;chland<lb/>
+zurückgekehrt, ging er &#x017F;chon 1885 wie-<lb/>
+der nach Frankreich u. redigierte &#x017F;eit<lb/>
+1886 von Paris aus die &#x201E;Thaly&#x017F;ia.<lb/>
+Vereinsblatt für Freunde der natur-<lb/>
+gemäßen Lebenswei&#x017F;e.&#x201C; Er &#x2020; dort<lb/>
+am 18. Oktbr. 1890. </p><lb/>
+<div type="bibliography" n="2"><head><hi rendition="#i">S:</hi></head><p> Feldblumen<lb/>
+(Ge.), 1856. &#x2013; Giordano Bruno (Hi&#x017F;t.<lb/>
+Trauer&#x017F;p.), 1859. &#x2013; Lore (E.), 1859.<lb/>
+&#x2013; Neues Leben. Lieder eines Vege-<lb/>
+tarianers, 1882. &#x2013; Harz-Balladen,<lb/>
+1889. &#x2013; Kornblumen (Ge.), 1889.</p><lb/>
+</div></div><lb/>
+<div type="index" n="1"><head>*<hi rendition="#b">Adler,</hi> Friedrich, *</head><p> am 13. Febr.<lb/>
+1857 zu Am&#x017F;chelberg in Böhmen als<lb/>
+der Sohn eines Seifen&#x017F;ieders und<lb/>
+Ga&#x017F;twirts, verwai&#x017F;te frühzeitig und<lb/>
+hatte vom 10. Jahre an eine trübe<lb/>
+Jugendzeit zu durchleben, wodurch<lb/>
+ihm &#x017F;ein Bildungsgang &#x017F;ehr er&#x017F;chwert<lb/>
+wurde. Trotzdem erreichte er es, das<lb/>
+Gymna&#x017F;ium zu Prag zu ab&#x017F;olvieren<lb/>
+und die dortige Univer&#x017F;ität zu be-<lb/>
+ziehen, an der er zunäch&#x017F;t orientali&#x017F;che<lb/>
+Sprachen, danach aber die Rechte und<lb/>
+politi&#x017F;che Wi&#x017F;&#x017F;en&#x017F;chaften &#x017F;tudierte;<lb/>
+doch gingen &#x017F;eine Sprach&#x017F;tudien als<lb/>
+Liebhaberei immer nebenher. Nach-<lb/>
+dem er im Novbr. 1883 zum Doktor<lb/>
+der Rechte promoviert worden, ab-<lb/>
+&#x017F;olvierte er in Prag die Gerichts- u.<lb/>
+Advokaturpraxis und eröffnete am<lb/>
+1. Jan. 1891 da&#x017F;elb&#x017F;t eine eigene Ad-<lb/>
+vokaturkanzlei, die er aber wieder<lb/>
+&#x017F;chloß, als er 1896 die Stelle eines<lb/>
+Sekretärs des Prager Handelsgre-<lb/>
+miums antrat. Seit 1885 war er als<lb/>
+Berichter&#x017F;tatter für das Theater tätig,<lb/>
+&#x017F;päter führte er das Referat beim<lb/>
+<fw place="bottom" type="sig">*</fw><lb/>
+<pb facs="#f0036" n="32"/>
