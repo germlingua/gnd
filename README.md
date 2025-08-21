@@ -1,5 +1,15 @@
 Code von Karin, um GND-Identifier für die Namenslisten aus Brümmer und Pataky über lobid zu finden. 
 
+21.8.2025:
+Ortsliste zu Brümmer von KI säubern lassen, Trennstriche löschen, Rechtschreibung anpassen, Länder und Regionen rausnehmen. 
+
+Zweite Projektphase: Mit Pseudonymen arbeiten, diese zuordnen. Abgleich mit Normdaten. 
+Sprachen ergänzen. 
+Werke... 
+Berufe... 
+
+Marius Hug nach Workflow zu Google Books (API) fragen, Werke abfragen. 
+
 Tabellen zu Pataky und Brümmer. 
 
 Karin, 5.12.2024
